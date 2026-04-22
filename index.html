@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Radar | Daily Briefing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 p-8">
+    <h1 class="font-['Playfair_Display'] text-5xl font-black text-center mb-10 border-b-4 border-gray-900 pb-4">The AI Radar</h1>
+    
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <section>
+            <h2 class="text-xl font-bold mb-4 border-t-4 border-blue-600 pt-2">🎯 Tailored For You</h2>
+            <div id="tailored-container" class="space-y-4"></div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-black mb-4 border-t-4 border-gray-900 pt-2 text-center">📰 Top Stories</h2>
+            <div id="top-stories-container" class="space-y-6"></div>
+        </section>
+
+        <section>
+            <h2 class="text-xl font-bold mb-4 border-t-4 border-red-600 pt-2">⚠️ Cautionary Tales</h2>
+            <div id="cautionary-container" class="space-y-4"></div>
+        </section>
+    </div>
+
+    <script>
+        // This script pulls the data.json file and builds the HTML cards
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const buildCard = (item) => `
+                    <a href="${item.url}" target="_blank" class="block bg-white p-4 shadow-sm hover:shadow-md transition">
+                        <h3 class="font-bold text-lg leading-tight mb-2">${item.title}</h3>
+                        <p class="text-sm text-gray-600 mb-2">${item.summary}</p>
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">${item.source}</span>
+                    </a>
+                `;
+                
+                document.getElementById('tailored-container').innerHTML = data.tailored?.map(buildCard).join('') || '<p>No specific updates today.</p>';
+                document.getElementById('top-stories-container').innerHTML = data.top_stories?.map(buildCard).join('') || '<p>No news.</p>';
+                document.getElementById('cautionary-container').innerHTML = data.cautionary?.map(buildCard).join('') || '<p>All clear.</p>';
+            })
+            .catch(err => console.error("Waiting for first data.json generation...", err));
+    </script>
+</body>
+</html>

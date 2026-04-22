@@ -1,0 +1,28 @@
+name: Update AI Radar
+
+on:
+  schedule:
+    - cron: '0 8,13,18 * * *' 
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  update-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install groq feedparser
+      - env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python update.py
+      - run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add data.json
+          git commit -m "Automated update: Radar data synced" || echo "No changes to commit"
+          git push
