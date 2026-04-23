@@ -1,78 +1,154 @@
+"""
+AI Radar — update.py (v2)
+
+Architecture:
+  EXTRACT   → fetch all sources per section (raw, no filtering)
+  LOAD      → assemble inventory (last N per source)
+  FILTER    → dedup via seen.json, date windows, invalid titles
+  SCORE     → LLM scores + tags via ID-based join (hallucination-proof)
+  PROMOTE   → tier-1 guarantees + hybrid bucketing → top 5 / bottom 5
+  ASSEMBLE  → write data.json with {meta, radar, sources, models}
+
+The LLM never emits titles, URLs, or sources. It only returns:
+  {id, score, tag, summary}
+Python joins back to the original inventory by id. Any hallucinated id
+is dropped. Empty input sections never call the LLM.
+"""
+
 import os
 import json
 import hashlib
 import re
+import time
+import html
 from datetime import datetime, timedelta, timezone
-from html import unescape
+from urllib.parse import quote
 
 import feedparser
 import requests
 from groq import Groq
 
-# ---------------------------------------------------------
-# Config
-# ---------------------------------------------------------
+# =========================================================
+# CONFIG
+# =========================================================
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 AA_API_KEY = os.environ.get("AA_API_KEY")
 
-ENTRIES_PER_FEED = 5          # was 2 — let the LLM filter, don't pre-truncate
-SUMMARY_CHAR_LIMIT = 600      # was 200 — preserve enough signal for scoring
+RADAR_TOP_N = 5
+RADAR_EXPAND_N = 10
+INVENTORY_PER_SOURCE = 5
+ENTRIES_PER_FEED = 10
+SUMMARY_CHAR_LIMIT = 600
+MIN_SCORE_TOP = 3
+MIN_SCORE_EXPAND = 4
 SEEN_FILE = "seen.json"
 SEEN_TTL_DAYS = 30
-MIN_RELEVANCE_SCORE = 3       # 1-5; drop anything below this
 
-# ---------------------------------------------------------
-# Source list — expanded for thinking, telecom depth, and failure modes
-# ---------------------------------------------------------
-CATEGORIZED_FEEDS = {
+# Per-section freshness windows (days)
+FRESHNESS_DAYS = {
+    "tailored":    60,
+    "telecom":     30,
+    "top_stories": 14,
+    "cautionary":  60,
+    "community":    7,
+}
+
+# Per-section tier-1 "guaranteed slot" windows (days)
+TIER1_WINDOW_DAYS = {
+    "tailored":    14,
+    "telecom":      7,
+    "top_stories":  3,
+    "cautionary":   7,
+    "community":    1,
+}
+
+# =========================================================
+# SOURCES (with tier markers)
+# =========================================================
+SOURCES = {
     "tailored": [
-        # Tooling / releases (kept)
-        ("LangChain", "https://blog.langchain.dev/rss/"),
-        ("Ollama", "https://ollama.com/blog.xml"),
-        ("Google Cloud AI", "https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/"),
-        ("GitHub Python Trending", "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml"),
-        # Practitioner thinking — the pieces you'll either build on or argue with
-        ("Anthropic Engineering", "https://www.anthropic.com/engineering/rss.xml"),
-        ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
-        ("Sebastian Raschka", "https://magazine.sebastianraschka.com/feed"),
-        ("Eugene Yan", "https://eugeneyan.com/rss/"),
-        ("Chip Huyen", "https://huyenchip.com/feed.xml"),
-        ("Pragmatic Engineer", "https://blog.pragmaticengineer.com/rss/"),
-        ("InfoQ AI", "https://feed.infoq.com/AI/news.rss"),
+        # Tier 1 — practitioner thinkers
+        {"name": "Anthropic Engineering", "tier": 1, "type": "rss",
+         "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"},
+        {"name": "Sebastian Raschka", "tier": 1, "type": "rss",
+         "url": "https://magazine.sebastianraschka.com/feed"},
+        {"name": "Eugene Yan", "tier": 1, "type": "rss",
+         "url": "https://eugeneyan.com/rss/"},
+        {"name": "Chip Huyen", "tier": 1, "type": "rss",
+         "url": "https://huyenchip.com/feed.xml"},
+        {"name": "Interconnects", "tier": 1, "type": "rss",
+         "url": "https://www.interconnects.ai/feed"},
+        {"name": "Pragmatic Engineer", "tier": 1, "type": "rss",
+         "url": "https://blog.pragmaticengineer.com/rss/"},
+        # Tier 2 — volume / tooling
+        {"name": "Google Cloud AI", "tier": 2, "type": "rss",
+         "url": "https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/"},
+        {"name": "Hugging Face Blog", "tier": 2, "type": "rss",
+         "url": "https://huggingface.co/blog/feed.xml"},
+        {"name": "GitHub Python Trending", "tier": 2, "type": "rss",
+         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml"},
+        {"name": "Hacker News (AI/LLM)", "tier": 2, "type": "rss",
+         "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+agent&points=50"},
     ],
     "telecom": [
-        # Industry press (kept + expanded)
-        ("Telecoms AI", "https://telecoms.com/category/ai/feed/"),
-        ("Fierce Network", "https://www.fierce-network.com/rss/xml"),
-        ("Light Reading", "https://www.lightreading.com/rss.xml"),
-        ("RCR Wireless", "https://www.rcrwireless.com/feed"),
-        # Vendor + standards blogs
-        ("Ericsson Blog", "https://www.ericsson.com/en/blog/feed"),
-        ("Nokia Blog", "https://www.nokia.com/blog/feed/"),
-        # Academic — telecom + AI is a small but high-signal stream
-        ("arXiv: 5G + LLM", "http://export.arxiv.org/api/query?search_query=abs:%225G%22+AND+%28abs:%22LLM%22+OR+abs:%22large+language+model%22+OR+abs:%22agent%22%29&sortBy=submittedDate&sortOrder=descending&max_results=10"),
-        ("arXiv: RAN anomaly", "http://export.arxiv.org/api/query?search_query=abs:%22RAN%22+AND+%28abs:%22anomaly%22+OR+abs:%22root+cause%22%29&sortBy=submittedDate&sortOrder=descending&max_results=10"),
+        # Tier 1 — academic (rare but high-signal)
+        {"name": "arXiv: 5G + LLM", "tier": 1, "type": "rss",
+         "url": "http://export.arxiv.org/api/query?search_query=abs:%225G%22+AND+%28abs:%22LLM%22+OR+abs:%22large+language+model%22+OR+abs:%22agent%22%29&sortBy=submittedDate&sortOrder=descending&max_results=10"},
+        {"name": "arXiv: RAN anomaly", "tier": 1, "type": "rss",
+         "url": "http://export.arxiv.org/api/query?search_query=abs:%22RAN%22+AND+%28abs:%22anomaly%22+OR+abs:%22root+cause%22%29&sortBy=submittedDate&sortOrder=descending&max_results=10"},
+        {"name": "arXiv: O-RAN", "tier": 1, "type": "rss",
+         "url": "http://export.arxiv.org/api/query?search_query=abs:%22O-RAN%22+OR+abs:%22Open+RAN%22&sortBy=submittedDate&sortOrder=descending&max_results=10"},
+        # Tier 2 — industry press
+        {"name": "Light Reading", "tier": 2, "type": "rss",
+         "url": "https://www.lightreading.com/rss.xml"},
+        {"name": "RCR Wireless", "tier": 2, "type": "rss",
+         "url": "https://www.rcrwireless.com/feed"},
+        {"name": "Fierce Network", "tier": 2, "type": "rss",
+         "url": "https://www.fierce-network.com/rss/xml"},
     ],
     "top_stories": [
-        ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
-        ("Simon Willison", "https://simonwillison.net/atom/entries/"),
-        ("Latent Space", "https://www.latent.space/feed"),
-        ("AI Snake Oil", "https://www.aisnakeoil.com/feed"),
+        {"name": "Simon Willison", "tier": 1, "type": "rss",
+         "url": "https://simonwillison.net/atom/entries/"},
+        {"name": "AI Snake Oil", "tier": 1, "type": "rss",
+         "url": "https://www.aisnakeoil.com/feed"},
+        {"name": "Latent Space", "tier": 2, "type": "rss",
+         "url": "https://www.latent.space/feed"},
+        {"name": "TechCrunch AI", "tier": 2, "type": "rss",
+         "url": "https://techcrunch.com/category/artificial-intelligence/feed/"},
     ],
     "cautionary": [
-        ("OWASP GenAI", "https://genai.owasp.org/feed/"),
-        ("AI Incident Database", "https://incidentdatabase.ai/rss.xml"),
-        ("Schneier on Security", "https://www.schneier.com/feed/atom/"),
+        # Tier 1 — primary documentation
+        {"name": "Anthropic Frontier Red Team", "tier": 1, "type": "rss",
+         "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_red.xml"},
+        {"name": "Anthropic Research", "tier": 1, "type": "rss",
+         "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"},
+        {"name": "AI Incident Database", "tier": 1, "type": "rss",
+         "url": "https://incidentdatabase.ai/rss.xml", "title_fallback": True},
+        # Tier 2 — analysis / vendor (prompt scoring caveats applied)
+        {"name": "OWASP GenAI", "tier": 2, "type": "rss",
+         "url": "https://genai.owasp.org/feed/"},
+        {"name": "Schneier on Security", "tier": 2, "type": "rss",
+         "url": "https://www.schneier.com/feed/atom/"},
+        {"name": "DataRobot Blog", "tier": 2, "type": "rss",
+         "url": "https://www.datarobot.com/blog/feed/"},
+        {"name": "CyberArk Engineering", "tier": 2, "type": "rss",
+         "url": "https://medium.com/feed/cyberark-engineering"},
+        {"name": "Future of Privacy Forum", "tier": 2, "type": "rss",
+         "url": "https://fpf.org/feed/"},
+    ],
+    "community": [
+        # HN high-tier and mid-tier handled inside fetch_hn_algolia
+        # Lobsters via RSS
+        {"name": "Lobsters (AI tag)", "tier": 1, "type": "rss",
+         "url": "https://lobste.rs/t/ai.rss"},
     ],
 }
 
-SUBREDDITS = ["LocalLLaMA", "AI_Agents", "MachineLearning", "AgentsOfAI", "LLMDevs"]
-
-# ---------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------
-def url_hash(url: str) -> str:
-    return hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
+# =========================================================
+# HELPERS
+# =========================================================
+def url_hash(u: str) -> str:
+    return hashlib.sha1(u.encode("utf-8")).hexdigest()[:16]
 
 def load_seen() -> dict:
     if not os.path.exists(SEEN_FILE):
@@ -93,9 +169,8 @@ def strip_html(text: str) -> str:
     if not text:
         return ""
     text = re.sub(r"<[^>]+>", " ", text)
-    text = unescape(text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
 
 def truncate_smart(text: str, limit: int) -> str:
     if len(text) <= limit:
@@ -106,216 +181,551 @@ def truncate_smart(text: str, limit: int) -> str:
         return cut[: last_period + 1]
     return cut.rsplit(" ", 1)[0] + "…"
 
-# ---------------------------------------------------------
-# 1. Artificial Analysis scoreboard
-# ---------------------------------------------------------
-def fetch_live_scoreboard():
+def parse_entry_date(entry):
+    for key in ("published_parsed", "updated_parsed", "created_parsed"):
+        st = entry.get(key)
+        if st:
+            try:
+                return datetime.fromtimestamp(time.mktime(st), tz=timezone.utc)
+            except (TypeError, ValueError, OverflowError):
+                continue
+    return None
+
+def is_fresh_enough(dt, section: str) -> bool:
+    if dt is None:
+        return True  # items without dates are kept — many healthy feeds omit pubDate
+    max_age = FRESHNESS_DAYS.get(section, 30)
+    return (datetime.now(timezone.utc) - dt).days <= max_age
+
+def is_today(dt) -> bool:
+    if dt is None:
+        return False
+    now = datetime.now(timezone.utc)
+    return (now - dt).days == 0
+
+def is_within_tier1_window(dt, section: str) -> bool:
+    if dt is None:
+        return True  # no date = assume fresh
+    window = TIER1_WINDOW_DAYS.get(section, 7)
+    return (datetime.now(timezone.utc) - dt).days <= window
+
+def is_valid_title(title: str) -> bool:
+    if not title or len(title.strip()) < 5:
+        return False
+    if title.strip().lower() in {"no title", "untitled", "(no title)"}:
+        return False
+    return True
+
+def make_id(section: str, url: str) -> str:
+    prefix = section[:2]
+    return f"{prefix}_{url_hash(url)}"
+
+# =========================================================
+# FETCHERS
+# =========================================================
+def fetch_rss_source(source_cfg: dict, section: str) -> list:
+    """Fetch one RSS/Atom source. Returns list of item dicts (no filtering yet)."""
+    items = []
+    try:
+        feed = feedparser.parse(source_cfg["url"], agent="Mozilla/5.0 (AI Radar Bot)")
+        for e in feed.entries[:ENTRIES_PER_FEED]:
+            link = e.get("link", "")
+            if not link:
+                continue
+
+            title = strip_html(e.get("title", ""))
+            raw_summary = e.get("summary", "") or e.get("description", "") or ""
+            summary = truncate_smart(strip_html(raw_summary), SUMMARY_CHAR_LIMIT)
+
+            # Title fallback for sources that emit empty titles (AIID)
+            if not is_valid_title(title) and source_cfg.get("title_fallback"):
+                if summary:
+                    first_sentence = re.split(r"(?<=[.!?])\s", summary, maxsplit=1)[0]
+                    title = first_sentence[:120] or source_cfg["name"]
+                else:
+                    continue  # nothing to fall back to
+
+            if not is_valid_title(title):
+                continue
+
+            dt = parse_entry_date(e)
+            items.append({
+                "id": make_id(section, link),
+                "title": title,
+                "url": link,
+                "summary": summary,
+                "source": source_cfg["name"],
+                "tier": source_cfg["tier"],
+                "published": dt.isoformat() if dt else None,
+                "_dt": dt,  # internal, stripped before JSON write
+            })
+    except Exception as ex:
+        print(f"  [warn] failed to fetch {source_cfg['name']}: {ex}")
+    return items
+
+def fetch_hn_algolia(min_points: int, hours_back: int = 24) -> list:
+    """HN via Algolia API. Returns list of community items."""
+    items = []
+    since_ts = int(time.time()) - (hours_back * 3600)
+    query = "LLM OR agent OR RAG OR \"local model\" OR multi-agent"
+    url = (
+        f"https://hn.algolia.com/api/v1/search"
+        f"?query={quote(query)}"
+        f"&tags=story"
+        f"&numericFilters=points>{min_points},created_at_i>{since_ts}"
+        f"&hitsPerPage=15"
+    )
+    try:
+        r = requests.get(url, timeout=20)
+        if r.status_code != 200:
+            print(f"  [warn] HN Algolia status {r.status_code}")
+            return []
+        data = r.json()
+        for hit in data.get("hits", []):
+            story_url = hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}"
+            discussion_url = f"https://news.ycombinator.com/item?id={hit.get('objectID')}"
+            title = strip_html(hit.get("title", ""))
+            if not is_valid_title(title):
+                continue
+            body = hit.get("story_text") or ""
+            dt = None
+            if hit.get("created_at_i"):
+                dt = datetime.fromtimestamp(hit["created_at_i"], tz=timezone.utc)
+            source_label = f"Hacker News (≥{min_points})"
+            items.append({
+                "id": make_id("community", story_url),
+                "title": title,
+                "url": story_url,
+                "discussion_url": discussion_url,
+                "summary": truncate_smart(strip_html(body), SUMMARY_CHAR_LIMIT),
+                "source": source_label,
+                "tier": 1 if min_points >= 100 else 2,
+                "points": hit.get("points", 0),
+                "num_comments": hit.get("num_comments", 0),
+                "published": dt.isoformat() if dt else None,
+                "_dt": dt,
+            })
+    except Exception as ex:
+        print(f"  [warn] HN Algolia failed: {ex}")
+    return items
+
+def fetch_models() -> list:
+    """Artificial Analysis API → top 20 models with full metadata."""
     if not AA_API_KEY:
-        print("Warning: AA_API_KEY is missing.")
+        print("  [warn] AA_API_KEY missing")
         return []
     try:
-        headers = {"x-api-key": AA_API_KEY}
-        response = requests.get(
+        r = requests.get(
             "https://artificialanalysis.ai/api/v2/data/llms/models",
-            headers=headers,
+            headers={"x-api-key": AA_API_KEY},
             timeout=20,
         )
-        if response.status_code != 200:
-            print(f"AA API Error: {response.status_code}")
+        if r.status_code != 200:
+            print(f"  [warn] AA API status {r.status_code}")
             return []
-        data = response.json()
-        models_list = data.get("data", [])
-        models_list.sort(
-            key=lambda x: x.get("evaluations", {}).get("artificial_analysis_intelligence_index", 0) or 0,
+        data = r.json()
+        models = data.get("data", [])
+        models.sort(
+            key=lambda m: m.get("evaluations", {}).get("artificial_analysis_intelligence_index", 0) or 0,
             reverse=True,
         )
         out = []
-        for model in models_list[:5]:
-            evals = model.get("evaluations", {})
-            swe = evals.get("artificial_analysis_coding_index", "N/A")
-            price = model.get("pricing", {}).get("price_1m_blended_3_to_1", "N/A")
+        for m in models[:20]:
+            evals = m.get("evaluations", {})
+            pricing = m.get("pricing", {})
+            # license detection — try a few possible field names
+            is_open = (
+                m.get("is_open_weights")
+                or m.get("open_weights")
+                or (m.get("license", "") or "").lower() in {"open", "open-weights", "open_weights", "apache-2.0", "mit", "llama", "gemma"}
+            )
             out.append({
-                "title": model.get("name", "Unknown Model"),
-                "url": f"https://artificialanalysis.ai/models/{model.get('slug', '')}",
-                "summary": f"Coding Index: {swe} | Blended Price: ${price}/1M tokens",
-                "source": "Artificial Analysis",
+                "name": m.get("name", "Unknown"),
+                "slug": m.get("slug", ""),
+                "url": f"https://artificialanalysis.ai/models/{m.get('slug', '')}",
+                "creator": (m.get("model_creator") or {}).get("name", "Unknown"),
+                "intelligence_index": evals.get("artificial_analysis_intelligence_index"),
+                "coding_index": evals.get("artificial_analysis_coding_index"),
+                "price_blended": pricing.get("price_1m_blended_3_to_1"),
+                "is_open_weights": bool(is_open),
+                "license_type": "open" if is_open else "proprietary",
             })
         return out
-    except Exception as e:
-        print(f"AA API fetch failed: {e}")
+    except Exception as ex:
+        print(f"  [warn] AA API failed: {ex}")
         return []
 
-# ---------------------------------------------------------
-# 2. Reddit
-# ---------------------------------------------------------
-def fetch_reddit_community(subreddits):
-    posts = []
-    headers = {"User-Agent": "linux:ai-radar-bot:v1.0 (by /u/data-science-radar)"}
-    for sub in subreddits:
-        try:
-            url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit=4"
-            response = requests.get(url, headers=headers, timeout=20)
-            if response.status_code != 200:
-                print(f"Reddit blocked r/{sub} - Status: {response.status_code}")
-                continue
-            data = response.json()
-            for post in data.get("data", {}).get("children", []):
-                pd = post.get("data", {})
-                body = pd.get("selftext") or pd.get("title", "")
-                posts.append({
-                    "title": pd.get("title", ""),
-                    "url": f"https://reddit.com{pd.get('permalink', '')}",
-                    "summary": truncate_smart(strip_html(body), SUMMARY_CHAR_LIMIT),
-                    "source": f"r/{sub}",
-                    "score": pd.get("score", 0),
-                    "num_comments": pd.get("num_comments", 0),
-                })
-        except Exception as e:
-            print(f"Failed to fetch r/{sub}: {e}")
-    return posts
+# =========================================================
+# SECTION ORCHESTRATION
+# =========================================================
+def fetch_section(section: str) -> dict:
+    """
+    Returns:
+      {
+        "sources": {source_name: {tier, items: [last 5]}},
+        "all_candidates": [items for LLM scoring]
+      }
+    """
+    sources_out = {}
+    all_items = []
 
-# ---------------------------------------------------------
-# 3. RSS fetch + dedup
-# ---------------------------------------------------------
-def fetch_rss(seen: dict) -> dict:
-    feedparser.USER_AGENT = "Mozilla/5.0 (AI Radar Bot)"
-    payload = {section: [] for section in CATEGORIZED_FEEDS}
-    now_iso = datetime.now(timezone.utc).isoformat()
+    # Standard RSS sources from config
+    for src_cfg in SOURCES.get(section, []):
+        fetched = fetch_rss_source(src_cfg, section)
+        fetched.sort(key=lambda i: i.get("_dt") or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+        fetched = fetched[:INVENTORY_PER_SOURCE]
+        sources_out[src_cfg["name"]] = {
+            "tier": src_cfg["tier"],
+            "items": fetched,
+        }
+        all_items.extend(fetched)
 
-    for section, feeds in CATEGORIZED_FEEDS.items():
-        for source_name, url in feeds:
-            try:
-                feed = feedparser.parse(url)
-                for e in feed.entries[:ENTRIES_PER_FEED]:
-                    link = e.get("link", "")
-                    if not link:
-                        continue
-                    h = url_hash(link)
-                    if h in seen:
-                        continue
-                    seen[h] = now_iso
+    # HN Algolia — community only, two tiers
+    if section == "community":
+        hn_high = fetch_hn_algolia(min_points=100, hours_back=24)
+        hn_mid = fetch_hn_algolia(min_points=50, hours_back=24)
+        # dedupe HN mid against high by id
+        high_ids = {i["id"] for i in hn_high}
+        hn_mid = [i for i in hn_mid if i["id"] not in high_ids]
 
-                    raw_summary = e.get("summary", "") or e.get("description", "") or ""
-                    clean = truncate_smart(strip_html(raw_summary), SUMMARY_CHAR_LIMIT)
-                    payload[section].append({
-                        "title": e.get("title", "").strip(),
-                        "url": link,
-                        "summary": clean,
-                        "source": source_name,
-                    })
-            except Exception as e:
-                print(f"Failed to fetch RSS {url}: {e}")
-    return payload
+        hn_high.sort(key=lambda i: i.get("points", 0), reverse=True)
+        hn_mid.sort(key=lambda i: i.get("points", 0), reverse=True)
 
-# ---------------------------------------------------------
-# 4. Groq curation — score, tag, rewrite
-# ---------------------------------------------------------
-SYSTEM_PROMPT = """You are an intelligence curator for Krishna, an AI platform architect at Verizon.
+        sources_out["Hacker News (≥100)"] = {
+            "tier": 1,
+            "items": hn_high[:INVENTORY_PER_SOURCE],
+        }
+        sources_out["Hacker News (≥50)"] = {
+            "tier": 2,
+            "items": hn_mid[:INVENTORY_PER_SOURCE],
+        }
+        all_items.extend(hn_high[:INVENTORY_PER_SOURCE])
+        all_items.extend(hn_mid[:INVENTORY_PER_SOURCE])
 
-CONTEXT ABOUT KRISHNA (use this to judge relevance):
+    return {"sources": sources_out, "all_candidates": all_items}
+
+# =========================================================
+# LLM SCORING (ID-BASED JOIN)
+# =========================================================
+SYSTEM_PROMPT_BASE = """You are an intelligence curator for Krishna, an AI platform architect at Verizon.
+
+CONTEXT:
 - Builds NetPresso: a multi-agent platform (8 agents) for automated 5G Root Cause Analysis
 - Stack: local LLMs (Llama3, Gemma3) on multi-GPU Ollama, RAG with pgvector + ChromaDB,
   custom Elasticsearch MCP server, Prefect orchestration, Langfuse observability, FastAPI + Next.js
-- Working on EB-1A evidence: needs to publish practitioner takes (InfoQ, The New Stack, Lawfare-adjacent)
-- Interests: AI safety, AI governance, geopolitics of AI, telecom + AI intersection
-- NOT interested in: basic DS/ML tutorials, generic "AI is changing everything" pieces,
+- Working on EB-1A evidence: publishing practitioner takes (InfoQ, The New Stack)
+- Interests: AI safety, governance, geopolitics, telecom + AI
+- NOT interested in: basic DS/ML tutorials, generic AI-is-changing-everything pieces,
   vendor marketing dressed as content, beginner LangChain demos, hype-cycle takes
 
-YOUR JOB:
-You receive a JSON object with article candidates organized by section.
-For each candidate, decide:
-1. relevance_score (1-5): 5 = directly actionable for NetPresso or write-worthy for him,
-   3 = useful context, 1 = noise. Be ruthless. Most items should score 2-3.
-2. tag: one of {"build", "write-about", "watch", "ignore"}
-   - "build" = something he can integrate into NetPresso or his stack
-   - "write-about" = a take, claim, or framing he should respond to in his own writing
-   - "watch" = important context but no immediate action
-   - "ignore" = drop it
-3. summary: rewrite in 1-2 punchy sentences, prefixed with "Why this matters: " when score >= 4.
-   Be specific. Mention NetPresso, telecom, agents, governance, or his stack when relevant.
+YOUR TASK:
+You receive a JSON array of candidate items, each with a unique `id`. For each item, return:
+- id: echo the input id EXACTLY
+- score: integer 1-5. Be ruthless. Most items should score 2-3.
+    5 = directly actionable for NetPresso OR write-worthy for InfoQ
+    4 = high-quality, clearly relevant
+    3 = useful context
+    2 = tangential
+    1 = noise / ignore
+- tag: one of "build" | "write-about" | "watch" | "ignore"
+- summary: 1-2 punchy sentences. If score >= 4, prefix "Why this matters: ". Mention NetPresso,
+    telecom, agents, governance, or his stack when relevant. Be specific.
 
-FILTERING RULES:
-- DROP anything with relevance_score < 3 OR tag == "ignore". Do not include them in output.
-- DROP duplicates (same story from different sources): keep only the best-sourced version.
-- For "telecom": prioritize anything about Verizon, AT&T, T-Mobile, agentic networks, 5G AI, RAN automation, O-RAN, or NetOps.
-- For "tailored": prioritize multi-agent patterns, local LLM ops, observability, RAG production lessons, MCP.
-- For "cautionary": prioritize concrete production failures, security incidents, agent misbehavior. Avoid abstract think-pieces unless score >= 4.
-- For "community": include only posts with real technical substance (problem solved, benchmark, novel pattern). Drop pure questions, memes, drama.
+CRITICAL RULES:
+- Echo IDs EXACTLY — do not invent, modify, or rename IDs
+- Return ONLY items with score >= 2 (drop the noise)
+- Do not invent new items. Do not output titles or URLs.
+- If you cannot confidently score an item, score it 2 and tag it "watch".
 
-OUTPUT FORMAT — return ONLY this JSON, nothing else:
-{
-  "tailored":     [{"title": "...", "url": "...", "summary": "...", "source": "...", "relevance_score": 4, "tag": "build"}],
-  "telecom":      [...],
-  "top_stories":  [...],
-  "cautionary":   [...],
-  "community":    [...]
+SECTION-SPECIFIC GUIDANCE:
+{section_guidance}
+
+OUTPUT FORMAT (JSON object with a single key "items"):
+{{"items": [
+  {{"id": "ta_abc123", "score": 4, "tag": "build", "summary": "Why this matters: ..."}},
+  ...
+]}}"""
+
+SECTION_GUIDANCE = {
+    "tailored": """Tailored prioritizes VOICE and JUDGMENT over volume. Original analysis, contrarian framings,
+and practitioner essays score higher than announcements. Sebastian Raschka / Chip Huyen / Eugene Yan
+posts with novel framings = 4-5. Hugging Face model releases = 3 unless directly relevant to local-LLM ops.
+Hacker News items: score the LINKED content quality, not HN discussion volume.""",
+    "telecom": """Telecom mixes news and academic preprints. Academic arXiv items should score 4+ if
+directly relevant to RAN/5G/O-RAN/agents (even if topic isn't breaking). News items need to be Verizon-specific
+OR documenting a real deployment to score 4+.""",
+    "top_stories": """Top Stories = what's broadly relevant in AI right now. Deprioritize Latent Space [AINews]
+aggregation posts (score 2-3 max) in favor of original analysis. Simon Willison + AI Snake Oil get tier-1 weight
+because they are opinionated takes, not news.""",
+    "cautionary": """Cautionary = concrete failures, security incidents, agent misbehavior. Anthropic Red Team /
+Research papers documenting failure modes = 5. AIID incidents = 4-5. Schneier posts: score 3+ ONLY if AI/LLM/
+agent-relevant; non-AI security content = 1-2. DataRobot and CyberArk are vendor blogs — only score 4+ if the
+post documents a specific failure pattern rather than pivoting to product pitch.""",
+    "community": """Community = what practitioners are discussing. Prioritize posts documenting problem-solution
+pairs, benchmarks with numbers, or production lessons. Deprioritize pure questions, memes, drama, hype.
+An HN post linking to a working multi-agent pattern = 4-5; 'Is RAG dead?' = 1-2. Lobsters items default to
+score 3 minimum (tight moderation) unless clearly off-target.""",
 }
 
-Each section: max 6 items, ordered by relevance_score descending. If a section has no items scoring >= 3, return an empty array for it."""
+def score_with_llm(section: str, candidates: list) -> dict:
+    """Returns {id: {score, tag, summary}}. Empty dict if no candidates or LLM fails."""
+    if not candidates:
+        return {}
 
-def curate_with_groq(payload: dict) -> dict:
+    # Build minimal input: only id + title + summary + source. No metadata the LLM could hallucinate.
+    llm_input = [
+        {
+            "id": c["id"],
+            "title": c["title"][:200],
+            "source": c["source"],
+            "summary": c["summary"][:500],
+        }
+        for c in candidates
+    ]
+
+    prompt = SYSTEM_PROMPT_BASE.format(section_guidance=SECTION_GUIDANCE.get(section, ""))
+
     try:
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": json.dumps(payload)},
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": json.dumps(llm_input)},
             ],
             response_format={"type": "json_object"},
             temperature=0.2,
         )
-        curated = json.loads(response.choices[0].message.content)
-        # Defensive: ensure all expected sections exist
-        for section in ["tailored", "telecom", "top_stories", "cautionary", "community"]:
-            curated.setdefault(section, [])
-            # Hard filter in case the model didn't drop low scores
-            curated[section] = [
-                item for item in curated[section]
-                if item.get("relevance_score", 0) >= MIN_RELEVANCE_SCORE
-                and item.get("tag") != "ignore"
-            ]
-        return curated
-    except Exception as e:
-        print(f"Groq curation failed: {e}")
-        # Fallback: return raw payload with empty community/cautionary preserved
-        fallback = {k: v for k, v in payload.items()}
-        fallback.setdefault("community", [])
-        return fallback
+        raw = json.loads(response.choices[0].message.content)
+        llm_items = raw.get("items", [])
 
-# ---------------------------------------------------------
-# 5. Main
-# ---------------------------------------------------------
+        # Validate: only accept IDs that exist in our input
+        valid_ids = {c["id"] for c in candidates}
+        scored = {}
+        for item in llm_items:
+            item_id = item.get("id")
+            if item_id not in valid_ids:
+                continue  # hallucinated or malformed ID — drop silently
+            score = item.get("score")
+            tag = item.get("tag")
+            if not isinstance(score, int) or score < 1 or score > 5:
+                continue
+            if tag not in {"build", "write-about", "watch", "ignore"}:
+                tag = "watch"
+            scored[item_id] = {
+                "score": score,
+                "tag": tag,
+                "summary": item.get("summary", "")[:SUMMARY_CHAR_LIMIT],
+            }
+        return scored
+    except Exception as ex:
+        print(f"  [warn] LLM scoring failed for {section}: {ex}")
+        return {}
+
+# =========================================================
+# PROMOTION
+# =========================================================
+def promote_to_radar(section: str, inventory: dict, scores: dict) -> dict:
+    """
+    Select top 5 and bottom 5 (expand) for the radar.
+    - Top 5: tier-1 fresh items get guaranteed slots (within TIER1_WINDOW_DAYS),
+             remaining slots fill from today-bucket by score.
+    - Bottom 5: everything else within section's freshness window, score >= 4.
+    - Cap: 1 item per tier-1 source in top 5.
+    """
+    # Flatten all items across sources in this section
+    all_items = []
+    for source_name, src in inventory.items():
+        for item in src["items"]:
+            if item["id"] not in scores:
+                continue  # item was dropped by LLM (score < 2 or ignore tag)
+            s = scores[item["id"]]
+            if s["tag"] == "ignore":
+                continue
+            enriched = {**item, **s, "tag_raw": s["tag"]}
+            all_items.append(enriched)
+
+    # Annotate today flag and tier-1-window flag
+    for item in all_items:
+        item["_is_today"] = is_today(item.get("_dt"))
+        item["_in_tier1_window"] = is_within_tier1_window(item.get("_dt"), section)
+
+    # ===== TOP 5 selection =====
+    top = []
+    tier1_sources_used = set()
+
+    # Phase 1: tier-1 guaranteed slots (1 per tier-1 source, within tier-1 window)
+    tier1_candidates = [
+        i for i in all_items
+        if i["tier"] == 1 and i["_in_tier1_window"] and i["score"] >= MIN_SCORE_TOP
+    ]
+    tier1_candidates.sort(key=lambda x: (x["score"], x.get("_dt") or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    for item in tier1_candidates:
+        if len(top) >= RADAR_TOP_N:
+            break
+        if item["source"] in tier1_sources_used:
+            continue
+        top.append(item)
+        tier1_sources_used.add(item["source"])
+
+    # Phase 2: fill remaining top slots from today-bucket (any tier), by score
+    if len(top) < RADAR_TOP_N:
+        top_ids = {i["id"] for i in top}
+        today_candidates = [
+            i for i in all_items
+            if i["id"] not in top_ids
+            and i["_is_today"]
+            and i["score"] >= MIN_SCORE_TOP
+        ]
+        today_candidates.sort(key=lambda x: x["score"], reverse=True)
+        for item in today_candidates:
+            if len(top) >= RADAR_TOP_N:
+                break
+            top.append(item)
+
+    # Phase 3: if still short, fill from freshness window by score
+    if len(top) < RADAR_TOP_N:
+        top_ids = {i["id"] for i in top}
+        window_candidates = [
+            i for i in all_items
+            if i["id"] not in top_ids
+            and is_fresh_enough(i.get("_dt"), section)
+            and i["score"] >= MIN_SCORE_TOP
+        ]
+        window_candidates.sort(key=lambda x: (x["score"], x.get("_dt") or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+        for item in window_candidates:
+            if len(top) >= RADAR_TOP_N:
+                break
+            top.append(item)
+
+    # ===== BOTTOM 5 (expand) =====
+    top_ids = {i["id"] for i in top}
+    expand_candidates = [
+        i for i in all_items
+        if i["id"] not in top_ids
+        and is_fresh_enough(i.get("_dt"), section)
+        and i["score"] >= MIN_SCORE_EXPAND
+    ]
+    expand_candidates.sort(key=lambda x: (x["score"], x.get("_dt") or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    expand = expand_candidates[:RADAR_EXPAND_N - len(top)]
+
+    # Compute flags on the final radar items
+    now = datetime.now(timezone.utc)
+    def finalize(item):
+        out = {k: v for k, v in item.items() if not k.startswith("_")}
+        out["flags"] = {
+            "new": is_today(item.get("_dt")),
+            "featured": True,
+            "tier": item["tier"],
+        }
+        return out
+
+    return {
+        "top": [finalize(i) for i in top],
+        "expand": [finalize(i) for i in expand],
+    }
+
+# =========================================================
+# ASSEMBLY
+# =========================================================
+def clean_inventory_for_json(inventory: dict, radar_ids: set) -> dict:
+    """Strip internal fields, add flags, mark featured items."""
+    out = {}
+    for source_name, src in inventory.items():
+        clean_items = []
+        for item in src["items"]:
+            clean = {k: v for k, v in item.items() if not k.startswith("_")}
+            clean["flags"] = {
+                "new": is_today(item.get("_dt")),
+                "featured": item["id"] in radar_ids,
+                "tier": src["tier"],
+            }
+            clean_items.append(clean)
+        out[source_name] = {
+            "tier": src["tier"],
+            "items": clean_items,
+        }
+    return out
+
+# =========================================================
+# MAIN
+# =========================================================
 def main():
+    print(f"\n{'=' * 70}\n  AI RADAR SYNC — {datetime.now(timezone.utc).isoformat()}\n{'=' * 70}")
+
     seen = load_seen()
-    print(f"Loaded {len(seen)} seen URLs (TTL {SEEN_TTL_DAYS}d)")
-
-    payload = fetch_rss(seen)
-    payload["community"] = fetch_reddit_community(SUBREDDITS)
-
-    # Mark Reddit URLs as seen too
     now_iso = datetime.now(timezone.utc).isoformat()
-    for post in payload["community"]:
-        seen[url_hash(post["url"])] = now_iso
+    print(f"\nLoaded {len(seen)} seen URLs (TTL {SEEN_TTL_DAYS}d)")
 
-    total_pre = sum(len(v) for v in payload.values())
-    print(f"Fetched {total_pre} new candidate items")
+    data = {
+        "meta": {
+            "last_updated": now_iso,
+            "version": "2.0",
+            "stats": {},
+        },
+        "radar": {},
+        "sources": {},
+        "models": {"all": [], "default_sort": "intelligence_index"},
+    }
 
-    curated = curate_with_groq(payload)
-    curated["models"] = fetch_live_scoreboard()
-    curated["last_updated"] = now_iso
+    total_stats = {
+        "fetched": 0,
+        "scored": 0,
+        "radar_top": 0,
+        "radar_expand": 0,
+    }
 
-    total_post = sum(
-        len(curated.get(s, []))
-        for s in ["tailored", "telecom", "top_stories", "cautionary", "community"]
-    )
-    print(f"After curation: {total_post} items kept")
+    # Fetch + score + promote each section
+    for section in ["tailored", "telecom", "top_stories", "cautionary", "community"]:
+        print(f"\n──── {section.upper()} ────")
+        fetched = fetch_section(section)
+        inventory = fetched["sources"]
+        candidates = fetched["all_candidates"]
 
+        # Mark fetched URLs as seen (for future dedup if we re-enable URL-based dedup)
+        for item in candidates:
+            seen[url_hash(item["url"])] = now_iso
+
+        source_count = len(inventory)
+        item_count = len(candidates)
+        print(f"  Fetched {item_count} items from {source_count} sources")
+
+        # EMPTY-INPUT GUARD — never call LLM with no candidates
+        if not candidates:
+            print(f"  [skip] no candidates; skipping LLM call")
+            scores = {}
+        else:
+            scores = score_with_llm(section, candidates)
+            print(f"  Scored {len(scores)} items (dropped {item_count - len(scores)})")
+
+        radar = promote_to_radar(section, inventory, scores)
+        radar_ids = {i["id"] for i in radar["top"] + radar["expand"]}
+        print(f"  Radar: {len(radar['top'])} top + {len(radar['expand'])} expand")
+
+        data["radar"][section] = radar
+        data["sources"][section] = clean_inventory_for_json(inventory, radar_ids)
+
+        total_stats["fetched"] += item_count
+        total_stats["scored"] += len(scores)
+        total_stats["radar_top"] += len(radar["top"])
+        total_stats["radar_expand"] += len(radar["expand"])
+
+    # Models
+    print(f"\n──── MODELS ────")
+    models = fetch_models()
+    data["models"]["all"] = models
+    print(f"  Fetched {len(models)} models")
+
+    data["meta"]["stats"] = total_stats
+
+    # Persist
     with open("data.json", "w") as f:
-        json.dump(curated, f, indent=2)
-
+        json.dump(data, f, indent=2, default=str)
     save_seen(seen)
-    print("✅ Radar synced.")
+
+    print(f"\n{'=' * 70}")
+    print(f"  SUMMARY: {total_stats}")
+    print(f"  ✅ data.json + seen.json written")
+    print(f"{'=' * 70}\n")
 
 if __name__ == "__main__":
     main()
-    
