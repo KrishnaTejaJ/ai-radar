@@ -22,6 +22,9 @@ const TAG_LABELS = {
   watch:         "WATCH",
 };
 
+// Sections that span the full grid width (both columns on desktop)
+const FULL_WIDTH_SECTIONS = new Set(["tailored"]);
+
 // =========================================================
 // ROUTING
 // =========================================================
@@ -46,7 +49,6 @@ function render() {
     return;
   }
 
-  // Scroll to top on route change
   window.scrollTo(0, 0);
 
   switch (route) {
@@ -70,25 +72,22 @@ function render() {
 }
 
 // =========================================================
-// RADAR VIEW (main page)
+// RADAR VIEW
 // =========================================================
 function renderRadar() {
   const data = state.data;
   const syncAgo = formatRelativeTime(data.meta.last_updated);
   document.getElementById("sync-indicator").textContent = `synced ${syncAgo}`;
 
+  // Layout order: Tailored (full), then Telecom + Top Stories (2-col),
+  // then Cautionary + Community (2-col), Models (full)
   const sectionOrder = ["tailored", "telecom", "top_stories", "cautionary", "community"];
 
   let html = `<div class="radar-page">`;
-
-  // Render each content section
   for (const section of sectionOrder) {
     html += renderRadarSection(section);
   }
-
-  // Model Tracker gets its own dedicated mini-section on the radar
   html += renderRadarModels();
-
   html += `</div>`;
   return html;
 }
@@ -99,9 +98,11 @@ function renderRadarSection(section) {
   const routeHash = section === "top_stories" ? "top-stories" : section;
   const isExpanded = state.expandedSections.has(section);
   const hasExpand = radar.expand && radar.expand.length > 0;
+  const isFullWidth = FULL_WIDTH_SECTIONS.has(section);
+  const spanClass = isFullWidth ? " span-full" : "";
 
   let html = `
-    <section class="radar-section" id="section-${section}">
+    <section class="radar-section${spanClass}" id="section-${section}">
       <div class="section-header">
         <h2>
           <span class="section-icon">${meta.icon}</span>
@@ -114,7 +115,7 @@ function renderRadarSection(section) {
   `;
 
   if (radar.top.length === 0) {
-    html += `<div class="empty-state">No items today. Check back after the next sync.</div>`;
+    html += `<div class="empty-state">No items this cycle. Check back after the next sync.</div>`;
   } else {
     for (const item of radar.top) {
       html += renderItemCard(item, section);
@@ -148,19 +149,16 @@ function renderItemCard(item, section, opts = {}) {
   const published = item.published ? formatRelativeTime(item.published) : "";
   const isCommunity = section === "community";
 
-  // Flags → badges
   const badges = [];
   if (item.flags?.new) badges.push(`<span class="badge badge-new">NEW</span>`);
   if (item.tag && TAG_LABELS[item.tag]) {
     badges.push(`<span class="badge badge-${item.tag}">${TAG_LABELS[item.tag]}</span>`);
   }
 
-  // Community items: 🔥 points badge
   const pointsBadge = isCommunity && item.points != null
     ? `<span class="badge badge-points">🔥 ${item.points}</span>`
     : "";
 
-  // Action row for community (both article + discussion)
   const actionRow = isCommunity && discussionUrl
     ? `
       <div class="item-actions">
@@ -176,11 +174,15 @@ function renderItemCard(item, section, opts = {}) {
 
   return `
     <article class="item-card${dimmed ? " item-dimmed" : ""}">
-      <div class="item-badges-row">
-        <div class="item-badges">${badges.join("")}</div>
-        ${pointsBadge}
-      </div>
-      <h3 class="item-title">${title}</h3>
+      ${badges.length || pointsBadge ? `
+        <div class="item-badges-row">
+          <div class="item-badges">${badges.join("")}</div>
+          ${pointsBadge}
+        </div>
+      ` : ""}
+      <h3 class="item-title">
+        <a href="${url}" target="_blank" rel="noopener">${title}</a>
+      </h3>
       <div class="item-meta">
         <span class="item-source">${source}</span>
         ${published ? `<span class="item-time">· ${published}</span>` : ""}
@@ -196,7 +198,7 @@ function renderRadarModels() {
   const top5 = models.slice(0, 5);
 
   let html = `
-    <section class="radar-section" id="section-models">
+    <section class="radar-section span-full" id="section-models">
       <div class="section-header">
         <h2>
           <span class="section-icon">🤖</span>
@@ -241,7 +243,7 @@ function renderRadarModels() {
 }
 
 // =========================================================
-// STUB VIEWS (to be filled in next message)
+// STUB VIEWS
 // =========================================================
 function renderSectionStub(route) {
   const sectionKey = route === "top-stories" ? "top_stories" : route;
@@ -279,7 +281,7 @@ function renderModelsStub() {
 }
 
 // =========================================================
-// EVENT HANDLERS
+// EVENTS
 // =========================================================
 function attachRadarHandlers() {
   document.querySelectorAll(".expand-toggle").forEach(btn => {
@@ -312,7 +314,7 @@ function formatRelativeTime(iso) {
   if (!iso) return "";
   const then = new Date(iso);
   const now = new Date();
-  const diff = (now - then) / 1000;  // seconds
+  const diff = (now - then) / 1000;
   if (diff < 60) return "just now";
   if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
   if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
