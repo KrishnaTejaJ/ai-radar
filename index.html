@@ -3,48 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Radar | Daily Briefing</title>
+    <title>AI Intelligence Radar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-900 p-8">
-    <h1 class="font-['Playfair_Display'] text-5xl font-black text-center mb-10 border-b-4 border-gray-900 pb-4">The AI Radar</h1>
+<body class="bg-[#fdfdfc] text-gray-900 p-6 md:p-10 min-h-screen">
     
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <section>
-            <h2 class="text-xl font-bold mb-4 border-t-4 border-blue-600 pt-2">🎯 Tailored For You</h2>
-            <div id="tailored-container" class="space-y-4"></div>
-        </section>
+    <header class="max-w-7xl mx-auto text-center mb-10 border-b-4 border-gray-900 pb-6">
+        <h1 class="font-['Playfair_Display'] text-5xl md:text-6xl font-black uppercase tracking-tighter mb-3">The AI Radar</h1>
+        <div class="text-sm font-semibold text-gray-500 uppercase tracking-widest border-t border-gray-300 pt-3">
+            <span id="date-display">Live Intelligence Briefing</span>
+        </div>
+    </header>
+    
+    <main class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        
+        <div class="flex flex-col gap-8">
+            <section>
+                <h2 class="font-['Playfair_Display'] text-2xl font-bold mb-4 border-t-4 border-blue-600 pt-2 flex items-center">🎯 Tailored For You</h2>
+                <div id="tailored-container" class="space-y-4"></div>
+            </section>
+            <section>
+                <h2 class="font-['Playfair_Display'] text-2xl font-bold mb-4 border-t-4 border-purple-600 pt-2 flex items-center">📡 Telecom & Networks</h2>
+                <div id="telecom-container" class="space-y-4"></div>
+            </section>
+        </div>
 
-        <section>
-            <h2 class="text-2xl font-black mb-4 border-t-4 border-gray-900 pt-2 text-center">📰 Top Stories</h2>
-            <div id="top-stories-container" class="space-y-6"></div>
-        </section>
+        <div class="flex flex-col gap-8 lg:px-4 lg:border-l lg:border-r border-gray-200">
+            <section>
+                <h2 class="font-['Playfair_Display'] text-3xl font-black mb-6 border-b-2 border-gray-900 pb-2 text-center">📰 Top Stories</h2>
+                <div id="top-stories-container" class="space-y-6"></div>
+            </section>
+        </div>
 
-        <section>
-            <h2 class="text-xl font-bold mb-4 border-t-4 border-red-600 pt-2">⚠️ Cautionary Tales</h2>
-            <div id="cautionary-container" class="space-y-4"></div>
-        </section>
-    </div>
+        <div class="flex flex-col gap-8">
+            <section>
+                <h2 class="font-['Playfair_Display'] text-2xl font-bold mb-4 border-t-4 border-green-600 pt-2 flex items-center">🤖 Model Tracker</h2>
+                <div id="models-container" class="space-y-4"></div>
+            </section>
+            <section>
+                <h2 class="font-['Playfair_Display'] text-xl font-bold mb-4 border-t-4 border-red-600 pt-2 text-red-700 flex items-center">⚠️ Cautionary Tales</h2>
+                <div id="cautionary-container" class="space-y-4"></div>
+            </section>
+            <section class="mt-auto">
+                <h2 class="font-['Playfair_Display'] text-xl font-bold mb-4 border-t-2 border-orange-400 pt-2 flex items-center">🗣️ r/LocalLLaMA</h2>
+                <div id="community-container" class="space-y-3"></div>
+            </section>
+        </div>
+    </main>
 
     <script>
-        // This script pulls the data.json file and builds the HTML cards
+        document.getElementById('date-display').innerText = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
-                const buildCard = (item) => `
-                    <a href="${item.url}" target="_blank" class="block bg-white p-4 shadow-sm hover:shadow-md transition">
-                        <h3 class="font-bold text-lg leading-tight mb-2">${item.title}</h3>
-                        <p class="text-sm text-gray-600 mb-2">${item.summary}</p>
-                        <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">${item.source}</span>
+                const buildCard = (item, isFeatured = false) => `
+                    <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="block bg-white p-4 border border-gray-200 rounded-sm hover:-translate-y-1 hover:shadow-md transition-all duration-200 ${isFeatured ? 'bg-gray-50 border-gray-300' : ''}">
+                        <h3 class="font-['Playfair_Display'] ${isFeatured ? 'text-2xl' : 'text-lg'} font-bold leading-tight mb-2 text-gray-900">${item.title}</h3>
+                        <p class="text-sm text-gray-600 mb-3 leading-relaxed">${item.summary}</p>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">${item.source}</span>
                     </a>
                 `;
-                
-                document.getElementById('tailored-container').innerHTML = data.tailored?.map(buildCard).join('') || '<p>No specific updates today.</p>';
-                document.getElementById('top-stories-container').innerHTML = data.top_stories?.map(buildCard).join('') || '<p>No news.</p>';
-                document.getElementById('cautionary-container').innerHTML = data.cautionary?.map(buildCard).join('') || '<p>All clear.</p>';
+
+                const populate = (elementId, array, isFeatured = false) => {
+                    const el = document.getElementById(elementId);
+                    if (array && array.length > 0) {
+                        el.innerHTML = array.map(item => buildCard(item, isFeatured)).join('');
+                    } else {
+                        el.innerHTML = `<p class="text-sm text-gray-400 italic py-2">Nothing to report right now.</p>`;
+                    }
+                };
+
+                populate('tailored-container', data.tailored);
+                populate('telecom-container', data.telecom);
+                populate('top-stories-container', data.top_stories, true); 
+                populate('models-container', data.models);
+                populate('cautionary-container', data.cautionary);
+                populate('community-container', data.community);
             })
-            .catch(err => console.error("Waiting for first data.json generation...", err));
+            .catch(err => {
+                console.error("Error loading data:", err);
+                document.getElementById('top-stories-container').innerHTML = `<p class="text-red-500">Waiting for data.json to generate. Run the GitHub Action!</p>`;
+            });
     </script>
 </body>
 </html>
