@@ -1,50 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Radar</title>
-  <meta name="description" content="Live AI intelligence briefing — practitioner takes, telecom, cautionary tales, and models." />
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Radar</title>
+    <meta name="description" content="Live AI intelligence briefing — practitioner takes, telecom, cautionary tales, and models." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <!-- Top navigation -->
-  <header class="topbar">
-    <div class="topbar-inner">
-      <a href="#radar" class="brand">
-        <span class="brand-mark">📡</span>
-        <span class="brand-name">AI Radar</span>
-      </a>
-      <nav class="nav">
-        <a href="#radar" data-route="radar">Radar</a>
-        <a href="#tailored" data-route="tailored">Tailored</a>
-        <a href="#telecom" data-route="telecom">Telecom</a>
-        <a href="#top-stories" data-route="top-stories">Top Stories</a>
-        <a href="#cautionary" data-route="cautionary">Cautionary</a>
-        <a href="#models" data-route="models">Models</a>
-        <a href="#community" data-route="community">Community</a>
-      </nav>
-      <div class="topbar-meta">
-        <span id="sync-indicator" class="sync-indicator">loading…</span>
-      </div>
+<body class="bg-[#fdfdfc] text-gray-900 p-6 md:p-10 min-h-screen font-['Inter']">
+    
+    <header class="max-w-7xl mx-auto text-center mb-10 border-b-4 border-gray-900 pb-6">
+        <a href="#radar" class="inline-block hover:opacity-80 transition-opacity">
+            <h1 class="font-['Playfair_Display'] text-5xl md:text-6xl font-black uppercase tracking-tighter mb-3">The AI Radar</h1>
+        </a>
+        <div class="text-sm font-semibold text-gray-500 uppercase tracking-widest border-t border-gray-300 pt-3 flex justify-center space-x-4 items-center">
+            <span id="date-display">Live Intelligence Briefing</span>
+            <span class="text-gray-300">|</span>
+            <span id="sync-display" class="lowercase">syncing...</span>
+        </div>
+    </header>
+    
+    <div id="app" class="max-w-7xl mx-auto">
+        <div class="text-center py-20 text-gray-400 font-['Playfair_Display'] italic">Loading the radar...</div>
     </div>
-  </header>
+    
+    <footer class="max-w-7xl mx-auto mt-20 pt-6 border-t border-gray-200 text-center text-xs text-gray-500">
+        <p>AI Radar · <a href="https://github.com/KrishnaTejaJ/ai-radar" target="_blank" class="hover:text-gray-900 underline">Source</a> · Data by Groq & Artificial Analysis</p>
+    </footer>
 
-  <!-- Main view container — app.js renders into this -->
-  <main id="app">
-    <div class="loading-state">
-      <p>Loading radar…</p>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <p>
-      AI Radar · <a href="https://github.com/KrishnaTejaJ/ai-radar" target="_blank" rel="noopener">source</a> ·
-      built with <a href="https://groq.com" target="_blank" rel="noopener">Groq</a> +
-      <a href="https://artificialanalysis.ai" target="_blank" rel="noopener">Artificial Analysis</a>
-    </p>
-  </footer>
-
-  <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
