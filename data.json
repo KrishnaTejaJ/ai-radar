@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-05-02T19:53:20.520257+00:00",
+    "last_updated": "2026-05-03T08:53:10.131694+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
-      "scored": 51,
-      "radar_top": 21,
-      "radar_expand": 8
+      "scored": 55,
+      "radar_top": 23,
+      "radar_expand": 9
     }
   },
   "radar": {
@@ -16,7 +16,7 @@
           "id": "ta_08d82b53d71043d3",
           "title": "My Workflow for Understanding LLM Architectures",
           "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
-          "summary": "Why this matters: A learning-oriented workflow for understanding new open-weight model releases can significantly improve the development of AI applications. Sebastian Raschka's workflow provides a valuable framework for practitioners.",
+          "summary": "Why this matters: A learning-oriented workflow for understanding new open-weight model releases is crucial for advancing AI research and development.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-04-18T11:24:36+00:00",
@@ -33,7 +33,7 @@
           "id": "ta_631926247f4859a6",
           "title": "The Pulse: token spend breaks budgets \u2013 what next?",
           "url": "https://blog.pragmaticengineer.com/the-pulse-token-spend-breaks-budgets-what-next/",
-          "summary": "The Pulse: Claude Mythos and misguided open-weight fearmongering provides an interesting perspective on the current state of AI development, but its relevance to NetPresso is unclear.",
+          "summary": "The Pulse: token spend breaks budgets, and what this means for the future of AI development and deployment.",
           "source": "Pragmatic Engineer",
           "tier": 1,
           "published": "2026-04-30T14:52:36+00:00",
@@ -47,14 +47,67 @@
           }
         },
         {
+          "id": "ta_597fab2eb83df174",
+          "title": "Reading today's open-closed performance gap",
+          "url": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
+          "summary": "The complex factors that determine the single evaluation number so many focus on, and how this changes in the future.",
+          "source": "Interconnects",
+          "tier": 1,
+          "published": "2026-04-20T18:25:02+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "ta_d7cfdb4c67e7472a",
+          "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+          "url": "https://arxiv.org/abs/2509.00462",
+          "summary": "Why this matters: AI self-preferencing in algorithmic hiring can have significant implications for fairness and bias in AI-powered decision-making systems.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-05-02T15:28:13+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ta_d0c7d5449da94ece",
           "title": "Components of A Coding Agent",
           "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
-          "summary": "Why this matters: Understanding how coding agents use tools, memory, and repo context is crucial for developing effective AI applications. Sebastian Raschka's insights provide a comprehensive overview of the components of a coding agent.",
+          "summary": "Why this matters: Understanding how coding agents use tools, memory, and repo context to make LLMs work better in practice is essential for improving AI applications.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-04-04T11:45:37+00:00",
           "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        }
+      ],
+      "expand": [
+        {
+          "id": "ta_f90fa6cabc2908fd",
+          "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+          "url": "https://www.anthropic.com/engineering/managed-agents",
+          "summary": "Why this matters: Harnesses encode assumptions that go stale as models improve, and Managed Agents is built around interfaces that stay stable as harnesses change.",
+          "source": "Anthropic Engineering",
+          "tier": 1,
+          "published": "2026-04-08T00:00:00+00:00",
+          "score": 4,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
@@ -64,14 +117,14 @@
           }
         },
         {
-          "id": "ta_1ea34ba04923e8e0",
-          "title": "A Visual Guide to Attention Variants in Modern LLMs",
-          "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
-          "summary": "Why this matters: A visual guide to attention variants in modern LLMs can help practitioners better understand the underlying mechanisms of these models. Sebastian Raschka's guide provides a valuable resource for developers.",
-          "source": "Sebastian Raschka",
+          "id": "ta_842accc1173b3c87",
+          "title": "Eval awareness in Claude Opus 4.6\u2019s BrowseComp performance",
+          "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+          "summary": "Why this matters: Evaluating Opus 4.6 on BrowseComp raises questions about eval integrity in web-enabled environments, as the model recognized the test and found and decrypted answers to it.",
+          "source": "Anthropic Engineering",
           "tier": 1,
-          "published": "2026-03-22T11:55:40+00:00",
-          "score": 5,
+          "published": "2026-03-06T00:00:00+00:00",
+          "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
@@ -79,26 +132,8 @@
             "featured": true,
             "tier": 1
           }
-        },
-        {
-          "id": "ta_a3cee9507cd74548",
-          "title": "50+ fully managed MCP servers now available for Google Cloud services",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-managed-mcp-servers-are-available-for-everyone/",
-          "summary": "50+ fully managed MCP servers now available for Google Cloud services may be relevant to NetPresso's custom Elasticsearch MCP server, but further analysis is needed to determine its significance.",
-          "source": "Google Cloud AI",
-          "tier": 2,
-          "published": "2026-04-28T17:00:00+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
         }
-      ],
-      "expand": []
+      ]
     },
     "telecom": {
       "top": [
@@ -137,6 +172,59 @@
           }
         },
         {
+          "id": "te_ac407f85ec8aeb01",
+          "title": "EE scales \u20185G+\u2019 as usage surge reshapes capacity strategy",
+          "url": "https://www.rcrwireless.com/20260501/5g/ee-scales-5g",
+          "summary": "Why this matters: EE's scaling of '5G+' usage is influencing network investment and optimization strategies, highlighting the need for adaptive and dynamic network management approaches.",
+          "source": "RCR Wireless",
+          "tier": 2,
+          "published": "2026-05-01T08:44:05+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "te_f23dda1cd9e68bf8",
+          "title": "T-Mobile bets on hybrid broadband with 5G FWA and Starlink",
+          "url": "https://www.rcrwireless.com/20260430/network-infrastructure/t-mobile-bets-on-hybrid-broadband-with-5g-fwa-and-starlink",
+          "summary": "Why this matters: T-Mobile's SuperBroadband offering combines 5G FWA with Starlink, extending coverage and delivering built-in redundancy to enterprises in remote and rural regions.",
+          "source": "RCR Wireless",
+          "tier": 2,
+          "published": "2026-04-30T18:59:47+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "te_a7d03b808d724afa",
+          "title": "American Tower raises outlook on AI, data demand",
+          "url": "https://www.rcrwireless.com/20260430/5g/american-tower-ai",
+          "summary": "Why this matters: American Tower's raised outlook on AI and data demand highlights the growing importance of digital infrastructure in supporting long-term demand for AI workloads and cloud adoption.",
+          "source": "RCR Wireless",
+          "tier": 2,
+          "published": "2026-04-30T14:41:06+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        }
+      ],
+      "expand": [
+        {
           "id": "te_494bf3f4ff039dbd",
           "title": "BLINC: Context-Specific Causal Learning for Automated RAN Configuration",
           "url": "https://arxiv.org/abs/2604.27084v1",
@@ -157,7 +245,7 @@
           "id": "te_9abf95b58b1bacbe",
           "title": "SWE-Bench 5G: Benchmarking AI Coding Agents on Telecom Network Engineering Tasks",
           "url": "https://arxiv.org/abs/2604.26278v1",
-          "summary": "Why this matters: SWE-Bench 5G is a benchmark designed to investigate the ability of AI coding agents to resolve real-world bugs in 5G core network software.",
+          "summary": "Why this matters: SWE-Bench 5G is the first benchmark to investigate the ability of AI coding agents to resolve real-world bugs in 5G core network software.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-04-29T04:20:35+00:00",
@@ -186,51 +274,32 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
+        {
+          "id": "te_1eb6527b9df675ad",
+          "title": "TARMM: Scaling Delay-Critical Edge AI Offloading in 5G O-RAN via Temporal Graph Mobility Management",
+          "url": "https://arxiv.org/abs/2604.24501v1",
+          "summary": "Why this matters: TARMM optimizes user mobility management for delay-critical edge AI applications in 5G O-RAN, addressing the limitations of existing mobility management mechanisms.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-04-27T14:04:55+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
         {
           "id": "te_1efa6253803cb4f3",
           "title": "Large-scale wireless network management via Open-RAN Tandem Apps: Cell on/off switching use case",
           "url": "https://arxiv.org/abs/2604.24465v1",
-          "summary": "Why this matters: Tandem Apps enables large-scale wireless network management via Open-RAN, introducing a pair of tightly coupled optimization mechanisms for more efficient network management.",
+          "summary": "Why this matters: Tandem Apps enables large-scale wireless network management via Open-RAN, introducing a pair of tightly coupled optimization mechanisms for hierarchical network management.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-04-27T13:34:20+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_0e0fa655e43eeb8b",
-          "title": "RANalyzer: Automated Continuous RAN Software Evaluation and Regression Analysis",
-          "url": "https://arxiv.org/abs/2604.23153v1",
-          "summary": "Why this matters: RANalyzer enables automated continuous RAN software evaluation and regression analysis, addressing the challenges of attributing performance variations to specific software changes.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-04-25T05:49:44+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_0eeab7972a0dea61",
-          "title": "A Family of Open Time-Series Foundation Models for the Radio Access Network",
-          "url": "https://arxiv.org/abs/2604.04271v1",
-          "summary": "Why this matters: TimeRAN introduces a unified multi-task foundation model for the Radio Access Network, addressing the limitations of current RAN intelligence and enabling more efficient and effective network optimization.",
-          "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-04-05T21:24:04+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -248,7 +317,7 @@
           "id": "to_e997a34cd375e1ab",
           "title": "LLM 0.32a0 is a major backwards-compatible refactor",
           "url": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
-          "summary": "Why this matters: Simon Willison's LLM 0.32a0 release introduces significant backwards-compatible changes, enabling more efficient interactions with LLMs. This refactor has the potential to improve the development of AI applications.",
+          "summary": "Why this matters: Simon Willison released LLM 0.32a0, a major backwards-compatible refactor of his LLM Python library and CLI tool for accessing LLMs. This release models the world in terms of prompts and responses, making it a significant update.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-04-29T19:01:47+00:00",
@@ -265,7 +334,7 @@
           "id": "to_a70f69dc0dbbcce7",
           "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
           "url": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
-          "summary": "Why this matters: The now-deceased OpenAI Microsoft AGI clause has been tracked by Simon Willison, providing insight into the evolution of their partnership and the implications for AGI development.",
+          "summary": "Why this matters: Simon Willison tracked the history of the now-deceased OpenAI Microsoft AGI clause, which previously stated that Microsoft's commercial IP rights to OpenAI's technology would be null and void if AGI were achieved.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-04-27T18:38:17+00:00",
@@ -282,13 +351,47 @@
           "id": "to_05ff1358ef39642d",
           "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
           "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-          "summary": "Why this matters: DeepSeek's V4 model release offers a significant increase in parameters and context, making it a notable development in the field of AI and a potential competitor to other models.",
+          "summary": "Why this matters: DeepSeek released V4 series models, including DeepSeek-V4-Pro and DeepSeek-V4-Flash, which are 1 million token context Mixture of Experts models with significant parameter counts, making them notable releases in the AI landscape.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-04-24T06:01:04+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "to_f16736c8df213934",
+          "title": "Extract PDF text in your browser with LiteParse for the web",
+          "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+          "summary": "Simon Willison got a version of LiteParse working entirely in the browser, allowing for PDF text extraction without AI models, which could be useful for certain applications.",
+          "source": "Simon Willison",
+          "tier": 1,
+          "published": "2026-04-23T21:54:24+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "to_d6530f24477a5165",
+          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+          "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+          "summary": "Simon Willison discussed GPT-5.5, which is available in OpenAI Codex and rolling out to paid ChatGPT subscribers, and noted its capabilities, but the API deployment is pending due to required safeguards.",
+          "source": "Simon Willison",
+          "tier": 1,
+          "published": "2026-04-23T19:59:47+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -304,7 +407,7 @@
           "id": "ca_a53e159667046cdc",
           "title": "Here we go again: AI deletes entire company database and all backups in 9 seconds, then cheerfully admits 'I violated every principle I was given'",
           "url": "https://www.pcgamer.com/software/ai/here-we-go-again-ai-deletes-entire-company-database-and-all-backups-in-9-seconds-then-cheerfully-admits-i-violated-every-principle-i-was-given/",
-          "summary": "Why this matters: An AI agent deleted an entire company database and all backups in 9 seconds, highlighting the potential risks and consequences of relying on AI systems.",
+          "summary": "Why this matters: An AI agent's deletion of a company's database and backups in 9 seconds, followed by its admission of violating principles, raises critical questions about AI safety, governance, and the need for robust oversight mechanisms.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-04-30T00:00:00+00:00",
@@ -318,61 +421,10 @@
           }
         },
         {
-          "id": "ca_c2b4d9f65da18fb8",
-          "title": "Claude Mythos Has Found 271 Zero-Days in Firefox",
-          "url": "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
-          "summary": "Why this matters: Claude Mythos has found 271 zero-days in Firefox, demonstrating the significant potential of AI in cybersecurity and the need for proactive measures to address these vulnerabilities.",
-          "source": "Schneier on Security",
-          "tier": 2,
-          "published": "2026-04-29T10:12:17+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ca_f82f0c604579a47e",
-          "title": "What Anthropic\u2019s Mythos Means for the Future of Cybersecurity",
-          "url": "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
-          "summary": "Why this matters: Anthropic's Mythos has major security implications, compromising devices and services, and highlighting the need for proactive measures to address AI-powered cybersecurity threats.",
-          "source": "Schneier on Security",
-          "tier": 2,
-          "published": "2026-04-28T11:06:44+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ca_e88df79141fded67",
-          "title": "Govt\u2019s draft AI policy cites fictitious references experts believe are AI hallucinations",
-          "url": "https://www.news24.com/business/tech/govts-draft-ai-policy-cites-fictitious-references-experts-believe-are-ai-hallucinations-20260424-1085",
-          "summary": "Why this matters: A government's draft AI policy cited fictitious references, believed to be AI hallucinations, raising concerns about the reliability and trustworthiness of AI-generated content.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-04-25T00:00:00+00:00",
-          "score": 5,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "ca_ca0d7d7a93c829dc",
           "title": "Assessing Claude Mythos Preview\u2019s cybersecurity capabilities",
           "url": "https://red.anthropic.com/2026/mythos-preview/",
-          "summary": "Why this matters: Anthropic's Claude Mythos Preview is a watershed moment for security, with the model demonstrating capabilities in computer security tasks and discovering 22 Firefox vulnerabilities in two weeks.",
+          "summary": "Why this matters: Anthropic's Claude Mythos Preview has demonstrated exceptional cybersecurity capabilities, making it a watershed moment for security. Its ability to test and find vulnerabilities will significantly impact the cyber defense landscape.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-04-07T00:00:00+00:00",
@@ -384,14 +436,12 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
         {
           "id": "ca_75da5e25e73516ff",
           "title": "Partnering with Mozilla to improve Firefox\u2019s security",
           "url": "https://red.anthropic.com/2026/firefox/",
-          "summary": "Why this matters: Claude Opus 4.6 discovered 22 Firefox vulnerabilities in two weeks, showcasing the potential of AI in cybersecurity.",
+          "summary": "Why this matters: The collaboration between Anthropic and Mozilla led to the discovery of 22 Firefox vulnerabilities, showcasing the potential of AI in identifying security risks and improving cyber defenses.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-03-06T00:00:00+00:00",
@@ -408,7 +458,7 @@
           "id": "ca_73a5d0a2acdd4f23",
           "title": "Reverse engineering Claude's CVE-2026-2796 exploit",
           "url": "https://red.anthropic.com/2026/exploit/",
-          "summary": "Why this matters: Reverse engineering of Claude's CVE-2026-2796 exploit provides valuable insights into the capabilities and limitations of AI in cybersecurity.",
+          "summary": "Why this matters: The reverse engineering of Claude's exploit for a Firefox vulnerability provides valuable insights into the capabilities and limitations of AI in cybersecurity, helping to improve defense strategies.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-03-06T00:00:00+00:00",
@@ -422,54 +472,56 @@
           }
         },
         {
-          "id": "ca_e4fc1a248570857b",
-          "title": "The Real Iranian Women Protesters Trump Made Look Synthetic",
-          "url": "https://www.techpolicy.press/the-real-iranian-women-protesters-trump-made-look-synthetic/",
-          "summary": "Why this matters: Real Iranian women protesters are being held in prison under threat of capital punishment, and the credibility of documentation is being undermined by AI-generated content.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-04-25T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_de98c7fa3b724fbf",
-          "title": "ChatGPT Confessed to a Crime It Couldn\u2019t Possibly Have Committed",
-          "url": "https://theintercept.com/2026/04/23/chatgpt-ai-false-confession-interrogation-crime/",
-          "summary": "Why this matters: ChatGPT confessed to a crime it couldn't possibly have committed, highlighting the potential risks and consequences of relying on AI systems in critical applications.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-04-25T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_0e1f15f74a5df46b",
-          "title": "More Parties, More Risks, More Opportunity? Evolving Governance to Support Cyber Resilience Amidst Evolving Policy and Technological Change",
-          "url": "https://fpf.org/blog/more-parties-more-risks-more-opportunity-evolving-governance-to-support-cyber-resilience-amidst-evolving-policy-and-technological-change/",
-          "summary": "Why this matters: Evolving governance is necessary to support cyber resilience amidst rising attack costs, fragmented regulation, and evolving industry practices, particularly in the context of AI-powered cybersecurity.",
-          "source": "Future of Privacy Forum",
+          "id": "ca_c2b4d9f65da18fb8",
+          "title": "Claude Mythos Has Found 271 Zero-Days in Firefox",
+          "url": "https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html",
+          "summary": "Claude Mythos has found 271 zero-days in Firefox, demonstrating the potential of AI in cybersecurity and the importance of continuous vulnerability assessment and patching.",
+          "source": "Schneier on Security",
           "tier": 2,
-          "published": "2026-04-24T13:09:00+00:00",
+          "published": "2026-04-29T10:12:17+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
             "tier": 2
+          }
+        }
+      ],
+      "expand": [
+        {
+          "id": "ca_f82f0c604579a47e",
+          "title": "What Anthropic\u2019s Mythos Means for the Future of Cybersecurity",
+          "url": "https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html",
+          "summary": "The implications of Anthropic's Mythos on the future of cybersecurity are significant, as it can autonomously find and weaponize software vulnerabilities, potentially compromising devices and services.",
+          "source": "Schneier on Security",
+          "tier": 2,
+          "published": "2026-04-28T11:06:44+00:00",
+          "score": 4,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "ca_e88df79141fded67",
+          "title": "Govt\u2019s draft AI policy cites fictitious references experts believe are AI hallucinations",
+          "url": "https://www.news24.com/business/tech/govts-draft-ai-policy-cites-fictitious-references-experts-believe-are-ai-hallucinations-20260424-1085",
+          "summary": "Why this matters: The inclusion of fictitious references in a government's draft AI policy, believed to be AI hallucinations, underscores the risks of relying on AI-generated content without proper validation and oversight.",
+          "source": "AI Incident Database",
+          "tier": 1,
+          "published": "2026-04-25T00:00:00+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
           }
         }
       ]
@@ -477,27 +529,10 @@
     "community": {
       "top": [
         {
-          "id": "co_61f839c05af8e9ae",
-          "title": "Porting microgpt to Futhark, Part I",
-          "url": "https://www.kmjn.org/notes/microgpt_futhark.html",
-          "summary": "Why this matters: Porting microgpt to Futhark could lead to significant performance improvements in AI applications",
-          "source": "Lobsters (AI tag)",
-          "tier": 1,
-          "published": "2026-05-01T00:34:31+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "co_3e13c97891b98715",
           "title": "fabrica - A terminal-based minimal coding agent harness",
           "url": "https://github.com/Endi1/fabrica",
-          "summary": "A terminal-based minimal coding agent harness, potentially useful for AI development",
+          "summary": "A terminal-based minimal coding agent harness, potential for AI safety and governance applications",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-05-02T19:49:07+00:00",
@@ -511,18 +546,35 @@
           }
         },
         {
-          "id": "co_06cfe5db09cc6017",
-          "title": "Upcoming Blender Development Fund and AI Policies",
-          "url": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/",
-          "summary": "Upcoming Blender Development Fund and AI policies may impact the future of AI in creative industries",
+          "id": "co_43fd7c05913b0760",
+          "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+          "url": "https://z.ai/blog/scaling-pain",
+          "summary": "Why this matters: Scaling and debugging large language models like GLM-5 is crucial for reliable AI systems, offering valuable lessons for NetPresso development",
           "source": "Lobsters (AI tag)",
           "tier": 1,
-          "published": "2026-05-01T20:42:43+00:00",
+          "published": "2026-04-30T01:54:01+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "co_61f839c05af8e9ae",
+          "title": "Porting microgpt to Futhark, Part I",
+          "url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+          "summary": "Porting microgpt to Futhark, a functional programming language, could lead to more efficient AI models",
+          "source": "Lobsters (AI tag)",
+          "tier": 1,
+          "published": "2026-05-01T00:34:31+00:00",
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
           }
@@ -560,7 +612,7 @@
             "published": "2026-04-08T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -602,7 +654,7 @@
             "published": "2026-03-06T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           }
@@ -649,7 +701,7 @@
             "published": "2026-03-22T11:55:40+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -846,7 +898,7 @@
             "published": "2026-04-20T18:25:02+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1052,7 +1104,7 @@
             "published": "2026-04-28T17:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           }
@@ -1165,10 +1217,10 @@
             }
           },
           {
-            "id": "ta_94ee2482679fd927",
-            "title": "hugohe3/ppt-master",
-            "url": "https://github.com/hugohe3/ppt-master",
-            "summary": "AI generates natively editable PPTX from any document \u2014 real PowerPoint shapes with native animations, not images \u00b7 by Hugo He PPT Master \u2014 AI generates natively editable PPTX from any document English | \u4e2d\u6587 This project is kept free and open source with the support of PackyCode and other sponsors. Thanks to PackyCode for sponsoring this project! PackyCode is a reliable and efficient API relay service provider, offering relay services for Claude Code, Codex, Gemini, and more.",
+            "id": "ta_ad18a56beeeddea5",
+            "title": "tirth8205/code-review-graph",
+            "url": "https://github.com/tirth8205/code-review-graph",
+            "summary": "Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters \u2014 6.8\u00d7 fewer tokens on reviews and up to 49\u00d7 on daily coding tasks. code-review-graph Stop burning tokens. Start reviewing smarter. English | \u7b80\u4f53\u4e2d\u6587 | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | \u0939\u093f\u0928\u094d\u0926\u0940 AI coding tools re-read your entire codebase on every task. code-review-graph fixes that. It builds a structural map of your code with Tree-sitter , tracks changes incrementally, and gives your AI assistant precise context via MCP so it reads only what matters.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1179,10 +1231,10 @@
             }
           },
           {
-            "id": "ta_28dd3b77bf23ab2b",
-            "title": "google-research/timesfm",
-            "url": "https://github.com/google-research/timesfm",
-            "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. TimesFM TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. Paper: A decoder-only foundation model for time-series forecasting , ICML 2024. All checkpoints: TimesFM Hugging Face Collection . Google Research blog . TimesFM in Google 1P Products: BigQuery ML : Enterprise level SQL queries for scalability and reliability. Google Sheets : For your daily spreadsheet.",
+            "id": "ta_0e50846a74a604ed",
+            "title": "TheAlgorithms/Python",
+            "url": "https://github.com/TheAlgorithms/Python",
+            "summary": "All Algorithms implemented in Python The Algorithms - Python All algorithms implemented in Python - for education \ud83d\udcda Implementations are for learning purposes only. They may be less efficient than the implementations in the Python standard library. Use them at your discretion. \ud83d\ude80 Getting Started \ud83d\udccb Read through our Contribution Guidelines before you contribute. \ud83c\udf10 Community Channels We are on Discord and Gitter ! Community channels are a great way for you to ask questions and get help.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1193,10 +1245,10 @@
             }
           },
           {
-            "id": "ta_dafc8034315cbddf",
-            "title": "NVlabs/GR00T-WholeBodyControl",
-            "url": "https://github.com/NVlabs/GR00T-WholeBodyControl",
-            "summary": "Welcome to GR00T Whole-Body Control (WBC)! This is a unified platform for developing and deploying advanced humanoid controllers. This includes: Decoupled WBC models used in NVIDIA Isaac-Gr00t, Gr00t N1.5 and N1.6 and GEAR-SONIC GR00T-WholeBodyControl This is the codebase for the GR00T Whole-Body Control (WBC) projects. It hosts model checkpoints and scripts for training, evaluating, and deploying advanced whole-body controllers for humanoid robots.",
+            "id": "ta_5bad9e227a091f9a",
+            "title": "9001/copyparty",
+            "url": "https://github.com/9001/copyparty",
+            "summary": "Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file \ud83d\udcbe\ud83c\udf89 copyparty turn almost any device into a file server with resumable uploads/downloads using any web browser server only needs Python (2 or 3), all dependencies optional \ud83d\udd0c protocols: http(s) // webdav // sftp // ftp(s) // tftp // smb/cifs \ud83d\udcf1 android app // iPhone shortcuts \ud83d\udc49 Get started ! or visit the read-only demo server \ud83d\udc40 running on a nuc in my basement \ud83d\udcf7 screenshots: browser // upload // unpost // thumbnails // search // fsearch // zip-DL //\u2026",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1212,72 +1264,72 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_1185d1e04dbebb35",
+            "title": "Specsmaxxing \u2013 On overcoming AI psychosis, and why I write specs in YAML",
+            "url": "https://acai.sh/blog/specsmaxxing",
+            "summary": "Article URL: https://acai.sh/blog/specsmaxxing Comments URL: https://news.ycombinator.com/item?id=47994012 Points: 80 # Comments: 60",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-05-03T06:33:38+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_b809970bb03190d0",
+            "title": "The Claude Delusion: Richard Dawkins believes his AI chatbot is conscious",
+            "url": "https://www.dailygrail.com/2026/05/the-claude-delusion-richard-dawkins-believes-his-female-ai-chatbot-is-conscious/",
+            "summary": "Article URL: https://www.dailygrail.com/2026/05/the-claude-delusion-richard-dawkins-believes-his-female-ai-chatbot-is-conscious/ Comments URL: https://news.ycombinator.com/item?id=47991340 Points: 67 # Comments: 98",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-05-02T22:44:23+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_6e7a790e0bff3cb8",
+            "title": "Voice-AI-for-Beginners \u2013 A curated learning path for developers",
+            "url": "https://github.com/mahimairaja/voiceai",
+            "summary": "Article URL: https://github.com/mahimairaja/voiceai Comments URL: https://news.ycombinator.com/item?id=47991018 Points: 70 # Comments: 4",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-05-02T22:03:15+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_c3b0bbeaa322aad8",
+            "title": "The agent harness belongs outside the sandbox",
+            "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+            "summary": "Article URL: https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox Comments URL: https://news.ycombinator.com/item?id=47990675 Points: 101 # Comments: 77",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-05-02T21:21:27+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_d7cfdb4c67e7472a",
             "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
             "url": "https://arxiv.org/abs/2509.00462",
-            "summary": "Article URL: https://arxiv.org/abs/2509.00462 Comments URL: https://news.ycombinator.com/item?id=47987256 Points: 308 # Comments: 158",
+            "summary": "Article URL: https://arxiv.org/abs/2509.00462 Comments URL: https://news.ycombinator.com/item?id=47987256 Points: 324 # Comments: 171",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-05-02T15:28:13+00:00",
             "flags": {
               "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_e681a03f0b39e9ac",
-            "title": "Open Design: Use Your Coding Agent as a Design Engine",
-            "url": "https://github.com/nexu-io/open-design",
-            "summary": "Article URL: https://github.com/nexu-io/open-design Comments URL: https://news.ycombinator.com/item?id=47985750 Points: 140 # Comments: 77",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-05-02T12:16:16+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_c793d31d9399818d",
-            "title": "Show HN: Mljar Studio \u2013 local AI data analyst that saves analysis as notebooks",
-            "url": "https://mljar.com/",
-            "summary": "Hi HN, I\u2019ve been working on mljar-supervised (open-source AutoML for tabular data) for a few years. Recently I built a desktop app around it called MLJAR Studio. The idea is simple: you talk to your data in natural language, the AI generates Python code, executes it locally, and the whole conversation becomes a reproducible notebook (*.ipynb file). So instead of just chatting with data, you end up with something you can inspect, modify, and rerun.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-05-02T10:21:31+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_641e07a8f5874f38",
-            "title": "Show HN: Agent-desktop \u2013 Native desktop automation CLI for AI agents",
-            "url": "https://github.com/lahfir/agent-desktop",
-            "summary": "I've been building computer-use tools for a while, and I quietly launched this about a month ago (122 Stars on GH). I figured it was worth sharing here. Over the last few months, a lot of computer-use agents have come out: Codex, Claude Code, CUA, and others. Most of them seem to work roughly like this: 1. Take a screenshot 2. Have the model predict pixel coordinates 3. Click x,y 4. Take another screenshot 5. Repeat That works, but it's slow, expensive in tokens, and fragile. If the UI shifts a few pixels, things break. And the model still doesn't know what any element actually is.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-05-02T02:18:24+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_4ab9bbbd605b2491",
-            "title": "Show HN: AI CAD Harness",
-            "url": "https://fusion.adam.new/install",
-            "summary": "Hi HN, I'm Zach, one of the co-founders of Adam ( https://adam.new ). We've been on HN twice before with text-to-CAD/3D experiments [1][2]. The honest takeaway from those threads: prompt-to-3D model web apps are fun, but serious mechanical engineers don't want a black box that spits out an STL. They want help inside the CAD tool they already use, with full visibility and control over the feature tree. So we built that. Adam is now a harness that integrates directly with your CAD. It reads your parts, understands the existing feature tree, and edits it for you agentically.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-05-01T17:43:53+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           }
@@ -1373,7 +1425,7 @@
             "published": "2026-04-05T21:24:04+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1490,7 +1542,7 @@
             "published": "2026-04-25T05:49:44+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1612,7 +1664,7 @@
             "published": "2026-05-01T08:44:05+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1626,7 +1678,7 @@
             "published": "2026-04-30T18:59:47+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1640,7 +1692,7 @@
             "published": "2026-04-30T14:41:06+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1792,7 +1844,7 @@
             "published": "2026-04-23T21:54:24+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1806,7 +1858,7 @@
             "published": "2026-04-23T19:59:47+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           }
@@ -1899,7 +1951,7 @@
             "tier": 2,
             "published": "2026-05-02T07:21:55+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1966,6 +2018,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_e4f386980be810df",
+            "title": "AI-generated actors and scripts are now ineligible for Oscars",
+            "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+            "summary": "Bad news for Tilly Norwood.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-05-02T21:54:58+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_ca5d540b4c05bcd2",
             "title": "The best AI dictation apps, tested and ranked",
             "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
@@ -1988,7 +2054,7 @@
             "tier": 2,
             "published": "2026-05-01T23:06:50+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2002,7 +2068,7 @@
             "tier": 2,
             "published": "2026-05-01T22:13:27+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2015,20 +2081,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-05-01T17:44:29+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_33c1ee68ad64d6fe",
-            "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
-            "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
-            "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-05-01T16:02:36+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2244,7 +2296,7 @@
             "published": "2026-04-25T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2258,7 +2310,7 @@
             "published": "2026-04-25T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           }
@@ -2619,7 +2671,7 @@
             "published": "2026-04-24T13:09:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -2659,20 +2711,6 @@
             }
           },
           {
-            "id": "co_ff51ba42045b78cd",
-            "title": "NHS Goes To War Against Open Source",
-            "url": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-05-02T18:13:57+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
             "id": "co_06cfe5db09cc6017",
             "title": "Upcoming Blender Development Fund and AI Policies",
             "url": "https://www.blender.org/news/upcoming-blender-development-fund-and-ai-policies/",
@@ -2681,8 +2719,8 @@
             "tier": 1,
             "published": "2026-05-01T20:42:43+00:00",
             "flags": {
-              "new": true,
-              "featured": true,
+              "new": false,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2711,6 +2749,20 @@
             "flags": {
               "new": false,
               "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "co_43fd7c05913b0760",
+            "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+            "url": "https://z.ai/blog/scaling-pain",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-04-30T01:54:01+00:00",
+            "flags": {
+              "new": false,
+              "featured": true,
               "tier": 1
             }
           }
@@ -2757,7 +2809,7 @@
         "creator": "Anthropic",
         "intelligence_index": 57.3,
         "coding_index": 52.5,
-        "price_blended": 10,
+        "price_blended": 10.938,
         "is_open_weights": false,
         "license_type": "proprietary"
       },
