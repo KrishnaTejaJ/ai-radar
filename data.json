@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-05-16T14:22:22.482386+00:00",
+    "last_updated": "2026-05-16T20:00:29.098801+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
       "scored": 47,
       "radar_top": 20,
-      "radar_expand": 6
+      "radar_expand": 7
     }
   },
   "radar": {
@@ -16,13 +16,13 @@
           "id": "ta_ad1a0b6f01f5a507",
           "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
           "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: Recent developments in LLM architectures are reducing long-context costs, with notable advancements in KV sharing, mHC, and compressed attention.",
+          "summary": "Why this matters: Sebastian Raschka discusses recent developments in LLM architectures, including KV sharing, mHC, and compressed attention, and their impact on reducing long-context costs.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-05-16T11:33:51+00:00",
           "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": true,
             "featured": true,
@@ -33,13 +33,13 @@
           "id": "ta_c20d71e489714f49",
           "title": "How to Work and Compound with AI",
           "url": "https://eugeneyan.com//writing/working-with-ai/",
-          "summary": "Why this matters: Working with AI requires a deep understanding of context, taste, verification, and scale, highlighting the need for a nuanced approach to AI application development.",
+          "summary": "Why this matters: Eugene Yan discusses how to work and compound with AI, highlighting key concepts like context as infrastructure, taste as configuration, and verification for autonomy.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-05-03T00:00:00+00:00",
           "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -47,10 +47,27 @@
           }
         },
         {
+          "id": "ta_8d6b924dbc62dae7",
+          "title": "I believe there are entire companies right now under AI psychosis",
+          "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+          "summary": "Why this matters: A discussion on AI psychosis in companies, highlighting the potential risks and consequences of AI-driven decision-making and the importance of responsible AI development.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-05-15T20:26:47+00:00",
+          "score": 4,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ta_08d82b53d71043d3",
           "title": "My Workflow for Understanding LLM Architectures",
           "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
-          "summary": "Why this matters: A learning-oriented workflow for understanding new open-weight model releases can help practitioners stay up-to-date with the latest developments in LLMs.",
+          "summary": "Why this matters: Sebastian Raschka shares a learning-oriented workflow for understanding new open-weight model releases, providing valuable insights for practitioners.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-04-18T11:24:36+00:00",
@@ -67,7 +84,7 @@
           "id": "ta_d0c7d5449da94ece",
           "title": "Components of A Coding Agent",
           "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
-          "summary": "Why this matters: Coding agents use tools, memory, and repo context to make LLMs work better in practice, highlighting the importance of integrating these components for effective AI applications.",
+          "summary": "Why this matters: Sebastian Raschka breaks down the components of a coding agent, including tools, memory, and repo context, and how they work together to make LLMs more effective in practice.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-04-04T11:45:37+00:00",
@@ -79,12 +96,14 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "ta_1ea34ba04923e8e0",
           "title": "A Visual Guide to Attention Variants in Modern LLMs",
           "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
-          "summary": "Why this matters: A visual guide to attention variants in modern LLMs can help practitioners understand the complexities of these models and make informed decisions about their applications.",
+          "summary": "Why this matters: Sebastian Raschka provides a visual guide to attention variants in modern LLMs, covering MHA, GQA, MLA, sparse attention, and hybrid architectures.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-03-22T11:55:40+00:00",
@@ -97,16 +116,32 @@
             "tier": 1
           }
         }
-      ],
-      "expand": []
+      ]
     },
     "telecom": {
       "top": [
         {
+          "id": "te_2ecfda94a062105a",
+          "title": "StormShield: Fingerprint-Based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs",
+          "url": "https://arxiv.org/abs/2605.14032v1",
+          "summary": "Why this matters: StormShield can detect and mitigate RRC signaling storms in O-RAN 5G RANs.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-05-13T18:45:50+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "te_dfaf8bb498aad63c",
           "title": "Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN",
           "url": "https://arxiv.org/abs/2605.11516v1",
-          "summary": "Why this matters: Agents can replace narrow predictive AI as the orchestrator in 6G AI-RAN to achieve Level 5 autonomous networks.",
+          "summary": "Why this matters: Agents can replace narrow predictive AI as the orchestrator in 6G AI-RAN for achieving Level 5 autonomous networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-05-12T04:39:34+00:00",
@@ -140,7 +175,7 @@
           "id": "te_9fa386d4cc69c150",
           "title": "Major US telcos back D2D expansion with \u2018dead-zone\u2019 joint venture",
           "url": "https://www.rcrwireless.com/20260515/5g/telcos-d2d-expansion",
-          "summary": "Why this matters: The joint venture between AT&T, T-Mobile, and Verizon reflects industry momentum around satellite-enabled mobile connectivity.",
+          "summary": "Why this matters: The joint venture between AT&T, T-Mobile, and Verizon reflects industry momentum around satellite-enabled mobile connectivity and broader ecosystem development.",
           "source": "RCR Wireless",
           "tier": 2,
           "published": "2026-05-15T13:19:54+00:00",
@@ -169,7 +204,9 @@
             "featured": true,
             "tier": 2
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "te_b441d32513c320dd",
           "title": "Chain-of-Thought Reasoning Enhances In-Context Learning for LLM-Based Mobile Traffic Prediction",
@@ -186,14 +223,12 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
         {
           "id": "te_f8d1e65f165ae293",
           "title": "Hierarchical Cooperative MARL for Joint Downlink PRB and Power Allocation in a 5G System",
           "url": "https://arxiv.org/abs/2605.02149v1",
-          "summary": "Why this matters: Hierarchical cooperative multi-agent reinforcement learning can optimize downlink PRB and power allocation in 5G systems.",
+          "summary": "Why this matters: Hierarchical cooperative MARL can optimize downlink PRB and power allocation in 5G systems.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-04T02:20:43+00:00",
@@ -210,7 +245,7 @@
           "id": "te_5d75068585260d46",
           "title": "An Intelligent eUPF for Time-Sensitive Path Selection in B5G Edge Networks",
           "url": "https://arxiv.org/abs/2605.01475v1",
-          "summary": "Why this matters: An intelligent eUPF design using a Deep Q-Network agent can enable real-time path selection in B5G edge networks.",
+          "summary": "Why this matters: An intelligent eUPF can enable time-sensitive path selection in B5G edge networks.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-02T14:49:21+00:00",
@@ -227,7 +262,7 @@
           "id": "te_4c8a2dfd030d5fb5",
           "title": "MORPH: Multi-Environment Orchestrated Reinforcement Learning for PRB Handling in O-RAN",
           "url": "https://arxiv.org/abs/2605.01128v1",
-          "summary": "Why this matters: MORPH, a multi-environment orchestrated reinforcement learning framework, can improve PRB handling in O-RAN.",
+          "summary": "Why this matters: MORPH can provide multi-environment orchestrated reinforcement learning for PRB handling in O-RAN.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-01T21:55:50+00:00",
@@ -248,7 +283,7 @@
           "id": "to_8568d1e0e7b8f523",
           "title": "Notes on the xAI/Anthropic data center deal",
           "url": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-entries",
-          "summary": "Why this matters: Simon Willison discusses the xAI/Anthropic data center deal and its implications on the environment. The deal involves Anthropic using the capacity of SpaceX/xAI's Colossus data center, which has a poor environmental record.",
+          "summary": "Why this matters: Simon Willison's analysis of the xAI/Anthropic data center deal highlights the environmental concerns surrounding the facility, and the implications of this partnership on the AI industry.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-07T17:09:28+00:00",
@@ -265,7 +300,7 @@
           "id": "to_7e6280c4cd26ca46",
           "title": "Vibe coding and agentic engineering are getting closer than I'd like",
           "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
-          "summary": "Why this matters: Simon Willison talks about the convergence of vibe coding and agentic engineering, highlighting the potential risks and benefits of this development in AI coding tools.",
+          "summary": "Why this matters: Simon Willison's discussion on the convergence of vibe coding and agentic engineering raises important questions about the future of AI development and its potential impact on the industry.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-06T14:24:08+00:00",
@@ -287,7 +322,7 @@
           "id": "ca_55002a15cf36e050",
           "title": "Tumbler Ridge, B.C. lawsuits filed in California court against OpenAI",
           "url": "https://globalnews.ca/news/11821359/tumbler-ridge-bc-lawsuit-filed-california-court-openai/",
-          "summary": "Why this matters: The lawsuit against OpenAI and its founder over the Tumbler Ridge shooting highlights the need for AI companies to prioritize security and responsibility in their operations.",
+          "summary": "Why this matters: Lawsuits filed against OpenAI and its founder over the Tumbler Ridge, B.C. shooting highlight the need for AI companies to prioritize security and responsibility in their products and services.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-05-14T00:00:00+00:00",
@@ -321,7 +356,7 @@
           "id": "ca_c405d86f164d59b9",
           "title": "How Dangerous Is Anthropic\u2019s Mythos AI?",
           "url": "https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html",
-          "summary": "Why this matters: The evaluation of GPT-5.5's ability to find security vulnerabilities highlights the potential of AI models in identifying security risks and improving cyber defenses, emphasizing the need for continued research and development in this area.",
+          "summary": "Why this matters: Schneier's analysis of Anthropic's Claude Mythos Preview highlights the model's exceptional security capabilities and the need for responsible AI development and deployment.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-05-14T11:04:27+00:00",
@@ -338,7 +373,7 @@
           "id": "ca_3bd824b62f91f9ce",
           "title": "Families sue OpenAI over failure to report Canada mass shooter\u2019s behavior on ChatGPT",
           "url": "https://www.theguardian.com/technology/2026/apr/29/openai-tumbler-ridge-shooter-chatgpt-lawsuit",
-          "summary": "Why this matters: The lawsuit against OpenAI over its failure to report the shooter's behavior on ChatGPT underscores the importance of AI companies taking proactive measures to prevent harm and ensure user safety.",
+          "summary": "Why this matters: Families of victims of the Tumbler Ridge, B.C. mass shooting are suing OpenAI, alleging negligence in failing to alert authorities to the shooter's troubling conversations with ChatGPT.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-05-14T00:00:00+00:00",
@@ -355,7 +390,7 @@
           "id": "ca_ed997fc190c7468e",
           "title": "Families of Canadian mass shooting victims sue OpenAI, CEO Altman in US court",
           "url": "https://www.reuters.com/world/families-canadian-mass-shooting-victims-sue-openai-ceo-altman-us-court-2026-04-29/",
-          "summary": "Why this matters: The lawsuit against OpenAI and its CEO over the Tumbler Ridge shooting emphasizes the need for AI companies to be transparent and accountable in their operations, particularly when it comes to user safety and security.",
+          "summary": "Why this matters: Family members of victims of the Canadian mass shooting are suing OpenAI and CEO Sam Altman in U.S. court, alleging the company knew about the shooter's plans eight months before the attack.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-05-14T00:00:00+00:00",
@@ -371,44 +406,10 @@
       ],
       "expand": [
         {
-          "id": "ca_72b3f59ffbcb78ec",
-          "title": "OpenAI's ban of Canada school shooting suspect's account raises scrutiny of other online activity",
-          "url": "https://www.reuters.com/world/openais-ban-canada-school-shooters-account-raises-scrutiny-other-online-activity-2026-02-25/",
-          "summary": "Why this matters: OpenAI's ban of the Canada school shooting suspect's account raises questions about the company's responsibility to monitor and report suspicious activity, highlighting the need for AI companies to prioritize security and user safety.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-05-14T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_c83c6ddc0cc18d65",
-          "title": "OpenAI\u2019s handling of Tumbler Ridge shooter info opens regulation questions",
-          "url": "https://globalnews.ca/news/11687903/openai-tumbler-ridge-shooting-duty-to-inform/",
-          "summary": "Why this matters: OpenAI's handling of information about the Tumbler Ridge shooter raises questions about the regulation of AI companies and their responsibility to inform police about potential security threats.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-05-14T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "ca_bd9ddbbb70387064",
           "title": "OpenAI\u2019s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities",
           "url": "https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html",
-          "summary": "Why this matters: The comparison between GPT-5.5 and Claude Mythos in finding security vulnerabilities underscores the importance of ongoing research and development in AI-powered security solutions, highlighting the potential for AI to improve cyber defenses.",
+          "summary": "Why this matters: OpenAI's GPT-5.5 is comparable to Claude Mythos in finding security vulnerabilities, highlighting the need for ongoing research and development in AI-driven security solutions.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-05-13T11:03:03+00:00",
@@ -419,6 +420,23 @@
             "new": false,
             "featured": true,
             "tier": 2
+          }
+        },
+        {
+          "id": "ca_09e2dacb42d1928b",
+          "title": "AlignmentMay 8, 2026Teaching Claude whyNew research on how we've reduced agentic misalignment.",
+          "url": "https://www.anthropic.com/research/teaching-claude-why",
+          "summary": "Why this matters: New research on reducing agentic misalignment in Claude highlights the importance of AI safety and governance in developing autonomous AI systems.",
+          "source": "Anthropic Research",
+          "tier": 1,
+          "published": "2026-05-08T00:00:00+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
           }
         }
       ]
@@ -786,6 +804,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ta_981b5df62bdb5dce",
+            "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+            "url": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+            "summary": "An eventful month with one flagship release after another",
+            "source": "Interconnects",
+            "tier": 1,
+            "published": "2026-05-16T17:00:11+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "ta_c0b858f1ca366c6f",
             "title": "How open model ecosystems compound",
             "url": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
@@ -835,20 +867,6 @@
             "source": "Interconnects",
             "tier": 1,
             "published": "2026-04-20T18:25:02+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_fd191bccb3e30a63",
-            "title": "My bets on open models, mid-2026",
-            "url": "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026",
-            "summary": "What I expect to come next and why, focused on the open-closed gap.",
-            "source": "Interconnects",
-            "tier": 1,
-            "published": "2026-04-15T18:20:00+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -944,7 +962,7 @@
             "tier": 2,
             "published": "2026-05-15T16:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1161,10 +1179,52 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_bcf76ef70c990993",
+            "title": "US is starting to see heavy job losses in roles exposed to AI",
+            "url": "https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai",
+            "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai Comments URL: https://news.ycombinator.com/item?id=48162354 Points: 106 # Comments: 100",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-05-16T17:59:45+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_bd33394b94fb3ce3",
+            "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+            "url": "https://www.seangoedecke.com/steering-vectors/",
+            "summary": "Article URL: https://www.seangoedecke.com/steering-vectors/ Comments URL: https://news.ycombinator.com/item?id=48160807 Points: 147 # Comments: 55",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-05-16T14:58:16+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_7d5bbe9f7b22c190",
+            "title": "Someone Shared a Real Monet Painting as AI and Asked for Critiques",
+            "url": "https://petapixel.com/2026/05/14/someone-shared-a-real-monet-painting-as-ai-and-asked-for-critiques/",
+            "summary": "Article URL: https://petapixel.com/2026/05/14/someone-shared-a-real-monet-painting-as-ai-and-asked-for-critiques/ Comments URL: https://news.ycombinator.com/item?id=48158110 Points: 51 # Comments: 61",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-05-16T08:30:51+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_9b07d86aa6d34aed",
             "title": "Frontier AI has broken the open CTF format",
             "url": "https://kabir.au/blog/the-ctf-scene-is-dead",
-            "summary": "Article URL: https://kabir.au/blog/the-ctf-scene-is-dead Comments URL: https://news.ycombinator.com/item?id=48157559 Points: 226 # Comments: 190",
+            "summary": "Article URL: https://kabir.au/blog/the-ctf-scene-is-dead Comments URL: https://news.ycombinator.com/item?id=48157559 Points: 290 # Comments: 251",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-05-16T07:01:55+00:00",
@@ -1178,55 +1238,13 @@
             "id": "ta_8d6b924dbc62dae7",
             "title": "I believe there are entire companies right now under AI psychosis",
             "url": "https://twitter.com/mitchellh/status/2055380239711457578",
-            "summary": "https://xcancel.com/mitchellh/status/2055380239711457578 https://hachyderm.io/@mitchellh/116580433508108130 Comments URL: https://news.ycombinator.com/item?id=48153379 Points: 1552 # Comments: 798",
+            "summary": "https://xcancel.com/mitchellh/status/2055380239711457578 https://hachyderm.io/@mitchellh/116580433508108130 Comments URL: https://news.ycombinator.com/item?id=48153379 Points: 1753 # Comments: 958",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-05-15T20:26:47+00:00",
             "flags": {
               "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_df0b2c12ab51e7cb",
-            "title": "Amazon workers under pressure to up their AI usage are making up tasks",
-            "url": "https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks",
-            "summary": "Article URL: https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks Comments URL: https://news.ycombinator.com/item?id=48148337 Points: 365 # Comments: 403",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-05-15T13:28:55+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_01f2a2977aaca686",
-            "title": "Overseas fakers using AI videos to push a narrative of UK decline, BBC finds",
-            "url": "https://www.bbc.co.uk/news/articles/ckgpyn30dp3o",
-            "summary": "Article URL: https://www.bbc.co.uk/news/articles/ckgpyn30dp3o Comments URL: https://news.ycombinator.com/item?id=48146656 Points: 55 # Comments: 47",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-05-15T09:57:03+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_6ae2f26ccaaf6f48",
-            "title": "UK sovereign LLM inference",
-            "url": "https://relax.ai/docs",
-            "summary": "Article URL: https://relax.ai/docs Comments URL: https://news.ycombinator.com/item?id=48146424 Points: 106 # Comments: 111",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-05-15T09:27:26+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           }
@@ -1397,7 +1415,7 @@
             "published": "2026-05-13T18:45:50+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1471,7 +1489,7 @@
             "tier": 2,
             "published": "2026-05-15T16:44:55+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1485,7 +1503,7 @@
             "tier": 2,
             "published": "2026-05-15T15:44:10+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1546,7 +1564,7 @@
             "tier": 2,
             "published": "2026-05-15T16:18:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1915,6 +1933,34 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_f921088cb8348a8a",
+            "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+            "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+            "summary": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-05-16T18:54:28+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_3dacfa9ff5b223f3",
+            "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+            "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+            "summary": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-05-16T15:33:33+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_ddc0ebec5d702df6",
             "title": "The OpenAI trial wraps up, and the Musk founder machine keeps spinning",
             "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
@@ -1923,7 +1969,7 @@
             "tier": 2,
             "published": "2026-05-15T19:24:16+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1937,7 +1983,7 @@
             "tier": 2,
             "published": "2026-05-15T18:14:44+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1950,34 +1996,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-05-15T16:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_5d75227922b66e04",
-            "title": "Runway started by helping filmmakers \u2014 now it wants to beat Google at AI",
-            "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-            "summary": "AI video-generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-05-15T14:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_d9c742e591ee86ce",
-            "title": "Osaurus brings both local and cloud AI models to your Mac",
-            "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-            "summary": "Osaurus\ufffc combines local and cloud AI models in a Mac app that keeps users\u2019 memory, files, and tools on their own hardware.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-05-15T12:19:48+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2090,7 +2108,7 @@
             "published": "2026-05-08T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -2193,7 +2211,7 @@
             "published": "2026-05-14T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2207,7 +2225,7 @@
             "published": "2026-05-14T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           }
