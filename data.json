@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-06-03T21:45:57.319726+00:00",
+    "last_updated": "2026-06-04T10:42:11.111469+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 140,
-      "scored": 50,
+      "fetched": 130,
+      "scored": 41,
       "radar_top": 23,
-      "radar_expand": 6
+      "radar_expand": 5
     }
   },
   "radar": {
@@ -16,13 +16,13 @@
           "id": "ta_97cd97d27d220f15",
           "title": "How we contain Claude across products",
           "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "summary": "Why this matters: Containment strategies for Claude are crucial for preventing potential blast radius as agents grow more capable. Anthropic Engineering shares their learnings from building containment for claude.ai, Claude Code, and Cowork.",
+          "summary": "Anthropic shares lessons on containing Claude across products, highlighting the importance of capping the potential blast radius of growing agents.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-05-25T00:00:00+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -30,10 +30,27 @@
           }
         },
         {
+          "id": "ta_70fbbe037b325925",
+          "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+          "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+          "summary": "Uber's $1,500/month AI limit may serve as a useful signal for AI tool pricing, reflecting the growing importance of AI in business operations.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-06-03T12:25:14+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ta_ad1a0b6f01f5a507",
           "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
           "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: Sebastian Raschka discusses recent developments in LLM architectures, including KV sharing, mHC, and compressed attention, and their impact on reducing long-context costs.",
+          "summary": "Why this matters: Sebastian Raschka's overview of recent developments in LLM architectures, including KV sharing, mHC, and compressed attention, provides critical context for understanding the evolution of open-weight LLMs.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-05-16T11:33:51+00:00",
@@ -50,7 +67,7 @@
           "id": "ta_c20d71e489714f49",
           "title": "How to Work and Compound with AI",
           "url": "https://eugeneyan.com//writing/working-with-ai/",
-          "summary": "Why this matters: Eugene Yan discusses how to work and compound with AI, highlighting key aspects such as context, taste, verification, and delegation, to achieve effective AI-driven outcomes.",
+          "summary": "Why this matters: Eugene Yan's thoughts on how to work and compound with AI, including context as infra, taste as config, and verification for autonomy, provide valuable insights into effective AI collaboration.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-05-03T00:00:00+00:00",
@@ -67,24 +84,26 @@
           "id": "ta_08d82b53d71043d3",
           "title": "My Workflow for Understanding LLM Architectures",
           "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
-          "summary": "Why this matters: Sebastian Raschka shares a learning-oriented workflow for understanding new open-weight model releases, providing valuable insights for practitioners working with LLMs.",
+          "summary": "Why this matters: Sebastian Raschka's workflow for understanding LLM architectures offers a learning-oriented approach that can help practitioners stay up-to-date with new model releases.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-04-18T11:24:36+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "ta_f90fa6cabc2908fd",
           "title": "Scaling Managed Agents: Decoupling the brain from the hands",
           "url": "https://www.anthropic.com/engineering/managed-agents",
-          "summary": "Why this matters: Managed Agents, a hosted service for long-horizon agent work, is built around interfaces that stay stable as harnesses change, allowing for more efficient and scalable agent development.",
+          "summary": "Why this matters: Anthropic's approach to scaling Managed Agents by decoupling the brain from the hands offers valuable insights into stable interfaces for long-horizon agent work.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-04-08T00:00:00+00:00",
@@ -97,14 +116,33 @@
             "tier": 1
           }
         }
-      ],
-      "expand": [
+      ]
+    },
+    "telecom": {
+      "top": [
         {
-          "id": "ta_25995cd83fbf2cdf",
-          "title": "chopratejas/headroom",
-          "url": "https://github.com/chopratejas/headroom",
-          "summary": "Why this matters: The chopratejas/headroom library provides a solution for compressing tool outputs, logs, files, and RAG chunks before they reach the LLM, reducing token count by 60-95% while maintaining answer quality.",
-          "source": "GitHub Python Trending",
+          "id": "te_2a6812b5c6dc3419",
+          "title": "AT&T streamlines fiber plans",
+          "url": "https://www.lightreading.com/broadband/at-t-streamlines-fiber-plans",
+          "summary": "Why this matters: AT&T's streamlined fiber plans could influence Verizon's strategy, and the option to bundle home Internet and wireless at a discount may impact customer retention and acquisition.",
+          "source": "Light Reading",
+          "tier": 2,
+          "published": "2026-06-03T14:02:36+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "te_ac0eeacf91035da1",
+          "title": "Ericsson uses own factory to show private 5G beats Wi-Fi",
+          "url": "https://www.fierce-network.com/wireless/ericsson-uses-own-factory-show-private-5g-beats-wi-fi",
+          "summary": "Why this matters: Ericsson's demonstration of private 5G beating Wi-Fi in its own factory could have significant implications for Verizon's 5G deployment and marketing strategies.",
+          "source": "Fierce Network",
           "tier": 2,
           "published": null,
           "score": 4,
@@ -115,178 +153,105 @@
             "featured": true,
             "tier": 2
           }
-        }
-      ]
-    },
-    "telecom": {
-      "top": [
-        {
-          "id": "te_bb054ff87233869d",
-          "title": "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs",
-          "url": "https://arxiv.org/abs/2606.01925v2",
-          "summary": "Why this matters: This paper proposes QoEReasoner, an agentic reasoning framework for automated and explainable QoE diagnosis in RANs, which can improve the accuracy and efficiency of QoE diagnosis and optimization.",
-          "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-06-01T08:58:07+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
         },
         {
-          "id": "te_82de2ef8678327e7",
-          "title": "A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks",
-          "url": "https://arxiv.org/abs/2606.01312v1",
-          "summary": "Why this matters: This paper proposes a communication-centric hierarchical architecture for Tactical Autonomous Defense Vehicle Networks that integrates edge-assisted Large Language Model reasoning with 6G-enabled connectivity and semantic communication, improving coordination efficiency and reliability.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-05-31T16:00:14+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_4bce5dc2c8aaf1c8",
-          "title": "A Unified E2E Energy Efficiency Testing Framework for Open RAN",
-          "url": "https://arxiv.org/abs/2606.01931v1",
-          "summary": "This paper proposes a unified E2E energy efficiency testing framework for Open RAN, which is relevant to the development and deployment of energy-efficient 5G and 6G networks.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-06-01T09:00:08+00:00",
+          "id": "te_2a5b2f89bf2662ba",
+          "title": "Making sense of the in-home network: how AI is changing broadband operations",
+          "url": "https://www.rcrwireless.com/20260603/wi-fi-2/nokia-corteca-article-sponsored",
+          "summary": "The use of AI in changing broadband operations and improving in-home connectivity may be relevant to Verizon's own efforts to enhance customer experience and network performance.",
+          "source": "RCR Wireless",
+          "tier": 2,
+          "published": "2026-06-03T09:54:11+00:00",
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 1
+            "tier": 2
           }
         },
         {
-          "id": "te_8ffa7ab94df6da97",
-          "title": "RAG-driven Multi-Agent LLM Framework with Task Decomposition for Beyond 5G Auto-Configuration",
-          "url": "https://arxiv.org/abs/2606.01222v1",
-          "summary": "Why this matters: This paper proposes a retrieval-augmented and task decomposition-based multi-agent LLM framework for Beyond 5G network auto-configuration, addressing the challenges of hallucinations and structural inconsistencies in multi-step and complex tasks.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-05-31T13:15:55+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "id": "te_04588e799ae7704c",
+          "title": "Opinion: Rural innovation is just beginning, thanks to broadband",
+          "url": "https://www.fierce-network.com/broadband/opinion-rural-innovation-agenda-just-beginning-thanks-rural-broadband",
+          "summary": "The CEO of NTCA's call for a rural innovation agenda that leverages existing infrastructure could be an opportunity for Verizon to explore new initiatives and partnerships in rural areas.",
+          "source": "Fierce Network",
+          "tier": 2,
+          "published": null,
+          "score": 3,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 1
+            "tier": 2
           }
         },
         {
-          "id": "te_ae9f3651c361984d",
-          "title": "PropLLM: Propagation-Aware Scene Reconstruction for Network Fault Diagnosis",
-          "url": "https://arxiv.org/abs/2606.00582v1",
-          "summary": "Why this matters: This paper proposes PropLLM, a propagation-aware scene reconstruction approach for network fault diagnosis, which can resolve the end-point ambiguity of distinct root-cause faults producing similar symptoms.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-05-30T07:18:42+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "id": "te_6f5dd8dd7f02031c",
+          "title": "Cisco IQ takes aim at aging infrastructure, quantum risk",
+          "url": "https://www.fierce-network.com/cloud/cisco-iq-takes-aim-aging-infrastructure-and-quantum-risk",
+          "summary": "Cisco IQ's expansion with resilience services, quantum readiness assessments, and peer benchmarking tools may be relevant to Verizon's network infrastructure and security planning.",
+          "source": "Fierce Network",
+          "tier": 2,
+          "published": null,
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 1
+            "tier": 2
           }
         }
       ],
-      "expand": [
-        {
-          "id": "te_106ae3798256e3aa",
-          "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
-          "url": "https://arxiv.org/abs/2605.27360v1",
-          "summary": "Why this matters: This paper proposes GENESIS, a framework for harnessing AI agents for autonomous 6G RAN synthesis, research, and testing, which can accelerate the development and deployment of 6G networks.",
-          "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-05-26T17:58:43+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_61fea79ca7eee451",
-          "title": "Advanced AI Service Provisioning in O-RAN through LLM Engine Integration",
-          "url": "https://arxiv.org/abs/2605.23809v1",
-          "summary": "Why this matters: This paper proposes integrating Large Language Models into the Open Radio Access Network architecture to enable advanced AI service provisioning, which can improve the efficiency and effectiveness of RAN control and management.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-05-22T16:12:39+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_dfaf8bb498aad63c",
-          "title": "Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN",
-          "url": "https://arxiv.org/abs/2605.11516v1",
-          "summary": "Why this matters: This paper argues that agents should replace narrow predictive AI as the orchestrator in 6G AI-RAN, which can enable more efficient and effective management of 6G networks.",
-          "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-05-12T04:39:34+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        }
-      ]
+      "expand": []
     },
     "top_stories": {
       "top": [
         {
-          "id": "to_e7b434a8384db1c7",
-          "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
-          "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-entries",
-          "summary": "Why this matters: Simon Willison discusses the latest release of Claude Opus 4.8, highlighting the importance of honesty in AI development and the potential for cost-effective models.",
-          "source": "Simon Willison",
-          "tier": 1,
-          "published": "2026-05-28T23:59:50+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "id": "to_ed66da0fc4221c95",
+          "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+          "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+          "summary": "Lovable's multiyear deal with Google Cloud to expand its footprint and access to Anthropic Claude indicates a growing demand for AI services and potential advancements in AI technology adoption.",
+          "source": "TechCrunch AI",
+          "tier": 2,
+          "published": "2026-06-03T22:56:51+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
-            "new": false,
+            "new": true,
             "featured": true,
-            "tier": 1
+            "tier": 2
           }
         },
         {
-          "id": "to_c4e76da938b9f19d",
-          "title": "I think Anthropic and OpenAI have found product-market fit",
-          "url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-entries",
-          "summary": "Why this matters: Simon Willison analyzes the potential product-market fit of Anthropic and OpenAI, discussing the implications of their profitable quarters and the growing demand for AI solutions.",
+          "id": "to_b1148769570a8037",
+          "title": "Alphabet\u2019s record-breaking $85B raise for Google\u2019s AI business is a helluva good signal",
+          "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
+          "summary": "Alphabet's record-breaking $85 billion raise for Google's AI business signals strong investor appetite for AI-related offerings, which could accelerate AI development and integration across various sectors.",
+          "source": "TechCrunch AI",
+          "tier": 2,
+          "published": "2026-06-03T19:38:32+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "to_e7b434a8384db1c7",
+          "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+          "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-entries",
+          "summary": "Why this matters: Simon Willison highlights the refreshing honesty of Anthropic's release announcement for Claude Opus 4.8, describing it as a modest but tangible improvement. This approach to transparency in AI development is noteworthy.",
           "source": "Simon Willison",
           "tier": 1,
-          "published": "2026-05-27T16:38:35+00:00",
+          "published": "2026-05-28T23:59:50+00:00",
           "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
@@ -297,10 +262,27 @@
           }
         },
         {
+          "id": "to_c4e76da938b9f19d",
+          "title": "I think Anthropic and OpenAI have found product-market fit",
+          "url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-entries",
+          "summary": "Why this matters: Simon Willison discusses how Anthropic and OpenAI may have found product-market fit, with enterprise customers paying for API prices, indicating a significant milestone in the adoption of AI technologies.",
+          "source": "Simon Willison",
+          "tier": 1,
+          "published": "2026-05-27T16:38:35+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "to_2f7f000fe28eeb66",
           "title": "Notes on Pope Leo XIV's encyclical on AI",
           "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-entries",
-          "summary": "Why this matters: Simon Willison examines the Vatican's encyclical on AI, highlighting the document's clear writing on AI ethics and its potential impact on the integration of AI into modern society.",
+          "summary": "Why this matters: The Vatican's encyclical on AI, as discussed by Simon Willison, offers clear insights into the ethics of integrating AI into modern society, a crucial topic for AI governance and safety.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-25T23:58:17+00:00",
@@ -312,12 +294,14 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "to_faf376f098ef681c",
           "title": "Did Google\u2019s AI agents really build an operating system for $916?",
           "url": "https://www.normaltech.ai/p/did-googles-ai-agents-really-build",
-          "summary": "Why this matters: AI Snake Oil evaluates the claim that Google's AI agents built an operating system for $916, emphasizing the importance of independent evaluation in AI development.",
+          "summary": "Why this matters: AI Snake Oil's piece on Google's AI agents building an operating system for $916 highlights the importance of independent evaluation in AI development, questioning the feasibility and implications of such claims.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-05-22T22:24:18+00:00",
@@ -334,7 +318,7 @@
           "id": "to_49766055a737db79",
           "title": "Datasette Agent",
           "url": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-entries",
-          "summary": "Why this matters: Simon Willison introduces Datasette Agent, a new AI assistant for Datasette, and discusses its potential for providing a conversational interface for data analysis.",
+          "summary": "Why this matters: Simon Willison introduces Datasette Agent, an extensible AI assistant for Datasette, marking a significant integration of LLM and Datasette technologies, with potential for advanced data analysis and visualization.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-21T19:52:19+00:00",
@@ -346,14 +330,12 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
         {
           "id": "to_ca121378dca67030",
           "title": "Do AI Risks Require Extraordinary Government Intervention?",
           "url": "https://www.normaltech.ai/p/do-ai-risks-require-extraordinary",
-          "summary": "Why this matters: AI Snake Oil discusses the need for AI governance, arguing that extraordinary government intervention may be necessary to address AI risks.",
+          "summary": "Why this matters: AI Snake Oil discusses the need for extraordinary government intervention in AI risks, emphasizing the hard work required for effective AI governance and the potential consequences of inaction.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-05-21T13:19:41+00:00",
@@ -382,7 +364,7 @@
           "tag": "build",
           "tag_raw": "build",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
           }
@@ -391,11 +373,11 @@
           "id": "ca_a38d4def42ce2a40",
           "title": "OpenAI Sued by Florida\u2019s Attorney General Over AI Harms",
           "url": "https://www.wsj.com/tech/ai/openai-sued-by-floridas-attorney-general-over-ai-harms-8a5113a8",
-          "summary": "Why this matters: The lawsuit against OpenAI over AI harms raises important questions about AI accountability and the need for robust regulations to ensure AI safety.",
+          "summary": "Why this matters: The lawsuit against OpenAI over AI harms highlights the growing concern about AI safety and the need for more effective regulations and safeguards.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-01T00:00:00+00:00",
-          "score": 5,
+          "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
@@ -461,7 +443,7 @@
           "id": "ca_b422e2106904e6e7",
           "title": "Vulnerability Disclosure in the Age of AI",
           "url": "https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html",
-          "summary": "Why this matters: The article on vulnerability disclosure in the age of AI highlights the need for urgent action to address the challenges posed by AI-powered vulnerability discovery and exploitation.",
+          "summary": "Why this matters: The article on vulnerability disclosure in the age of AI emphasizes the need for responsible disclosure practices and the importance of addressing technical debt in the software industry.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-06-01T16:49:39+00:00",
@@ -479,10 +461,27 @@
     "community": {
       "top": [
         {
+          "id": "co_100d7c191b9a25eb",
+          "title": "Introducing RadixAttention to Trellis",
+          "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
+          "summary": "Introduction of RadixAttention to Trellis, with comments.",
+          "source": "Lobsters (AI tag)",
+          "tier": 1,
+          "published": "2026-06-03T07:16:58+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "co_9fab286506b573db",
           "title": "Constraining LLMs Just Like Users",
           "url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
-          "summary": "Why this matters: Constraining LLMs like users can improve AI safety and governance",
+          "summary": "Why this matters: Constraining LLMs to mimic user behavior, with potential applications in AI safety and governance.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-06-01T23:07:30+00:00",
@@ -496,33 +495,16 @@
           }
         },
         {
-          "id": "co_100d7c191b9a25eb",
-          "title": "Introducing RadixAttention to Trellis",
-          "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
-          "summary": "Introduction to RadixAttention on Trellis, worth monitoring for AI advancements",
+          "id": "co_75e8e2da9fb29dc9",
+          "title": "thunderbolt-ibverbs: We have InfiniBand at home",
+          "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+          "summary": "Implementation of InfiniBand at home using thunderbolt-ibverbs.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
-          "published": "2026-06-03T07:16:58+00:00",
+          "published": "2026-06-02T05:20:57+00:00",
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "co_f4e0a68fdfde58d0",
-          "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
-          "url": "https://www.youtube.com/watch?v=139UPjoq7Kw",
-          "summary": "Why this matters: Building machine learning systems for massive floating-point operations has significant implications for 5G and AI",
-          "source": "Lobsters (AI tag)",
-          "tier": 1,
-          "published": "2026-05-29T13:51:42+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -1086,7 +1068,7 @@
             "tier": 2,
             "published": "2026-06-03T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1148,15 +1130,15 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
           {
-            "id": "ta_8d319652f14e2c9b",
-            "title": "microsoft/markitdown",
-            "url": "https://github.com/microsoft/markitdown",
-            "summary": "Python tool for converting files and office documents to Markdown. MarkItDown Important MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest convert_* function needed for your use case (e.g., convert_stream() , or convert_local() ). See the Security Considerations section of the documentation for more information.",
+            "id": "ta_930dd1342c71cfa2",
+            "title": "NousResearch/hermes-agent",
+            "url": "https://github.com/NousResearch/hermes-agent",
+            "summary": "The agent that grows with you Hermes Agent \u2624 The self-improving AI agent built by Nous Research . It's the only agent with a built-in learning loop \u2014 it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop \u2014 talk to it from Telegram while it works on a cloud VM.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1167,10 +1149,10 @@
             }
           },
           {
-            "id": "ta_db1126994486cafd",
-            "title": "D4Vinci/Scrapling",
-            "url": "https://github.com/D4Vinci/Scrapling",
-            "summary": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Effortless Web Scraping for the Modern Web \u0627\u0644\u0639\u0631\u0628\u064a\u0647 | Espa\u00f1ol | Portugu\u00eas (Brasil) | Fran\u00e7ais | Deutsch | \u7b80\u4f53\u4e2d\u6587 | \u65e5\u672c\u8a9e | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \ud55c\uad6d\uc5b4 Selection methods \u00b7 Fetchers \u00b7 Spiders \u00b7 Proxy Rotation \u00b7 CLI \u00b7 MCP Scrapling is an adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl. Its parser learns from website changes and automatically relocates your elements when pages update.",
+            "id": "ta_8d319652f14e2c9b",
+            "title": "microsoft/markitdown",
+            "url": "https://github.com/microsoft/markitdown",
+            "summary": "Python tool for converting files and office documents to Markdown. MarkItDown Important MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest convert_* function needed for your use case (e.g., convert_stream() , or convert_local() ). See the Security Considerations section of the documentation for more information.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1195,10 +1177,10 @@
             }
           },
           {
-            "id": "ta_0d88eaa1830b5f51",
-            "title": "OpenBMB/VoxCPM",
-            "url": "https://github.com/OpenBMB/VoxCPM",
-            "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | \u4e2d\u6587 \ud83d\udc4b Join our community for discussion and support! Feishu | Discord VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture , bypassing discrete tokenization to achieve highly natural and expressive synthesis.",
+            "id": "ta_db1126994486cafd",
+            "title": "D4Vinci/Scrapling",
+            "url": "https://github.com/D4Vinci/Scrapling",
+            "summary": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Effortless Web Scraping for the Modern Web \u0627\u0644\u0639\u0631\u0628\u064a\u0647 | Espa\u00f1ol | Portugu\u00eas (Brasil) | Fran\u00e7ais | Deutsch | \u7b80\u4f53\u4e2d\u6587 | \u65e5\u672c\u8a9e | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \ud55c\uad6d\uc5b4 Selection methods \u00b7 Fetchers \u00b7 Spiders \u00b7 Proxy Rotation \u00b7 CLI \u00b7 MCP Scrapling is an adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl. Its parser learns from website changes and automatically relocates your elements when pages update.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1212,238 +1194,110 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": []
+        "items": [
+          {
+            "id": "ta_fc91750a175db88e",
+            "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+            "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+            "summary": "Article URL: https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html Comments URL: https://news.ycombinator.com/item?id=48392004 Points: 333 # Comments: 249",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-04T00:18:02+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_bd6e28b0572a84d6",
+            "title": "If AI data centers are so great, why are they being built in secret?",
+            "url": "https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why",
+            "summary": "Article URL: https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why Comments URL: https://news.ycombinator.com/item?id=48386529 Points: 84 # Comments: 119",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-03T16:57:11+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_56f4d6c897939c23",
+            "title": "32GB of DDR5 now costs $375 \u2013 AI shortage continues to squeeze PC building",
+            "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+            "summary": "Article URL: https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building Comments URL: https://news.ycombinator.com/item?id=48383241 Points: 401 # Comments: 359",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-03T12:43:43+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_70fbbe037b325925",
+            "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+            "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+            "summary": "https://www.bloomberg.com/news/articles/2026-06-02/uber-caps... ( https://archive.ph/ZrwAy ) Comments URL: https://news.ycombinator.com/item?id=48383056 Points: 491 # Comments: 617",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-03T12:25:14+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_20335de5965c9149",
+            "title": "Mathematicians issue warning as AI rapidly gains ground",
+            "url": "https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground",
+            "summary": "Article URL: https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground Comments URL: https://news.ycombinator.com/item?id=48382052 Points: 241 # Comments: 277",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-03T10:05:48+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          }
+        ]
       }
     },
     "telecom": {
       "arXiv: 5G + LLM": {
         "tier": 1,
-        "items": [
-          {
-            "id": "te_82de2ef8678327e7",
-            "title": "A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks",
-            "url": "https://arxiv.org/abs/2606.01312v1",
-            "summary": "The integration of Artificial Intelligence (AI) and emerging 6G networks introduces new opportunities for scalable coordination in tactical autonomous vehicle systems. This paper proposes a communication-centric hierarchical architecture for Tactical Autonomous Defense Vehicle Networks (TADVNs) that models the integration of edge-assisted Large Language Model (LLM) reasoning with 6G-enabled connectivity and semantic communication. The framework is designed to improve coordination efficiency, reduce communication overhead, and enhance latency resilience under increasing fleet-scale operation.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-05-31T16:00:14+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_8ffa7ab94df6da97",
-            "title": "RAG-driven Multi-Agent LLM Framework with Task Decomposition for Beyond 5G Auto-Configuration",
-            "url": "https://arxiv.org/abs/2606.01222v1",
-            "summary": "While Large Language Models (LLMs) offer a promising path toward intent-driven network management by translating natural language human intents into machine-readable configurations, they often suffer from hallucinations and structural inconsistencies in multi-step and complex tasks. To address these challenges, this paper proposes a retrieval-augmented and task decomposition-based multi-agent LLM framework for Beyond 5G network auto-configuration.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-05-31T13:15:55+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_ae9f3651c361984d",
-            "title": "PropLLM: Propagation-Aware Scene Reconstruction for Network Fault Diagnosis",
-            "url": "https://arxiv.org/abs/2606.00582v1",
-            "summary": "Network faults propagate layer by layer along topology and protocol dependencies, yet operations systems typically observe only symptomatic alerts at the tail end of propagation chains, where distinct root-cause faults may produce highly similar end-point symptoms. Existing approaches, whether rule-based, machine learning (ML)-based, or large language model (LLM)-based, fundamentally map the alert set to a diagnosis in a single pass and are structurally incapable of resolving this end-point ambiguity.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-05-30T07:18:42+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_d998d23fcc0d8049",
-            "title": "SLA-Aware Traffic Steering in Hybrid TN-NTN 5G Backhaul: A Potential Game Approach",
-            "url": "https://arxiv.org/abs/2605.26673v1",
-            "summary": "The integration of Non-Terrestrial Networks (NTN) with Terrestrial Networks (TN) is a key enabler for resilient 5G-Advanced and future 6G backhaul infrastructures. However, managing traffic across these highly asymmetric links remains a significant routing challenge, as systems must support heterogeneous network slices with conflicting service-level agreements (SLAs) while selectively utilizing costly NTN resources.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-05-26T08:12:50+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_61fea79ca7eee451",
-            "title": "Advanced AI Service Provisioning in O-RAN through LLM Engine Integration",
-            "url": "https://arxiv.org/abs/2605.23809v1",
-            "summary": "The Open Radio Access Network (O-RAN) architecture allows AI to be embedded directly into the RAN through modular xApps and rApps, yet creating these applications collecting data, training models, writing code, and deploying them safely remains slow and largely manual. Large Language Models (LLMs) offer strong reasoning and code-generation capabilities but are unsuited for the fast, deterministic inference required in real-time RAN control.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-05-22T16:12:39+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          }
-        ]
+        "items": []
       },
       "arXiv: RAN anomaly": {
         "tier": 1,
-        "items": [
-          {
-            "id": "te_bb054ff87233869d",
-            "title": "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs",
-            "url": "https://arxiv.org/abs/2606.01925v2",
-            "summary": "Diagnosing Quality-of-Experience (QoE) degradations in operational Radio Access Networks (RANs) is a critical but notoriously complex task, traditionally requiring labor-intensive expert analysis over high-dimensional, cross-layer telemetry. While Large Language Models (LLMs) offer unprecedented reasoning capabilities, they are fundamentally unsuited for raw RANs troubleshooting: they fail at numeric time-series analysis, hallucinate protocol-violating causal links, and lack the stateful rigor required for multi-step fault localization.",
-            "source": "arXiv: RAN anomaly",
-            "tier": 1,
-            "published": "2026-06-01T08:58:07+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_106ae3798256e3aa",
-            "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
-            "url": "https://arxiv.org/abs/2605.27360v1",
-            "summary": "Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or research papers into production code; (ii) conformance and interoperability testing; (iii) hardening against field anomalies and diverse deployment environments; (iv) data-driven optimization of network functionalities; (v) discovering and prototyping novel waveforms, functionalities, and capabilities for future standards; and (vi) securing the stack against vulnerabilities.",
-            "source": "arXiv: RAN anomaly",
-            "tier": 1,
-            "published": "2026-05-26T17:58:43+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_dfaf8bb498aad63c",
-            "title": "Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN",
-            "url": "https://arxiv.org/abs/2605.11516v1",
-            "summary": "This position paper argues that to achieve Level 5 autonomous 6G networks, the next generation of Artificial Intelligence in Radio Access Networks (AI-RAN) should transition away from fragmented, narrow predictive models and instead adopt multimodal Large Language Models (LLMs) as central reasoning agents. Current AI-RAN architectures rely on disjointed Deep Neural Networks (DNNs) and Deep Reinforcement Learning (DRL) agents that operate in isolated domains.",
-            "source": "arXiv: RAN anomaly",
-            "tier": 1,
-            "published": "2026-05-12T04:39:34+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_fe04719e8040536e",
-            "title": "Agentic Fuzzing: Opportunities and Challenges",
-            "url": "https://arxiv.org/abs/2605.10074v1",
-            "summary": "Fuzzers and static analyzers find many bugs but struggle with logic bugs in mature codebases. Triggering such a bug often requires multi-step reasoning that produces no distinctive execution feedback, and variants can appear across implementations too different for a single pattern to match. Recent LLM-assisted approaches help, but they use LLMs as auxiliaries rather than as the reasoning engine. We propose agentic fuzzing, a bug-finding approach seeded by historical bugs in which deep agents perform the reasoning directly.",
-            "source": "arXiv: RAN anomaly",
-            "tier": 1,
-            "published": "2026-05-11T06:56:30+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_0eeab7972a0dea61",
-            "title": "A Family of Open Time-Series Foundation Models for the Radio Access Network",
-            "url": "https://arxiv.org/abs/2604.04271v1",
-            "summary": "The Radio Access Network (RAN) is evolving into a programmable and disaggregated infrastructure that increasingly relies on AI-native algorithms for optimization and closed-loop control. However, current RAN intelligence is still largely built from task-specific models tailored to individual functions, resulting in model fragmentation, limited knowledge sharing across tasks, poor generalization, and increased system complexity. To address these limitations, we introduce TimeRAN, a unified multi-task learning framework for time-series modeling in the RAN.",
-            "source": "arXiv: RAN anomaly",
-            "tier": 1,
-            "published": "2026-04-05T21:24:04+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          }
-        ]
+        "items": []
       },
       "arXiv: O-RAN": {
         "tier": 1,
-        "items": [
-          {
-            "id": "te_4bce5dc2c8aaf1c8",
-            "title": "A Unified E2E Energy Efficiency Testing Framework for Open RAN",
-            "url": "https://arxiv.org/abs/2606.01931v1",
-            "summary": "Energy efficiency (EE) is one of the key challenges for contemporary and future mobile networks, including within the Open Radio Access Network (O-RAN) architecture. However, there is a significant gap in common procedures for comparing the EE of both hardware (HW) and software (SW) solutions offered by various vendors. Usually, EE improvements of both SW and HW solutions are demonstrated in a specific scenario defined by individual vendors avoiding comparisons and benchmarking under various network conditions. This paper outlines the need for unified end-to-end (E2E) EE testing for O-RAN.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-06-01T09:00:08+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_058eff279a1f85f4",
-            "title": "Digital Twin-Assisted Adaptive Multi-Agent DRL for Intelligent Spectrum and Resource Management in Open-RAN UAV-Enabled 6G Networks",
-            "url": "https://arxiv.org/abs/2606.01324v1",
-            "summary": "The evolution toward 6G wireless networks envisions a seamlessly intelligent, Open-RAN-enabled architecture where unmanned aerial vehicles (UAVs) play a pivotal role in extending coverage, enhancing resilience, and ensuring reliable connectivity for ground users deployment. However, efficiently managing spectrum and resources in such highly dynamic UAV-assisted environments remains a major challenge due to nonlinear system interactions, mobility-induced topology variations, and stringent latency and energy constraints.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-05-31T16:19:28+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_0b9033b4c8232f65",
-            "title": "Temporally Encoded Double DQN for Proactive PRB Allocation in O-RAN Enabled Industrial Networks",
-            "url": "https://arxiv.org/abs/2605.30630v1",
-            "summary": "Fifth-generation (5G) wireless systems are increasingly adopted in smart manufacturing to support heterogeneous industrial workloads through services such as enhanced Mobile Broadband (eMBB) and Ultra-Reliable Low-Latency Communication (URLLC). However, industrial traffic is inherently process-driven and temporally correlated. So, static or reactive schedulers in the Open Radio Access Network (O-RAN) are inadequate for such non-stationary conditions, leading to sub-optimal utilization and violation of latency-reliability guarantees.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-05-28T22:30:55+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_2f5c783f24c59764",
-            "title": "Jamming-Resilient PRB Reservation for Latency-Critical O-RAN Network Slicing",
-            "url": "https://arxiv.org/abs/2605.30622v1",
-            "summary": "Open radio access network (O-RAN) architectures enable near real-time, software-driven control of network slicing through programmable xApps deployed on the near-real-time RAN Intelligent Controller (near-RT RIC). In industrial 5G downlink systems, adversarial jamming can abruptly reduce the effective physical resource block (PRB) capacity, triggering queue buildup and persistent latency violations, particularly in the presence of low spectral efficiency cell edge user equipments. This paper proposes a reserve-based resilience framework for PRB allocation in sliced O-RAN deployments.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-05-28T22:18:25+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_fda4c5f9323a0d9f",
-            "title": "Intent-Based Orchestration in Open RAN: An ns-3 Simulation Framework",
-            "url": "https://arxiv.org/abs/2605.30079v1",
-            "summary": "This paper presents an extensible ns-3-based simulation framework for evaluating intent-based, semantics-aware control in Open RAN architectures. The framework integrates external Radio Access Network (RAN) Intelligent Controller (RIC) components and supports fine-grained control via internal distributed applications (dApps), enabling intent-based RAN orchestration across different timescales while maintaining standardized network behavior. As an illustrative use case, we implement an intent-based dApp for radio resource management (RRM) under realistic observability constraints.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-05-28T15:26:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          }
-        ]
+        "items": []
       },
       "Light Reading": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_46be1d05c2e5d727",
+            "title": "Openreach fiber monopoly is a growing threat, says Nexfibre CEO",
+            "url": "https://www.lightreading.com/fttx/openreach-fiber-monopoly-is-a-growing-threat-says-nexfibre-ceo",
+            "summary": "Without the wholesale competition a Netomnia takeover would create, the UK could be stuck with a dominant Openreach, says Nexfibre CEO Rajiv Datta, citing new research.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-06-04T07:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_b97ef620ae170d90",
             "title": "Dobson Fiber connects with Reach on mobile launch",
@@ -1482,7 +1336,7 @@
             "published": "2026-06-03T14:02:36+00:00",
             "flags": {
               "new": true,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1494,20 +1348,6 @@
             "source": "Light Reading",
             "tier": 2,
             "published": "2026-06-03T13:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_b0d2a66764042189",
-            "title": "Eurobites: Ofcom highlights poor mobile coverage on trains, surprises no one",
-            "url": "https://www.lightreading.com/regulatory-politics/eurobites-ofcom-highlights-poor-mobile-coverage-on-trains-surprises-no-one",
-            "summary": "Also in today's EMEA regional roundup: ViaTunisia subsea cable section ready for service; CMA helps publishers fight back in the AI battle; latest on Meta's 'gatekeeper' status.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-06-03T12:55:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1570,8 +1410,8 @@
             "tier": 2,
             "published": "2026-06-03T09:54:11+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
+              "new": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1584,7 +1424,7 @@
             "tier": 2,
             "published": "2026-06-03T09:29:38+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1595,6 +1435,48 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_04588e799ae7704c",
+            "title": "Opinion: Rural innovation is just beginning, thanks to broadband",
+            "url": "https://www.fierce-network.com/broadband/opinion-rural-innovation-agenda-just-beginning-thanks-rural-broadband",
+            "summary": "The CEO of NTCA says CSPs \u201cshould pivot to a rural innovation agenda\u201d that builds on past investments and leverages existing infrastructure to empower innovation.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_ac0eeacf91035da1",
+            "title": "Ericsson uses own factory to show private 5G beats Wi-Fi",
+            "url": "https://www.fierce-network.com/wireless/ericsson-uses-own-factory-show-private-5g-beats-wi-fi",
+            "summary": "LEWISVILLE, TEXAS \u2014 Ericsson is practicing what it preaches at its 5G USA Smart Factory in this northwestern Dallas suburb.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_428dd7776b07d390",
+            "title": "Ericsson cranks out massive MIMO radios at its Texas factory",
+            "url": "https://www.fierce-network.com/wireless/ericsson-cranks-out-massive-mimo-radios-its-texas-factory",
+            "summary": "Some of the circuit boards for Ericsson's massive MIMO radios are truly, well, massive.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_6f5dd8dd7f02031c",
             "title": "Cisco IQ takes aim at aging infrastructure, quantum risk",
             "url": "https://www.fierce-network.com/cloud/cisco-iq-takes-aim-aging-infrastructure-and-quantum-risk",
@@ -1604,7 +1486,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1613,48 +1495,6 @@
             "title": "AT&T launches simple fiber plans",
             "url": "https://www.fierce-network.com/newswire/att-launches-simple-fiber-plans",
             "summary": "The telco simplified its wireless plans, and now it's doing the same with fiber home internet options.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_6c0144b8d75de7b4",
-            "title": "Ex-DT exec Abdu Mudesir to join Verizon",
-            "url": "https://www.fierce-network.com/broadband/ex-dt-exec-abdu-mudesir-join-verizon-report",
-            "summary": "Is Abdu Mudesir the ace up Dan Schulman\u2019s sleeve as Verizon seeks to turn the ship around?",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_969b6d880ccd8740",
-            "title": "AWS-3 auction gets off to a slow start",
-            "url": "https://www.fierce-network.com/wireless/aws-3-auction-slow-start",
-            "summary": "Wildcard SpaceX doesn\u2019t appear to be significantly in the mix, though it\u2019s hard to tell.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_b8b269b7f40e8d5a",
-            "title": "Opinion: Watch out, Ray. It's the Feds!",
-            "url": "https://www.fierce-network.com/modernization/opinion-watch-out-ray-its-feds",
-            "summary": "The trial follows more than two decades of allegations, investigations, sanctions and hearings. As part of its preparations for the case, the FBI recently contacted former Light Reading.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1822,6 +1662,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_91a4ee214fae5415",
+            "title": "[AINews] Reve 2 and Ideogram 4: Layouts in Imagegen",
+            "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
+            "summary": "a quiet day.",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-06-04T03:24:07+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_5b15e9e57c5cf2d8",
             "title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
             "url": "https://www.latent.space/p/axiom",
@@ -1858,7 +1712,7 @@
             "tier": 2,
             "published": "2026-06-03T05:49:02+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1876,26 +1730,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "to_5a1b496d47f864c2",
-            "title": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
-            "url": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
-            "summary": "Jensen scores a huge win.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-06-02T03:28:10+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "TechCrunch AI": {
         "tier": 2,
         "items": [
+          {
+            "id": "to_ed66da0fc4221c95",
+            "title": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+            "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+            "summary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-06-03T22:56:51+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
           {
             "id": "to_b1148769570a8037",
             "title": "Alphabet\u2019s record-breaking $85B raise for Google\u2019s AI business is a helluva good signal",
@@ -1906,7 +1760,7 @@
             "published": "2026-06-03T19:38:32+00:00",
             "flags": {
               "new": true,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1951,20 +1805,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "to_ce79f8488912436d",
-            "title": "Publishers will be able to opt out of AI Search, thanks to new regulation",
-            "url": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
-            "summary": "U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features. The option will be tested in the U.K. then rolled out globally.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-06-03T14:58:33+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       }
@@ -1982,7 +1822,7 @@
             "tier": 1,
             "published": "2026-06-03T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
@@ -2576,6 +2416,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "co_573d8a7d60931213",
+            "title": "What happened to tab autocomplete?",
+            "url": "https://lobste.rs/s/humg0y/what_happened_tab_autocomplete",
+            "summary": "Does anyone still use them? Now that agentic programming software are available.",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-06-04T09:32:30+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "co_100d7c191b9a25eb",
             "title": "Introducing RadixAttention to Trellis",
             "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
@@ -2584,7 +2438,7 @@
             "tier": 1,
             "published": "2026-06-03T07:16:58+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
@@ -2599,7 +2453,7 @@
             "published": "2026-06-02T05:20:57+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -2628,20 +2482,6 @@
             "flags": {
               "new": false,
               "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "co_f4e0a68fdfde58d0",
-            "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
-            "url": "https://www.youtube.com/watch?v=139UPjoq7Kw",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-05-29T13:51:42+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
               "tier": 1
             }
           }
@@ -2770,6 +2610,17 @@
         "license_type": "proprietary"
       },
       {
+        "name": "MiniMax-M3",
+        "slug": "minimax-m3",
+        "url": "https://artificialanalysis.ai/models/minimax-m3",
+        "creator": "MiniMax",
+        "intelligence_index": 54.7,
+        "coding_index": 43.4,
+        "price_blended": 0,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
         "name": "Kimi K2.6",
         "slug": "kimi-k2-6",
         "url": "https://artificialanalysis.ai/models/kimi-k2-6",
@@ -2867,35 +2718,12 @@
         "price_blended": 2.925,
         "is_open_weights": false,
         "license_type": "proprietary"
-      },
-      {
-        "name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
-        "slug": "claude-sonnet-4-6-adaptive",
-        "url": "https://artificialanalysis.ai/models/claude-sonnet-4-6-adaptive",
-        "creator": "Anthropic",
-        "intelligence_index": 51.7,
-        "coding_index": 50.9,
-        "price_blended": 6.563,
-        "is_open_weights": false,
-        "license_type": "proprietary"
       }
     ],
     "default_sort": "intelligence_index",
     "new_entrants": {
-      "all": [
-        "claude-opus-4-8",
-        "gpt-5-5",
-        "gpt-5-5-high",
-        "claude-opus-4-7",
-        "gemini-3-1-pro-preview"
-      ],
-      "paid": [
-        "claude-opus-4-8",
-        "gpt-5-5",
-        "gpt-5-5-high",
-        "claude-opus-4-7",
-        "gemini-3-1-pro-preview"
-      ],
+      "all": [],
+      "paid": [],
       "open": []
     },
     "previous_top_slugs": {
