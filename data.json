@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-06-06T14:42:35.156371+00:00",
+    "last_updated": "2026-06-06T20:07:00.681731+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
-      "scored": 50,
+      "scored": 60,
       "radar_top": 23,
-      "radar_expand": 9
+      "radar_expand": 12
     }
   },
   "radar": {
@@ -16,7 +16,7 @@
           "id": "ta_f3d1448df6a6df02",
           "title": "LLM Research Papers: The 2026 List (January to May)",
           "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-          "summary": "Why this matters: Sebastian Raschka's curated list of notable LLM research papers from 2026 provides valuable insights into the latest advancements in the field.",
+          "summary": "Why this matters: Sebastian Raschka's curated roundup of notable LLM research papers provides valuable insights into the latest advancements in the field.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-06T11:16:22+00:00",
@@ -33,13 +33,13 @@
           "id": "ta_97cd97d27d220f15",
           "title": "How we contain Claude across products",
           "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "summary": "Why this matters: Anthropic Engineering shares lessons on containing Claude across products, highlighting the importance of capping the potential blast radius of growing agents.",
+          "summary": "Anthropic Engineering shares lessons learned from building containment for Claude, highlighting the importance of capping the potential blast radius of growing agents.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-05-25T00:00:00+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -47,10 +47,44 @@
           }
         },
         {
+          "id": "ta_774ae3508360655b",
+          "title": "Police in England and Wales told to halt AI use in court statements",
+          "url": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
+          "summary": "Hacker News discusses the use of AI in court statements, highlighting the potential risks and challenges of relying on AI-generated evidence.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-06-06T15:35:49+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "ta_3027bff6802bc30d",
+          "title": "US House lawmakers release draft bill to prohibit state AI rules",
+          "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
+          "summary": "Hacker News discusses the potential implications of a draft bill to prohibit state AI rules, highlighting the need for careful consideration of the regulatory environment for AI.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-06-06T13:40:22+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ta_ad1a0b6f01f5a507",
           "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
           "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: Sebastian Raschka explores recent developments in LLM architectures, including KV sharing, mHC, and compressed attention, and their potential to reduce long-context costs.",
+          "summary": "Why this matters: Sebastian Raschka's analysis of recent developments in LLM architectures highlights key trends and innovations, including KV sharing, mHC, and compressed attention.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-05-16T11:33:51+00:00",
@@ -62,12 +96,14 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "ta_c20d71e489714f49",
           "title": "How to Work and Compound with AI",
           "url": "https://eugeneyan.com//writing/working-with-ai/",
-          "summary": "Why this matters: Eugene Yan discusses how to work and compound with AI, highlighting the importance of context, taste, verification, and delegation in achieving autonomy and scale.",
+          "summary": "Why this matters: Eugene Yan's essay on how to work and compound with AI provides valuable insights into the potential of AI to augment human capabilities.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-05-03T00:00:00+00:00",
@@ -96,24 +132,56 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
         {
-          "id": "ta_f90fa6cabc2908fd",
-          "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-          "url": "https://www.anthropic.com/engineering/managed-agents",
-          "summary": "Why this matters: Anthropic Engineering discusses scaling managed agents by decoupling the brain from the hands, enabling stable interfaces despite changing harnesses.",
-          "source": "Anthropic Engineering",
-          "tier": 1,
-          "published": "2026-04-08T00:00:00+00:00",
+          "id": "ta_25995cd83fbf2cdf",
+          "title": "chopratejas/headroom",
+          "url": "https://github.com/chopratejas/headroom",
+          "summary": "Why this matters: The headroom library provides a valuable tool for compressing tool outputs, logs, and files before they reach the LLM, reducing the number of tokens and improving efficiency.",
+          "source": "GitHub Python Trending",
+          "tier": 2,
+          "published": null,
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 1
+            "tier": 2
+          }
+        },
+        {
+          "id": "ta_d00d272b2b99c11f",
+          "title": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "summary": "Why this matters: The Agent-Reach project provides a valuable tool for giving AI agents access to a wide range of online resources, including Twitter, Reddit, and YouTube.",
+          "source": "GitHub Python Trending",
+          "tier": 2,
+          "published": null,
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "ta_01e478ba125afa0c",
+          "title": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "summary": "Why this matters: The last30days-skill project provides a valuable tool for researching topics across multiple online platforms, including Reddit, X, and YouTube.",
+          "source": "GitHub Python Trending",
+          "tier": 2,
+          "published": null,
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
           }
         }
       ]
@@ -124,7 +192,7 @@
           "id": "te_8ffa7ab94df6da97",
           "title": "RAG-driven Multi-Agent LLM Framework with Task Decomposition for Beyond 5G Auto-Configuration",
           "url": "https://arxiv.org/abs/2606.01222v1",
-          "summary": "Why this matters: The RAG-driven multi-agent LLM framework can address the challenges of intent-driven network management and provide a more efficient and effective way to configure networks.",
+          "summary": "Why this matters: The RAG-driven multi-agent LLM framework can address the challenges of intent-driven network management by translating natural language human intents into machine-readable configurations, and can provide a promising path toward Beyond 5G network auto-configuration.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-31T13:15:55+00:00",
@@ -141,7 +209,7 @@
           "id": "te_c48471b378507e3a",
           "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
           "url": "https://arxiv.org/abs/2606.06261v1",
-          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN that can help detect Denial-of-Service and performance-degradation attacks.",
+          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN, which can help detect Denial-of-Service and performance-degradation attacks in O-RAN networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-04T15:05:04+00:00",
@@ -158,7 +226,7 @@
           "id": "te_c48471b378507e3a",
           "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
           "url": "https://arxiv.org/abs/2606.06261v1",
-          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN that can help detect Denial-of-Service and performance-degradation attacks.",
+          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN, which can help detect Denial-of-Service and performance-degradation attacks in O-RAN networks.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-06-04T15:05:04+00:00",
@@ -211,13 +279,13 @@
           "id": "te_bb054ff87233869d",
           "title": "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs",
           "url": "https://arxiv.org/abs/2606.01925v2",
-          "summary": "Why this matters: QoEReasoner is an agentic reasoning framework for automated and explainable QoE diagnosis in RANs that can help diagnose QoE degradations in operational RANs.",
+          "summary": "Why this matters: QoEReasoner is an agentic reasoning framework for automated and explainable QoE diagnosis in RANs, which can help diagnose Quality-of-Experience degradations in operational Radio Access Networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-01T08:58:07+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -228,13 +296,13 @@
           "id": "te_82de2ef8678327e7",
           "title": "A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks",
           "url": "https://arxiv.org/abs/2606.01312v1",
-          "summary": "Why this matters: The proposed 6G-LLM architecture for scalable tactical autonomous defense vehicle networks can improve coordination efficiency and reduce the risk of attacks.",
+          "summary": "Why this matters: The proposed 6G-LLM architecture for Tactical Autonomous Defense Vehicle Networks can improve coordination efficiency and provide scalable coordination in tactical autonomous vehicle systems.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-31T16:00:14+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -245,13 +313,13 @@
           "id": "te_ae9f3651c361984d",
           "title": "PropLLM: Propagation-Aware Scene Reconstruction for Network Fault Diagnosis",
           "url": "https://arxiv.org/abs/2606.00582v1",
-          "summary": "Why this matters: PropLLM is a propagation-aware scene reconstruction approach for network fault diagnosis that can help resolve the end-point ambiguity in network faults.",
+          "summary": "Why this matters: PropLLM is a propagation-aware scene reconstruction approach for network fault diagnosis, which can help resolve the end-point ambiguity in network faults and provide more accurate diagnosis.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-30T07:18:42+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -262,13 +330,13 @@
           "id": "te_106ae3798256e3aa",
           "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
           "url": "https://arxiv.org/abs/2605.27360v1",
-          "summary": "Why this matters: GENESIS is a framework for harnessing AI agents for autonomous 6G RAN synthesis, research, and testing that can help accelerate the development of 6G networks.",
+          "summary": "Why this matters: GENESIS is a framework for harnessing AI agents for autonomous 6G RAN synthesis, research, and testing, which can help accelerate the development of 6G networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-05-26T17:58:43+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -279,13 +347,13 @@
           "id": "te_dfaf8bb498aad63c",
           "title": "Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN",
           "url": "https://arxiv.org/abs/2605.11516v1",
-          "summary": "Why this matters: Agents should replace narrow predictive AI as the orchestrator in 6G AI-RAN to achieve Level 5 autonomous 6G networks.",
+          "summary": "Why this matters: Agents should replace narrow predictive AI as the orchestrator in 6G AI-RAN, which can help achieve Level 5 autonomous 6G networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-05-12T04:39:34+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -300,7 +368,7 @@
           "id": "to_36b9d8e29ea0cbd7",
           "title": "Running Python code in a sandbox with MicroPython and WASM",
           "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-entries",
-          "summary": "Why this matters: Simon Willison's micropython-wasm package enables running Python code in a sandbox, a crucial step for secure AI development. This innovation has significant implications for Datasette Agent and other applications.",
+          "summary": "Why this matters: Simon Willison's experiment with running Python code in a sandbox using MicroPython and WASM could lead to significant advancements in secure code execution. His release of micropython-wasm as an alpha package is a notable development.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-06T03:53:34+00:00",
@@ -314,27 +382,10 @@
           }
         },
         {
-          "id": "to_45457fdab2558053",
-          "title": "The token bill comes due: Inside the industry scramble to manage AI\u2019s runaway costs",
-          "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
-          "summary": "The industry's scramble to manage AI's runaway costs indicates a shift towards more responsible and controlled AI development, with companies recognizing the need for guardrails and cost management strategies.",
-          "source": "TechCrunch AI",
-          "tier": 2,
-          "published": "2026-06-05T14:49:12+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
           "id": "to_e7b434a8384db1c7",
           "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
           "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-entries",
-          "summary": "Why this matters: Anthropic's honest description of Claude Opus 4.8 as a minor incremental improvement showcases a refreshing approach to AI development, highlighting the importance of transparency and humility in the field.",
+          "summary": "Why this matters: Anthropic's release of Claude Opus 4.8, described as a modest but tangible improvement, showcases the company's commitment to transparency and incremental progress in AI development.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-28T23:59:50+00:00",
@@ -351,7 +402,7 @@
           "id": "to_c4e76da938b9f19d",
           "title": "I think Anthropic and OpenAI have found product-market fit",
           "url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-entries",
-          "summary": "Why this matters: Simon Willison's analysis of Anthropic and OpenAI finding product-market fit underscores the growing demand for AI solutions, emphasizing the need for responsible development and deployment of AI technologies.",
+          "summary": "Why this matters: Simon Willison's analysis of Anthropic and OpenAI finding product-market fit highlights the growing demand for AI solutions in the enterprise sector and the potential for significant revenue growth.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-27T16:38:35+00:00",
@@ -365,29 +416,10 @@
           }
         },
         {
-          "id": "to_2f7f000fe28eeb66",
-          "title": "Notes on Pope Leo XIV's encyclical on AI",
-          "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-entries",
-          "summary": "Why this matters: Pope Leo XIV's encyclical on AI ethics provides a clear and thoughtful perspective on integrating AI into modern society, offering valuable insights for developers, policymakers, and the general public.",
-          "source": "Simon Willison",
-          "tier": 1,
-          "published": "2026-05-25T23:58:17+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        }
-      ],
-      "expand": [
-        {
           "id": "to_faf376f098ef681c",
           "title": "Did Google\u2019s AI agents really build an operating system for $916?",
           "url": "https://www.normaltech.ai/p/did-googles-ai-agents-really-build",
-          "summary": "Why this matters: The critical evaluation of Google's AI agents building an operating system highlights the importance of independent assessment in AI development, ensuring that claims are substantiated and progress is accurately measured.",
+          "summary": "Why this matters: The evaluation of Google's AI agents building an operating system for $916 raises important questions about the feasibility and cost-effectiveness of such projects, highlighting the need for independent assessment.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-05-22T22:24:18+00:00",
@@ -399,8 +431,26 @@
             "featured": true,
             "tier": 1
           }
+        },
+        {
+          "id": "to_60784992d4416d5f",
+          "title": "How to Stop Shipping Low-Quality RL Environments (with Examples)",
+          "url": "https://www.latent.space/p/bad-envs",
+          "summary": "The discussion on how to stop shipping low-quality RL environments provides practical advice for improving the development of reinforcement learning models, but its significance may be limited to specific use cases.",
+          "source": "Latent Space",
+          "tier": 2,
+          "published": "2026-06-05T18:49:40+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
         }
-      ]
+      ],
+      "expand": []
     },
     "cautionary": {
       "top": [
@@ -408,7 +458,7 @@
           "id": "ca_1a92e62bc4152944",
           "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
           "url": "https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/",
-          "summary": "Why this matters: The incident where hackers used Meta's AI support chatbot to break into Instagram accounts highlights significant security vulnerabilities in AI-powered customer support systems.",
+          "summary": "Why this matters: Hackers using Meta's AI support chatbot to break into high-profile Instagram accounts exposes significant security vulnerabilities in AI-powered systems.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-04T00:00:00+00:00",
@@ -425,7 +475,7 @@
           "id": "ca_83e1167968632530",
           "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
           "url": "https://red.anthropic.com/2026/attack-navigator/",
-          "summary": "Why this matters: Anthropic's research on AI-enabled cyber threats provides valuable insights for improving cyber security. Their analysis of real-world attacks using the MITRE ATT&CK framework can help inform defense strategies.",
+          "summary": "Why this matters: Mapping AI-enabled cyber threats onto the MITRE ATT&CK framework reveals real-world attacks and trends in AI-enabled cyber operations.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-03T00:00:00+00:00",
@@ -439,27 +489,10 @@
           }
         },
         {
-          "id": "ca_a073789780b0ecae",
-          "title": "Scientists Find Way to Supercharge Dangerous Computer \u2018Worms\u2019 With A.I.",
-          "url": "https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html",
-          "summary": "Why this matters: The ability of scientists to use AI to supercharge dangerous computer worms poses a substantial threat to cyber security, necessitating the development of effective countermeasures.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-06-04T00:00:00+00:00",
-          "score": 5,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "ca_7463f2cf354c19a1",
           "title": "Measuring LLMs' Ability to Develop Exploits",
           "url": "https://red.anthropic.com/2026/exploit-evals/",
-          "summary": "Why this matters: The development of exploits by AI models like Mythos Preview poses significant security risks, highlighting the need for robust defenses against AI-powered attacks.",
+          "summary": "Why this matters: Evaluating LLMs' ability to develop exploits shows Mythos Preview outperforms other models, indicating a significant drop in the knowledge required to develop exploits.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-05-22T00:00:00+00:00",
@@ -476,7 +509,7 @@
           "id": "ca_ca0d7d7a93c829dc",
           "title": "Assessing Claude Mythos Preview\u2019s cybersecurity capabilities",
           "url": "https://red.anthropic.com/2026/mythos-preview/",
-          "summary": "Why this matters: Claude Mythos Preview's capabilities in computer security tasks underscore the potential for AI to both enhance and threaten cyber security, emphasizing the importance of careful AI development and deployment.",
+          "summary": "Why this matters: Assessing Claude Mythos Preview's cybersecurity capabilities reveals its striking capabilities in computer security tasks, marking a watershed moment for security.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-04-07T00:00:00+00:00",
@@ -488,14 +521,12 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
         {
           "id": "ca_0945b9c8743caa99",
           "title": "AI Worm",
           "url": "https://www.schneier.com/blog/archives/2026/06/ai-worm.html",
-          "summary": "Why this matters: The prototype of an AI-powered internet worm that carries its own LLM and runs it on compromised computers represents a significant evolution in cyber threats, requiring immediate attention from security experts.",
+          "summary": "Why this matters: The development of an AI-powered internet worm that carries its own LLM and runs it on compromised computers poses significant security threats.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-06-05T13:21:23+00:00",
@@ -507,12 +538,14 @@
             "featured": true,
             "tier": 2
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "ca_c2d2bb623da7aab5",
           "title": "Hacking Meta\u2019s AI Chatbot",
           "url": "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
-          "summary": "Why this matters: Hackers convincing Meta's AI support chatbot to take over Instagram accounts demonstrates a critical flaw in AI-driven customer support systems, emphasizing the need for enhanced security measures.",
+          "summary": "Why this matters: Hackers convincing Meta's AI support chatbot to take over other people's accounts demonstrates the vulnerabilities of AI-powered support systems.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-06-04T11:04:09+00:00",
@@ -523,6 +556,23 @@
             "new": false,
             "featured": true,
             "tier": 2
+          }
+        },
+        {
+          "id": "ca_a073789780b0ecae",
+          "title": "Scientists Find Way to Supercharge Dangerous Computer \u2018Worms\u2019 With A.I.",
+          "url": "https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html",
+          "summary": "Why this matters: Scientists finding ways to supercharge dangerous computer 'worms' with AI highlights the potential risks and consequences of AI in cybersecurity.",
+          "source": "AI Incident Database",
+          "tier": 1,
+          "published": "2026-06-04T00:00:00+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
           }
         }
       ]
@@ -550,13 +600,13 @@
           "id": "co_b354dd45f95c09c4",
           "title": "ZML: Model to Metal",
           "url": "https://zml.ai/",
-          "summary": "ZML is a model to metal framework that could be useful for building and deploying AI models.",
+          "summary": "ZML is a model to metal approach, potentially relevant to telecom and AI applications.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-06-06T03:28:53+00:00",
           "score": 3,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": true,
             "featured": true,
@@ -567,7 +617,7 @@
           "id": "co_100d7c191b9a25eb",
           "title": "Introducing RadixAttention to Trellis",
           "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
-          "summary": "RadixAttention is a new attention mechanism being introduced to Trellis, which could be worth monitoring for potential applications in AI.",
+          "summary": "RadixAttention is introduced to Trellis, which may have implications for AI model performance and efficiency.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-06-03T07:16:58+00:00",
@@ -627,7 +677,7 @@
             "published": "2026-04-08T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1054,10 +1104,10 @@
             }
           },
           {
-            "id": "ta_bc245dc08a2c975b",
-            "title": "How Trustpilot built a real-time architecture for data enrichment using Gemma",
-            "url": "https://cloud.google.com/blog/topics/customers/how-trustpilot-built-a-real-time-architecture-for-data-enrichment-using-gemma/",
-            "summary": "Processing millions of user reviews in real-time, under strict latency and cost constraints, is no easy task. Trustpilot has been doing exactly that with custom machine learning since long before large language models (LLMs) were cool. Now, as the company transitions its core stack to generative AI, here is a look at how we teamed up to build a high-volume streaming pipeline using fine-tuned Gemma models. Powering deep review intelligence at scale Trustpilot\u2019s core business relies on delivering deep, actionable review intelligence.",
+            "id": "ta_9e6edbb7c5a4dc53",
+            "title": "The fully-managed Remote MCP Server for AlloyDB is now Generally Available",
+            "url": "https://cloud.google.com/blog/products/data-analytics/alloydb-remote-mcp-server-ga-secure-ai-agent-access-to-your-data/",
+            "summary": "AI agents possess incredible reasoning capabilities and can perform increasingly complex actions. But the reliability of agentic outcomes depends entirely on the quality of the context they can access \u2014 context that is frequently locked away in operational databases. To bridge this gap, we are excited to announce the Remote Model Context Protocol (MCP) Server for AlloyDB is now generally available. The Model Context Protocol (MCP) is an open-source standard that gives LLMs a secure, consistent way to connect to external data sources.",
             "source": "Google Cloud AI",
             "tier": 2,
             "published": "2026-06-01T16:00:00+00:00",
@@ -1068,10 +1118,10 @@
             }
           },
           {
-            "id": "ta_9e6edbb7c5a4dc53",
-            "title": "The fully-managed Remote MCP Server for AlloyDB is now Generally Available",
-            "url": "https://cloud.google.com/blog/products/data-analytics/alloydb-remote-mcp-server-ga-secure-ai-agent-access-to-your-data/",
-            "summary": "AI agents possess incredible reasoning capabilities and can perform increasingly complex actions. But the reliability of agentic outcomes depends entirely on the quality of the context they can access \u2014 context that is frequently locked away in operational databases. To bridge this gap, we are excited to announce the Remote Model Context Protocol (MCP) Server for AlloyDB is now generally available. The Model Context Protocol (MCP) is an open-source standard that gives LLMs a secure, consistent way to connect to external data sources.",
+            "id": "ta_bc245dc08a2c975b",
+            "title": "How Trustpilot built a real-time architecture for data enrichment using Gemma",
+            "url": "https://cloud.google.com/blog/topics/customers/how-trustpilot-built-a-real-time-architecture-for-data-enrichment-using-gemma/",
+            "summary": "Processing millions of user reviews in real-time, under strict latency and cost constraints, is no easy task. Trustpilot has been doing exactly that with custom machine learning since long before large language models (LLMs) were cool. Now, as the company transitions its core stack to generative AI, here is a look at how we teamed up to build a high-volume streaming pipeline using fine-tuned Gemma models. Powering deep review intelligence at scale Trustpilot\u2019s core business relies on delivering deep, actionable review intelligence.",
             "source": "Google Cloud AI",
             "tier": 2,
             "published": "2026-06-01T16:00:00+00:00",
@@ -1096,10 +1146,10 @@
             }
           },
           {
-            "id": "ta_926f61e5048f5868",
-            "title": "Cool stuff Google Cloud customers built, May edition: Agentic algorithms for supply chains; virtual try-on APIs; robotic camera operators & more",
-            "url": "https://cloud.google.com/blog/topics/customers/cool-stuff-google-cloud-customers-built-monthly-round-up/",
-            "summary": "AI and cloud technology are reshaping every corner of every industry around the world. Without our customers, who are building the future on our platform, there would be no Google Cloud. In this regular round-up , we dive into some of the exciting projects redefining businesses, shaping industries, and creating new categories. For our latest edition, we learn how Urban Outfitters sped up its order management; BASF uses AlphaEvolve algorithms to map global supply chains; the unification strategy for UKG \u2019s workforce intelligence; WPP \u2019s secrets to training humanoid robot camera operators; how\u2026",
+            "id": "ta_a8342430155b7015",
+            "title": "Developer's guide to Gemini Enterprise and A2UI integration",
+            "url": "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-gemini-enterprise-and-a2ui-integration/",
+            "summary": "If you've built a chatbot, you know this conversation: User: \"Book a table for two tomorrow at 7pm.\" Agent: \"Okay, for what day?\" User: \"Tomorrow.\" Agent: \"What time?\" A date picker would have ended this in one tap. But until recently, agents had no standard way to render a date picker \u2014 or a map, or a multi-select list \u2014 inside the chat surface they live in. They could only return text or markdown for generic usage.",
             "source": "Google Cloud AI",
             "tier": 2,
             "published": "2026-05-29T16:00:00+00:00",
@@ -1114,6 +1164,20 @@
       "Hugging Face Blog": {
         "tier": 2,
         "items": [
+          {
+            "id": "ta_47468f27f93cf05c",
+            "title": "Five labs, five minds: building a multi-model finance drama on small models",
+            "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-06-06T19:02:33+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "ta_3c2e7a73efc4745c",
             "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
@@ -1169,20 +1233,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ta_799726310b5a7d77",
-            "title": "Adding MCP Tools to Reachy Mini",
-            "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-06-03T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -1213,7 +1263,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1227,7 +1277,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1255,7 +1305,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           }
@@ -1265,6 +1315,62 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_6049500392c24aae",
+            "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+            "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+            "summary": "Article URL: https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/ Comments URL: https://news.ycombinator.com/item?id=48427643 Points: 56 # Comments: 17",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-06T18:35:27+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_774ae3508360655b",
+            "title": "Police in England and Wales told to halt AI use in court statements",
+            "url": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
+            "summary": "Article URL: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241 Comments URL: https://news.ycombinator.com/item?id=48426022 Points: 109 # Comments: 39",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-06T15:35:49+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_3027bff6802bc30d",
+            "title": "US House lawmakers release draft bill to prohibit state AI rules",
+            "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
+            "summary": "Article URL: https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/ Comments URL: https://news.ycombinator.com/item?id=48425031 Points: 94 # Comments: 63",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-06T13:40:22+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_d2a874a2ea26ddf8",
+            "title": "Meta Keeps Delaying the Release of Its New AI Model to Developers",
+            "url": "https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c",
+            "summary": "Article URL: https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c Comments URL: https://news.ycombinator.com/item?id=48424252 Points: 55 # Comments: 21",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-06T12:15:59+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_d81e588a99112787",
             "title": "Ask HN: Why is the HN crowd so anti-AI?",
             "url": "https://news.ycombinator.com/item?id=48420827",
@@ -1272,62 +1378,6 @@
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-06-06T02:31:51+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_2b1cbfb9c6681557",
-            "title": "Microsoft wants users to be addicted to Scout, their AI personal assistant",
-            "url": "https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/",
-            "summary": "Article URL: https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/ Comments URL: https://news.ycombinator.com/item?id=48419023 Points: 67 # Comments: 3",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-05T22:12:58+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_84c3769c0e66f01f",
-            "title": "Hacker News, Sans AI",
-            "url": "https://elijahpotter.dev/articles/hacker-news-sans-AI",
-            "summary": "Article URL: https://elijahpotter.dev/articles/hacker-news-sans-AI Comments URL: https://news.ycombinator.com/item?id=48417916 Points: 174 # Comments: 97",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-05T20:38:40+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_e7ed00b18798800f",
-            "title": "Leak Reveals Microsoft Wants Its AI to Be 'Addictive'",
-            "url": "https://kotaku.com/microsoft-ai-scout-addictive-satya-nadella-404-media-copilot-2000702924",
-            "summary": "Article URL: https://kotaku.com/microsoft-ai-scout-addictive-satya-nadella-404-media-copilot-2000702924 Comments URL: https://news.ycombinator.com/item?id=48413924 Points: 66 # Comments: 5",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-05T15:32:58+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_17e15fac06ab0704",
-            "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
-            "url": "https://news.ycombinator.com/item?id=48413629",
-            "summary": "Hello, happy Friday! I am looking to do some in-person \"developer boot-up\" workshops, and seek your suggestions for \"modern tooling\". The background of the participants range from motivated newbie (\"I heard you can make your own app with AI!\") to existing software developers who want to get up to speed on modern development for the purposes of building stuff, and getting jobs where AI tools are being used.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-05T15:13:54+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1575,7 +1625,7 @@
             "tier": 2,
             "published": "2026-06-05T15:45:12+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1845,7 +1895,7 @@
             "published": "2026-05-25T23:58:17+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1966,8 +2016,8 @@
             "tier": 2,
             "published": "2026-06-05T18:49:40+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
+              "new": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -2019,6 +2069,48 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_0be181f790899c1c",
+            "title": "What to expect from WWDC 2026: Siri\u2019s highly anticipated revamp and Apple Intelligence updates",
+            "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+            "summary": "Apple's WWDC nears: Here's what you can look forward to.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-06-06T18:13:36+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_a8cf56fd7589f834",
+            "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+            "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+            "summary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-06-06T17:42:15+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_39923ab8405f222f",
+            "title": "The Trump administration might take an equity stake in OpenAI",
+            "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+            "summary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-06-06T16:17:21+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_f95879e8b161dce8",
             "title": "Startup Battlefield 200 applications officially close in 3 days",
             "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
@@ -2027,7 +2119,7 @@
             "tier": 2,
             "published": "2026-06-05T20:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2040,48 +2132,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-06-05T18:57:20+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_b6b2479bdd01d3a2",
-            "title": "The most interesting startups right now want to get you off your phone",
-            "url": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
-            "summary": "While the AI fundraising machine keeps breaking its own records, some founders are building in the other direction. Mirror founder Brynn Putnam just raised money for Board, a startup focused on bringing people together through in-person games and social experiences. Cyberdeck creators are going viral crafting whimsical DIY computers that literally encourage users to touch grass. Unlike the AI-free browser crowd, this doesn\u2019t just feel like backlash, [\u2026]",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-06-05T17:17:06+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_45457fdab2558053",
-            "title": "The token bill comes due: Inside the industry scramble to manage AI\u2019s runaway costs",
-            "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
-            "summary": "\"The whole conversation shifted from tokenmaxxing and 'go fast' to 'we need guardrails, how do we control this?'\"",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-06-05T14:49:12+00:00",
-            "flags": {
-              "new": true,
-              "featured": true,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_3a93b2375b03f0a0",
-            "title": "The \u2018together tech\u2019 wave might be the most intriguing startup bet of 2026",
-            "url": "https://techcrunch.com/podcast/the-together-tech-wave-might-be-the-most-intriguing-startup-bet-of-2026/",
-            "summary": "While the AI fundraising machine keeps breaking its own records, some founders are building in the other direction. Mirror founder Brynn Putnam just raised money for Board, a startup focused on bringing people together through in-person games and social experiences. Cyberdeck creators are going viral crafting whimsical DIY computers that literally encourage users to touch grass. Unlike the AI-free browser crowd, this doesn\u2019t just feel like backlash, [\u2026]",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-06-05T14:00:00+00:00",
             "flags": {
               "new": false,
               "featured": false,
