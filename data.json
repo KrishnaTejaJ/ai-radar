@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-06-07T10:08:45.056276+00:00",
+    "last_updated": "2026-06-07T14:53:43.913472+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 145,
-      "scored": 44,
-      "radar_top": 19,
-      "radar_expand": 7
+      "fetched": 140,
+      "scored": 41,
+      "radar_top": 17,
+      "radar_expand": 6
     }
   },
   "radar": {
@@ -16,15 +16,15 @@
           "id": "ta_f3d1448df6a6df02",
           "title": "LLM Research Papers: The 2026 List (January to May)",
           "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-          "summary": "Why this matters: Sebastian Raschka's curated list of notable LLM research papers provides valuable insights into the latest advancements in the field, highlighting key areas of research and development.",
+          "summary": "Why this matters: Sebastian Raschka's curated list of notable LLM research papers can help practitioners stay up-to-date on the latest advancements in the field. His analysis and summaries can inform their own work and research.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-06T11:16:22+00:00",
-          "score": 5,
+          "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
           }
@@ -33,7 +33,7 @@
           "id": "ta_97cd97d27d220f15",
           "title": "How we contain Claude across products",
           "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "summary": "Why this matters: Containment strategies for capable agents are crucial, and Anthropic's approach to capping the blast radius of Claude is noteworthy. Their engineering solutions can inform the development of similar containment protocols.",
+          "summary": "Why this matters: Containment strategies for capable agents are crucial, and Anthropic's approach to capping the blast radius of Claude is noteworthy. Their learnings from building containment for claude.ai, Claude Code, and Cowork can inform similar efforts.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-05-25T00:00:00+00:00",
@@ -50,7 +50,7 @@
           "id": "ta_ad1a0b6f01f5a507",
           "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
           "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: Recent developments in LLM architectures, such as KV sharing, mHC, and compressed attention, have significant implications for the field, and Sebastian Raschka's analysis offers a comprehensive understanding of these advancements.",
+          "summary": "Why this matters: Sebastian Raschka's analysis of recent developments in LLM architectures, including KV sharing, mHC, and compressed attention, can help practitioners understand the latest advancements and their implications for reducing long-context costs.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-05-16T11:33:51+00:00",
@@ -64,10 +64,46 @@
           }
         },
         {
+          "id": "ta_c20d71e489714f49",
+          "title": "How to Work and Compound with AI",
+          "url": "https://eugeneyan.com//writing/working-with-ai/",
+          "summary": "Why this matters: Eugene Yan's essay on how to work and compound with AI can help practitioners develop a deeper understanding of how to effectively collaborate with AI systems and leverage their capabilities.",
+          "source": "Eugene Yan",
+          "tier": 1,
+          "published": "2026-05-03T00:00:00+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "ta_08d82b53d71043d3",
+          "title": "My Workflow for Understanding LLM Architectures",
+          "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+          "summary": "Why this matters: Sebastian Raschka's workflow for understanding LLM architectures can help practitioners develop a deeper understanding of new open-weight model releases and their applications.",
+          "source": "Sebastian Raschka",
+          "tier": 1,
+          "published": "2026-04-18T11:24:36+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        }
+      ],
+      "expand": [
+        {
           "id": "ta_f90fa6cabc2908fd",
           "title": "Scaling Managed Agents: Decoupling the brain from the hands",
           "url": "https://www.anthropic.com/engineering/managed-agents",
-          "summary": "Why this matters: Decoupling the brain from the hands in managed agents can lead to more stable and efficient long-horizon agent work, which is essential for complex tasks and applications.",
+          "summary": "Why this matters: Anthropic's Managed Agents service is designed to stay stable as models improve, which is essential for long-horizon agent work. Their approach to decoupling the brain from the hands can help ensure more reliable agentic outcomes.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-04-08T00:00:00+00:00",
@@ -79,26 +115,8 @@
             "featured": true,
             "tier": 1
           }
-        },
-        {
-          "id": "ta_981b5df62bdb5dce",
-          "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
-          "url": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
-          "summary": "The latest open artifacts and model releases may be of interest to NetPresso and local LLM operations, but their direct relevance and potential impact are uncertain, requiring further evaluation.",
-          "source": "Interconnects",
-          "tier": 1,
-          "published": "2026-05-16T17:00:11+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
         }
-      ],
-      "expand": []
+      ]
     },
     "telecom": {
       "top": [
@@ -106,7 +124,7 @@
           "id": "te_8ffa7ab94df6da97",
           "title": "RAG-driven Multi-Agent LLM Framework with Task Decomposition for Beyond 5G Auto-Configuration",
           "url": "https://arxiv.org/abs/2606.01222v1",
-          "summary": "Why this matters: The RAG-driven multi-agent LLM framework with task decomposition can address the challenges of intent-driven network management and provide a more robust and efficient approach to Beyond 5G network auto-configuration.",
+          "summary": "Why this matters: The RAG-driven multi-agent LLM framework can address the challenges of intent-driven network management by translating natural language human intents into machine-readable configurations, and can improve the accuracy and efficiency of network auto-configuration.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-31T13:15:55+00:00",
@@ -123,7 +141,7 @@
           "id": "te_c48471b378507e3a",
           "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
           "url": "https://arxiv.org/abs/2606.06261v1",
-          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN that can help detect Denial-of-Service and performance-degradation attacks, which are difficult to detect in O-RAN networks.",
+          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN, which can help detect Denial-of-Service and performance-degradation attacks in O-RAN networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-04T15:05:04+00:00",
@@ -140,7 +158,7 @@
           "id": "te_c48471b378507e3a",
           "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
           "url": "https://arxiv.org/abs/2606.06261v1",
-          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN that can help detect Denial-of-Service and performance-degradation attacks, which are difficult to detect in O-RAN networks.",
+          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN, which can help detect Denial-of-Service and performance-degradation attacks in O-RAN networks.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-06-04T15:05:04+00:00",
@@ -157,7 +175,7 @@
           "id": "te_8cbb258dbfc7b987",
           "title": "TeleSWEBench: A Commit-Driven Benchmark for Evaluating LLM-Powered Software Engineering in Telecommunications",
           "url": "https://arxiv.org/abs/2606.05001v1",
-          "summary": "Why this matters: TeleSWEBench is a commit-driven benchmark for evaluating LLM-powered software engineering in telecommunications, which can help alleviate the code generation bottleneck in telecom networks.",
+          "summary": "Why this matters: TeleSWEBench is a commit-driven benchmark for evaluating LLM-powered software engineering in telecommunications, which can help alleviate the critical code generation bottleneck in this domain.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-06-03T15:19:40+00:00",
@@ -174,7 +192,7 @@
           "id": "te_8cbb258dbfc7b987",
           "title": "TeleSWEBench: A Commit-Driven Benchmark for Evaluating LLM-Powered Software Engineering in Telecommunications",
           "url": "https://arxiv.org/abs/2606.05001v1",
-          "summary": "Why this matters: TeleSWEBench is a commit-driven benchmark for evaluating LLM-powered software engineering in telecommunications, which can help alleviate the code generation bottleneck in telecom networks.",
+          "summary": "Why this matters: TeleSWEBench is a commit-driven benchmark for evaluating LLM-powered software engineering in telecommunications, which can help alleviate the critical code generation bottleneck in this domain.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-06-03T15:19:40+00:00",
@@ -193,7 +211,7 @@
           "id": "te_bb054ff87233869d",
           "title": "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs",
           "url": "https://arxiv.org/abs/2606.01925v2",
-          "summary": "Why this matters: QoEReasoner is an agentic reasoning framework for automated and explainable QoE diagnosis in RANs that can help diagnose QoE degradations in operational RANs and provide more accurate diagnosis.",
+          "summary": "Why this matters: QoEReasoner is an agentic reasoning framework for automated and explainable QoE diagnosis in RANs, which can help diagnose QoE degradations in operational RANs and provide explanations for the diagnosed issues.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-01T08:58:07+00:00",
@@ -210,7 +228,7 @@
           "id": "te_82de2ef8678327e7",
           "title": "A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks",
           "url": "https://arxiv.org/abs/2606.01312v1",
-          "summary": "Why this matters: The proposed 6G-LLM architecture for scalable tactical autonomous defense vehicle networks can improve coordination efficiency and provide a framework for integrating edge-assisted LLM reasoning with 6G-enabled connectivity.",
+          "summary": "Why this matters: The proposed communication-centric 6G-LLM architecture can improve coordination efficiency in tactical autonomous vehicle systems by integrating edge-assisted LLM reasoning with 6G-enabled connectivity and semantic communication.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-31T16:00:14+00:00",
@@ -227,7 +245,7 @@
           "id": "te_ae9f3651c361984d",
           "title": "PropLLM: Propagation-Aware Scene Reconstruction for Network Fault Diagnosis",
           "url": "https://arxiv.org/abs/2606.00582v1",
-          "summary": "Why this matters: PropLLM is a propagation-aware scene reconstruction approach for network fault diagnosis that can help resolve the end-point ambiguity in network faults and provide more accurate diagnosis.",
+          "summary": "Why this matters: PropLLM is a propagation-aware scene reconstruction approach for network fault diagnosis, which can help resolve the end-point ambiguity in network fault diagnosis by modeling the propagation of faults along topology and protocol dependencies.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-05-30T07:18:42+00:00",
@@ -244,7 +262,7 @@
           "id": "te_106ae3798256e3aa",
           "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
           "url": "https://arxiv.org/abs/2605.27360v1",
-          "summary": "Why this matters: GENESIS is a framework for harnessing AI agents for autonomous 6G RAN synthesis, research, and testing that can help accelerate the development of 6G networks and provide a more efficient approach to RAN synthesis and testing.",
+          "summary": "Why this matters: GENESIS is a framework for harnessing AI agents for autonomous 6G RAN synthesis, research, and testing, which can help accelerate the development of 6G networks and improve their performance and efficiency.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-05-26T17:58:43+00:00",
@@ -261,7 +279,7 @@
           "id": "te_dfaf8bb498aad63c",
           "title": "Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN",
           "url": "https://arxiv.org/abs/2605.11516v1",
-          "summary": "Why this matters: Agents should replace narrow predictive AI as the orchestrator in 6G AI-RAN, as they can provide a more robust and efficient approach to network management and provide a path to achieving Level 5 autonomous 6G networks.",
+          "summary": "Why this matters: Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN, as they can provide a more comprehensive and flexible approach to network management and optimization.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-05-12T04:39:34+00:00",
@@ -282,7 +300,7 @@
           "id": "to_36b9d8e29ea0cbd7",
           "title": "Running Python code in a sandbox with MicroPython and WASM",
           "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-entries",
-          "summary": "Why this matters: Simon Willison's micropython-wasm package enables running Python code in a sandbox, a crucial step for secure code execution. This development has significant implications for AI safety and governance.",
+          "summary": "Why this matters: Simon Willison's micropython-wasm package enables running Python code in a sandbox, a crucial step for secure AI development.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-06T03:53:34+00:00",
@@ -299,7 +317,7 @@
           "id": "to_7140b07582028100",
           "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
           "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-          "summary": "OpenAI's Lockdown Mode is a step towards protecting sensitive data from prompt injection attacks, though its effectiveness and potential vulnerabilities will require further evaluation and testing.",
+          "summary": "OpenAI's Lockdown Mode aims to protect sensitive data from prompt injection attacks, but its effectiveness remains to be seen.",
           "source": "TechCrunch AI",
           "tier": 2,
           "published": "2026-06-06T20:32:24+00:00",
@@ -316,7 +334,7 @@
           "id": "to_e7b434a8384db1c7",
           "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
           "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-entries",
-          "summary": "Why this matters: Anthropic's honest description of their model update as a 'modest but tangible improvement' sets a positive precedent for transparency in AI development, highlighting the importance of realistic expectations and incremental progress.",
+          "summary": "Why this matters: Anthropic's honest description of Claude Opus 4.8 as a minor improvement highlights the need for transparency in AI development.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-28T23:59:50+00:00",
@@ -333,10 +351,27 @@
           "id": "to_c4e76da938b9f19d",
           "title": "I think Anthropic and OpenAI have found product-market fit",
           "url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-entries",
-          "summary": "Why this matters: Simon Willison's analysis of Anthropic and OpenAI finding product-market fit underscores the growing demand for AI solutions in the enterprise sector, with significant implications for the future of AI adoption and governance.",
+          "summary": "Why this matters: Simon Willison's analysis of Anthropic and OpenAI finding product-market fit has significant implications for the future of AI adoption.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-05-27T16:38:35+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "to_2f7f000fe28eeb66",
+          "title": "Notes on Pope Leo XIV's encyclical on AI",
+          "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-entries",
+          "summary": "Why this matters: Pope Leo XIV's encyclical on AI ethics provides a unique perspective on the intersection of technology and society.",
+          "source": "Simon Willison",
+          "tier": 1,
+          "published": "2026-05-25T23:58:17+00:00",
           "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
@@ -350,16 +385,20 @@
       "expand": []
     },
     "cautionary": {
+      "top": [],
+      "expand": []
+    },
+    "community": {
       "top": [
         {
-          "id": "ca_1a92e62bc4152944",
-          "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
-          "url": "https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/",
-          "summary": "Why this matters: The hacking of Meta's AI chatbot to gain access to high-profile Instagram accounts highlights the potential vulnerabilities of AI-powered systems and the need for improved security measures to protect against such threats.",
-          "source": "AI Incident Database",
+          "id": "co_12cb26d6a9ae5b3b",
+          "title": "Language models transmit behavioural traits through hidden signals in data",
+          "url": "https://www.nature.com/articles/s41586-026-10319-8",
+          "summary": "Why this matters: Language models can transmit behavioural traits through hidden signals in data, which has significant implications for AI safety and governance.",
+          "source": "Lobsters (AI tag)",
           "tier": 1,
-          "published": "2026-06-04T00:00:00+00:00",
-          "score": 5,
+          "published": "2026-06-06T10:12:07+00:00",
+          "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
@@ -369,113 +408,23 @@
           }
         },
         {
-          "id": "ca_83e1167968632530",
-          "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
-          "url": "https://red.anthropic.com/2026/attack-navigator/",
-          "summary": "Why this matters: Anthropic's analysis of AI-enabled cyber threats provides valuable insights for improving cybersecurity, and their partnership with Verizon highlights the importance of collaboration in addressing these threats.",
-          "source": "Anthropic Frontier Red Team",
+          "id": "co_b354dd45f95c09c4",
+          "title": "ZML: Model to Metal",
+          "url": "https://zml.ai/",
+          "summary": "ZML: Model to Metal is a topic worth monitoring for its potential impact on AI model deployment and efficiency.",
+          "source": "Lobsters (AI tag)",
           "tier": 1,
-          "published": "2026-06-03T00:00:00+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_7463f2cf354c19a1",
-          "title": "Measuring LLMs' Ability to Develop Exploits",
-          "url": "https://red.anthropic.com/2026/exploit-evals/",
-          "summary": "Why this matters: The evaluation of LLMs' ability to develop exploits is crucial for understanding the potential risks and benefits of AI in cybersecurity, and the results of this study can inform the development of more secure AI systems.",
-          "source": "Anthropic Frontier Red Team",
-          "tier": 1,
-          "published": "2026-05-22T00:00:00+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_0945b9c8743caa99",
-          "title": "AI Worm",
-          "url": "https://www.schneier.com/blog/archives/2026/06/ai-worm.html",
-          "summary": "The development of an AI-powered internet worm is a significant concern for cybersecurity, and the potential risks and benefits of such technology require careful consideration and monitoring.",
-          "source": "Schneier on Security",
-          "tier": 2,
-          "published": "2026-06-05T13:21:23+00:00",
-          "score": 4,
+          "published": "2026-06-06T03:28:53+00:00",
+          "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ca_c2d2bb623da7aab5",
-          "title": "Hacking Meta\u2019s AI Chatbot",
-          "url": "https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html",
-          "summary": "Why this matters: The hacking of Meta's AI support chatbot to take over other people's accounts highlights the potential vulnerabilities of AI-powered systems and the need for improved security measures to protect against such threats.",
-          "source": "Schneier on Security",
-          "tier": 2,
-          "published": "2026-06-04T11:04:09+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
+            "tier": 1
           }
         }
       ],
-      "expand": [
-        {
-          "id": "ca_a073789780b0ecae",
-          "title": "Scientists Find Way to Supercharge Dangerous Computer \u2018Worms\u2019 With A.I.",
-          "url": "https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html",
-          "summary": "Why this matters: The discovery of a method to supercharge dangerous computer worms with AI has significant implications for cybersecurity, and the potential consequences of such an attack necessitate further research and development of countermeasures.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-06-04T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_373deace457300ca",
-          "title": "Memory Is a Feature. It Is Also an Attack Surface",
-          "url": "https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/?utm_source=rss&utm_medium=rss&utm_campaign=memory-is-a-feature-it-is-also-an-attack-surface",
-          "summary": "Why this matters: The consideration of memory as a feature and an attack surface in AI systems is essential for ensuring the security and reliability of these systems, and the development of strategies to mitigate potential risks is critical.",
-          "source": "OWASP GenAI",
-          "tier": 2,
-          "published": "2026-05-14T01:05:44+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        }
-      ]
-    },
-    "community": {
-      "top": [],
       "expand": []
     }
   },
@@ -568,7 +517,7 @@
             "tier": 1,
             "published": "2026-06-06T11:16:22+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
@@ -597,7 +546,7 @@
             "published": "2026-04-18T11:24:36+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -644,7 +593,7 @@
             "published": "2026-05-03T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -836,7 +785,7 @@
             "published": "2026-05-16T17:00:11+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1010,13 +959,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "ta_47468f27f93cf05c",
-            "title": "Five labs, five minds: building a multi-model finance drama on small models",
-            "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+            "id": "ta_abdb9197cf1504a8",
+            "title": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
+            "url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
             "summary": "",
             "source": "Hugging Face Blog",
             "tier": 2,
-            "published": "2026-06-06T19:02:33+00:00",
+            "published": "2026-06-07T11:38:54+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1158,78 +1107,7 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_6049500392c24aae",
-            "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
-            "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
-            "summary": "Article URL: https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/ Comments URL: https://news.ycombinator.com/item?id=48427643 Points: 598 # Comments: 211",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-06T18:35:27+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_774ae3508360655b",
-            "title": "Police in England and Wales told to halt AI use in court statements",
-            "url": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
-            "summary": "Article URL: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241 Comments URL: https://news.ycombinator.com/item?id=48426022 Points: 151 # Comments: 46",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-06T15:35:49+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_3027bff6802bc30d",
-            "title": "US House lawmakers release draft bill to prohibit state AI rules",
-            "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
-            "summary": "Article URL: https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/ Comments URL: https://news.ycombinator.com/item?id=48425031 Points: 119 # Comments: 78",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-06T13:40:22+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_d2a874a2ea26ddf8",
-            "title": "Meta Keeps Delaying the Release of Its New AI Model to Developers",
-            "url": "https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c",
-            "summary": "Article URL: https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c Comments URL: https://news.ycombinator.com/item?id=48424252 Points: 64 # Comments: 24",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-06T12:15:59+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_d81e588a99112787",
-            "title": "Ask HN: Why is the HN crowd so anti-AI?",
-            "url": "https://news.ycombinator.com/item?id=48420827",
-            "summary": "Genuine question. Over the past six months, there hasn\u2019t been a single day where I\u2019ve checked the HN Best RSS feed without seeing a post about how AI \u201cwrites bad code,\u201d \u201cintroduces bugs,\u201d \u201ccreates technical debt,\u201d or something along those lines. I\u2019ll probably make a lot of enemies by saying this, but do people realize that code is just a means to an end? Users don\u2019t care whether the code was written by AI or by hand, or which framework you used. They care that the product works. I say this as someone who has spent more than 20 years honing their craft as a software engineer.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-06T02:31:51+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       }
     },
     "telecom": {
@@ -1740,7 +1618,7 @@
             "published": "2026-05-25T23:58:17+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -2000,7 +1878,7 @@
             "published": "2026-06-03T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2014,7 +1892,7 @@
             "published": "2026-05-22T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2150,7 +2028,7 @@
             "published": "2026-06-04T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2206,7 +2084,7 @@
             "published": "2026-06-04T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           }
@@ -2225,7 +2103,7 @@
             "published": "2026-05-14T01:05:44+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -2300,7 +2178,7 @@
             "published": "2026-06-05T13:21:23+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -2314,7 +2192,7 @@
             "published": "2026-06-04T11:04:09+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -2593,6 +2471,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "co_b60a53c8eb3a8264",
+            "title": "How LLMs Actually Work",
+            "url": "https://0xkato.xyz/how-llms-actually-work/",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-06-07T00:53:58+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "co_bb5ffa76a5369023",
             "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
             "url": "https://arxiv.org/pdf/2605.31514",
@@ -2601,7 +2493,7 @@
             "tier": 1,
             "published": "2026-06-06T12:31:19+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -2615,7 +2507,7 @@
             "tier": 1,
             "published": "2026-06-06T10:29:43+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -2629,8 +2521,8 @@
             "tier": 1,
             "published": "2026-06-06T10:12:07+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
+              "new": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -2644,21 +2536,7 @@
             "published": "2026-06-06T03:28:53+00:00",
             "flags": {
               "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "co_100d7c191b9a25eb",
-            "title": "Introducing RadixAttention to Trellis",
-            "url": "https://trellis.unfoldml.com/blog/radix-attention-intro",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-06-03T07:16:58+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           }
