@@ -1,17 +1,34 @@
 {
   "meta": {
-    "last_updated": "2026-06-18T16:35:07.985383+00:00",
+    "last_updated": "2026-06-18T21:21:30.840527+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
       "scored": 53,
-      "radar_top": 22,
-      "radar_expand": 8
+      "radar_top": 23,
+      "radar_expand": 7
     }
   },
   "radar": {
     "tailored": {
       "top": [
+        {
+          "id": "ta_116d0b188a7742cc",
+          "title": "Welcome to the AGI era of AI governance",
+          "url": "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
+          "summary": "Why this matters: The concept of the AGI era of AI governance raises important questions about the future of AI development and its potential impact on society.",
+          "source": "Interconnects",
+          "tier": 1,
+          "published": "2026-06-14T17:43:42+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
         {
           "id": "ta_f3d1448df6a6df02",
           "title": "LLM Research Papers: The 2026 List (January to May)",
@@ -33,30 +50,13 @@
           "id": "ta_d064b3eae2a95eb8",
           "title": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
           "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-          "summary": "Building a persistent agent memory layer on Elasticsearch with high recall can improve the performance of various AI applications.",
+          "summary": "Why this matters: The development of a persistent agent memory layer on Elasticsearch with high recall demonstrates the potential for improving agent performance.",
           "source": "Hacker News (AI/LLM)",
           "tier": 2,
           "published": "2026-06-18T11:20:18+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ta_7cf9b0bd929e1c82",
-          "title": "The hacker sent by Anthropic to calm the government's nerves about AI safety",
-          "url": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
-          "summary": "Anthropic's efforts to calm the government's nerves about AI safety are an important step in addressing concerns around AI development and deployment.",
-          "source": "Hacker News (AI/LLM)",
-          "tier": 2,
-          "published": "2026-06-17T19:22:02+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": true,
             "featured": true,
@@ -84,7 +84,7 @@
           "id": "ta_ad1a0b6f01f5a507",
           "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
           "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: New open-weight LLMs like Gemma 4 and DeepSeek V4 are reducing long-context costs and improving overall performance.",
+          "summary": "Why this matters: Sebastian Raschka's analysis of recent developments in LLM architectures highlights the potential of new open-weight LLMs in reducing long-context costs.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-05-16T11:33:51+00:00",
@@ -98,25 +98,7 @@
           }
         }
       ],
-      "expand": [
-        {
-          "id": "ta_c20d71e489714f49",
-          "title": "How to Work and Compound with AI",
-          "url": "https://eugeneyan.com//writing/working-with-ai/",
-          "summary": "Why this matters: Eugene Yan's insights on working and compounding with AI can help practitioners develop more effective strategies for leveraging AI in their work.",
-          "source": "Eugene Yan",
-          "tier": 1,
-          "published": "2026-05-03T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        }
-      ]
+      "expand": []
     },
     "telecom": {
       "top": [
@@ -124,7 +106,7 @@
           "id": "te_aff2e8f309ea1fb0",
           "title": "Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks",
           "url": "https://arxiv.org/abs/2606.16386v1",
-          "summary": "Why this matters: Game-theoretic multi-agent reinforcement learning can optimize swarm trajectory planning in low-altitude wireless networks, enhancing mission success and efficiency.",
+          "summary": "Why this matters: Game-theoretic multi-agent reinforcement learning can optimize swarm trajectory planning in low-altitude wireless networks, enhancing mission success and communication efficiency.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-06-15T08:17:28+00:00",
@@ -138,16 +120,33 @@
           }
         },
         {
+          "id": "te_b2af40026beaa868",
+          "title": "Towards LLM Accelerated Rapid Reviews for Software Tool Discovery -- Case for Log Anomaly Detection",
+          "url": "https://arxiv.org/abs/2606.16839v1",
+          "summary": "LLM-accelerated rapid reviews can aid in software tool discovery, including log anomaly detection, which is crucial for network security and reliability.",
+          "source": "arXiv: RAN anomaly",
+          "tier": 1,
+          "published": "2026-06-15T15:17:52+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "te_01455f281e95b158",
           "title": "Modular Multi-Domain Digital Twin Architecture: Sustainable Intent-Driven 6G Management",
           "url": "https://arxiv.org/abs/2606.13069v1",
-          "summary": "Why this matters: Modular multi-domain digital twin architectures can enable sustainable intent-driven 6G management, supporting proactive and trustworthy automation across distributed domain infrastructures.",
+          "summary": "Modular multi-domain digital twin architecture can enable sustainable intent-driven 6G management, but its implementation and effectiveness require further exploration.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-06-11T08:55:17+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -158,13 +157,13 @@
           "id": "te_1ed1e02cdd8472b9",
           "title": "Federated Wireless bulks up on AI to unlock CBRS capacity",
           "url": "https://www.lightreading.com/ai-machine-learning/federated-wireless-bulks-up-on-ai-to-unlock-cbrs-capacity",
-          "summary": "Federated Wireless is exploring AI to unlock CBRS capacity, potentially delivering a 5x boost in network capacity without additional spectrum or infrastructure.",
+          "summary": "Why this matters: Federated Wireless' Spectrum AI platform can deliver a 5x boost in CBRS network capacity, which is a significant development for the telecom industry and worth exploring in more detail.",
           "source": "Light Reading",
           "tier": 2,
           "published": "2026-06-18T13:00:00+00:00",
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": true,
             "featured": true,
@@ -175,10 +174,29 @@
           "id": "te_96a4709136d1e847",
           "title": "LLM-Enabled NWDAF: A Step Toward AI-Native 6G Network Intelligence",
           "url": "https://arxiv.org/abs/2606.11877v1",
-          "summary": "Why this matters: LLM-enabled NWDAF can enhance real-time analytics and closed-loop automation in 5G networks, supporting zero-touch network management.",
+          "summary": "Why this matters: LLM-enabled NWDAF can facilitate real-time analytics and closed-loop automation in 5G networks, paving the way for AI-native network intelligence.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-06-10T10:00:26+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        }
+      ],
+      "expand": [
+        {
+          "id": "te_c684685f42061f56",
+          "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
+          "url": "https://arxiv.org/abs/2606.08173v1",
+          "summary": "Why this matters: AI-native closed-loop security can protect 6G-enabled cyber-physical systems from edge detection to network-wide mitigation, ensuring the security and reliability of critical infrastructure.",
+          "source": "arXiv: RAN anomaly",
+          "tier": 1,
+          "published": "2026-06-06T13:36:59+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -192,63 +210,10 @@
           "id": "te_c684685f42061f56",
           "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
           "url": "https://arxiv.org/abs/2606.08173v1",
-          "summary": "Why this matters: AI-native closed-loop security can mitigate cyber threats in 6G-enabled cyber-physical systems, ensuring ultra-reliable low-latency slices and preventing physical harm.",
-          "source": "arXiv: RAN anomaly",
+          "summary": "Why this matters: AI-native closed-loop security can protect 6G-enabled cyber-physical systems from edge detection to network-wide mitigation, ensuring the security and reliability of critical infrastructure.",
+          "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-06-06T13:36:59+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        }
-      ],
-      "expand": [
-        {
-          "id": "te_c472097d96cdb041",
-          "title": "DIFFRACT: Neuralized Utility Maximization for Wireless Networks by Differentiable Programming",
-          "url": "https://arxiv.org/abs/2606.07114v1",
-          "summary": "Why this matters: DIFFRACT can optimize wireless networks using neuralized utility maximization, integrating deep learning with optimization to handle dynamic multi-user interference.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-06-05T10:09:09+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_bf8f8a6e55899842",
-          "title": "Mitigating Anchoring Bias in LLM-Based Agents for Energy-Efficient 6G Autonomous Networks",
-          "url": "https://arxiv.org/abs/2606.18272v1",
-          "summary": "Why this matters: Mitigating anchoring bias in LLM-based agents can improve resource negotiation in 6G autonomous networks, enabling zero-touch network slicing and efficient resource allocation.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-06-05T08:29:03+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_df3d8893e3b440bf",
-          "title": "Event Detection for Parameter-to-KPI Dependency Learning for AI-RAN",
-          "url": "https://arxiv.org/abs/2606.06459v1",
-          "summary": "Why this matters: Event detection for parameter-to-KPI dependency learning can optimize AI-RAN performance, identifying dependencies and improving network objectives in AI-integrated and open radio access networks.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-06-04T17:50:39+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -262,7 +227,7 @@
           "id": "te_c48471b378507e3a",
           "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
           "url": "https://arxiv.org/abs/2606.06261v1",
-          "summary": "Why this matters: DAST can detect cross-interface anomalies in O-RAN, addressing the expanded attack surface in disaggregated baseband stacks with programmable functions.",
+          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN, which can help identify and mitigate potential security threats in telecom networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-04T15:05:04+00:00",
@@ -276,13 +241,30 @@
           }
         },
         {
-          "id": "te_8cbb258dbfc7b987",
-          "title": "TeleSWEBench: A Commit-Driven Benchmark for Evaluating LLM-Powered Software Engineering in Telecommunications",
-          "url": "https://arxiv.org/abs/2606.05001v1",
-          "summary": "Why this matters: TeleSWEBench can evaluate LLM-powered software engineering in telecommunications, addressing the code generation bottleneck in telecom networks.",
+          "id": "te_bb054ff87233869d",
+          "title": "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs",
+          "url": "https://arxiv.org/abs/2606.01925v2",
+          "summary": "Why this matters: QoEReasoner is an agentic reasoning framework for automated and explainable QoE diagnosis in RANs, which can improve network performance and user experience.",
+          "source": "arXiv: RAN anomaly",
+          "tier": 1,
+          "published": "2026-06-01T08:58:07+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_82de2ef8678327e7",
+          "title": "A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks",
+          "url": "https://arxiv.org/abs/2606.01312v1",
+          "summary": "Why this matters: A communication-centric 6G-LLM architecture can enable scalable coordination in tactical autonomous defense vehicle networks, enhancing coordination efficiency and security.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
-          "published": "2026-06-03T15:19:40+00:00",
+          "published": "2026-05-31T16:00:14+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -317,13 +299,13 @@
           "id": "to_4f83858798163387",
           "title": "Publishing WASM wheels to PyPI for use with Pyodide",
           "url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-entries",
-          "summary": "Why this matters: Publishing WASM wheels to PyPI for use with Pyodide is a significant development, allowing for more efficient and streamlined package management in the Pyodide ecosystem.",
+          "summary": "Why this matters: Publishing WASM wheels to PyPI for use with Pyodide simplifies the process of installing and using Python packages, which could lead to increased adoption and development of Pyodide.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-13T23:55:18+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -334,7 +316,7 @@
           "id": "to_84b735cace597c4d",
           "title": "Why AI hasn\u2019t replaced software engineers, and won\u2019t",
           "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
-          "summary": "Why this matters: AI has not replaced software engineers, and is unlikely to do so, as coding agents are a normal part of technological development and do not pose an existential threat to the profession.",
+          "summary": "Why this matters: AI has not replaced software engineers, and it is unlikely to do so, as coding agents are just another technology that can assist but not replace human developers.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-06-11T02:29:51+00:00",
@@ -351,7 +333,7 @@
           "id": "to_36b9d8e29ea0cbd7",
           "title": "Running Python code in a sandbox with MicroPython and WASM",
           "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-entries",
-          "summary": "Why this matters: Running Python code in a sandbox with MicroPython and WASM provides a secure and efficient way to execute code, with potential applications in areas like code execution sandboxes.",
+          "summary": "Why this matters: Running Python code in a sandbox with MicroPython and WASM provides a secure and efficient way to execute code, which could be useful for various applications, including Datasette Agent.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-06T03:53:34+00:00",
@@ -368,7 +350,7 @@
           "id": "to_60f7fc2b939ab5b2",
           "title": "Claude Fable is relentlessly proactive",
           "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-entries",
-          "summary": "Claude Fable 5 is a proactive AI model that can deploy various tricks to achieve its goals, but its slow and expensive nature may limit its applications.",
+          "summary": "Claude Fable 5 is a relentlessly proactive AI model that can deploy various tricks to achieve its goals, but its slow and expensive nature may limit its applications.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-11T23:35:17+00:00",
@@ -390,7 +372,7 @@
           "id": "ca_d833f3672ffc540b",
           "title": "Senior loses almost $1M in 'increasingly common' deepfake scam",
           "url": "https://www.bradfordtoday.ca/local-news/senior-loses-almost-1m-in-increasingly-common-deepfake-scam-12390782",
-          "summary": "Why this matters: The senior losing almost $1M in a deepfake scam highlights the potential risks of AI-powered cyber threats and the need for increased awareness and education on AI-related cybersecurity risks.",
+          "summary": "Why this matters: The senior losing almost $1M in a deepfake scam highlights the need for increased awareness and education about AI-powered cyber threats.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-16T00:00:00+00:00",
@@ -407,7 +389,7 @@
           "id": "ca_207f823b11cc6557",
           "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
           "url": "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
-          "summary": "Embedding forbidden text in spyware to discourage AI analysis is a tactic used by malware developers, and understanding this technique is essential for developing effective AI-powered security measures.",
+          "summary": "Embedding forbidden text in spyware to discourage AI analysis is a tactic used by malware developers to evade detection.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-06-18T11:04:01+00:00",
@@ -424,7 +406,7 @@
           "id": "ca_584783acb9b0e6a3",
           "title": "Measuring LLMs' Impact on N-day Exploits",
           "url": "https://red.anthropic.com/2026/n-days/",
-          "summary": "Why this matters: Measuring LLMs' impact on N-day exploits is crucial for understanding the potential risks of AI in cybersecurity. The Anthropic Frontier Red Team's evaluation provides valuable insights into the acceleration and automation of N-day exploits.",
+          "summary": "Why this matters: Measuring LLMs' impact on N-day exploits is crucial for understanding the potential risks of large language models in cybersecurity.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-08T00:00:00+00:00",
@@ -441,7 +423,7 @@
           "id": "ca_83e1167968632530",
           "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
           "url": "https://red.anthropic.com/2026/attack-navigator/",
-          "summary": "Why this matters: Mapping AI-enabled cyber threats using the LLM ATT&CK Navigator provides a comprehensive understanding of the tactics and techniques used by cyberattackers, enabling more effective defense strategies.",
+          "summary": "Why this matters: Mapping AI-enabled cyber threats to the MITRE ATT&CK framework provides valuable insights into the tactics and techniques used by cyberattackers.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-03T00:00:00+00:00",
@@ -458,7 +440,7 @@
           "id": "ca_7463f2cf354c19a1",
           "title": "Measuring LLMs' Ability to Develop Exploits",
           "url": "https://red.anthropic.com/2026/exploit-evals/",
-          "summary": "Why this matters: The evaluation of LLMs' ability to develop exploits highlights the potential risks of AI in cybersecurity and the need for robust security measures to prevent the misuse of AI capabilities.",
+          "summary": "Why this matters: Evaluating the ability of LLMs to develop exploits is essential for assessing the potential risks and benefits of these models in cybersecurity.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-05-22T00:00:00+00:00",
@@ -477,7 +459,7 @@
           "id": "ca_d0a43ebc0624d9e4",
           "title": "Sault retiree lost almost a million dollars in crypto scam",
           "url": "https://www.sootoday.com/city-police-beat/sault-retiree-lost-almost-a-million-dollars-in-crypto-scam-12367526",
-          "summary": "Why this matters: The Sault retiree losing almost a million dollars in a crypto scam demonstrates the potential risks of AI-powered cyber threats and the need for robust security measures to prevent such incidents.",
+          "summary": "Why this matters: The Sault retiree losing almost a million dollars in a crypto scam emphasizes the importance of cybersecurity awareness and education.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-16T00:00:00+00:00",
@@ -494,7 +476,7 @@
           "id": "ca_373deace457300ca",
           "title": "Memory Is a Feature. It Is Also an Attack Surface",
           "url": "https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/?utm_source=rss&utm_medium=rss&utm_campaign=memory-is-a-feature-it-is-also-an-attack-surface",
-          "summary": "Why this matters: Memory being an attack surface is a critical consideration for AI security, and the OWASP GenAI Security Project's work on this topic provides valuable insights for developers and security experts.",
+          "summary": "Why this matters: Understanding memory as a feature and an attack surface is crucial for developing secure AI systems.",
           "source": "OWASP GenAI",
           "tier": 2,
           "published": "2026-05-14T01:05:44+00:00",
@@ -512,10 +494,27 @@
     "community": {
       "top": [
         {
+          "id": "co_d064b3eae2a95eb8",
+          "title": "Agent memory on Elasticsearch: hybrid retrieval and DLS",
+          "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+          "summary": "Why this matters: Hybrid retrieval and DLS on Elasticsearch can significantly impact agent memory, a crucial aspect of multi-agent platforms like NetPresso. This discussion may offer valuable insights for optimization.",
+          "source": "Lobsters (AI tag)",
+          "tier": 1,
+          "published": "2026-06-18T19:36:59+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "co_ce571a45bd1aaac1",
           "title": "Why adding ontologies to LLMs won't yield machine intelligence",
           "url": "https://youtu.be/Ce-cN5Llaz4?t=93",
-          "summary": "Why this matters: Discussing the limitations of adding ontologies to LLMs in achieving machine intelligence is crucial for understanding AI's current capabilities and future potential.",
+          "summary": "Why this matters: The limitations of adding ontologies to LLMs for achieving machine intelligence is a topic of interest, especially in the context of AI safety and governance, and could be explored further in a practitioner's take.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-06-16T01:33:59+00:00",
@@ -529,16 +528,16 @@
           }
         },
         {
-          "id": "co_f27c9fbef91d2cb1",
-          "title": "Building llm-driven \u201cai\u201d still requires domain knowledge",
-          "url": "https://lobste.rs/s/q9sd1m/building_llm_driven_ai_still_requires",
-          "summary": "Why this matters: Building LLM-driven tools requires significant domain knowledge, highlighting the importance of capturing and integrating this knowledge for effective AI applications.",
+          "id": "co_ee9d433be83190ee",
+          "title": "Can gzip be a language model?",
+          "url": "https://nathan.rs/posts/gzip-lm/",
+          "summary": "Exploring the idea of gzip as a language model could lead to interesting discussions on data compression and its potential applications in AI.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
-          "published": "2026-06-15T14:46:23+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "published": "2026-06-16T22:17:20+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -714,7 +713,7 @@
             "published": "2026-05-03T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -892,7 +891,7 @@
             "published": "2026-06-14T17:43:42+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1080,6 +1079,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_e9b8182dcfcc0d62",
+            "title": "MosaicLeaks: Can your research agent keep a secret?",
+            "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-06-18T18:13:13+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_dc672d00868203d0",
             "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
             "url": "https://huggingface.co/blog/peft-beyond-lora",
@@ -1129,20 +1142,6 @@
             "source": "Hugging Face Blog",
             "tier": 2,
             "published": "2026-06-17T10:18:05+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_64d6b4cbeaac616a",
-            "title": "GLM-5.2: Built for Long-Horizon Tasks",
-            "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-06-17T09:01:25+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1230,10 +1229,24 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_183cc3756eb15a27",
+            "title": "The AI Hate Progression",
+            "url": "https://www.xodium.net/2026/06/the-ai-hate-progression.html",
+            "summary": "Article URL: https://www.xodium.net/2026/06/the-ai-hate-progression.html Comments URL: https://news.ycombinator.com/item?id=48589485 Points: 92 # Comments: 121",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-18T18:30:33+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_d064b3eae2a95eb8",
             "title": "We built a persistent agent memory layer on Elasticsearch with 0.89 recall",
             "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-            "summary": "Article URL: https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch Comments URL: https://news.ycombinator.com/item?id=48583703 Points: 66 # Comments: 23",
+            "summary": "Article URL: https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch Comments URL: https://news.ycombinator.com/item?id=48583703 Points: 91 # Comments: 35",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-06-18T11:20:18+00:00",
@@ -1247,7 +1260,7 @@
             "id": "ta_291f31c5fe927e87",
             "title": "AI Compute Extensions (ACE) Specification",
             "url": "https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/",
-            "summary": "Article URL: https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/ Comments URL: https://news.ycombinator.com/item?id=48579913 Points: 50 # Comments: 21",
+            "summary": "Article URL: https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/ Comments URL: https://news.ycombinator.com/item?id=48579913 Points: 51 # Comments: 21",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-06-18T02:32:01+00:00",
@@ -1261,13 +1274,13 @@
             "id": "ta_7cf9b0bd929e1c82",
             "title": "The hacker sent by Anthropic to calm the government's nerves about AI safety",
             "url": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
-            "summary": "Readable: https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas... Comments URL: https://news.ycombinator.com/item?id=48575451 Points: 85 # Comments: 89",
+            "summary": "Readable: https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas... Comments URL: https://news.ycombinator.com/item?id=48575451 Points: 86 # Comments: 92",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-06-17T19:22:02+00:00",
             "flags": {
-              "new": true,
-              "featured": true,
+              "new": false,
+              "featured": false,
               "tier": 2
             }
           },
@@ -1280,21 +1293,7 @@
             "tier": 2,
             "published": "2026-06-17T17:34:20+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_088c1fec19ca3396",
-            "title": "The Competitive Moat That AI Can't Replicate",
-            "url": "https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/",
-            "summary": "Article URL: https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/ Comments URL: https://news.ycombinator.com/item?id=48573435 Points: 137 # Comments: 121",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-17T17:14:21+00:00",
-            "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1344,7 +1343,7 @@
             "published": "2026-06-03T15:19:40+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1358,7 +1357,7 @@
             "published": "2026-05-31T16:00:14+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1391,7 +1390,7 @@
             "published": "2026-06-15T15:17:52+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1433,7 +1432,7 @@
             "published": "2026-06-01T08:58:07+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1494,7 +1493,7 @@
             "published": "2026-06-05T10:09:09+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1508,7 +1507,7 @@
             "published": "2026-06-05T08:29:03+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1522,7 +1521,7 @@
             "published": "2026-06-04T17:50:39+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           }
@@ -1607,6 +1606,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_6ea0b52058b7d333",
+            "title": "SK Telecom wants to give every employee their own AI agent",
+            "url": "https://www.rcrwireless.com/20260618/ai/sk-telecom-ai-agents-2",
+            "summary": "SK Telecom\u2019s AX Innovation 2.0 program treats AI agents as \u201cdigital employees\u201d In sum \u2013 what we know: SK Telecom wants you to think of AI agents less as software and more as colleagues. With the launch of AX Innovation 2.0,\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-06-18T20:41:40+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_be8dad74351892fd",
             "title": "Mavenir, Red Hat target AI monetization opportunity for telcos",
             "url": "https://www.rcrwireless.com/20260618/carriers/mavenir-ai-telcos",
@@ -1656,20 +1669,6 @@
             "source": "RCR Wireless",
             "tier": 2,
             "published": "2026-06-18T09:54:25+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_e9db020a79aa12f2",
-            "title": "HPE Discover 2026 \u2013 the full-stack agentic enterprise (Analyst Angle)",
-            "url": "https://www.rcrwireless.com/20260618/analyst-angle/hpe-discover-2026-fellah",
-            "summary": "The agentic enterprise gets a full stack, and a third answer to the one-platform question \u2013 all the latest from HPE Discover 2026, courtesy of Adlane Fellah at Maravedis Research. Discover 2026 \u2013 HPE\u2019s blueprint centers on three layers: self-driving\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-06-18T09:37:09+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1909,6 +1908,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_fed69579fa772c0d",
+            "title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
+            "url": "https://www.latent.space/p/anj",
+            "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-06-18T17:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_c7a02626e6e78429",
             "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
             "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
@@ -1931,7 +1944,7 @@
             "tier": 2,
             "published": "2026-06-17T17:58:06+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1963,20 +1976,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "to_3bb23688bbd0dc28",
-            "title": "[AINews] Fable and Mythos officially too dangerous to release",
-            "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
-            "summary": "We are in the strangest timeline.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-06-13T04:30:52+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -1984,13 +1983,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "to_cfe995d8af6b7c4f",
-            "title": "General Intuition in talks to raise $300M at around $2B valuation",
-            "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
-            "summary": "The startup trains embodied AI and world models using Medal\u2019s dataset of 2 billion videos per year from 10 million monthly active users.",
+            "id": "to_3d5da6d1201a6e8e",
+            "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega round",
+            "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+            "summary": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the \u201cinference gold rush\" marches on.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-06-18T15:20:37+00:00",
+            "published": "2026-06-18T21:20:13+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1998,13 +1997,13 @@
             }
           },
           {
-            "id": "to_3edeec6c8d16bc2c",
-            "title": "A tech worker-backed PAC is bringing a $5M knife to Big Tech\u2019s $100M gunfight",
-            "url": "https://techcrunch.com/2026/06/18/a-tech-worker-backed-pac-is-bringing-a-5m-knife-to-big-techs-100m-gunfight/",
-            "summary": "Guardrails positions itself as a populist political movement that runs on small donations from people in the trenches of the AI boom.",
+            "id": "to_a78cfdcf0d6f5477",
+            "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
+            "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+            "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be comprised of current Snap staff who are leaving the social media company to focus on AI video development.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-06-18T15:13:21+00:00",
+            "published": "2026-06-18T20:30:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -2012,13 +2011,13 @@
             }
           },
           {
-            "id": "to_910fbda02a31cbb2",
-            "title": "Pixi\u2019s new iOS app turns text messages into interactive AR experiences",
-            "url": "https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences/",
-            "summary": "Forget stickers, GIFs, and emoji reactions. Pixi is betting that the next evolution of messaging is interactive augmented reality (AR).",
+            "id": "to_385c00c92da3f378",
+            "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+            "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+            "summary": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-06-18T12:00:00+00:00",
+            "published": "2026-06-18T19:59:22+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -2026,13 +2025,13 @@
             }
           },
           {
-            "id": "to_77a3267bf3a245b3",
-            "title": "How to turn off AI in your Google Docs",
-            "url": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
-            "summary": "Here's what you need to do to get those pesky \"write with Gemini\" pop-ups to go away.",
+            "id": "to_4f64fe27ff44bc31",
+            "title": "Almost half of U.S. singles feel negatively about AI in dating, Match says",
+            "url": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+            "summary": "About 47% of singles look negatively at the use of AI in dating -- but, many dating app users are open to AI helping with profile punch-ups and conversation starters.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-06-18T01:23:51+00:00",
+            "published": "2026-06-18T18:51:46+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -2040,13 +2039,13 @@
             }
           },
           {
-            "id": "to_999fe56b6e059e83",
-            "title": "Roelof Botha joins SpaceX\u2019s board of directors",
-            "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
-            "summary": "The former Sequoia Capital leader is filling an \"existing vacancy\" on SpaceX's board, days after the company went public in the largest IPO ever.",
+            "id": "to_1bf8102f92ff3c3d",
+            "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+            "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+            "summary": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-06-17T20:32:52+00:00",
+            "published": "2026-06-18T18:22:13+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -2136,6 +2135,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ca_12cd9ddbb6ccf5eb",
+            "title": "Jun 18, 2026Frontier Red TeamProject Fetch: Phase two",
+            "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+            "summary": "Jun 18, 2026Frontier Red TeamProject Fetch: Phase two",
+            "source": "Anthropic Research",
+            "tier": 1,
+            "published": "2026-06-18T00:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "ca_6bbeb682cdf99290",
             "title": "Jun 16, 2026Economic ResearchAgentic coding and persistent returns to expertise",
             "url": "https://www.anthropic.com/research/claude-code-expertise",
@@ -2185,20 +2198,6 @@
             "source": "Anthropic Research",
             "tier": 1,
             "published": "2026-06-05T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ca_1796194ba916bcbf",
-            "title": "Jun 3, 2026Frontier Red TeamMapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
-            "url": "https://www.anthropic.com/research/attack-navigator",
-            "summary": "Jun 3, 2026Frontier Red TeamMapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-06-03T00:00:00+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2586,6 +2585,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_7cc1e7bb4db7c743",
+            "title": "Understanding Data Embassies and Corridors",
+            "url": "https://fpf.org/blog/understanding-data-embassies-and-corridors/",
+            "summary": "The following is a guest post to the FPF blog authored by Yeong Zee Kin, Chief Executive of the Singapore Academy of Law and FPF Senior Fellow. The guest post reflects the opinion of the author only and does not necessarily reflect the position or views of FPF and our stakeholder communities. FPF provides this [\u2026]",
+            "source": "Future of Privacy Forum",
+            "tier": 2,
+            "published": "2026-06-18T20:18:14+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_d7251ad78e96aba5",
             "title": "Perseverance Pays Off for Vermont Privacy Efforts",
             "url": "https://fpf.org/blog/perseverance-pays-off-for-vermont-privacy-efforts/",
@@ -2640,20 +2653,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ca_bd2b8a6746ed74a9",
-            "title": "Privacy Becomes You, Bayou State: A Look at the Louisiana Data Privacy Act",
-            "url": "https://fpf.org/blog/privacy-becomes-you-bayou-state-a-look-at-the-louisiana-data-privacy-act/",
-            "summary": "Louisiana has become the 22nd U.S. state to enact a comprehensive consumer privacy law\u2014and the third this year following Oklahoma and Alabama\u2014after Governor Landry signed the Louisiana Data Privacy Act (LDPA) (SB 386) on May 29. Overall, this is a fairly standard state privacy law that follows the Washington Privacy Act framework apart from the law\u2019s [\u2026]",
-            "source": "Future of Privacy Forum",
-            "tier": 2,
-            "published": "2026-06-03T20:21:57+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       }
@@ -2663,8 +2662,22 @@
         "tier": 1,
         "items": [
           {
+            "id": "co_d064b3eae2a95eb8",
+            "title": "Agent memory on Elasticsearch: hybrid retrieval and DLS",
+            "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-06-18T19:36:59+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 1
+            }
+          },
+          {
             "id": "co_d607824b48bf5f50",
-            "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed - In Pursuit of Laziness",
+            "title": "The Future of the Con Is Already Here, It's Just Not Evenly Distributed",
             "url": "http://manishearth.github.io/blog/2026/06/17/the-future-of-the-con-is-already-here/",
             "summary": "Comments",
             "source": "Lobsters (AI tag)",
@@ -2686,7 +2699,7 @@
             "published": "2026-06-16T22:17:20+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -2715,20 +2728,6 @@
             "flags": {
               "new": false,
               "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "co_f27c9fbef91d2cb1",
-            "title": "Building llm-driven \u201cai\u201d still requires domain knowledge",
-            "url": "https://lobste.rs/s/q9sd1m/building_llm_driven_ai_still_requires",
-            "summary": "I\u2019m in the process of building an llm driven tool to take user questions and answer them using our customer api at $work. A big part of the work is capturing the domain knowledge and writing it down. It\u2019s easier than previous generations of \u201cai\u201d because the knowledge doesn\u2019t strictly have to be rendered into a structured format, but this is what previous generations of \u201cai\u201d foundered on.",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-06-15T14:46:23+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
               "tier": 1
             }
           }
@@ -2817,8 +2816,8 @@
         "slug": "glm-5-2",
         "url": "https://artificialanalysis.ai/models/glm-5-2",
         "creator": "Z AI",
-        "intelligence_index": 50.7,
-        "coding_index": 67,
+        "intelligence_index": 51.1,
+        "coding_index": 68.8,
         "price_blended": 2.15,
         "is_open_weights": false,
         "license_type": "proprietary"
