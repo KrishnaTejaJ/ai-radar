@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-06-20T20:13:03.725154+00:00",
+    "last_updated": "2026-06-21T10:37:12.830713+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
-      "scored": 71,
+      "scored": 50,
       "radar_top": 24,
-      "radar_expand": 5
+      "radar_expand": 10
     }
   },
   "radar": {
@@ -16,7 +16,7 @@
           "id": "ta_f3d1448df6a6df02",
           "title": "LLM Research Papers: The 2026 List (January to May)",
           "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-          "summary": "Why this matters: Sebastian Raschka's curated list of notable LLM research papers provides a comprehensive overview of the latest advancements, highlighting key areas of progress and future directions.",
+          "summary": "Why this matters: Sebastian Raschka's curated list of notable LLM research papers from 2026 provides valuable insights into the latest advancements and trends in the field, making it a must-read for practitioners.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-06T11:16:22+00:00",
@@ -30,10 +30,44 @@
           }
         },
         {
+          "id": "ta_ea5379cae11adf20",
+          "title": "The 100k Whys of AI",
+          "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+          "summary": "The article on the 100k whys of AI sparks interesting discussions on the limitations and potential of current AI systems, but its relevance to practical applications is uncertain.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-06-21T05:45:21+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "ta_adb703e42fd4b242",
+          "title": "Building reliable agentic AI systems",
+          "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+          "summary": "The article on building reliable agentic AI systems raises important points about the challenges of creating trustworthy AI, but its concrete implications for practitioners are not immediately clear.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-06-21T04:28:39+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ta_ad1a0b6f01f5a507",
           "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
           "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: New developments in LLM architectures, such as KV sharing, mHC, and compressed attention, are reducing long-context costs and enabling more efficient models, as discussed by Sebastian Raschka.",
+          "summary": "Why this matters: Recent developments in LLM architectures, such as KV sharing, mHC, and compressed attention, are reducing long-context costs and enabling more efficient models, which has significant implications for the field.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-05-16T11:33:51+00:00",
@@ -50,7 +84,7 @@
           "id": "ta_97cd97d27d220f15",
           "title": "How we contain Claude across products",
           "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "summary": "Why this matters: Containment strategies for capable agents are crucial, and learning from Anthropic's experience with Claude can inform our own approaches to mitigating potential risks.",
+          "summary": "Why this matters: Containment strategies for capable agents are crucial, and learning from Anthropic's experience with claude.ai, Claude Code, and Cowork can inform our own approaches to mitigating potential risks.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-05-25T00:00:00+00:00",
@@ -62,12 +96,14 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "ta_c20d71e489714f49",
           "title": "How to Work and Compound with AI",
           "url": "https://eugeneyan.com//writing/working-with-ai/",
-          "summary": "Why this matters: Eugene Yan's reflections on working and compounding with AI offer valuable insights into effective collaboration, emphasizing context, taste, verification, and delegation.",
+          "summary": "Why this matters: Eugene Yan's insights on working and compounding with AI highlight the importance of context, taste, verification, and delegation in achieving autonomy and scaling AI systems.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-05-03T00:00:00+00:00",
@@ -79,26 +115,8 @@
             "featured": true,
             "tier": 1
           }
-        },
-        {
-          "id": "ta_e53f91b8c3468711",
-          "title": "calesthio/OpenMontage",
-          "url": "https://github.com/calesthio/OpenMontage",
-          "summary": "Why this matters: OpenMontage, an open-source agentic video production system, demonstrates the potential for AI to revolutionize content creation, enabling more efficient and personalized video production.",
-          "source": "GitHub Python Trending",
-          "tier": 2,
-          "published": null,
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
         }
-      ],
-      "expand": []
+      ]
     },
     "telecom": {
       "top": [
@@ -106,7 +124,7 @@
           "id": "te_6164546603ce04b6",
           "title": "TelcoAgent: A Scalable 5G Multi-KPM Forecasting With 3GPP-Grounded Explainability",
           "url": "https://arxiv.org/abs/2606.19821v1",
-          "summary": "Why this matters: TelcoAgent enables accurate, scalable, and explainable forecasting of multiple KPMs across diverse network cells, addressing significant limitations in existing ML approaches.",
+          "summary": "Why this matters: TelcoAgent is a foundation model-based framework that enables accurate, scalable, and explainable forecasting of multiple KPMs across diverse network cells without the need for site-specific data, which can significantly improve proactive network management of 5G and next-generation telecom networks.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-06-18T05:55:29+00:00",
@@ -120,31 +138,14 @@
           }
         },
         {
-          "id": "te_aff2e8f309ea1fb0",
-          "title": "Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks",
-          "url": "https://arxiv.org/abs/2606.16386v1",
-          "summary": "Why this matters: Game-Theoretic Multi-Agent Reinforcement Learning optimizes communication throughput and mission completion efficiency in low-altitude wireless networks, supporting heterogeneous mission-critical applications.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-06-15T08:17:28+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "te_96a4709136d1e847",
           "title": "LLM-Enabled NWDAF: A Step Toward AI-Native 6G Network Intelligence",
           "url": "https://arxiv.org/abs/2606.11877v1",
-          "summary": "Why this matters: LLM-Enabled NWDAF enables zero-touch network management in 5G networks, supporting real-time analytics and closed-loop automation with an open-source implementation.",
+          "summary": "Why this matters: LLM-Enabled NWDAF is a significant step toward AI-Native 6G Network Intelligence, enabling real-time analytics and closed-loop automation in 5G networks by integrating Large Language Models with the Network Data Analytics Function.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-06-10T10:00:26+00:00",
-          "score": 4,
+          "score": 5,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
@@ -157,13 +158,13 @@
           "id": "te_c684685f42061f56",
           "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
           "url": "https://arxiv.org/abs/2606.08173v1",
-          "summary": "Why this matters: AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems ensures ultra-reliable low-latency slices, mitigating the risk of remote breaches and physical harm.",
+          "summary": "Why this matters: AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems is crucial for ensuring the security and trustworthiness of 6G networks, as it can detect and mitigate security threats in real-time and prevent physical harm to people and systems.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-06T13:36:59+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -174,11 +175,28 @@
           "id": "te_c684685f42061f56",
           "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
           "url": "https://arxiv.org/abs/2606.08173v1",
-          "summary": "Why this matters: AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems ensures ultra-reliable low-latency slices, mitigating the risk of remote breaches and physical harm.",
+          "summary": "Why this matters: AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems is crucial for ensuring the security and trustworthiness of 6G networks, as it can detect and mitigate security threats in real-time and prevent physical harm to people and systems.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-06-06T13:36:59+00:00",
-          "score": 4,
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_c48471b378507e3a",
+          "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
+          "url": "https://arxiv.org/abs/2606.06261v1",
+          "summary": "Why this matters: DAST is a VLM-LLM framework for cross-interface anomaly detection in O-RAN, which can effectively identify and mitigate Denial-of-Service and performance-degradation attacks in O-RAN systems.",
+          "source": "arXiv: RAN anomaly",
+          "tier": 1,
+          "published": "2026-06-04T15:05:04+00:00",
+          "score": 5,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
@@ -190,33 +208,16 @@
       ],
       "expand": [
         {
-          "id": "te_c48471b378507e3a",
-          "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
-          "url": "https://arxiv.org/abs/2606.06261v1",
-          "summary": "Why this matters: DAST detects cross-interface anomalies in O-RAN, addressing the expanded attack surface in disaggregated baseband stacks with programmable functions.",
-          "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-06-04T15:05:04+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "te_bb054ff87233869d",
           "title": "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs",
           "url": "https://arxiv.org/abs/2606.01925v2",
-          "summary": "Why this matters: QoEReasoner enables automated and explainable QoE diagnosis in RANs, addressing the complexity of diagnosing QoE degradations in operational networks.",
+          "summary": "Why this matters: QoEReasoner is an agentic reasoning framework for automated and explainable QoE diagnosis in RANs, which can significantly improve the efficiency and accuracy of diagnosing Quality-of-Experience degradations in operational Radio Access Networks.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-01T08:58:07+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -227,13 +228,64 @@
           "id": "te_106ae3798256e3aa",
           "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
           "url": "https://arxiv.org/abs/2605.27360v1",
-          "summary": "Why this matters: GENESIS harnesses AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing, streamlining cellular R&D and reducing manual engineering work.",
+          "summary": "Why this matters: GENESIS is a framework for harnessing AI agents for autonomous 6G RAN synthesis, research, and testing, which can accelerate the development and deployment of 6G networks by automating the synthesis of new features and testing of network functionalities.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-05-26T17:58:43+00:00",
-          "score": 4,
+          "score": 5,
           "tag": "build",
           "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_aff2e8f309ea1fb0",
+          "title": "Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks",
+          "url": "https://arxiv.org/abs/2606.16386v1",
+          "summary": "Why this matters: Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks can ensure mission success by optimizing communication throughput and mission completion efficiency in low-altitude wireless networks.",
+          "source": "arXiv: 5G + LLM",
+          "tier": 1,
+          "published": "2026-06-15T08:17:28+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_e4d65e632e249466",
+          "title": "Mitigating Anchoring Bias in LLM-Based Agents for Energy-Efficient 6G Autonomous Networks",
+          "url": "https://arxiv.org/abs/2606.18272v2",
+          "summary": "Why this matters: Mitigating anchoring bias in LLM-based agents for energy-efficient 6G autonomous networks is essential for ensuring the efficient and reliable operation of 6G networks, as anchoring bias can cause severe network over-provisioning and reduce the overall performance of the network.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-06-05T08:29:03+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_df3d8893e3b440bf",
+          "title": "Event Detection for Parameter-to-KPI Dependency Learning for AI-RAN",
+          "url": "https://arxiv.org/abs/2606.06459v1",
+          "summary": "Why this matters: Event detection for parameter-to-KPI dependency learning for AI-RAN is critical for optimizing network performance and ensuring the efficient operation of AI-integrated and open radio access network architectures.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-06-04T17:50:39+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -248,7 +300,7 @@
           "id": "to_8ea23dec32f761f9",
           "title": "Datasette Apps: Host custom HTML applications inside Datasette",
           "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-entries",
-          "summary": "Why this matters: Datasette Apps enable hosting custom HTML applications inside Datasette, allowing for self-contained HTML+JavaScript applications that can run read-only SQL queries against data in Datasette.",
+          "summary": "Why this matters: Datasette Apps enable hosting custom HTML applications inside Datasette, allowing for self-contained HTML+JavaScript applications to run in a sandboxed environment.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-18T23:58:38+00:00",
@@ -265,7 +317,7 @@
           "id": "to_b2b4b3e77b98a10d",
           "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
           "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-entries",
-          "summary": "Why this matters: GLM-5.2 is a powerful text-only open weights LLM with 753B parameters, offering significant capabilities for text-based applications.",
+          "summary": "Why this matters: GLM-5.2, a 753B parameter text-only open weights LLM, has been released under an MIT license, offering a powerful tool for text-based applications.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-17T23:58:39+00:00",
@@ -282,7 +334,7 @@
           "id": "to_4f83858798163387",
           "title": "Publishing WASM wheels to PyPI for use with Pyodide",
           "url": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-entries",
-          "summary": "Why this matters: Publishing WASM wheels to PyPI for use with Pyodide enables direct installation of Python packages built for Pyodide, simplifying the development process.",
+          "summary": "Why this matters: Publishing WASM wheels to PyPI for use with Pyodide enables the direct installation of Python packages built for Pyodide, simplifying the development process.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-13T23:55:18+00:00",
@@ -299,7 +351,7 @@
           "id": "to_84b735cace597c4d",
           "title": "Why AI hasn\u2019t replaced software engineers, and won\u2019t",
           "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
-          "summary": "Why this matters: AI hasn't replaced software engineers and won't, as coding agents are normal technology that can augment but not replace human capabilities.",
+          "summary": "Why this matters: AI hasn't replaced software engineers, and won't, due to the complexities and nuances of coding, highlighting the need for human expertise in software development.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-06-11T02:29:51+00:00",
@@ -316,7 +368,7 @@
           "id": "to_60f7fc2b939ab5b2",
           "title": "Claude Fable is relentlessly proactive",
           "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-entries",
-          "summary": "Claude Fable 5 is a proactive AI model that can deploy various tricks to achieve its goals, but its capabilities and limitations require further exploration.",
+          "summary": "Claude Fable 5 is described as relentlessly proactive, deploying various tricks to achieve its goals, demonstrating its capabilities and potential applications.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-11T23:35:17+00:00",
@@ -335,16 +387,16 @@
     "cautionary": {
       "top": [
         {
-          "id": "ca_1b85318922760ff5",
-          "title": "Waymo recalls nearly 3,900 robotaxis over risk of entering closed construction zones",
-          "url": "https://www.reuters.com/legal/litigation/waymo-recall-over-3800-robotaxis-over-risk-entering-closed-construction-zones-2026-06-18/",
-          "summary": "Waymo's recall of robotaxis due to a software issue that could cause vehicles to enter closed construction zones highlights the importance of ensuring AI system safety.",
+          "id": "ca_3fdb2b0205df7e97",
+          "title": "AI got the blame for the Iran school bombing. The truth is far more worrying",
+          "url": "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying",
+          "summary": "Why this matters: The incident involving AI being blamed for the Iran school bombing, despite the truth being more complex, highlights the importance of critically evaluating AI-related incidents and their causes.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-19T00:00:00+00:00",
-          "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -403,35 +455,52 @@
           }
         },
         {
-          "id": "ca_d149b5d1165df56a",
-          "title": "Waymo recalls about 3,900 robotaxis after some drove into \u2018freeway construction zones\u2019",
-          "url": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html",
-          "summary": "The recall of Waymo robotaxis after some cars drove into freeway construction zones underscores the need for rigorous testing and validation of AI systems.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-06-19T00:00:00+00:00",
+          "id": "ca_1e995fdeb15ded28",
+          "title": "Anthropic\u2019s Fable and the State of AI",
+          "url": "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
+          "summary": "Why this matters: The US government's classification of Anthropic's Fable generative AI model as a dangerous munition and its subsequent restriction highlight the growing concern about AI's potential risks and the need for regulatory frameworks.",
+          "source": "Schneier on Security",
+          "tier": 2,
+          "published": "2026-06-19T11:03:30+00:00",
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 1
+            "tier": 2
           }
         }
       ],
       "expand": [
         {
-          "id": "ca_3fdb2b0205df7e97",
-          "title": "AI got the blame for the Iran school bombing. The truth is far more worrying",
-          "url": "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying",
-          "summary": "The incident involving AI-blamed Iran school bombing raises concerns about the potential misuse of AI and the importance of transparency in AI development and deployment.",
+          "id": "ca_1b85318922760ff5",
+          "title": "Waymo recalls nearly 3,900 robotaxis over risk of entering closed construction zones",
+          "url": "https://www.reuters.com/legal/litigation/waymo-recall-over-3800-robotaxis-over-risk-entering-closed-construction-zones-2026-06-18/",
+          "summary": "Why this matters: The recall of Waymo's robotaxis due to a software issue that could cause them to enter closed construction zones highlights the importance of ensuring AI system safety.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-19T00:00:00+00:00",
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "ca_d149b5d1165df56a",
+          "title": "Waymo recalls about 3,900 robotaxis after some drove into \u2018freeway construction zones\u2019",
+          "url": "https://www.cnbc.com/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html",
+          "summary": "Why this matters: The recall of Waymo's robotaxis after some drove into freeway construction zones underscores the need for rigorous testing and validation of AI systems.",
+          "source": "AI Incident Database",
+          "tier": 1,
+          "published": "2026-06-19T00:00:00+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -442,17 +511,34 @@
           "id": "ca_da2ef16038993351",
           "title": "Waymo pauses robotaxis in five US cities after cars drive into flooded roads",
           "url": "https://www.bbc.com/news/articles/ckgplyxxl75o",
-          "summary": "Waymo's pause of robotaxis in five US cities due to a software issue that caused vehicles to enter flooded roads highlights the challenges of ensuring AI system reliability and safety.",
+          "summary": "Why this matters: Waymo's pause of its robotaxis in five US cities after cars drove into flooded roads demonstrates the challenges of ensuring AI system safety in complex environments.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-19T00:00:00+00:00",
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
             "tier": 1
+          }
+        },
+        {
+          "id": "ca_207f823b11cc6557",
+          "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
+          "url": "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
+          "summary": "Why this matters: The use of forbidden text in spyware to discourage AI analysis underscores the cat-and-mouse nature of cybersecurity and the need for continuous innovation in AI security measures.",
+          "source": "Schneier on Security",
+          "tier": 2,
+          "published": "2026-06-18T11:04:01+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
           }
         }
       ]
@@ -463,7 +549,7 @@
           "id": "co_afd6656ce9e51c78",
           "title": "Reverse Engineering the Qualcomm NPU Compiler",
           "url": "https://datavorous.github.io/writing/qairt/",
-          "summary": "Why this matters: Reverse engineering the Qualcomm NPU compiler can provide valuable insights into optimizing AI workloads on specialized hardware.",
+          "summary": "Why this matters: Reverse engineering the Qualcomm NPU Compiler can provide valuable insights into optimizing AI workloads on specialized hardware.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-06-20T11:49:16+00:00",
@@ -1137,6 +1223,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_e53f91b8c3468711",
+            "title": "calesthio/OpenMontage",
+            "url": "https://github.com/calesthio/OpenMontage",
+            "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. OpenMontage The first open-source, agentic video production system. Paste A Video \u00b7 Quick Start \u00b7 Try These Prompts \u00b7 Pipelines \u00b7 How It Works \u00b7 Providers \u00b7 Agent Guide Follow The Build Turn your AI coding assistant into a full video production studio. Describe what you want in plain language \u2014 your agent handles research, scripting, asset generation, editing, and final composition.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_28dd3b77bf23ab2b",
             "title": "google-research/timesfm",
             "url": "https://github.com/google-research/timesfm",
@@ -1165,24 +1265,10 @@
             }
           },
           {
-            "id": "ta_e53f91b8c3468711",
-            "title": "calesthio/OpenMontage",
-            "url": "https://github.com/calesthio/OpenMontage",
-            "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. OpenMontage The first open-source, agentic video production system. Paste A Video \u00b7 Quick Start \u00b7 Try These Prompts \u00b7 Pipelines \u00b7 How It Works \u00b7 Providers \u00b7 Agent Guide Follow The Build Turn your AI coding assistant into a full video production studio. Describe what you want in plain language \u2014 your agent handles research, scripting, asset generation, editing, and final composition.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_e626b58e7d74afb2",
-            "title": "Lightricks/LTX-2",
-            "url": "https://github.com/Lightricks/LTX-2",
-            "summary": "Official Python inference and LoRA trainer package for the LTX-2 audio\u2013video generative model. LTX-2 LTX-2 is the first DiT-based audio-video foundation model that contains all core capabilities of modern video generation in one model: synchronized audio and video, high fidelity, multiple performance modes, production-ready outputs, API access, and open access.",
+            "id": "ta_de2a117c79f913c7",
+            "title": "public-apis/public-apis",
+            "url": "https://github.com/public-apis/public-apis",
+            "summary": "A collective list of free APIs Try Public APIs for free The Public APIs repository is manually curated by community members like you and folks working at APILayer . It includes an extensive list of public APIs from many domains that you can use for your own products. Consider it a treasure trove of APIs well-managed by the community over the years. APILayer is the fastest way to integrate APIs into any product. Explore APILayer APIs here for your next project. Join our Discord server to get updates, ask questions, get answers, random community calls, and more.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1193,10 +1279,10 @@
             }
           },
           {
-            "id": "ta_36917ef32b441dc1",
-            "title": "K-Dense-AI/scientific-agent-skills",
-            "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-            "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. Scientific Agent Skills Star History \ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility \u2014 now works with any AI agent that supports the open Agent Skills standard, not just Claude.",
+            "id": "ta_c38e5babf755c3ca",
+            "title": "home-assistant/core",
+            "url": "https://github.com/home-assistant/core",
+            "summary": "\ud83c\udfe1 Open source home automation that puts local control and privacy first. Home Assistant |Chat Status| Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. Check out home-assistant.io <https://home-assistant.io> __ for a demo <https://demo.home-assistant.io> , installation instructions <https://home-assistant.io/getting-started/> , tutorials <https://home-assistant.io/getting-started/automation/> __ and documentation <https://home-assistant.io/docs/> __.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1212,10 +1298,52 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_ea5379cae11adf20",
+            "title": "The 100k Whys of AI",
+            "url": "https://lcamtuf.substack.com/p/the-100000-whys-of-ai",
+            "summary": "Article URL: https://lcamtuf.substack.com/p/the-100000-whys-of-ai Comments URL: https://news.ycombinator.com/item?id=48616017 Points: 111 # Comments: 62",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-21T05:45:21+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_adb703e42fd4b242",
+            "title": "Building reliable agentic AI systems",
+            "url": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+            "summary": "Article URL: https://martinfowler.com/articles/reliable-llm-bayer.html Comments URL: https://news.ycombinator.com/item?id=48615680 Points: 106 # Comments: 22",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-21T04:28:39+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_b7d75a19f9b07c1d",
+            "title": "When I reject AI code even if it works",
+            "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+            "summary": "Article URL: https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/ Comments URL: https://news.ycombinator.com/item?id=48614631 Points: 186 # Comments: 105",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-06-21T00:58:13+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_e7b5497f48b2fe03",
             "title": "Temporary Cloudflare accounts for AI agents",
             "url": "https://blog.cloudflare.com/temporary-accounts/",
-            "summary": "Article URL: https://blog.cloudflare.com/temporary-accounts/ Comments URL: https://news.ycombinator.com/item?id=48608394 Points: 104 # Comments: 72",
+            "summary": "Article URL: https://blog.cloudflare.com/temporary-accounts/ Comments URL: https://news.ycombinator.com/item?id=48608394 Points: 212 # Comments: 113",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-06-20T11:19:05+00:00",
@@ -1229,52 +1357,10 @@
             "id": "ta_e8cd117c51652771",
             "title": "Companies rein in AI usage as costs strain budgets",
             "url": "https://www.ft.com/content/1d37cc08-e0aa-45a4-a45d-4ad282529314",
-            "summary": "https://archive.ph/z24oE Comments URL: https://news.ycombinator.com/item?id=48602571 Points: 118 # Comments: 103",
+            "summary": "https://archive.ph/z24oE Comments URL: https://news.ycombinator.com/item?id=48602571 Points: 120 # Comments: 104",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-06-19T19:57:18+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_d6fe158cc16a327e",
-            "title": "Is AI ruining our skills? Early results are in \u2013 and they're not good",
-            "url": "https://www.nature.com/articles/d41586-026-01947-1",
-            "summary": "Article URL: https://www.nature.com/articles/d41586-026-01947-1 Comments URL: https://news.ycombinator.com/item?id=48601286 Points: 235 # Comments: 312",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-19T18:00:48+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_724043423736d98e",
-            "title": "AI Engineer Claims to Have Cracked Linear A",
-            "url": "https://aiclambake.com/clamtakes/linear-a/",
-            "summary": "Article URL: https://aiclambake.com/clamtakes/linear-a/ Comments URL: https://news.ycombinator.com/item?id=48600107 Points: 434 # Comments: 172",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-19T16:04:42+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_b805a3d6a824a3bf",
-            "title": "Norway imposes near ban on AI in elementary school",
-            "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
-            "summary": "Article URL: https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/ Comments URL: https://news.ycombinator.com/item?id=48600093 Points: 774 # Comments: 553",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-06-19T16:03:15+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1490,7 +1576,7 @@
             "published": "2026-06-05T08:29:03+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1504,7 +1590,7 @@
             "published": "2026-06-04T17:50:39+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           }
@@ -1597,7 +1683,7 @@
             "tier": 2,
             "published": "2026-06-19T23:04:22+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1899,7 +1985,7 @@
             "tier": 2,
             "published": "2026-06-20T08:06:05+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1966,6 +2052,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_a8b7179eed6310d2",
+            "title": "Signal\u2019s Meredith Whittaker wants you to remember that AI chatbots \u2018are not your friends\u2019",
+            "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+            "summary": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.\u201d",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-06-20T20:32:29+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_af08cad5eb0b0436",
             "title": "In the Weights is your new AI-centric vanity search",
             "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
@@ -2002,7 +2102,7 @@
             "tier": 2,
             "published": "2026-06-19T22:40:14+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2015,20 +2115,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-06-19T16:08:17+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_3d079fe17c331347",
-            "title": "The US banned Anthropic\u2019s Fable 5 release, but the numbers don\u2019t seem to care",
-            "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
-            "summary": "Just as last week was ending, the US government forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5\u2019s guardrails. Cybersecurity researchers have since signed an open letter calling the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models. So is [\u2026]",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-06-19T16:01:03+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2351,7 +2437,7 @@
             "tier": 2,
             "published": "2026-06-19T21:03:48+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2366,7 +2452,7 @@
             "published": "2026-06-19T11:03:30+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -2380,7 +2466,7 @@
             "published": "2026-06-18T11:04:01+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
