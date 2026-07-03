@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-07-02T20:16:50.142268+00:00",
+    "last_updated": "2026-07-03T10:09:12.754790+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 145,
-      "scored": 54,
-      "radar_top": 24,
-      "radar_expand": 8
+      "fetched": 135,
+      "scored": 52,
+      "radar_top": 23,
+      "radar_expand": 6
     }
   },
   "radar": {
@@ -16,13 +16,13 @@
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Sebastian Raschka's work on using local coding agents as an alternative to Claude Code and Codex subscriptions offers a promising approach to leveraging open-weight models in local coding harnesses.",
+          "summary": "Why this matters: Using local coding agents with open-weight models provides an alternative to Claude Code and Codex subscriptions, offering more flexibility and control.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -33,13 +33,13 @@
           "id": "ta_b291141d2bb416fa",
           "title": "GLM-5.2 is the step change for open agents",
           "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
-          "summary": "The GLM-5.2 model represents a significant step change for open agents, with potential implications for the development of more advanced AI applications.",
+          "summary": "Why this matters: The GLM-5.2 model represents a significant step change for open agents, enabling more efficient and effective AI-powered systems.",
           "source": "Interconnects",
           "tier": 1,
           "published": "2026-06-22T14:52:45+00:00",
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -50,7 +50,7 @@
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evals provide a structured approach to evaluating and improving the security of systems, including the use of sandboxed targets and graders.",
+          "summary": "Why this matters: Patterns for building cybersecurity evaluations, such as using sandboxed targets and grading tools, are essential for ensuring the security of AI-powered systems.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
@@ -64,14 +64,14 @@
           }
         },
         {
-          "id": "ta_ad1a0b6f01f5a507",
-          "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-          "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: Sebastian Raschka's analysis of recent developments in LLM architectures, including KV sharing, mHC, and compressed attention, highlights the advancements in open-weight LLMs and their potential to reduce long-context costs.",
-          "source": "Sebastian Raschka",
+          "id": "ta_72743727df11fb18",
+          "title": "Using LLMs to Secure Source Code",
+          "url": "https://eugeneyan.com//writing/secure-source-code/",
+          "summary": "Why this matters: Using LLMs to secure source code, including building threat models and verifying patches, is a critical application of AI in cybersecurity.",
+          "source": "Eugene Yan",
           "tier": 1,
-          "published": "2026-05-16T11:33:51+00:00",
-          "score": 5,
+          "published": "2026-05-27T00:00:00+00:00",
+          "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
@@ -84,7 +84,7 @@
           "id": "ta_97cd97d27d220f15",
           "title": "How we contain Claude across products",
           "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "summary": "Why this matters: Anthropic's approach to containing Claude across products highlights the importance of capping the potential blast radius of growing agents, with key learnings from building containment for claude.ai, Claude Code, and Cowork.",
+          "summary": "Why this matters: Containment strategies for Claude AI are crucial for preventing potential blast radius, and Anthropic's approach provides valuable insights.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-05-25T00:00:00+00:00",
@@ -100,13 +100,13 @@
       ],
       "expand": [
         {
-          "id": "ta_c20d71e489714f49",
-          "title": "How to Work and Compound with AI",
-          "url": "https://eugeneyan.com//writing/working-with-ai/",
-          "summary": "Why this matters: Eugene Yan's framework for working and compounding with AI, including the use of context as infrastructure and taste as configuration, offers a valuable perspective on how to effectively leverage AI in various applications.",
-          "source": "Eugene Yan",
+          "id": "ta_ad1a0b6f01f5a507",
+          "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+          "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+          "summary": "Why this matters: Recent developments in LLM architectures, such as KV sharing and compressed attention, are reducing long-context costs and enabling more efficient models.",
+          "source": "Sebastian Raschka",
           "tier": 1,
-          "published": "2026-05-03T00:00:00+00:00",
+          "published": "2026-05-16T11:33:51+00:00",
           "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
@@ -121,16 +121,33 @@
     "telecom": {
       "top": [
         {
+          "id": "te_0fa5a6cbf9662608",
+          "title": "Criticality-Based Guard Rail Validation for AI Agent Decisions in Autonomous Telecom Networks",
+          "url": "https://arxiv.org/abs/2607.02210v1",
+          "summary": "Why this matters: This paper proposes a Guard Rail Validation framework for intercepting and validating individual inference outputs of AI agents in autonomous telecom networks, which is relevant to NetPresso's focus on AI safety and governance.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-07-02T14:21:26+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "te_ec731052d04db66c",
           "title": "Indosat outlines AI Grid vision as 5G modernization targets nationwide AI-ready network",
           "url": "https://www.rcrwireless.com/20260702/5g/indosat-ai-5g-network",
-          "summary": "Indosat outlines AI Grid vision, combining centralized AI Factories with distributed AI computing for AI applications across Indonesia, targeting a nationwide AI-ready network.",
+          "summary": "Why this matters: Indosat's AI Grid vision for 5G modernization targets a nationwide AI-ready network, which is relevant to NetPresso's focus on AI-powered telecom network optimization and Verizon's interests in AI and telecom.",
           "source": "RCR Wireless",
           "tier": 2,
           "published": "2026-07-02T12:56:28+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": true,
             "featured": true,
@@ -138,65 +155,48 @@
           }
         },
         {
-          "id": "te_6164546603ce04b6",
-          "title": "TelcoAgent: A Scalable 5G Multi-KPM Forecasting With 3GPP-Grounded Explainability",
-          "url": "https://arxiv.org/abs/2606.19821v1",
-          "summary": "Why this matters: TelcoAgent enables accurate, scalable, and explainable forecasting of multiple KPMs across diverse network cells, addressing significant limitations in existing ML approaches.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-06-18T05:55:29+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_96a4709136d1e847",
-          "title": "LLM-Enabled NWDAF: A Step Toward AI-Native 6G Network Intelligence",
-          "url": "https://arxiv.org/abs/2606.11877v1",
-          "summary": "Why this matters: LLM-Enabled NWDAF enables real-time analytics and closed-loop automation in 5G networks, supporting zero-touch network management with open-source implementation.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-06-10T10:00:26+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_c684685f42061f56",
-          "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
-          "url": "https://arxiv.org/abs/2606.08173v1",
-          "summary": "Why this matters: AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems ensures ultra-reliable low-latency slices, mitigating remote breaches and physical harm.",
-          "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-06-06T13:36:59+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_c684685f42061f56",
-          "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
-          "url": "https://arxiv.org/abs/2606.08173v1",
-          "summary": "Why this matters: AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems ensures ultra-reliable low-latency slices, mitigating remote breaches and physical harm.",
+          "id": "te_0d15012ce78729fa",
+          "title": "Enabling Real-Time AI in O-RAN: Deploying andMeasuring AI Inside a Near-RT RIC xApp",
+          "url": "https://arxiv.org/abs/2607.01583v1",
+          "summary": "Why this matters: This paper demonstrates the deployment and measurement of AI inside a near-RT RIC xApp, which is relevant to NetPresso's focus on AI-powered telecom network optimization.",
           "source": "arXiv: O-RAN",
           "tier": 1,
-          "published": "2026-06-06T13:36:59+00:00",
-          "score": 5,
+          "published": "2026-07-02T01:28:03+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_ad80d7d7f43e2b95",
+          "title": "Cross-Layer Intrusion Detection in 5G O-RAN: Gains and Limits of Fusing Radio Telemetry with Network Flow Records",
+          "url": "https://arxiv.org/abs/2606.22450v1",
+          "summary": "Why this matters: This paper evaluates the gains and limits of fusing radio telemetry with network flow records for cross-layer intrusion detection in 5G O-RAN, which is relevant to NetPresso's focus on AI-powered telecom network security.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-06-21T11:48:23+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_6cf856bf2ecbb101",
+          "title": "From RAN Control to Agentic Intelligence: Architecture and Vision for Energy Efficient AI-RAN",
+          "url": "https://arxiv.org/abs/2606.21955v1",
+          "summary": "Why this matters: This paper proposes an architecture and vision for energy-efficient AI-RAN, which is relevant to NetPresso's focus on AI-powered telecom network optimization and sustainability.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-06-20T09:04:57+00:00",
+          "score": 4,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
@@ -208,81 +208,47 @@
       ],
       "expand": [
         {
+          "id": "te_b2af40026beaa868",
+          "title": "Towards LLM Accelerated Rapid Reviews for Software Tool Discovery -- Case for Log Anomaly Detection",
+          "url": "https://arxiv.org/abs/2606.16839v1",
+          "summary": "Why this matters: This paper proposes a pipeline to identify relevant studies with LLM screening for log anomaly detection tools, which can be applied to NetPresso's multi-agent platform for automated 5G Root Cause Analysis.",
+          "source": "arXiv: RAN anomaly",
+          "tier": 1,
+          "published": "2026-06-15T15:17:52+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_c684685f42061f56",
+          "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
+          "url": "https://arxiv.org/abs/2606.08173v1",
+          "summary": "Why this matters: This paper discusses AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems, which is relevant to NetPresso's focus on AI safety and governance in telecom networks.",
+          "source": "arXiv: RAN anomaly",
+          "tier": 1,
+          "published": "2026-06-06T13:36:59+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "te_c48471b378507e3a",
           "title": "DAST: A VLM-LLM Framework for Cross-Interface Anomaly Detection in O-RAN",
           "url": "https://arxiv.org/abs/2606.06261v1",
-          "summary": "Why this matters: DAST framework detects cross-interface anomalies in O-RAN, addressing the expanded attack surface in disaggregated baseband stacks with programmable functions.",
+          "summary": "Why this matters: This paper proposes a VLM-LLM framework for cross-interface anomaly detection in O-RAN, which can be applied to NetPresso's multi-agent platform for automated 5G Root Cause Analysis.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-06-04T15:05:04+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_e17cc75f9a3b0d0c",
-          "title": "Adaptive Machine Learning Framework for UAV Trajectory Optimization in O-RAN",
-          "url": "https://arxiv.org/abs/2606.24483v1",
-          "summary": "Why this matters: Adaptive Machine Learning Framework optimizes UAV trajectories in O-RAN, integrating continual transfer learning for dynamic and unfamiliar environments.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-06-23T12:18:45+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_ad80d7d7f43e2b95",
-          "title": "Cross-Layer Intrusion Detection in 5G O-RAN: Gains and Limits of Fusing Radio Telemetry with Network Flow Records",
-          "url": "https://arxiv.org/abs/2606.22450v1",
-          "summary": "Why this matters: Cross-Layer Intrusion Detection in 5G O-RAN evaluates the gains and limits of fusing radio telemetry with network flow records, improving detection accuracy.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-06-21T11:48:23+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_6cf856bf2ecbb101",
-          "title": "From RAN Control to Agentic Intelligence: Architecture and Vision for Energy Efficient AI-RAN",
-          "url": "https://arxiv.org/abs/2606.21955v1",
-          "summary": "From RAN Control to Agentic Intelligence: Architecture and Vision for Energy Efficient AI-RAN, addressing the increasing energy consumption in 6G networks.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-06-20T09:04:57+00:00",
-          "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_aff2e8f309ea1fb0",
-          "title": "Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks",
-          "url": "https://arxiv.org/abs/2606.16386v1",
-          "summary": "Why this matters: Game-Theoretic Multi-Agent Reinforcement Learning optimizes UAV trajectories in dynamic environments, ensuring mission success in low-altitude wireless networks.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-06-15T08:17:28+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -290,6 +256,23 @@
             "new": false,
             "featured": true,
             "tier": 1
+          }
+        },
+        {
+          "id": "te_f5a467f68a860bb6",
+          "title": "Will there be an AI cost reckoning for telcos? Here\u2019s what AWS\u2019 telco chief thinks.",
+          "url": "https://www.fierce-network.com/wireless/will-there-be-ai-cost-reckoning-telcos-heres-what-aws-telco-chief-thinks",
+          "summary": "Why this matters: AWS's telco chief warns that telcos could face a costly wake-up call if they mistake generic LLMs for a network-ready fix, which is relevant to NetPresso's focus on AI safety and governance in telecom networks.",
+          "source": "Fierce Network",
+          "tier": 2,
+          "published": null,
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
           }
         }
       ]
@@ -300,7 +283,7 @@
           "id": "to_baea40580e60bd43",
           "title": "Have your agent record video demos of its work with shot-scraper video",
           "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-entries",
-          "summary": "Why this matters: shot-scraper video enables coding agents to produce demos of their work, increasing transparency and accountability.",
+          "summary": "Why this matters: shot-scraper video enables agents to produce demos of their work, a crucial aspect of AI development and evaluation.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-30T16:54:26+00:00",
@@ -317,11 +300,11 @@
           "id": "to_2b25d2f86b40b333",
           "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
           "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-entries",
-          "summary": "Why this matters: porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code demonstrates the potential for complex AI models to be deployed in accessible environments.",
+          "summary": "Why this matters: successfully porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code demonstrates significant advancements in AI capabilities and accessibility.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-22T23:43:51+00:00",
-          "score": 4,
+          "score": 5,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
@@ -331,13 +314,13 @@
           }
         },
         {
-          "id": "to_b2b4b3e77b98a10d",
-          "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-          "url": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-entries",
-          "summary": "Why this matters: GLM-5.2 is a powerful text-only open weights LLM, offering significant capabilities for natural language processing tasks.",
+          "id": "to_8ea23dec32f761f9",
+          "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+          "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-entries",
+          "summary": "Why this matters: Datasette Apps allow hosting custom HTML applications inside Datasette, providing a powerful tool for data-driven development and exploration.",
           "source": "Simon Willison",
           "tier": 1,
-          "published": "2026-06-17T23:58:39+00:00",
+          "published": "2026-06-18T23:58:38+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -351,27 +334,10 @@
           "id": "to_5d5ccfbc749c1a4a",
           "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
           "url": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-entries",
-          "summary": "sqlite-utils 4.0rc1 adds migrations and nested transactions, enhancing the functionality of the Python library and CLI tool for working with SQLite databases.",
+          "summary": "sqlite-utils 4.0rc1 introduces migrations and nested transactions, enhancing the tool's functionality for working with SQLite databases.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-21T23:35:47+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "to_8ea23dec32f761f9",
-          "title": "Datasette Apps: Host custom HTML applications inside Datasette",
-          "url": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-entries",
-          "summary": "Datasette Apps enable hosting custom HTML applications inside Datasette, providing a new way to interact with data in a tightly constrained sandbox environment.",
-          "source": "Simon Willison",
-          "tier": 1,
-          "published": "2026-06-18T23:58:38+00:00",
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
@@ -390,7 +356,7 @@
           "id": "ca_1b958432bf16fb2b",
           "title": "Chasing the Hallucinations: KPMG's AI-Powered Attempt at \"Redefining Excellence\"",
           "url": "https://gptzero.me/news/investigations-kpmg/",
-          "summary": "Why this matters: The AI Incident Database's report on KPMG's AI-powered attempt at redefining excellence highlights the need for transparency and accountability in AI development and deployment.",
+          "summary": "Why this matters: The AI Incident Database's analysis of KPMG's AI-powered attempt at redefining excellence highlights the need for transparency and accountability in AI-driven initiatives.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-30T00:00:00+00:00",
@@ -407,7 +373,7 @@
           "id": "ca_584783acb9b0e6a3",
           "title": "Measuring LLMs' Impact on N-day Exploits",
           "url": "https://red.anthropic.com/2026/n-days/",
-          "summary": "Why this matters: Measuring LLMs' impact on N-day exploits is crucial for understanding AI's role in cybersecurity. Anthropic's research evaluates how LLMs can accelerate and automate the development of N-day exploits.",
+          "summary": "Why this matters: Anthropic's research on LLMs' impact on N-day exploits highlights the potential risks of AI in cybersecurity, emphasizing the need for robust security measures.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-08T00:00:00+00:00",
@@ -424,7 +390,7 @@
           "id": "ca_83e1167968632530",
           "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
           "url": "https://red.anthropic.com/2026/attack-navigator/",
-          "summary": "Why this matters: Mapping AI-enabled cyber threats to the MITRE ATT&CK framework provides valuable insights into real-world attacks and helps develop effective countermeasures.",
+          "summary": "Why this matters: The LLM ATT&CK Navigator provides valuable insights into AI-enabled cyber threats, offering a framework for understanding and mitigating these risks.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-03T00:00:00+00:00",
@@ -441,7 +407,7 @@
           "id": "ca_7463f2cf354c19a1",
           "title": "Measuring LLMs' Ability to Develop Exploits",
           "url": "https://red.anthropic.com/2026/exploit-evals/",
-          "summary": "Why this matters: Evaluating LLMs' ability to develop exploits is essential for understanding AI's potential impact on cybersecurity. Anthropic's research highlights the capabilities and limitations of current LLMs.",
+          "summary": "Why this matters: The evaluation of LLMs' ability to develop exploits underscores the importance of monitoring AI capabilities and their potential implications for cybersecurity.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-05-22T00:00:00+00:00",
@@ -458,7 +424,7 @@
           "id": "ca_f2c00ebc373f3d20",
           "title": "Navy experiment cut short after unmanned vessel flipped a support boat",
           "url": "https://defensescoop.com/2025/07/01/navy-unmanned-vessel-accident-boat-ventura-channel-islands-california/",
-          "summary": "Why this matters: The Navy's experiment with unmanned vessels and AI-powered surveillance raises important questions about the role of AI in military operations and the potential risks and benefits of such technologies.",
+          "summary": "Why this matters: The incident involving an unmanned vessel underscores the potential risks and challenges associated with the integration of AI in maritime operations.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-29T00:00:00+00:00",
@@ -477,7 +443,7 @@
           "id": "ca_d6a33d82812df9ac",
           "title": "AI is helping gas stations collude to raise California fuel prices, lawsuit says",
           "url": "https://apnews.com/article/gas-price-california-lawsuit-kalibrate-collusion-fbf2c03bb69b53da4ede72044ce5e41f",
-          "summary": "Why this matters: The lawsuit alleging AI-powered price-fixing in the gas industry highlights the potential risks of AI-driven decision-making and the need for regulatory oversight.",
+          "summary": "Why this matters: The lawsuit alleging AI-powered collusion among gas stations in California raises important questions about the use of AI in pricing strategies and its potential impact on consumers.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-06-29T00:00:00+00:00",
@@ -489,23 +455,6 @@
             "featured": true,
             "tier": 1
           }
-        },
-        {
-          "id": "ca_373deace457300ca",
-          "title": "Memory Is a Feature. It Is Also an Attack Surface",
-          "url": "https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/?utm_source=rss&utm_medium=rss&utm_campaign=memory-is-a-feature-it-is-also-an-attack-surface",
-          "summary": "Why this matters: Memory is a critical component of AI systems, and understanding its role in security is essential for developing effective countermeasures against potential attacks.",
-          "source": "OWASP GenAI",
-          "tier": 2,
-          "published": "2026-05-14T01:05:44+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
         }
       ]
     },
@@ -515,15 +464,15 @@
           "id": "co_b7badf6a46ee6c51",
           "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
           "url": "https://yfu.tw/blog/en/autofz-revisited/",
-          "summary": "Why this matters: Revisiting autofz in the LLM Era could provide insights into control plane optimization. The discussion around the control plane's role is crucial for AI safety and governance.",
+          "summary": "Why this matters: Revisiting autofz in the LLM Era could provide valuable insights into the control plane's role in AI systems. This discussion may inform NetPresso's architecture.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-02T05:19:10+00:00",
           "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
           }
@@ -532,7 +481,7 @@
           "id": "co_d85ade1f91e57576",
           "title": "Matrix Orthogonalization Improves Memory in Recurrent Models",
           "url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/",
-          "summary": "Why this matters: Matrix Orthogonalization Improves Memory in Recurrent Models, which could lead to more efficient AI models. This has significant implications for telecom and AI applications.",
+          "summary": "Why this matters: Matrix Orthogonalization could improve memory efficiency in Recurrent Models, potentially benefiting NetPresso's performance.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-01T13:04:01+00:00",
@@ -549,7 +498,7 @@
           "id": "co_48b73603d5080020",
           "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
           "url": "https://ieeexplore.ieee.org/document/11475847/",
-          "summary": "Why this matters: Robust AI Security and Alignment is a critical topic, and the NIST article provides valuable insights. This is an essential area of discussion for AI governance and safety.",
+          "summary": "Why this matters: Robust AI Security and Alignment is a critical topic, and the NIST article and paper may provide valuable perspectives on this Sisyphean endeavor.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-06-29T20:56:52+00:00",
@@ -566,13 +515,13 @@
           "id": "co_2fb8f2f7c5a95ee1",
           "title": "Teaching digiKam to Understand You: Natural Language Search with Local LLMs",
           "url": "http://srirupa19.github.io/gsoc/2026/06/28/gsoc1.html",
-          "summary": "Teaching digiKam to understand natural language with local LLMs is an interesting application of AI. This could be a valuable case study for AI practitioners.",
+          "summary": "Teaching digiKam to understand natural language with local LLMs may have implications for NetPresso's automated 5G Root Cause Analysis.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-01T10:22:01+00:00",
           "score": 3,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -762,7 +711,7 @@
             "published": "2026-05-27T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -776,7 +725,7 @@
             "published": "2026-05-03T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1203,10 +1152,24 @@
             }
           },
           {
+            "id": "ta_ac945c3c8745af6d",
+            "title": "browser-use/video-use",
+            "url": "https://github.com/browser-use/video-use",
+            "summary": "Edit videos with coding agents video-use Introducing video-use \u2014 edit videos with Claude Code. 100% open source. Drop raw footage in a folder, chat with Claude Code, get final.mp4 back. Works for any content \u2014 talking heads, montages, tutorials, travel, interviews \u2014 without presets or menus. Try video-use in Browser Use Cloud . What it does Cuts out filler words ( umm , uh , false starts) and dead space between takes Auto color grades every segment (warm cinematic, neutral punch, or any custom ffmpeg chain) 30ms audio fades at every cut so you never hear a pop Burns subtitles in your style \u2014\u2026",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_4541bab6d9308e74",
             "title": "HKUDS/Vibe-Trading",
             "url": "https://github.com/HKUDS/Vibe-Trading",
-            "summary": "\"Vibe-Trading: Your Personal Trading Agent\" English | \u4e2d\u6587 | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Vibe-Trading: Your Personal Trading Agent One Command to Empower Your Agent with Comprehensive Trading Capabilities Website \u00b7 Docs \u00b7 News \u00b7 Features \u00b7 Shadow Account \u00b7 Demo \u00b7 Quick Start \u00b7 Examples \u00b7 API / MCP \u00b7 Roadmap \u00b7 Contributing \ud83d\udcf0 News 2026-07-01 \ud83e\uddf9 Security polish + tracker cleanup : tightened API/Docker/frontend dev defaults, stabilized Settings channel and zh-CN edges, cleared frontend dependency/CSP alerts, and closed stale WhatsApp + paper-trading tracker items ( #338 , #351 , #349 , #365 , #367 , #350 ,\u2026",
+            "summary": "\"Vibe-Trading: Your Personal Trading Agent\" English | \u4e2d\u6587 | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 Vibe-Trading: Your Personal Trading Agent One Command to Empower Your Agent with Comprehensive Trading Capabilities Website \u00b7 Docs \u00b7 News \u00b7 Features \u00b7 Shadow Account \u00b7 Demo \u00b7 Quick Start \u00b7 Examples \u00b7 API / MCP \u00b7 Roadmap \u00b7 Contributing \ud83d\udcf0 News 2026-07-02 \u26a1 Factor acceleration + safer runtime boundaries : hot rolling factor operators now use bottleneck /NumPy fast paths, alpha bench parallelism avoids repeated large-panel worker payloads, and base equity math has regression coverage ( #376 , closes #339 , original\u2026",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1217,10 +1180,10 @@
             }
           },
           {
-            "id": "ta_8af5991f723cf10e",
-            "title": "allenai/olmocr",
-            "url": "https://github.com/allenai/olmocr",
-            "summary": "Toolkit for linearizing PDFs for LLM datasets/training A toolkit for converting PDFs and other image-based document formats into clean, readable, plain text format. Try the online demo: https://olmocr.allenai.org/ Features: Convert PDF, PNG, and JPEG based documents into clean Markdown Support for equations, tables, handwriting, and complex formatting Automatically removes headers and footers Convert into text with a natural reading order, even in the presence of figures, multi-column layouts, and insets Efficient, less than $200 USD per million pages converted (Based on a 7B parameter VLM,\u2026",
+            "id": "ta_22741e130b67c721",
+            "title": "agentskills/agentskills",
+            "url": "https://github.com/agentskills/agentskills",
+            "summary": "Specification and documentation for Agent Skills Agent Skills A standardized way to give AI agents new capabilities and expertise. What are Agent Skills? Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows. At its core, a skill is a folder containing a SKILL.md file. This file includes metadata ( name and description , at minimum) and instructions that tell an agent how to perform a specific task. Skills can also bundle scripts, reference materials, templates, and other resources.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1231,24 +1194,10 @@
             }
           },
           {
-            "id": "ta_b29bb0918c721cce",
-            "title": "Mebus/cupp",
-            "url": "https://github.com/Mebus/cupp",
-            "summary": "Common User Passwords Profiler (CUPP) CUPP - Common User Passwords Profiler About The most common form of authentication is the combination of a username and a password or passphrase. If both match values stored within a locally stored table, the user is authenticated for a connection. Password strength is a measure of the difficulty involved in guessing or breaking the password through cryptographic techniques or library-based automated testing of alternate values. A weak password might be very short or only use alphanumberic characters, making decryption simple.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_af3fea162593440e",
-            "title": "Unclecheng-li/VulnClaw",
-            "url": "https://github.com/Unclecheng-li/VulnClaw",
-            "summary": "\u57fa\u4e8e AI Agent + MCP \u5de5\u5177\u94fe + \u6e17\u900f Skill \u7f16\u6392\uff0c \u914d\u5408\u5927\u8bed\u8a00\u6a21\u578b\uff0c \u81ea\u7136\u8bed\u8a00\u8f93\u5165 \u2192 \u81ea\u52a8\u5b8c\u6210\u300c\u4fe1\u606f\u6536\u96c6 \u2192 \u6f0f\u6d1e\u53d1\u73b0 \u2192 \u6f0f\u6d1e\u5229\u7528 \u2192 \u62a5\u544a\u751f\u6210\u300d\u5168\u6d41\u7a0b\u3002 VulnClaw \ud83e\udd9e AI \u9a71\u52a8\u7684\u6e17\u900f\u6d4b\u8bd5 CLI \u5de5\u5177 \u2014 \u8bf4\u4eba\u8bdd\uff0c\u6253\u6f0f\u6d1e\u3002 \ud83c\udf10 English version : README_EN.md \u672c\u9879\u76ee\u662f\u53ef\u72ec\u7acb\u8fd0\u884c\u7684 AI \u6e17\u900f\u6d4b\u8bd5 Agent\u3002 \u9879\u76ee\u5b98\u7f51\uff1a https://unclecheng-li.github.io/vulnclaw.com/ \u57fa\u4e8e LLM Agent + MCP \u5de5\u5177\u94fe + \u6e17\u900f Skill \u7f16\u6392\uff0c \u914d\u5408 OpenAI / MiniMax / DeepSeek \u7b49\u517c\u5bb9\u6a21\u578b\uff0c \u81ea\u7136\u8bed\u8a00\u8f93\u5165 \u2192 \u81ea\u52a8\u5b8c\u6210\u300c\u4fe1\u606f\u6536\u96c6 \u2192 \u6f0f\u6d1e\u53d1\u73b0 \u2192 \u6f0f\u6d1e\u5229\u7528 \u2192 \u62a5\u544a\u751f\u6210\u300d\u5168\u6d41\u7a0b\u3002 \u5feb\u901f\u5f00\u59cb \u00b7 \u67b6\u6784\u8bbe\u8ba1 \u00b7 Skill \u4f53\u7cfb \u5b83\u80fd\u505a\u4ec0\u4e48 \u8f93\u5165\u81ea\u7136\u8bed\u8a00\uff0cAI \u81ea\u52a8\u6267\u884c\u6e17\u900f\u6d4b\u8bd5\u5168\u6d41\u7a0b\uff1a \u7528\u6237\u8f93\u5165\uff1a\u5e2e\u6211\u5bf9 http://target.example.com \u8fdb\u884c\u6e17\u900f\u6d4b\u8bd5 VulnClaw \u81ea\u52a8\u6267\u884c\uff1a Round 1: \u4fe1\u606f\u6536\u96c6 \u2192 \u6307\u7eb9\u8bc6\u522b\u3001\u7aef\u53e3\u626b\u63cf\u3001\u76ee\u5f55\u679a\u4e3e Round 2: \u6f0f\u6d1e\u53d1\u73b0 \u2192 \u68c0\u6d4b\u6ce8\u5165\u70b9\u3001\u5df2\u77e5 CVE\u3001\u914d\u7f6e\u7f3a\u9677 Round 3: \u6f0f\u6d1e\u5229\u7528 \u2192 PoC \u9a8c\u8bc1\u3001\u6743\u9650\u83b7\u53d6 Round 4: \u62a5\u544a\u751f\u6210 \u2192 \u7ed3\u6784\u5316\u62a5\u544a + Python PoC\u2026",
+            "id": "ta_0ee82cf42bfc6572",
+            "title": "langflow-ai/langflow",
+            "url": "https://github.com/langflow-ai/langflow",
+            "summary": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows. Langflow is a powerful platform for building and deploying AI-powered agents and workflows. It provides developers with both a visual authoring experience and built-in API and MCP servers that turn every workflow into a tool that can be integrated into applications built on any framework or stack. Langflow comes with batteries included and supports all major LLMs, vector databases and a growing library of AI tools. \u2728 Highlight features Visual builder interface to quickly get started and iterate.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1262,155 +1211,13 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_70b7096db8e5b5db",
-            "title": "No LLM Code in Dependencies",
-            "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
-            "summary": "Article URL: https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/ Comments URL: https://news.ycombinator.com/item?id=48762008 Points: 60 # Comments: 33",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-02T14:17:23+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_0a8155df68934d58",
-            "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
-            "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
-            "summary": "Article URL: https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/ Comments URL: https://news.ycombinator.com/item?id=48761536 Points: 295 # Comments: 159",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-02T13:43:41+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_27a0b21fc019f6f4",
-            "title": "AI fake news complaining about how AI fake news is the death of real news",
-            "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
-            "summary": "Article URL: https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/ Comments URL: https://news.ycombinator.com/item?id=48760598 Points: 144 # Comments: 52",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-02T12:40:36+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_f521b42f1cd330e6",
-            "title": "The gauge broke: devs felt 20% faster with AI, measured 19% slower (2025)",
-            "url": "https://intrepidkarthi.com/writing/the-gauge-broke/",
-            "summary": "Article URL: https://intrepidkarthi.com/writing/the-gauge-broke/ Comments URL: https://news.ycombinator.com/item?id=48757440 Points: 75 # Comments: 95",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-02T06:44:34+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_bdf6dd0357b804c4",
-            "title": "Meta caps internal AI token spending",
-            "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/",
-            "summary": "Article URL: https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/ Comments URL: https://news.ycombinator.com/item?id=48754713 Points: 145 # Comments: 143",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-01T23:58:48+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       }
     },
     "telecom": {
       "arXiv: 5G + LLM": {
         "tier": 1,
-        "items": [
-          {
-            "id": "te_6164546603ce04b6",
-            "title": "TelcoAgent: A Scalable 5G Multi-KPM Forecasting With 3GPP-Grounded Explainability",
-            "url": "https://arxiv.org/abs/2606.19821v1",
-            "summary": "Key Performance Measurement (KPM) forecasting is essential for proactive network management of 5G and next-generation telecom networks. However, existing machine learning (ML) approaches face significant limitations in scalability and explainability, restricting their effectiveness in real-world deployments. We propose TelcoAgent, a foundation model-based framework that enables accurate, scalable, and explainable forecasting of multiple KPMs across diverse network cells without the need for site-specific training.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-06-18T05:55:29+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_aff2e8f309ea1fb0",
-            "title": "Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks",
-            "url": "https://arxiv.org/abs/2606.16386v1",
-            "summary": "The Low-Altitude Economy (LAE) is rapidly expanding, giving rise to low-altitude wireless networks (LAWNs), where large-scale cellular-connected unmanned aerial vehicle (UAV) deployments support heterogeneous mission-critical applications over multi-cell ground base station (GBS) infrastructures. To ensure mission success, each UAV must jointly optimize communication throughput and mission completion efficiency.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-06-15T08:17:28+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_96a4709136d1e847",
-            "title": "LLM-Enabled NWDAF: A Step Toward AI-Native 6G Network Intelligence",
-            "url": "https://arxiv.org/abs/2606.11877v1",
-            "summary": "The Network Data Analytics Function (NWDAF) is central to enabling zero-touch network management in fifth-generation (5G) networks by supporting real-time analytics and closed-loop automation. Despite its critical role, open-source NWDAF implementations remain limited in scope and accessibility. In this paper, we develop an open-source NWDAF, compatible with the open-source core network Free5GC, that collects network data via subscriptions to Network Functions (NFs), and also includes an integrated Large Language Model (LLM) interface that enables natural language interaction with human\u2026",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-06-10T10:00:26+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_8cbb258dbfc7b987",
-            "title": "TeleSWEBench: A Commit-Driven Benchmark for Evaluating LLM-Powered Software Engineering in Telecommunications",
-            "url": "https://arxiv.org/abs/2606.05001v1",
-            "summary": "With the telecommunications field embracing zero touch management alongside novel O-RAN and AI-RAN frameworks, contemporary telecom networks now function as immensely intricate and heavily softwareized codebases. While automated software engineering (ASE) tools and Software Engineering (SWE) Agents hold the potential to alleviate the critical code generation bottleneck in this domain, their ability to navigate and modify specialized, mathematically rigorous wireless stacks like srsRAN 5G remains unverified.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-06-03T15:19:40+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_82de2ef8678327e7",
-            "title": "A Communication-Centric 6G-LLM Architecture for Scalable Tactical Autonomous Defense Vehicle Networks",
-            "url": "https://arxiv.org/abs/2606.01312v1",
-            "summary": "The integration of Artificial Intelligence (AI) and emerging 6G networks introduces new opportunities for scalable coordination in tactical autonomous vehicle systems. This paper proposes a communication-centric hierarchical architecture for Tactical Autonomous Defense Vehicle Networks (TADVNs) that models the integration of edge-assisted Large Language Model (LLM) reasoning with 6G-enabled connectivity and semantic communication. The framework is designed to improve coordination efficiency, reduce communication overhead, and enhance latency resilience under increasing fleet-scale operation.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-05-31T16:00:14+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          }
-        ]
+        "items": []
       },
       "arXiv: RAN anomaly": {
         "tier": 1,
@@ -1425,7 +1232,7 @@
             "published": "2026-06-15T15:17:52+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1491,6 +1298,34 @@
         "tier": 1,
         "items": [
           {
+            "id": "te_0fa5a6cbf9662608",
+            "title": "Criticality-Based Guard Rail Validation for AI Agent Decisions in Autonomous Telecom Networks",
+            "url": "https://arxiv.org/abs/2607.02210v1",
+            "summary": "The evolution toward fully autonomous telecommunications networks (Autonomous Network Levels 4-5) requires AI/ML agents to make real-time network decisions without human intervention. However, no standardized runtime mechanism exists to intercept and validate individual inference outputs before they trigger live network state changes, creating risks of erroneous autonomous decisions. This paper proposes the Guard Rail Validation (GRV) framework, a standardizable runtime architecture for intercepting and validating AI-driven decisions before execution.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-07-02T14:21:26+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_0d15012ce78729fa",
+            "title": "Enabling Real-Time AI in O-RAN: Deploying andMeasuring AI Inside a Near-RT RIC xApp",
+            "url": "https://arxiv.org/abs/2607.01583v1",
+            "summary": "Open Radio Access Network (O-RAN) architectures introduce programmable Near-Real-Time RAN Intelligent Controllers (Near-RT RICs) that support closed-loop control through xApps at timescales from 10 ms to 1 s. Although AI has been widely studied for RAN optimization, fewer works demonstrate measured AI inference embedded directly within the Near-RT RIC software loop on a live testbed. This paper presents an AI-enabled network-state classification xApp implemented on an OpenAirInterface (OAI) and FlexRIC testbed.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-07-02T01:28:03+00:00",
+            "flags": {
+              "new": false,
+              "featured": true,
+              "tier": 1
+            }
+          },
+          {
             "id": "te_e17cc75f9a3b0d0c",
             "title": "Adaptive Machine Learning Framework for UAV Trajectory Optimization in O-RAN",
             "url": "https://arxiv.org/abs/2606.24483v1",
@@ -1500,7 +1335,7 @@
             "published": "2026-06-23T12:18:45+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1531,40 +1366,26 @@
               "featured": true,
               "tier": 1
             }
-          },
-          {
-            "id": "te_01455f281e95b158",
-            "title": "Modular Multi-Domain Digital Twin Architecture: Sustainable Intent-Driven 6G Management",
-            "url": "https://arxiv.org/abs/2606.13069v1",
-            "summary": "Future 6G networks will operate across distributed and heterogeneous domain infrastructures, making conventional single-domain management insufficient for proactive, trustworthy automation. Network Digital Twins (NDTs) enable what-if analysis, AI-assisted optimization, and risk-free validation of control actions before deployment, yet monolithic end-to-end twins remain impractical due to scalability, fidelity, and cross-domain coordination challenges.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-06-11T08:55:17+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_c684685f42061f56",
-            "title": "AI-Native Closed-Loop Security for 6G-Enabled Cyber-Physical Systems: From Edge Detection to Network-Wide Mitigation",
-            "url": "https://arxiv.org/abs/2606.08173v1",
-            "summary": "In sixth-generation (6G) networks, billions of cyber-physical systems (CPSs) - autonomous vehicles, smart grids, industrial robots, and remote-surgical equipment - will run over ultra-reliable low-latency slices, collapsing the gap between a remote breach and physical harm to milliseconds, a budget perimeter firewalls and centralised security operations centres cannot meet.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-06-06T13:36:59+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
           }
         ]
       },
       "Light Reading": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_143a5c3f9dc8f15e",
+            "title": "China split and OCUDU tie-up open military doors for RANsemi",
+            "url": "https://www.lightreading.com/5g/china-split-and-ocudu-tie-up-open-military-doors-for-ransemi",
+            "summary": "After separating from China's Picocom, RANsemi is winning new customers and spying opportunities in defense.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-07-03T07:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_3f3f19565e872747",
             "title": "FCC's proposed upper C-band rules sidestep SpaceX's request",
@@ -1615,20 +1436,6 @@
             "source": "Light Reading",
             "tier": 2,
             "published": "2026-07-02T11:09:32+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_18ff9b9034e8603b",
-            "title": "EchoStar inflated the AWS-3 auction by $1.6 billion",
-            "url": "https://www.lightreading.com/regulatory-politics/echostar-inflated-the-aws-3-auction-by-1-6-billion",
-            "summary": "EchoStar never came to win. It bid the clock up until the total erased its default penalty, then walked with two Guam licenses. Verizon and T-Mobile paid.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-07-02T11:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1691,7 +1498,7 @@
             "tier": 2,
             "published": "2026-07-01T23:42:51+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1739,7 +1546,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1858,7 +1665,7 @@
             "published": "2026-06-17T23:58:39+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           }
@@ -1943,6 +1750,48 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_9cba500f7b7921f0",
+            "title": "AIEWF Daily Dispatch: The great loops debate and the state of AI engineering",
+            "url": "https://www.latent.space/p/aiewf-daily-dispatch-locomotives",
+            "summary": "The AI Engineer World\u2019s Fair ended with a debate about loops, a report on the state of AI engineering, and closing keynotes focused on what to build next.",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-07-03T05:11:43+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_a18ac96c7dbbfab3",
+            "title": "Vercel's Andrew Qu on why agents are a new kind of software",
+            "url": "https://www.latent.space/p/vercel-agents-new-software",
+            "summary": "The Vercel Chief of Software explains how its agent framework, eve, was created \u2014 and why skills, sandboxes and agent-readable websites now matter.",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-07-03T00:08:18+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_9af1a1a7b5ccf25c",
+            "title": "The website of the future may assemble itself for every visitor",
+            "url": "https://www.latent.space/p/the-website-of-the-future",
+            "summary": "Adobe is experimenting with \u201cagentic sites\u201d that generate pages around an individual user\u2019s intent. At AIEWF, we talked to Carlos Sanchez about the Web's future.",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-07-02T21:25:14+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_90512464cdc0fa83",
             "title": "Skill engineering and the case against one-shot AI design",
             "url": "https://www.latent.space/p/skill-engineering-design",
@@ -1965,48 +1814,6 @@
             "tier": 2,
             "published": "2026-07-02T07:10:14+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_4c99de8b8da6557c",
-            "title": "AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency",
-            "url": "https://www.latent.space/p/aiewf-daily-dispatch-agency",
-            "summary": "The software factory vision met resistance today from speakers defending human understanding and control.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-07-02T06:13:49+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_10d091a58570789e",
-            "title": "Autoresearch: The feedback loop behind self-improving agents",
-            "url": "https://www.latent.space/p/autoresearch-introspection",
-            "summary": "Introspection co-founder Roland Gavrilescu explains autoresearch, agent \u201crecipes,\u201d self-improving loops, and why humans remain central to the software factory.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-07-01T23:52:30+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_dda2ba54cd705a34",
-            "title": "How Cursor deploys AI inside the enterprise",
-            "url": "https://www.latent.space/p/cursor-forward-deployed-engineers",
-            "summary": "Cursor's Pauline Brunet explains how her team of Forward Deployed Engineers help organizations implement agents \u2014 essentially setting up software factories.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-07-01T19:03:44+00:00",
-            "flags": {
               "new": false,
               "featured": false,
               "tier": 2
@@ -2018,10 +1825,24 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_43eacf5122ae6133",
+            "title": "Mark Zuckerberg tells staff that AI agents haven\u2019t progressed as quickly as he\u2019d hoped",
+            "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+            "summary": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-07-02T23:38:10+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_fe70f7251678c8f4",
             "title": "Jersey Mike\u2019s IPO illustrates how bad the AI hype has become",
             "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
-            "summary": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But low-and-behold.",
+            "summary": "Just for kicks, I took a look at Jersey Mike's IPO documents. Surely a sandwich shop would have no need to mention AI. But lo and behold.",
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-07-02T20:11:59+00:00",
@@ -2067,20 +1888,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-07-02T15:20:51+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_2eb7b659b8929672",
-            "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-            "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-            "summary": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-07-02T13:53:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -2329,7 +2136,7 @@
             "published": "2026-05-14T01:05:44+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -2719,7 +2526,7 @@
             "tier": 1,
             "published": "2026-07-02T05:19:10+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
