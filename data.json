@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-07-10T10:27:05.214399+00:00",
+    "last_updated": "2026-07-10T15:32:25.364173+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
-      "scored": 48,
-      "radar_top": 21,
-      "radar_expand": 7
+      "scored": 59,
+      "radar_top": 23,
+      "radar_expand": 6
     }
   },
   "radar": {
@@ -16,7 +16,7 @@
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Using local coding agents with open-weight models offers an alternative to Claude Code and Codex subscriptions, providing more control and flexibility in development environments.",
+          "summary": "Why this matters: Using local coding agents and open-weight models can provide an alternative to Claude Code and Codex subscriptions, offering more control and flexibility for developers.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
@@ -30,27 +30,10 @@
           }
         },
         {
-          "id": "ta_a41f4c6936d12dfe",
-          "title": "The next era of AI is about infrastructure, not just models",
-          "url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
-          "summary": "Why this matters: The next era of AI is about infrastructure, not just models, highlighting the need for robust, scalable, and secure infrastructure to support the growing demands of AI applications.",
-          "source": "Hacker News (AI/LLM)",
-          "tier": 2,
-          "published": "2026-07-09T14:50:01+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
           "id": "ta_ad1a0b6f01f5a507",
           "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
           "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-          "summary": "Why this matters: Recent developments in LLM architectures, such as KV sharing, mHC, and compressed attention, are reducing long-context costs and enabling more efficient models like Gemma 4 and DeepSeek V4.",
+          "summary": "Why this matters: Recent developments in LLM architectures, such as KV sharing, mHC, and compressed attention, are reducing long-context costs and enabling more efficient models.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-05-16T11:33:51+00:00",
@@ -64,10 +47,44 @@
           }
         },
         {
+          "id": "ta_a41f4c6936d12dfe",
+          "title": "The next era of AI is about infrastructure, not just models",
+          "url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
+          "summary": "Why this matters: The next era of AI is about infrastructure, not just models, and understanding the importance of infrastructure can help us build more effective and sustainable AI systems.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-07-09T14:50:01+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "ta_1734fab614872cab",
+          "title": "Patterns for Building Cybersecurity Evals",
+          "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
+          "summary": "Why this matters: Building cybersecurity evals requires a sandboxed target, inputs that influence task difficulty, tools, and a grader, and Eugene Yan's patterns can inform our approaches to security evaluations.",
+          "source": "Eugene Yan",
+          "tier": 1,
+          "published": "2026-06-21T00:00:00+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "ta_97cd97d27d220f15",
           "title": "How we contain Claude across products",
           "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "summary": "Why this matters: Containment strategies for capable agents are crucial, and learning from Anthropic's experience with claude.ai, Claude Code, and Cowork can inform our own approaches to capping potential blast radius.",
+          "summary": "Why this matters: Containment strategies for capable agents are crucial, and learning from Anthropic's experience with Claude can inform our own approaches to mitigating potential risks.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-05-25T00:00:00+00:00",
@@ -89,7 +106,7 @@
           "id": "te_c08d088abc5b710c",
           "title": "Agentic-V2X: Small Language Model Agents for Deadline-Aware V2X Scheduling in 5G/6G Networks",
           "url": "https://arxiv.org/abs/2607.04290v1",
-          "summary": "Why this matters: Agentic-V2X introduces a novel architecture for deadline-aware V2X scheduling in 5G/6G networks, leveraging small language models and periodic non-real-time rApp-inspired policy creation.",
+          "summary": "Why this matters: Agentic-V2X introduces a novel architecture for deadline-aware V2X scheduling in 5G/6G networks using small language model agents, addressing the limitations of large language models in real-time packet scheduling.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-05T13:05:48+00:00",
@@ -106,7 +123,7 @@
           "id": "te_519ac54c021cc0e1",
           "title": "ADORN: Adaptive Drift handling for Open RAN using Reinforcement Learning",
           "url": "https://arxiv.org/abs/2607.08443v1",
-          "summary": "ADORN proposes an adaptive drift handling approach for Open RAN using reinforcement learning, maintaining forecasting accuracy while minimizing computational costs.",
+          "summary": "Why this matters: ADORN introduces an adaptive drift handling approach for Open RAN using reinforcement learning, enabling more accurate and efficient forecasting of key performance measurements in dynamic network environments.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-07-09T13:05:42+00:00",
@@ -114,22 +131,22 @@
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
           }
         },
         {
-          "id": "te_7297d4016e3e0646",
-          "title": "Verizon's 5G network drives telematics for BMW",
-          "url": "https://www.lightreading.com/5g/verizon-s-5g-network-drives-telematics-for-bmw",
-          "summary": "Verizon's 5G network drives telematics for BMW, demonstrating the potential of 5G in enabling innovative IoT applications and services.",
-          "source": "Light Reading",
+          "id": "te_926a035bab743cae",
+          "title": "NestAI and Nokia debut AI defense tech for denied battlefields",
+          "url": "https://www.rcrwireless.com/20260710/ai/nestai-nokia-ai-defense-tech",
+          "summary": "NestAI and Nokia debut AI defense tech for denied battlefields, demonstrating the integration of 5G, AI, and sensing technologies for enhanced security and operational capabilities in challenging environments.",
+          "source": "RCR Wireless",
           "tier": 2,
-          "published": "2026-07-09T13:28:38+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "published": "2026-07-10T07:29:23+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": true,
             "featured": true,
@@ -140,7 +157,7 @@
           "id": "te_6164546603ce04b6",
           "title": "TelcoAgent: A Scalable 5G Multi-KPM Forecasting With 3GPP-Grounded Explainability",
           "url": "https://arxiv.org/abs/2606.19821v1",
-          "summary": "Why this matters: TelcoAgent proposes a foundation model-based framework for scalable and explainable 5G multi-KPM forecasting, addressing limitations in existing machine learning approaches.",
+          "summary": "Why this matters: TelcoAgent proposes a scalable 5G multi-KPM forecasting framework with 3GPP-grounded explainability, leveraging foundation models for accurate and explainable forecasting of multiple key performance measurements.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-06-18T05:55:29+00:00",
@@ -157,7 +174,7 @@
           "id": "te_96a4709136d1e847",
           "title": "LLM-Enabled NWDAF: A Step Toward AI-Native 6G Network Intelligence",
           "url": "https://arxiv.org/abs/2606.11877v1",
-          "summary": "Why this matters: LLM-Enabled NWDAF develops an open-source NWDAF compatible with the open-source core network Free5GC, enabling real-time analytics and closed-loop automation in 5G networks.",
+          "summary": "Why this matters: LLM-Enabled NWDAF develops an open-source NWDAF compatible with the open-source core network Free5GC, integrating large language models for enhanced network data analytics and zero-touch network management in 5G networks.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-06-10T10:00:26+00:00",
@@ -176,7 +193,7 @@
           "id": "te_91552ecd871c6289",
           "title": "ORAN-DEFEND: Subspace Detection and Sanitization of Backdoor DRL xApps in Open RAN",
           "url": "https://arxiv.org/abs/2607.06647v1",
-          "summary": "ORAN-DEFEND introduces a subspace detection and sanitization approach for backdoor DRL xApps in Open RAN, ensuring the security and reliability of near-real-time control in O-RAN.",
+          "summary": "Why this matters: ORAN-DEFEND proposes a subspace detection and sanitization framework for backdoor DRL xApps in Open RAN, enhancing the security and trustworthiness of near-real-time control in 5G and future networks.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-07-07T16:06:05+00:00",
@@ -193,7 +210,7 @@
           "id": "te_e4f547f0b6deb593",
           "title": "A Modular O-RAN Testbed Based on SRS Open Source O-CU/O-DU and Massive Beams Modular O-RU",
           "url": "https://arxiv.org/abs/2607.05146v1",
-          "summary": "A Modular O-RAN Testbed Based on SRS Open Source O-CU/O-DU and Massive Beams Modular O-RU presents a modular O-RAN architecture, enabling the development of open and interoperable 5G networks.",
+          "summary": "Why this matters: A Modular O-RAN Testbed demonstrates the feasibility of open radio access networks with standardized interfaces and open-source implementations, facilitating innovation and interoperability in 5G and future network deployments.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-07-06T14:27:56+00:00",
@@ -210,7 +227,7 @@
           "id": "te_19b60e0f7066e815",
           "title": "RANPilot: Making AI Functionalities Robust to Dynamic O-RAN Reconfigurations",
           "url": "https://arxiv.org/abs/2607.05038v1",
-          "summary": "RANPilot proposes a framework for making AI functionalities robust to dynamic O-RAN reconfigurations, ensuring the reliability and performance of AI-driven control in O-RAN.",
+          "summary": "Why this matters: RANPilot addresses the challenge of making AI functionalities robust to dynamic O-RAN reconfigurations, ensuring that AI models can adapt to changing network conditions and maintain their performance and reliability.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-07-06T13:17:28+00:00",
@@ -227,7 +244,7 @@
           "id": "te_0fa5a6cbf9662608",
           "title": "Criticality-Based Guard Rail Validation for AI Agent Decisions in Autonomous Telecom Networks",
           "url": "https://arxiv.org/abs/2607.02210v1",
-          "summary": "Criticality-Based Guard Rail Validation for AI Agent Decisions in Autonomous Telecom Networks introduces a guard rail validation framework for intercepting and validating AI agent decisions in real-time, ensuring the security and reliability of autonomous networks.",
+          "summary": "Why this matters: Criticality-Based Guard Rail Validation proposes a runtime mechanism for intercepting and validating individual inference outputs from AI agents in autonomous telecom networks, preventing erroneous decisions and ensuring network reliability.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-07-02T14:21:26+00:00",
@@ -248,7 +265,7 @@
           "id": "to_6ad50fbaf8af6e41",
           "title": "Up the Stack: How AI\u2019s Escape From the Commodity Trap Risks Enterprise Lock-in",
           "url": "https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from",
-          "summary": "Why this matters: AI Snake Oil's analysis of AI's potential to escape the commodity trap highlights the risks of enterprise lock-in and the need for careful consideration of AI adoption strategies.",
+          "summary": "Why this matters: AI Snake Oil discusses how AI's escape from the commodity trap risks enterprise lock-in, highlighting the need for careful consideration of AI adoption and its potential consequences.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-07-09T22:29:33+00:00",
@@ -265,7 +282,7 @@
           "id": "to_8e44a2bffb74b6c6",
           "title": "The new GPT-5.6 family: Luna, Terra, Sol",
           "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
-          "summary": "Why this matters: OpenAI's new GPT-5.6 family of models offers improved performance and pricing options, with three sizes: Luna, Terra, and Sol. This development has significant implications for the future of AI-powered applications.",
+          "summary": "Why this matters: Simon Willison discusses OpenAI's new GPT-5.6 family of models, including pricing and capabilities. The models are priced per 1M input/output tokens, with varying costs for each size: Luna, Terra, and Sol.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-09T19:46:38+00:00",
@@ -282,7 +299,7 @@
           "id": "to_897da200c5dc371c",
           "title": "sqlite-utils 4.0, now with database schema migrations",
           "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries",
-          "summary": "Why this matters: Simon Willison's sqlite-utils 4.0 release introduces major features such as database migrations, nested transactions, and support for compound foreign keys, enhancing the tool's capabilities for data management.",
+          "summary": "Why this matters: Simon Willison announces the release of sqlite-utils 4.0, which includes major features such as database migrations, nested transactions, and support for compound foreign keys.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-07T19:32:57+00:00",
@@ -296,10 +313,27 @@
           }
         },
         {
+          "id": "to_3eb20621a42195a0",
+          "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+          "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries",
+          "summary": "Simon Willison uses Claude Fable to help with the sqlite-utils 4.0 release, demonstrating the potential of AI-powered coding agents in development.",
+          "source": "Simon Willison",
+          "tier": 1,
+          "published": "2026-07-05T01:00:48+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "to_baea40580e60bd43",
           "title": "Have your agent record video demos of its work with shot-scraper video",
           "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-entries",
-          "summary": "Simon Willison's shot-scraper video enables agents to record video demos of their work, which could be useful for demonstrating agent capabilities and improving transparency.",
+          "summary": "Simon Willison introduces shot-scraper video, a new command for recording video demos of coding agents' work, highlighting the importance of demoing agent capabilities.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-06-30T16:54:26+00:00",
@@ -321,7 +355,7 @@
           "id": "ca_f24d33e2eac16d90",
           "title": "Maryborough teenager allegedly told police he had planned mass murder for months",
           "url": "https://www.abc.net.au/news/2026-07-09/qld-teen-terror-extremism-murder-plan/106896932",
-          "summary": "Why this matters: The incident involving a teenager using AI to plan a mass murder highlights the potential risks of AI in the wrong hands and the need for responsible AI development and deployment.",
+          "summary": "Why this matters: A 13-year-old boy allegedly planned a school massacre, using AI to write a story about the attack, highlighting the potential risks of AI in facilitating harmful activities.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-09T00:00:00+00:00",
@@ -335,13 +369,13 @@
           }
         },
         {
-          "id": "ca_000632dd391a3aeb",
-          "title": "The Language of AI Could Change How Humans Speak",
-          "url": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
-          "summary": "The article on the language of AI and its potential impact on human speech highlights the need for ongoing evaluation and improvement of AI systems in the context of natural language processing.",
-          "source": "Schneier on Security",
+          "id": "ca_337309ee70192f86",
+          "title": "Your agents are using your credentials, and that is the problem",
+          "url": "https://www.datarobot.com/blog/your-agents-are-using-your-credentials-and-that-is-the-problem/",
+          "summary": "France's decision to stop certifying non-quantum-safe encryption products highlights the importance of transitioning to post-quantum encryption for secure data protection.",
+          "source": "DataRobot Blog",
           "tier": 2,
-          "published": "2026-07-09T11:00:45+00:00",
+          "published": "2026-07-10T14:30:00+00:00",
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
@@ -372,7 +406,7 @@
           "id": "ca_83e1167968632530",
           "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
           "url": "https://red.anthropic.com/2026/attack-navigator/",
-          "summary": "Why this matters: The LLM ATT&CK Navigator maps AI-enabled cyber threats onto the MITRE ATT&CK framework, providing valuable insights into the tactics and techniques used by cyberattackers.",
+          "summary": "Why this matters: The LLM ATT&CK Navigator maps AI-enabled cyber threats onto the MITRE ATT&CK framework, providing insights into real-world attacks and trends in AI-enabled cyber operations.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-03T00:00:00+00:00",
@@ -389,7 +423,7 @@
           "id": "ca_7463f2cf354c19a1",
           "title": "Measuring LLMs' Ability to Develop Exploits",
           "url": "https://red.anthropic.com/2026/exploit-evals/",
-          "summary": "Why this matters: Anthropic's research on measuring LLMs' ability to develop exploits highlights the potential risks of AI in cybersecurity and the need for robust security measures.",
+          "summary": "Why this matters: Anthropic's Red Team finds that Mythos Preview consistently outperforms other models in developing exploits, indicating a significant drop in the knowledge and expertise required to develop exploits as Mythos-level capabilities become more widely available.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-05-22T00:00:00+00:00",
@@ -405,27 +439,10 @@
       ],
       "expand": [
         {
-          "id": "ca_36cc09533142cd30",
-          "title": "China Is Abusing AI",
-          "url": "https://www.theatlantic.com/international/2026/07/xi-jinping-censorship-ai-training/687696/",
-          "summary": "Why this matters: The report on China's abuse of AI raises important questions about the ethics and governance of AI development and deployment, particularly in the context of geopolitical tensions.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-07-09T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "ca_4d73ca0f7d1c319c",
           "title": "11 arrested over alleged AI deepfake scam impersonating President Mahama",
           "url": "https://theheraldghana.com/11-arrested-over-alleged-ai-deepfake-scam-impersonating-president-mahama/",
-          "summary": "Why this matters: The incident involving AI-generated deepfake videos highlights the potential risks of AI in the context of cybersecurity and the need for robust security measures.",
+          "summary": "Why this matters: Eleven individuals are arrested for using AI-generated deepfakes to impersonate a president, highlighting the potential risks of AI in facilitating identity theft and fraud.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-09T00:00:00+00:00",
@@ -442,13 +459,13 @@
           "id": "ca_bab6a6c8eff33e34",
           "title": "AI company Eightfold sued for helping companies secretly score job seekers",
           "url": "https://www.reuters.com/sustainability/boards-policy-regulation/ai-company-eightfold-sued-helping-companies-secretly-score-job-seekers-2026-01-21/",
-          "summary": "Why this matters: The lawsuit against Eightfold AI for allegedly compiling reports used to screen job seekers raises important questions about the ethics and governance of AI in the context of employment and hiring practices.",
+          "summary": "Why this matters: A lawsuit is filed against Eightfold AI for allegedly compiling reports used to screen job seekers, raising concerns about AI-powered hiring practices and potential biases.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-08T00:00:00+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -488,7 +505,7 @@
           "tag": "watch",
           "tag_raw": "watch",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
           }
@@ -497,7 +514,7 @@
           "id": "co_22b32121ee2aaa0e",
           "title": "A global workspace in language models",
           "url": "https://www.anthropic.com/research/global-workspace",
-          "summary": "The concept of a global workspace in language models is explored, with implications for future AI development.",
+          "summary": "The concept of a global workspace in language models is explored, with potential implications for AI architecture.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-07T18:26:18+00:00",
@@ -679,7 +696,7 @@
             "published": "2026-06-21T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1198,7 +1215,7 @@
             "id": "ta_2ea4abcc5ba6cf1c",
             "title": "AI-generated videos to maximally drive a target brain region",
             "url": "https://nevo-project.epfl.ch/",
-            "summary": "Article URL: https://nevo-project.epfl.ch/ Comments URL: https://news.ycombinator.com/item?id=48856904 Points: 62 # Comments: 55",
+            "summary": "Article URL: https://nevo-project.epfl.ch/ Comments URL: https://news.ycombinator.com/item?id=48856904 Points: 173 # Comments: 178",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-07-10T07:39:11+00:00",
@@ -1226,7 +1243,7 @@
             "id": "ta_0e200addd03bf73a",
             "title": "AI 2040: Plan A",
             "url": "https://ai-2040.com/",
-            "summary": "Article URL: https://ai-2040.com/ Comments URL: https://news.ycombinator.com/item?id=48848425 Points: 79 # Comments: 46",
+            "summary": "Article URL: https://ai-2040.com/ Comments URL: https://news.ycombinator.com/item?id=48848425 Points: 85 # Comments: 48",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-07-09T16:21:44+00:00",
@@ -1240,7 +1257,7 @@
             "id": "ta_85dcb3893dbdf1a3",
             "title": "AI content is everywhere on social media, especially LinkedIn",
             "url": "https://www.pangram.com/blog/ai-in-your-feed",
-            "summary": "Article URL: https://www.pangram.com/blog/ai-in-your-feed Comments URL: https://news.ycombinator.com/item?id=48847940 Points: 218 # Comments: 195",
+            "summary": "Article URL: https://www.pangram.com/blog/ai-in-your-feed Comments URL: https://news.ycombinator.com/item?id=48847940 Points: 228 # Comments: 206",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-07-09T15:50:09+00:00",
@@ -1254,12 +1271,12 @@
             "id": "ta_a41f4c6936d12dfe",
             "title": "The next era of AI is about infrastructure, not just models",
             "url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
-            "summary": "Article URL: https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/ Comments URL: https://news.ycombinator.com/item?id=48846842 Points: 51 # Comments: 21",
+            "summary": "Article URL: https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/ Comments URL: https://news.ycombinator.com/item?id=48846842 Points: 55 # Comments: 23",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-07-09T14:50:01+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 2
             }
@@ -1430,7 +1447,7 @@
             "tier": 1,
             "published": "2026-07-09T13:05:42+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
@@ -1497,13 +1514,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "te_9db495c48327639e",
-            "title": "Vecima lands exclusive deal for Videotron's DOCSIS network upgrade",
-            "url": "https://www.lightreading.com/cable-technology/vecima-lands-exclusive-deal-for-videotron-s-docsis-network-upgrade",
-            "summary": "Videotron will deploy DOCSIS 4.0-ready remote PHY devices, GAP nodes and a virtual CMTS from Vecima to underpin the upgrade of the Canadian operator's HFC network.",
+            "id": "te_1df3ef4498763ba5",
+            "title": "FCC router ban docket stays active",
+            "url": "https://www.lightreading.com/broadband/fcc-router-ban-docket-stays-active",
+            "summary": "With the FCC granting more conditional approvals and waivers for broadband routers, CTIA and WNC are now seeking special dispensation.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-07-09T15:49:56+00:00",
+            "published": "2026-07-10T12:30:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1511,13 +1528,13 @@
             }
           },
           {
-            "id": "te_7831675ff12ea65b",
-            "title": "DriveNets powers 'AI supercluster' across pair of data centers",
-            "url": "https://www.lightreading.com/ai-machine-learning/drivenets-powers-ai-supercluster-across-pair-of-data-centers",
-            "summary": "DriveNets has deployed what it calls an 'AI supercluster' that connects two WhiteFiber data centers that are 52 miles apart and delivers 111.2 Tbit/s of capacity. #pressrelease",
+            "id": "te_122399c182f2a486",
+            "title": "The Buildout: California greenlights $53M for tribal, rural broadband",
+            "url": "https://www.lightreading.com/broadband/the-buildout-california-greenlights-53m-for-tribal-rural-broadband",
+            "summary": "This week in broadband builds: CPUC approves awards for tribal, rural broadband; Wire 3 invests in Houston County, Georgia; GoNetspeed expands in New Jersey, Massachusetts; TDS connects Central Wisconsin \u2013 and more.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-07-09T14:21:22+00:00",
+            "published": "2026-07-10T12:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1525,27 +1542,13 @@
             }
           },
           {
-            "id": "te_7297d4016e3e0646",
-            "title": "Verizon's 5G network drives telematics for BMW",
-            "url": "https://www.lightreading.com/5g/verizon-s-5g-network-drives-telematics-for-bmw",
-            "summary": "Verizon Business, in partnership with KDDI, lands 5G telematics connectivity deal with BMW for new vehicles in the US.",
+            "id": "te_ec08195a94a01cca",
+            "title": "Satellite D2D goes global as Africa gears up for service launches \u2013 GSA",
+            "url": "https://www.lightreading.com/satellite/satellite-d2d-goes-global-as-africa-gears-up-for-service-launches-gsa",
+            "summary": "African operators now have 32 direct-to-device (D2D) partnerships, according to an update from the GSA. Meanwhile, partnerships between operators and satellite companies in 18 countries have now launched D2D services.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-07-09T13:28:38+00:00",
-            "flags": {
-              "new": true,
-              "featured": true,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_2a7ece3884b8f1d9",
-            "title": "Eurobites: Nokia joins forces with NestAI for battlefield comms",
-            "url": "https://www.lightreading.com/ai-machine-learning/eurobites-nokia-joins-forces-with-nestai-for-battlefield-comms",
-            "summary": "Also in today's EMEA regional roundup: Telef\u00f3nica and Thales launch eSIM offering for IoT; euNetworks opens direct route between Paris and Milan; 5G on the rise in Germany.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-07-09T11:15:46+00:00",
+            "published": "2026-07-10T11:29:54+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1553,15 +1556,29 @@
             }
           },
           {
-            "id": "te_05dfe84fbfd7933e",
-            "title": "China eyes overseas markets for subsea cable detection robots",
-            "url": "https://www.lightreading.com/cable-technology/china-eyes-overseas-markets-for-subsea-cable-detection-robots",
-            "summary": "China has developed powerful robots that can locate, track and bury subsea cables with an error margin of less than 5%. The project's team plans to export the technology to Southeast Asia, the Middle East and Europe.",
+            "id": "te_5a90ce85221d26aa",
+            "title": "Iliad's Niel moves on Vodafone to become biggest shareholder",
+            "url": "https://www.lightreading.com/finance/iliad-s-niel-moves-on-vodafone-to-become-biggest-shareholder",
+            "summary": "Xavier Niel's investment vehicle Vega is buying a 16.2% stake in Vodafone from UAE-based telco e& and will become the UK operator's largest shareholder.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-07-09T10:27:22+00:00",
+            "published": "2026-07-10T11:12:25+00:00",
             "flags": {
-              "new": false,
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_9eaf583e769d4c90",
+            "title": "Eurobites: Tele2 bags 5G spectrum in Lithuania",
+            "url": "https://www.lightreading.com/5g/eurobites-tele2-bags-5g-spectrum-in-lithuania",
+            "summary": "Also in today's EMEA regional roundup: Telef\u00f3nica and Amper upgrade comms at Spanish airports; Deutsche Telekom, Ericsson combine on port network; O2 surfs the World Cup wave.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-07-10T10:51:02+00:00",
+            "flags": {
+              "new": true,
               "featured": false,
               "tier": 2
             }
@@ -1571,6 +1588,48 @@
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_b4fa2004b13f9aa6",
+            "title": "Webinar: Building 6G \u2014 aligning technology, policy and purpose",
+            "url": "https://pages.rcrtech.com/building-6g-webinar",
+            "summary": "The move toward 6G marks a shift from faster networks to intelligent, purpose-driven infrastructure. This report explores how emerging capabilities like AI-native architectures, sub-THz spectrum, integrated sensing, and multilayer security\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-07-10T13:40:22+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_7f2e76b500cc698e",
+            "title": "Vodafone at the heart of Euro telco reset as Iliad owner buys e& stake for $5.9bn",
+            "url": "https://www.rcrwireless.com/20260710/carriers/vodafone-euro-telco-reset-e-iliad",
+            "summary": "French telecom entrepreneur Xavier Niel is set to be Vodafone\u2019s largest shareholder after acquiring e&\u2019s stake in the UK firm for $5.9 billion; the move signals a new era of\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-07-10T13:20:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_e694e82041e4daa7",
+            "title": "How operations leaders see 5G as vital for mission-critical workflows (Reader Forum)",
+            "url": "https://www.rcrwireless.com/20260710/network-infrastructure/5g-vital-mission-critical-workflows-motorola-solutions",
+            "summary": "Motorola Solutions argues that 5G has become a valuable connectivity layer for utilities, public safety and industry, but mission-critical operations still depend on resilient LMR networks, with broadband technologies serving\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-07-10T10:04:12+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_5a6fb19c12f5bbac",
             "title": "Thursday (telco diary) | The plumbing is the product",
@@ -1595,49 +1654,7 @@
             "published": "2026-07-10T07:29:23+00:00",
             "flags": {
               "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_94251846563aef11",
-            "title": "OCUDU aims to resolve the \u2018last bottlenecks of proprietary software\u2019",
-            "url": "https://www.rcrwireless.com/20260709/telecom-software/ocudu-open-source-ran",
-            "summary": "Linux Foundation pushes Open RAN beyond interfaces with OCUDU Ecosystem Foundation In sum, what to know: -The OCUDU Ecosystem Foundation is working toward a framework for fully open-source RAN, and\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-07-09T18:26:47+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_11027a7218b52a2d",
-            "title": "Optical advances won\u2019t eliminate need for new fiber, says Dell\u2019Oro",
-            "url": "https://www.rcrwireless.com/20260709/connectivity/optical-fiber",
-            "summary": "Advances in optical transport technology are helping operators extract more capacity from existing fiber infrastructure, reckons the analyst firm In sum \u2013 what to know: Early stage \u2013 AI traffic\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-07-09T15:39:54+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_405aa997c2ff3f72",
-            "title": "SIMCom Webinar: Scaling your next deployment \u2013 from plastic to provisioning",
-            "url": "https://onomondo.com/video/launching-your-next-product-line/?utm_campaign=campaign_%7C_simcom_atec_webinar_0626&utm_content=381972524&utm_medium=social&utm_source=linkedin&hss_channel=lcp-231846",
-            "summary": "How do you cut BOM costs by 10% and hit zero SIM failures across 65,000+ IoT deployments? ATEC did it by pairing the SIMCom A7682 module with SoftSIM integration from\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-07-09T13:42:11+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           }
@@ -1646,6 +1663,20 @@
       "Fierce Network": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_00ca10d62a056a2f",
+            "title": "T-Mobile's network chief has a different take on autonomous networks",
+            "url": "https://www.fierce-network.com/wireless/t-mobiles-network-chief-has-different-take-autonomous-networks",
+            "summary": "T-Mobile Chief Network Officer Ankur Kapoor says efforts that focus on vertical autonomy are doing things all wrong.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_466599875a12e895",
             "title": "Small telcos struggle to transition from TDM to IP, claim large ILECs are price gouging",
@@ -1701,20 +1732,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_b6f441f2db11e4e7",
-            "title": "Inside AT&T's industrial IoT logistics play",
-            "url": "https://www.fierce-network.com/cloud/inside-atts-industrial-iot-logistics-play",
-            "summary": "AT&T is leveraging its Wiliot partnership to build its logistics business. And connectivity is just part of it.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       }
@@ -1761,7 +1778,7 @@
             "published": "2026-07-05T01:00:48+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1964,7 +1981,7 @@
           },
           {
             "id": "to_ac681ce233d76765",
-            "title": "Fidji Simo steps down from OpenAI\u2019s no. 2 role",
+            "title": "Fidji Simo steps down from OpenAI\u2019s No. 2 role",
             "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
             "summary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected \u2014 a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
             "source": "TechCrunch AI",
@@ -2213,7 +2230,7 @@
             "published": "2026-07-09T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2326,6 +2343,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_fcf1a756fad9359d",
+            "title": "AI Surveillance and Social Progress",
+            "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+            "summary": "In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong\u2014shoplift, litter, jaywalk, you name it\u2014the system will notice, retain it, tie it to your official government record, communicate that fact to you, and provide real-time alerts to any relevant authorities\u2026 and maybe also to the general public. Think of these systems as automated speed cameras, but on steroids. Only they\u2019ll enforce not just speed limits, but any other rule you can imagine.",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-07-10T11:02:04+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_000632dd391a3aeb",
             "title": "The Language of AI Could Change How Humans Speak",
             "url": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
@@ -2334,8 +2365,8 @@
             "tier": 2,
             "published": "2026-07-09T11:00:45+00:00",
             "flags": {
-              "new": true,
-              "featured": true,
+              "new": false,
+              "featured": false,
               "tier": 2
             }
           },
@@ -2380,26 +2411,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ca_87f306ebc3604b47",
-            "title": "Flock Cameras Can Surveil Cars Without License Plates",
-            "url": "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
-            "summary": "This is from a 2024 company presentation : Officers can also tap into data showing a car\u2019s decals, bumper stickers, back and top racks\u2014along with temporary and unique state tags. Flock calls it a \u201cVehicle Fingerprint\u201d and it\u2019s touted as a way for law enforcement officials to get more information \u201ceven when you don\u2019t have full plate information,\u201d the company\u2019s presentation shows.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-07-03T11:15:25+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "DataRobot Blog": {
         "tier": 2,
         "items": [
+          {
+            "id": "ca_337309ee70192f86",
+            "title": "Your agents are using your credentials, and that is the problem",
+            "url": "https://www.datarobot.com/blog/your-agents-are-using-your-credentials-and-that-is-the-problem/",
+            "summary": "Your agents are using your credentials, and that is the problem An engineer ships an agent to production. It needs to call an internal API, so it uses the key already sitting in the engineer\u2019s environment. The agent runs. It also now holds every permission that engineer holds. That is the default state of most... The post Your agents are using your credentials, and that is the problem appeared first on DataRobot .",
+            "source": "DataRobot Blog",
+            "tier": 2,
+            "published": "2026-07-10T14:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
           {
             "id": "ca_7f98f2b639b53660",
             "title": "Your identity stack was built for two kinds of actor. Agents are a third.",
@@ -2450,20 +2481,6 @@
             "source": "DataRobot Blog",
             "tier": 2,
             "published": "2026-06-24T01:15:17+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_b6d18b6e073f6be0",
-            "title": "Shadow agents: find and govern unsanctioned AI agents",
-            "url": "https://www.datarobot.com/blog/shadow-agents/",
-            "summary": "Teams are moving AI agents from prototype to workflow fast. One agent gets connected to a document store. Another starts calling internal tools. A third begins touching customer data. Soon, agents are operating across systems before governance teams have a clear record of what they can access, who owns them, or what they\u2019ve done. AI... The post Shadow agents: find and govern unsanctioned AI agents appeared first on DataRobot .",
-            "source": "DataRobot Blog",
-            "tier": 2,
-            "published": "2026-06-22T19:55:35+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2551,6 +2568,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_8d6354a30a5dc59e",
+            "title": "Data Brokers & Beyond: Navigating New Jersey\u2019s Data Broker & \u201cData Collector\u201d Registration Law",
+            "url": "https://fpf.org/blog/data-brokers-beyond-navigating-new-jerseys-data-broker-data-collector-registration-law/",
+            "summary": "Co-authored with Kelly Brandmeyer, FPF U.S. Policy Intern In a two-day span from June 28 to June 30, the New Jersey legislature introduced and passed A5328, amending New Jersey\u2019s comprehensive privacy law and establishing new data broker and \u201cdata collector\u201d registration requirements. The new data broker law has a uniquely broad scope and high financial [\u2026]",
+            "source": "Future of Privacy Forum",
+            "tier": 2,
+            "published": "2026-07-10T12:45:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_74ba1c4e72d75fa0",
             "title": "FPF Hosts Frontiers Workshop on Privacy, AI, and Emerging Infrastructure",
             "url": "https://fpf.org/blog/fpf-hosts-frontiers-workshop-on-privacy-ai-and-emerging-infrastructure/",
@@ -2559,7 +2590,7 @@
             "tier": 2,
             "published": "2026-07-09T13:46:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2605,20 +2636,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ca_1d35cf43442a62a1",
-            "title": "Future of Privacy Forum Announces 2026 Career Achievement Award Recipients",
-            "url": "https://fpf.org/press-releases/future-of-privacy-forum-announces-2026-career-achievement-award-recipients/",
-            "summary": "WASHINGTON, D.C. \u2014 The Future of Privacy Forum, a global non-profit focused on data protection, AI, and emerging technologies, announced new recipients of its Career Achievement Award, recognizing exceptional leaders whose work has advanced privacy, responsible data governance, and AI leadership worldwide. The 2026 recipients of the FPF Career Achievement Award are: Alan Raul, FPF\u2019s [\u2026]",
-            "source": "Future of Privacy Forum",
-            "tier": 2,
-            "published": "2026-06-12T15:01:43+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       }
@@ -2636,7 +2653,7 @@
             "tier": 1,
             "published": "2026-07-09T13:52:12+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
