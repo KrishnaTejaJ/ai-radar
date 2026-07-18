@@ -1,28 +1,45 @@
 {
   "meta": {
-    "last_updated": "2026-07-18T08:53:41.813592+00:00",
+    "last_updated": "2026-07-18T14:20:16.799932+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
-      "scored": 56,
+      "scored": 49,
       "radar_top": 22,
-      "radar_expand": 2
+      "radar_expand": 0
     }
   },
   "radar": {
     "tailored": {
       "top": [
         {
-          "id": "ta_39217bafd159845d",
-          "title": "Using Local Coding Agents",
-          "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Sebastian Raschka discusses using local coding agents and open-weight models as an alternative to Claude Code and Codex subscriptions, highlighting the potential benefits and trade-offs of this approach.",
+          "id": "ta_28c7ee44d88bdbf2",
+          "title": "Controlling Reasoning Effort in LLMs",
+          "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+          "summary": "Why this matters: Understanding how LLMs learn low-, medium-, and high-effort reasoning modes can significantly advance our knowledge of AI cognition and decision-making processes, enabling more sophisticated AI applications.",
           "source": "Sebastian Raschka",
           "tier": 1,
-          "published": "2026-06-27T11:21:58+00:00",
+          "published": "2026-07-18T11:16:09+00:00",
           "score": 5,
           "tag": "write-about",
           "tag_raw": "write-about",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "ta_39217bafd159845d",
+          "title": "Using Local Coding Agents",
+          "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+          "summary": "Why this matters: Using local coding agents and open-weight models can provide an alternative to Claude Code and Codex subscriptions, offering more flexibility and control over AI-assisted coding tasks.",
+          "source": "Sebastian Raschka",
+          "tier": 1,
+          "published": "2026-06-27T11:21:58+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -33,30 +50,13 @@
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan discusses patterns for building cybersecurity evaluations, including the use of sandboxed targets, inputs that influence task difficulty, tools, and graders, to create more effective and realistic evaluations.",
+          "summary": "Why this matters: Patterns for building cybersecurity evaluations can help ensure the security and reliability of AI systems, which is critical for their adoption in high-stakes applications.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ta_72743727df11fb18",
-          "title": "Using LLMs to Secure Source Code",
-          "url": "https://eugeneyan.com//writing/secure-source-code/",
-          "summary": "Why this matters: Eugene Yan explores the use of LLMs to secure source code, including building threat models, discovering vulnerabilities, verifying, triaging, and patching, to create a more comprehensive security approach.",
-          "source": "Eugene Yan",
-          "tier": 1,
-          "published": "2026-05-27T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -67,7 +67,7 @@
           "id": "ta_97cd97d27d220f15",
           "title": "How we contain Claude across products",
           "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-          "summary": "Why this matters: Containment strategies for Claude are crucial in preventing potential blast radius as agents grow more capable. Anthropic Engineering shares lessons learned from building containment for claude.ai, Claude Code, and Cowork.",
+          "summary": "Why this matters: Containment strategies for capable agents are crucial, and learning from Anthropic's experience with claude.ai, Claude Code, and Cowork can inform our own approaches to managing AI risk.",
           "source": "Anthropic Engineering",
           "tier": 1,
           "published": "2026-05-25T00:00:00+00:00",
@@ -89,30 +89,13 @@
           "id": "te_ef136e29ed227d12",
           "title": "Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis",
           "url": "https://arxiv.org/abs/2607.10315v1",
-          "summary": "Why this matters: Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis is crucial for securing 5G networks, and this research provides valuable insights into trust zone vulnerabilities.",
+          "summary": "Why this matters: Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis is crucial for 5G security. This research can inform NetPresso's design for robust security in its multi-agent platform.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-11T13:42:48+00:00",
-          "score": 5,
+          "score": 4,
           "tag": "build",
           "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_b721e37711a3dfe3",
-          "title": "Profiling and Scheduling Complex O-RAN Applications Across the 5G Edge and Cloud",
-          "url": "https://arxiv.org/abs/2607.12230v1",
-          "summary": "Profiling and Scheduling Complex O-RAN Applications Across the 5G Edge and Cloud is an important research area, but its relevance to NetPresso is not immediately clear.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-07-14T00:23:52+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -123,7 +106,7 @@
           "id": "te_c08d088abc5b710c",
           "title": "Agentic-V2X: Small Language Model Agents for Deadline-Aware V2X Scheduling in 5G/6G Networks",
           "url": "https://arxiv.org/abs/2607.04290v1",
-          "summary": "Why this matters: Agentic-V2X is an innovative architecture that enables small language model agents for deadline-aware V2X scheduling in 5G/6G networks, which could revolutionize the field of V2X communications.",
+          "summary": "Why this matters: Agentic-V2X introduces a novel architecture for deadline-aware V2X scheduling in 5G/6G networks, leveraging small language models and xApp-like controllers, which could enhance NetPresso's capabilities in managing complex network interactions.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-05T13:05:48+00:00",
@@ -137,52 +120,16 @@
           }
         },
         {
-          "id": "te_519ac54c021cc0e1",
-          "title": "ADORN: Adaptive Drift handling for Open RAN using Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2607.08443v1",
-          "summary": "Why this matters: ADORN is an adaptive drift handling approach for Open RAN using reinforcement learning, which could help mitigate the effects of drift in O-RAN environments and improve overall network performance.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-07-09T13:05:42+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "te_29484cdf880873c9",
           "title": "LLM-Centric Agentic AI for UAV Swarms: Architecture, Enabling Technologies, and Open Problems",
           "url": "https://arxiv.org/abs/2607.09756v1",
-          "summary": "Why this matters: LLM-Centric Agentic AI for UAV Swarms has significant potential for applications such as Search and Rescue and environmental monitoring, and its development could lead to breakthroughs in 5G-enabled UAV swarms.",
+          "summary": "Why this matters: LLM-Centric Agentic AI for UAV Swarms has significant implications for 5G-enabled applications, particularly in areas like search and rescue and environmental monitoring, where NetPresso's automated root cause analysis could be applied.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-05T13:08:06+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        }
-      ],
-      "expand": [
-        {
-          "id": "te_6164546603ce04b6",
-          "title": "TelcoAgent: A Scalable 5G Multi-KPM Forecasting With 3GPP-Grounded Explainability",
-          "url": "https://arxiv.org/abs/2606.19821v1",
-          "summary": "Why this matters: TelcoAgent is a scalable 5G multi-KPM forecasting framework with 3GPP-grounded explainability, which could significantly improve network management and forecasting in 5G and next-generation telecom networks.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-06-18T05:55:29+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -190,10 +137,27 @@
           }
         },
         {
-          "id": "te_27eb45cdfdd97031",
-          "title": "Cohere announces support for AI-RAN powered E3 interface",
-          "url": "https://www.fierce-network.com/newswire/cohere-announces-support-ai-ran-powered-e3-interface",
-          "summary": "Why this matters: Cohere announces support for AI-RAN powered E3 interface, which enables distributed applications to integrate more effectively with existing and new base stations, delivering improved spectral efficiency and network capacity.",
+          "id": "te_6164546603ce04b6",
+          "title": "TelcoAgent: A Scalable 5G Multi-KPM Forecasting With 3GPP-Grounded Explainability",
+          "url": "https://arxiv.org/abs/2606.19821v1",
+          "summary": "Why this matters: TelcoAgent offers a scalable solution for 5G multi-KPM forecasting with explainability, addressing a critical need in proactive network management and aligning with NetPresso's goals for advanced network analysis.",
+          "source": "arXiv: 5G + LLM",
+          "tier": 1,
+          "published": "2026-06-18T05:55:29+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_ea6935f3cfa9fa50",
+          "title": "CBS selects AI-native Calix One for 8 rural cooperatives",
+          "url": "https://www.fierce-network.com/newswire/cbs-selects-ai-native-calix-one-8-rural-cooperatives",
+          "summary": "Why this matters: The selection of AI-native Calix One by CBS for 8 rural cooperatives indicates a growing trend towards AI adoption in telecom operations, a topic relevant for discussion in the context of NetPresso and the future of 5G network management.",
           "source": "Fierce Network",
           "tier": 2,
           "published": null,
@@ -206,7 +170,8 @@
             "tier": 2
           }
         }
-      ]
+      ],
+      "expand": []
     },
     "top_stories": {
       "top": [
@@ -231,7 +196,7 @@
           "id": "to_860f6a642092e14b",
           "title": "What will be left for us to work on?",
           "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
-          "summary": "Why this matters: AI Snake Oil's keynote at ICML 2026 may provide valuable insights into the current state and future of AI research.",
+          "summary": "Why this matters: AI Snake Oil's keynote at ICML 2026 may provide valuable insights into the current state and future of AI, and its implications for the industry.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-07-13T18:47:06+00:00",
@@ -248,7 +213,7 @@
           "id": "to_6ad50fbaf8af6e41",
           "title": "Up the Stack: How AI\u2019s Escape From the Commodity Trap Risks Enterprise Lock-in",
           "url": "https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from",
-          "summary": "Why this matters: AI Snake Oil's article highlights the risks of enterprise lock-in due to AI's escape from the commodity trap, emphasizing the need for careful consideration.",
+          "summary": "Why this matters: AI Snake Oil's analysis of AI's potential to escape the commodity trap and its risks of enterprise lock-in is a crucial perspective on the AI landscape.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-07-09T22:29:33+00:00",
@@ -265,7 +230,7 @@
           "id": "to_8e44a2bffb74b6c6",
           "title": "The new GPT-5.6 family: Luna, Terra, Sol",
           "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
-          "summary": "Why this matters: OpenAI's new GPT-5.6 family, including Luna, Terra, and Sol, offers improved performance and pricing, with potential applications in various industries.",
+          "summary": "Why this matters: OpenAI's new GPT-5.6 family, including Luna, Terra, and Sol, offers improved performance and pricing, making it a significant development in the AI landscape.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-09T19:46:38+00:00",
@@ -279,20 +244,20 @@
           }
         },
         {
-          "id": "to_8fc6f843647df067",
-          "title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
-          "url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
-          "summary": "Lila Sciences is exploring the use of science as a source of training data, potentially leading to new breakthroughs in AI research.",
-          "source": "Latent Space",
-          "tier": 2,
-          "published": "2026-07-16T13:30:44+00:00",
+          "id": "to_897da200c5dc371c",
+          "title": "sqlite-utils 4.0, now with database schema migrations",
+          "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries",
+          "summary": "sqlite-utils 4.0 introduces database schema migrations, nested transactions, and support for compound foreign keys, which could be useful for future projects.",
+          "source": "Simon Willison",
+          "tier": 1,
+          "published": "2026-07-07T19:32:57+00:00",
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 2
+            "tier": 1
           }
         }
       ],
@@ -304,7 +269,7 @@
           "id": "ca_190afce295127da9",
           "title": "Teen catfish victim wins \u00a310k court payout after identity stolen by girl in her town",
           "url": "https://www.the-independent.com/news/uk/home-news/glamorgan-sasha-davies-catfish-this-morning-b3015176.html",
-          "summary": "Why this matters: The case of a teenage student being subjected to a four-year catfishing nightmare highlights the need for more effective AI-powered security measures to prevent identity theft and online harassment.",
+          "summary": "Why this matters: The case of a teenage student being subjected to a four-year catfishing nightmare highlights the need for more effective AI-powered identity theft protection. This incident demonstrates the potential risks of AI in social engineering attacks.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-16T00:00:00+00:00",
@@ -372,7 +337,7 @@
           "id": "ca_8ec5d14768a35273",
           "title": "AI agent governance at scale: from 5 agents to a 500-agent workforce",
           "url": "https://www.datarobot.com/blog/ai-agent-governance-at-scale-agent-workforce/",
-          "summary": "Why this matters: AI agent governance at scale is crucial for ensuring the security and reliability of AI-powered systems. DataRobot's research provides valuable insights into the challenges and opportunities of AI agent governance.",
+          "summary": "Why this matters: AI agent governance at scale is essential for ensuring the security and reliability of AI-powered systems. DataRobot's discussion of AI agent governance models and infrastructure problems is crucial for developing more secure AI systems.",
           "source": "DataRobot Blog",
           "tier": 2,
           "published": "2026-07-15T21:14:37+00:00",
@@ -394,7 +359,7 @@
           "id": "co_464e5c3e1e61aa31",
           "title": "A novel computer Scrabble engine based on probability that performs at championship level (2021)",
           "url": "https://upcommons.upc.edu/server/api/core/bitstreams/1339ae43-3d65-4015-8e11-3689e5572b23/content",
-          "summary": "Why this matters: A novel computer Scrabble engine based on probability that performs at championship level, demonstrating AI's potential in complex games.",
+          "summary": "Why this matters: A novel computer Scrabble engine based on probability that performs at championship level, demonstrating the potential of AI in complex games.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-16T15:29:48+00:00",
@@ -428,7 +393,7 @@
           "id": "co_779dff994352e776",
           "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
           "url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
-          "summary": "The history and development of ELIZA, the first chatbot, provide valuable insights into the evolution of AI and its potential impact on human interaction.",
+          "summary": "The book 'Inventing ELIZA' explores the history and impact of the first chatbot, offering insights into the evolution of AI.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-15T14:12:05+00:00",
@@ -526,6 +491,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ta_28c7ee44d88bdbf2",
+            "title": "Controlling Reasoning Effort in LLMs",
+            "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+            "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+            "source": "Sebastian Raschka",
+            "tier": 1,
+            "published": "2026-07-18T11:16:09+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 1
+            }
+          },
+          {
             "id": "ta_39217bafd159845d",
             "title": "Using Local Coding Agents",
             "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
@@ -580,20 +559,6 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "ta_d0c7d5449da94ece",
-            "title": "Components of A Coding Agent",
-            "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
-            "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
-            "source": "Sebastian Raschka",
-            "tier": 1,
-            "published": "2026-04-04T11:45:37+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
@@ -624,7 +589,7 @@
             "published": "2026-05-27T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1126,10 +1091,38 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_383703dbd1c0d274",
+            "title": "What AI did to stackoverflow in a graph",
+            "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+            "summary": "Article URL: https://data.stackexchange.com/stackoverflow/query/1953768#graph Comments URL: https://news.ycombinator.com/item?id=48956949 Points: 124 # Comments: 143",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-07-18T11:12:46+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_8b8e1d1337bc524f",
+            "title": "Why do AI company logos look like buttholes? (2025)",
+            "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+            "summary": "Article URL: https://velvetshark.com/ai-company-logos-that-look-like-buttholes Comments URL: https://news.ycombinator.com/item?id=48956924 Points: 321 # Comments: 101",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-07-18T11:06:50+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_9950ea5041480646",
             "title": "A grumpy screed about AI in software engineering",
             "url": "https://sam.sutch.net/posts/a-grumpy-ai-screed",
-            "summary": "Article URL: https://sam.sutch.net/posts/a-grumpy-ai-screed Comments URL: https://news.ycombinator.com/item?id=48953924 Points: 56 # Comments: 63",
+            "summary": "Article URL: https://sam.sutch.net/posts/a-grumpy-ai-screed Comments URL: https://news.ycombinator.com/item?id=48953924 Points: 59 # Comments: 69",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-07-18T00:40:08+00:00",
@@ -1143,7 +1136,7 @@
             "id": "ta_e2ba394be3628a9b",
             "title": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
             "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
-            "summary": "Article URL: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/ Comments URL: https://news.ycombinator.com/item?id=48952880 Points: 496 # Comments: 318",
+            "summary": "Article URL: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/ Comments URL: https://news.ycombinator.com/item?id=48952880 Points: 528 # Comments: 353",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-07-17T22:26:30+00:00",
@@ -1157,38 +1150,10 @@
             "id": "ta_3ec801a48bca17de",
             "title": "Everybody's Weirded Out by AI\u2013Except the People Who Foist It on Us",
             "url": "https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us",
-            "summary": "Article URL: https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us Comments URL: https://news.ycombinator.com/item?id=48952445 Points: 64 # Comments: 62",
+            "summary": "Article URL: https://newrepublic.com/article/213004/everybody-weirded-ai-except-people-foist-us Comments URL: https://news.ycombinator.com/item?id=48952445 Points: 65 # Comments: 64",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-07-17T21:24:07+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_623b1a8a3525d42a",
-            "title": "The state of open source AI",
-            "url": "https://stateofopensource.ai/",
-            "summary": "Article URL: https://stateofopensource.ai/ Comments URL: https://news.ycombinator.com/item?id=48947825 Points: 431 # Comments: 307",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-17T14:31:10+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_f0cbd11c5988735d",
-            "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
-            "url": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
-            "summary": "Article URL: https://blog.zksecurity.xyz/posts/openvm-bugs/ Comments URL: https://news.ycombinator.com/item?id=48947714 Points: 93 # Comments: 6",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-17T14:21:35+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1362,7 +1327,7 @@
             "published": "2026-07-14T00:23:52+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1418,7 +1383,7 @@
             "published": "2026-07-09T13:05:42+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           }
@@ -1450,7 +1415,7 @@
             "tier": 2,
             "published": "2026-07-17T13:30:15+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1464,7 +1429,7 @@
             "tier": 2,
             "published": "2026-07-17T12:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1478,7 +1443,7 @@
             "tier": 2,
             "published": "2026-07-17T11:13:41+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1492,7 +1457,7 @@
             "tier": 2,
             "published": "2026-07-17T11:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1511,7 +1476,7 @@
             "tier": 2,
             "published": "2026-07-17T14:06:30+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1525,7 +1490,7 @@
             "tier": 2,
             "published": "2026-07-17T14:05:30+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1601,7 +1566,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -1629,7 +1594,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -1692,7 +1657,7 @@
             "published": "2026-07-07T19:32:57+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1842,7 +1807,7 @@
             "published": "2026-07-16T13:30:44+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -2279,7 +2244,7 @@
             "tier": 2,
             "published": "2026-07-17T11:02:21+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
