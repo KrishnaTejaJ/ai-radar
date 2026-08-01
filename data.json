@@ -1,11 +1,11 @@
 {
   "meta": {
-    "last_updated": "2026-08-01T14:27:22.705616+00:00",
+    "last_updated": "2026-08-01T20:07:44.751535+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 145,
-      "scored": 41,
-      "radar_top": 21,
+      "fetched": 140,
+      "scored": 40,
+      "radar_top": 20,
       "radar_expand": 3
     }
   },
@@ -16,13 +16,13 @@
           "id": "ta_28c7ee44d88bdbf2",
           "title": "Controlling Reasoning Effort in LLMs",
           "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-          "summary": "Why this matters: Sebastian Raschka's work on controlling reasoning effort in LLMs is a significant contribution to the field, with implications for efficient and effective model deployment.",
+          "summary": "Why this matters: Sebastian Raschka's work on controlling reasoning effort in LLMs is a significant contribution to the field, and his findings on low-, medium-, and high-effort reasoning modes can inform the development of more efficient and effective LLMs.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-07-18T11:16:09+00:00",
           "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -30,33 +30,16 @@
           }
         },
         {
-          "id": "ta_3111de57b2e6d15f",
-          "title": "AI doesn't generate working products, that's still your job",
-          "url": "https://weeraman.com/the-prototype-isnt-the-product/",
-          "summary": "Why this matters: The distinction between prototypes and products in AI development is crucial, and this article highlights the importance of human involvement in generating working products.",
-          "source": "Hacker News (AI/LLM)",
-          "tier": 2,
-          "published": "2026-08-01T07:52:10+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Using local coding agents with open-weight models offers an alternative to subscription-based services like Claude Code and Codex, and Sebastian Raschka's exploration of this topic is worth examining.",
+          "summary": "Why this matters: Sebastian Raschka's exploration of using local coding agents as an alternative to Claude Code and Codex subscriptions offers a promising approach to reducing costs and increasing flexibility in coding workflows.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -67,7 +50,7 @@
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan's work on patterns for building cybersecurity evaluations offers a valuable framework for developing robust and effective security protocols.",
+          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evaluations offer a structured approach to assessing and improving the security of AI systems, and his work can inform the development of more robust and secure AI-powered applications.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
@@ -85,6 +68,23 @@
     },
     "telecom": {
       "top": [
+        {
+          "id": "te_922a470ef98ee3cb",
+          "title": "Coexistence of 5G NR and Wi Fi 6E/7 at 6 GHz: Experimental Interference Measurements",
+          "url": "https://arxiv.org/abs/2607.28213v1",
+          "summary": "Why this matters: This paper presents experimental interference measurements of a commercial Wi-Fi 6E/7 device into a live 5G New Radio system, highlighting the need for improved coexistence mechanisms.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-07-30T13:50:03+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
         {
           "id": "te_876d6476e048c8b5",
           "title": "PCAP-LM: An LLM-Native Text Representation for TLS Bulk Traffic Analysis",
@@ -106,25 +106,8 @@
           "id": "te_4cd7bd020a50d8d4",
           "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
           "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: The C-RE-ACT framework for O-RAN forensic triage can help detect and respond to performance-degradation attacks in O-RAN architectures, improving their security and reliability.",
+          "summary": "Why this matters: C-RE-ACT is a causal RE-ACTing agent for O-RAN forensic triage, which can help detect and mitigate performance-degradation attacks in O-RAN architectures.",
           "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-07-28T15:07:47+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_4cd7bd020a50d8d4",
-          "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
-          "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: The C-RE-ACT framework for O-RAN forensic triage can help detect and respond to performance-degradation attacks in O-RAN architectures, improving their security and reliability.",
-          "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-07-28T15:07:47+00:00",
           "score": 4,
@@ -140,7 +123,7 @@
           "id": "te_b07d41a5096c5997",
           "title": "Building the AI backbone, waiting on the AI billions",
           "url": "https://www.rcrwireless.com/20260731/network-infrastructure/ai-backbone-billions-telcos",
-          "summary": "Why this matters: The article highlights Verizon's investment in AI infrastructure and its potential impact on the company's future growth and competitiveness.",
+          "summary": "Why this matters: Verizon, AT&T, and SK Telecom are investing heavily in AI infrastructure, which is expected to drive significant revenue growth in the coming years.",
           "source": "RCR Wireless",
           "tier": 2,
           "published": "2026-07-31T13:34:59+00:00",
@@ -157,7 +140,7 @@
           "id": "te_5aa5f92dcca790d2",
           "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
           "url": "https://arxiv.org/abs/2607.28002v1",
-          "summary": "Why this matters: The proposed MARL framework for base station placement in TDOA-based localization can improve the accuracy of device localization in 5G and 6G networks.",
+          "summary": "Why this matters: This paper proposes a MARL framework for environment-aware BS placement, which can improve the accuracy of device localization in 5G and 6G networks.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T10:49:48+00:00",
@@ -176,7 +159,7 @@
           "id": "te_98fd46c1c2fa2449",
           "title": "LLM-Powered Agentic AI for 5G/6G Networks: A Tutorial and Survey on Architectures, Protocols, and Standardization",
           "url": "https://arxiv.org/abs/2607.16066v1",
-          "summary": "Why this matters: The tutorial and survey on LLM-powered agentic AI for 5G/6G networks provides a comprehensive overview of the current state of research in this area and highlights future directions.",
+          "summary": "Why this matters: This tutorial and survey provides a comprehensive overview of agentic AI for 5G/6G networks, covering architectures, protocols, and standardization.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-17T15:47:23+00:00",
@@ -193,7 +176,7 @@
           "id": "te_ef136e29ed227d12",
           "title": "Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis",
           "url": "https://arxiv.org/abs/2607.10315v1",
-          "summary": "Why this matters: The multi-agent flaw discovery and analysis approach can help identify and mitigate security flaws in core carrier networks, improving their overall security and reliability.",
+          "summary": "Why this matters: This paper presents a root-cause analysis of security flaws in core carrier networks, highlighting the need for improved security measures in 5G and 6G networks.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-11T13:42:48+00:00",
@@ -210,13 +193,13 @@
           "id": "te_9cf70ddf9dbe1d52",
           "title": "Ericsson lands NTT DOCOMO deal to supply AI-ready RAN Compute platform for Japan 5G network",
           "url": "https://www.fierce-network.com/wireless/ericsson-lands-ntt-docomo-deal-supply-ai-ready-ran-compute-platform-japan-5g-network",
-          "summary": "Why this matters: The partnership between Ericsson and NTT DOCOMO to supply AI-ready RAN Compute platforms for Japan's 5G network highlights the growing importance of AI in 5G networks.",
+          "summary": "Why this matters: Ericsson has landed a deal with NTT DOCOMO to supply an AI-ready RAN Compute platform for Japan's 5G network, highlighting the growing importance of AI in 5G networks.",
           "source": "Fierce Network",
           "tier": 2,
           "published": null,
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -248,13 +231,13 @@
           "id": "to_8ab3a4be8a66dee5",
           "title": "OpenAI\u2019s accidental cyberattack against Hugging Face is science fiction that happened",
           "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries",
-          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face highlights the risks of model availability imbalance and the need for improved security measures in AI development.",
+          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face highlights the imbalance of model availability and its implications for software security.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-22T23:51:33+00:00",
           "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -265,7 +248,7 @@
           "id": "to_c81f5a3c2b22b439",
           "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
           "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries",
-          "summary": "Simon Willison's fireside chat with the Claude Code team discusses coding agent security, evals, and tool design, providing insights into Anthropic's approach to AI development.",
+          "summary": "Simon Willison's fireside chat with the Claude Code team discusses coding agent security, evals, and tool design.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-21T12:54:02+00:00",
@@ -287,7 +270,7 @@
           "id": "ca_699d74a3ae44144b",
           "title": "ChatGPT Led to a Man\u2019s Near-Fatal Health Crisis, Lawsuit Claims",
           "url": "https://www.nytimes.com/2026/07/22/well/openai-chatgpt-health-lawsuit.html",
-          "summary": "Why this matters: The lawsuit against OpenAI for ChatGPT's alleged role in a near-fatal health crisis underscores the critical need for AI safety and governance in high-stakes applications.",
+          "summary": "Why this matters: The lawsuit against OpenAI highlights the potential risks of AI-generated medical advice. This incident underscores the need for careful consideration of AI's role in healthcare and the importance of human oversight.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-30T00:00:00+00:00",
@@ -301,27 +284,10 @@
           }
         },
         {
-          "id": "ca_6c6971e683204bb6",
-          "title": "Anthropic\u2019s Opus 5 Is Better at Resisting Prompt Injection",
-          "url": "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
-          "summary": "Why this matters: Anthropic's Opus 5 model shows improved resistance to prompt injection, a significant step forward in AI security, but also highlights the ongoing challenges in this area.",
-          "source": "Schneier on Security",
-          "tier": 2,
-          "published": "2026-07-31T17:23:16+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
           "id": "ca_584783acb9b0e6a3",
           "title": "Measuring LLMs' Impact on N-day Exploits",
           "url": "https://red.anthropic.com/2026/n-days/",
-          "summary": "Why this matters: Anthropic's research on LLMs' impact on N-day exploits highlights the potential risks of AI in cybersecurity, emphasizing the need for robust security measures.",
+          "summary": "Why this matters: Measuring LLMs' impact on N-day exploits is crucial for understanding the potential risks of large language models in cybersecurity. Anthropic's research provides valuable insights into the acceleration and automation of N-day exploits.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-08T00:00:00+00:00",
@@ -338,7 +304,7 @@
           "id": "ca_83e1167968632530",
           "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
           "url": "https://red.anthropic.com/2026/attack-navigator/",
-          "summary": "Why this matters: The LLM ATT&CK Navigator provides valuable insights into AI-enabled cyber threats, offering a framework for understanding and mitigating these risks.",
+          "summary": "Why this matters: Mapping AI-enabled cyber threats to the MITRE ATT&CK framework is essential for understanding the tactics and techniques used by cyberattackers. This research provides a comprehensive analysis of AI-enabled cyber operations.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-03T00:00:00+00:00",
@@ -352,10 +318,27 @@
           }
         },
         {
+          "id": "ca_6c6971e683204bb6",
+          "title": "Anthropic\u2019s Opus 5 Is Better at Resisting Prompt Injection",
+          "url": "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
+          "summary": "Why this matters: Anthropic's Opus 5 model has shown significant improvement in resisting prompt injection, making it a more robust model for cybersecurity applications. This development has important implications for the use of LLMs in security contexts.",
+          "source": "Schneier on Security",
+          "tier": 2,
+          "published": "2026-07-31T17:23:16+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ca_116a81de301c124d",
           "title": "The first 30 days of agentic AI governance: A practical checklist",
           "url": "https://www.datarobot.com/blog/governance-checklist-first-30-days/",
-          "summary": "Why this matters: The practical checklist for the first 30 days of agentic AI governance provides essential guidance for managing AI risks, emphasizing the importance of proactive governance strategies.",
+          "summary": "Why this matters: The first 30 days of agentic AI governance is a critical period for establishing effective governance practices. DataRobot's practical checklist provides valuable guidance for organizations deploying AI agents.",
           "source": "DataRobot Blog",
           "tier": 2,
           "published": "2026-07-29T19:05:40+00:00",
@@ -377,7 +360,7 @@
           "id": "co_6e5ae1dc09ac03d7",
           "title": "vLLM for Baidu Kunlun",
           "url": "https://github.com/baidu/vLLM-Kunlun",
-          "summary": "Discussion on vLLM for Baidu Kunlun, potential applications and implications.",
+          "summary": "vLLM for Baidu Kunlun is an interesting development, but its impact and implications need further exploration.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-31T08:01:26+00:00",
@@ -394,7 +377,7 @@
           "id": "co_c6b43e6ef123e4e6",
           "title": "Writing the PHP Virtual Machine in Rust (with a lot of help from AI)",
           "url": "https://jolicode.com/blog/writing-the-php-virtual-machine-in-rust-with-a-lot-of-help-from-ai",
-          "summary": "Why this matters: Writing the PHP Virtual Machine in Rust with AI assistance could lead to significant performance improvements and new use cases.",
+          "summary": "Why this matters: Writing the PHP Virtual Machine in Rust with AI assistance showcases a promising application of AI in systems programming, highlighting potential performance and security benefits.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-29T14:02:35+00:00",
@@ -411,7 +394,7 @@
           "id": "co_347c4dceb478ad8d",
           "title": "Large Language Models and the Future of Programming by Peter Norvig (2023)",
           "url": "https://www.youtube.com/watch?v=ia6aJIplmtc",
-          "summary": "Why this matters: Peter Norvig's insights on Large Language Models and the Future of Programming could shape the direction of the industry.",
+          "summary": "Why this matters: Peter Norvig's insights on Large Language Models and the Future of Programming could significantly influence the direction of AI research and its integration into programming practices.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-29T06:00:21+00:00",
@@ -428,7 +411,7 @@
           "id": "co_843c54c2254e13ae",
           "title": "You Could Have Come Up With Kimi Delta Attention",
           "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
-          "summary": "Kimi Delta Attention, a novel approach to attention mechanisms, sparks interesting discussions and potential applications.",
+          "summary": "The concept of Kimi Delta Attention could be noteworthy, but without more context, its significance and potential applications are unclear.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-28T17:01:39+00:00",
@@ -909,7 +892,7 @@
             "tier": 2,
             "published": "2026-07-31T16:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1124,78 +1107,7 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_5f7d5a0cd386389a",
-            "title": "Google kills Earth AI generator after one day",
-            "url": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
-            "summary": "Article URL: https://twitter.com/newsfromgoogle/status/2083249962150760610 Comments URL: https://news.ycombinator.com/item?id=49134079 Points: 50 # Comments: 70",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T13:02:44+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_6727ced88c9da78b",
-            "title": "EU will mandate labels on authentic-looking AI content starting August 2",
-            "url": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content/",
-            "summary": "Article URL: https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content/ Comments URL: https://news.ycombinator.com/item?id=49132341 Points: 61 # Comments: 95",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T08:26:55+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_3111de57b2e6d15f",
-            "title": "AI doesn't generate working products, that's still your job",
-            "url": "https://weeraman.com/the-prototype-isnt-the-product/",
-            "summary": "Article URL: https://weeraman.com/the-prototype-isnt-the-product/ Comments URL: https://news.ycombinator.com/item?id=49132130 Points: 218 # Comments: 215",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T07:52:10+00:00",
-            "flags": {
-              "new": true,
-              "featured": true,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_24b8b6659aa1ae25",
-            "title": "Flint: A Visualization Language for the AI Era",
-            "url": "https://microsoft.github.io/flint-chart/",
-            "summary": "Article URL: https://microsoft.github.io/flint-chart/ Comments URL: https://news.ycombinator.com/item?id=49130604 Points: 176 # Comments: 58",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T02:45:09+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_13350963068d66df",
-            "title": "Everyone is building LLM routers, we deprecated ours",
-            "url": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
-            "summary": "Article URL: https://manifest.build/blog/why-we-deprecated-our-llm-router/ Comments URL: https://news.ycombinator.com/item?id=49126630 Points: 124 # Comments: 75",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-07-31T18:06:39+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       }
     },
     "telecom": {
@@ -1362,7 +1274,7 @@
             "published": "2026-07-30T13:50:03+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1880,6 +1792,48 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_271ca55a8a1ed181",
+            "title": "YouTuber Hank Green says his AI usage is \u2018not healthy\u2019",
+            "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+            "summary": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-08-01T19:45:45+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_53ed436cb4425014",
+            "title": "Sam Altman is still making the case for parenting via ChatGPT",
+            "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+            "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-08-01T17:07:34+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_e529c7879a4af84c",
+            "title": "This $9 key physically locks your most addictive apps",
+            "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
+            "summary": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-08-01T15:58:17+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_ec77bd47dbb96df8",
             "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
             "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
@@ -1901,48 +1855,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-07-31T21:07:45+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_6422ae0f316dfcb1",
-            "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
-            "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-            "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-07-31T19:47:28+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_8f9218ebc14cb91d",
-            "title": "Sam Altman isn\u2019t the only one who wants to pump the brakes on AI",
-            "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-            "summary": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it\u2019s time for the AI industry to \u201cpace\u201d itself. The comments came just days after one of OpenAI\u2019s own models broke out of its test environment and got tangled up in a breach at Hugging Face \u2014 though as Equity\u2019s hosts point out, sloppy security seems to have [\u2026]",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-07-31T17:26:32+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_43fb41d572518ac7",
-            "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
-            "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-            "summary": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-07-31T16:49:08+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -2279,7 +2191,7 @@
             "tier": 2,
             "published": "2026-07-31T17:23:16+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 2
             }
