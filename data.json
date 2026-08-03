@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-08-02T20:07:34.418245+00:00",
+    "last_updated": "2026-08-03T10:49:31.444193+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 145,
+      "fetched": 140,
       "scored": 46,
-      "radar_top": 17,
-      "radar_expand": 8
+      "radar_top": 19,
+      "radar_expand": 5
     }
   },
   "radar": {
@@ -16,7 +16,7 @@
           "id": "ta_28c7ee44d88bdbf2",
           "title": "Controlling Reasoning Effort in LLMs",
           "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-          "summary": "Why this matters: Sebastian Raschka's work on controlling reasoning effort in LLMs is a significant contribution to the field, with implications for AI safety and efficiency.",
+          "summary": "Why this matters: Understanding how LLMs learn low-, medium-, and high-effort reasoning modes can significantly impact the development of more efficient and effective AI models, and Sebastian Raschka's insights are invaluable in this area.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-07-18T11:16:09+00:00",
@@ -33,7 +33,7 @@
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Using local coding agents can be a viable alternative to Claude Code and Codex subscriptions, and Sebastian Raschka's insights are valuable for practitioners.",
+          "summary": "Why this matters: Using local coding agents as an alternative to subscriptions can offer more flexibility and control, and Sebastian Raschka's exploration of this topic can help inform our decisions on local LLM operations.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
@@ -50,17 +50,34 @@
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evals can help developers create more secure and effective systems.",
+          "summary": "Why this matters: Patterns for building cybersecurity evaluations are essential for ensuring the security and integrity of our systems, and Eugene Yan's work in this area can provide valuable guidance and insights.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
           "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
             "tier": 1
+          }
+        },
+        {
+          "id": "ta_930dd1342c71cfa2",
+          "title": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "summary": "The Hermes Agent project on GitHub is an interesting example of a self-improving AI agent, and monitoring its development could provide valuable insights and ideas for our own work.",
+          "source": "GitHub Python Trending",
+          "tier": 2,
+          "published": null,
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
           }
         }
       ],
@@ -72,7 +89,7 @@
           "id": "te_876d6476e048c8b5",
           "title": "PCAP-LM: An LLM-Native Text Representation for TLS Bulk Traffic Analysis",
           "url": "https://arxiv.org/abs/2607.28100v1",
-          "summary": "Why this matters: PCAP-LM offers a novel approach to network traffic analysis using LLMs, enabling more efficient and effective analysis of 5G network traffic.",
+          "summary": "Why this matters: PCAP-LM offers a novel approach to network traffic analysis using LLMs, enabling more efficient and effective analysis of TLS bulk traffic.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T12:10:12+00:00",
@@ -86,44 +103,10 @@
           }
         },
         {
-          "id": "te_4cd7bd020a50d8d4",
-          "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
-          "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: C-RE-ACT is a causal RE-ACTing agent for O-RAN forensic triage, which can help detect and mitigate performance-degradation attacks in O-RAN architectures.",
-          "source": "arXiv: RAN anomaly",
-          "tier": 1,
-          "published": "2026-07-28T15:07:47+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_4cd7bd020a50d8d4",
-          "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
-          "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: C-RE-ACT is a causal RE-ACTing agent for O-RAN forensic triage, which can help detect and mitigate performance-degradation attacks in O-RAN architectures.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-07-28T15:07:47+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "te_b07d41a5096c5997",
           "title": "Building the AI backbone, waiting on the AI billions",
           "url": "https://www.rcrwireless.com/20260731/network-infrastructure/ai-backbone-billions-telcos",
-          "summary": "Why this matters: Verizon is betting big on AI infrastructure, and this article highlights the importance of AI in the telecom industry, particularly in the context of 5G and 6G networks.",
+          "summary": "Why this matters: Verizon, AT&T, and SK Telecom are investing heavily in AI infrastructure, which can enable new opportunities for telcos and drive revenue growth.",
           "source": "RCR Wireless",
           "tier": 2,
           "published": "2026-07-31T13:34:59+00:00",
@@ -140,7 +123,7 @@
           "id": "te_5aa5f92dcca790d2",
           "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
           "url": "https://arxiv.org/abs/2607.28002v1",
-          "summary": "Why this matters: This paper proposes a MARL framework for environment-aware base station placement, which can improve the accuracy of device localization in 5G and 6G networks.",
+          "summary": "Why this matters: This paper proposes a MARL framework for environment-aware BS placement, which can improve localization accuracy in 5G and 6G networks.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T10:49:48+00:00",
@@ -152,31 +135,12 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
-        {
-          "id": "te_8e6e1d5b7f315221",
-          "title": "6G: From Connectivity Infrastructure to Guaranteed Digital Services",
-          "url": "https://arxiv.org/abs/2607.24185v2",
-          "summary": "Why this matters: This article argues that 6G should prioritize control, customer outcomes, and business guarantees, and that agentic artificial intelligence can play a key role in achieving these goals.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-07-27T09:06:31+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
         },
         {
           "id": "te_98fd46c1c2fa2449",
           "title": "LLM-Powered Agentic AI for 5G/6G Networks: A Tutorial and Survey on Architectures, Protocols, and Standardization",
           "url": "https://arxiv.org/abs/2607.16066v1",
-          "summary": "Why this matters: This tutorial and survey provide a comprehensive overview of agentic AI for 5G/6G networks, covering architectures, protocols, and standardization.",
+          "summary": "Why this matters: This tutorial and survey provides a comprehensive overview of agentic AI for 5G/6G networks, covering architectures, protocols, and standardization.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-17T15:47:23+00:00",
@@ -193,7 +157,7 @@
           "id": "te_ef136e29ed227d12",
           "title": "Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis",
           "url": "https://arxiv.org/abs/2607.10315v1",
-          "summary": "Why this matters: This paper presents a root-cause analysis of security flaws in core carrier networks, highlighting the need for improved security measures in 5G and 6G networks.",
+          "summary": "Why this matters: This paper presents a multi-agent flaw discovery and analysis approach to identify implicit trust errors in core carrier networks, which can improve network security.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-11T13:42:48+00:00",
@@ -205,12 +169,14 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "te_9cf70ddf9dbe1d52",
           "title": "Ericsson lands NTT DOCOMO deal to supply AI-ready RAN Compute platform for Japan 5G network",
           "url": "https://www.fierce-network.com/wireless/ericsson-lands-ntt-docomo-deal-supply-ai-ready-ran-compute-platform-japan-5g-network",
-          "summary": "Ericsson's deal with NTT DOCOMO to supply an AI-ready RAN Compute platform for Japan's 5G network is a significant development in the adoption of AI in telecom.",
+          "summary": "Why this matters: Ericsson's deal with NTT DOCOMO to supply an AI-ready RAN Compute platform for Japan's 5G network highlights the growing importance of AI in 5G networks.",
           "source": "Fierce Network",
           "tier": 2,
           "published": null,
@@ -248,7 +214,7 @@
           "id": "to_8ab3a4be8a66dee5",
           "title": "OpenAI\u2019s accidental cyberattack against Hugging Face is science fiction that happened",
           "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries",
-          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face highlights the risks of imbalance in model availability and the need for improved security measures in AI development.",
+          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face highlights the imbalance of model availability and its implications for software security.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-22T23:51:33+00:00",
@@ -265,7 +231,7 @@
           "id": "to_c81f5a3c2b22b439",
           "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
           "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries",
-          "summary": "Simon Willison's fireside chat with the Claude Code team discusses coding agent security, evals, and tool design, providing insights into Anthropic's approach to AI development.",
+          "summary": "Simon Willison's fireside chat with the Claude Code team discusses coding agent security, evals, and tool design, offering insights into Anthropic's approaches.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-21T12:54:02+00:00",
@@ -287,7 +253,7 @@
           "id": "ca_699d74a3ae44144b",
           "title": "ChatGPT Led to a Man\u2019s Near-Fatal Health Crisis, Lawsuit Claims",
           "url": "https://www.nytimes.com/2026/07/22/well/openai-chatgpt-health-lawsuit.html",
-          "summary": "Why this matters: The lawsuit against OpenAI due to ChatGPT's alleged role in a near-fatal health crisis raises significant concerns about AI's potential to cause harm and the need for stringent safety protocols.",
+          "summary": "Why this matters: The lawsuit against OpenAI highlights the potential risks of AI models providing inaccurate medical advice. This incident underscores the need for careful evaluation and testing of AI models in high-stakes applications.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-30T00:00:00+00:00",
@@ -301,10 +267,27 @@
           }
         },
         {
+          "id": "ca_b530ff3e6684c21c",
+          "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
+          "url": "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
+          "summary": "Why this matters: The OpenAI hack demonstrates the potential risks of AI models being used for malicious purposes. This incident highlights the need for increased security measures and regulation of AI models.",
+          "source": "Schneier on Security",
+          "tier": 2,
+          "published": "2026-08-03T10:47:47+00:00",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ca_56aa03dab1c36ef5",
           "title": "Women \u2018listed for sex\u2019 on alleged AI deepfake posters",
           "url": "https://aapnews.aap.com.au/glance/news/charges-over-deepfake-sexual-images-posted-in-public",
-          "summary": "Why this matters: The use of AI in creating deepfake posters for sex trafficking emphasizes the darker aspects of AI misuse and the urgent need for regulatory and technological solutions to combat such crimes.",
+          "summary": "Why this matters: The use of AI-generated deepfakes for malicious purposes is a growing concern. This incident highlights the need for increased awareness and regulation of AI-generated content.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-30T00:00:00+00:00",
@@ -321,7 +304,7 @@
           "id": "ca_daaa51e413f9072f",
           "title": "Intimate Image, Stalking Charges in SE Queensland",
           "url": "https://www.miragenews.com/intimate-image-stalking-charges-in-se-queensland-1715380/",
-          "summary": "Why this matters: The charges related to the creation and distribution of AI-generated intimate images highlight the legal and ethical challenges posed by AI-driven crimes, requiring a concerted effort to address these issues.",
+          "summary": "Why this matters: The creation and distribution of AI-generated intimate images is a serious concern. This incident underscores the need for increased regulation and enforcement of laws related to AI-generated content.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-30T00:00:00+00:00",
@@ -338,24 +321,7 @@
           "id": "ca_7f93e1ef5ef6ece3",
           "title": "ChatGPT's advice kept man from seeking medical treatment for dangerous condition, lawsuit claims",
           "url": "https://www.reuters.com/legal/government/chatgpts-advice-kept-man-seeking-medical-treatment-dangerous-condition-lawsuit-2026-07-22/",
-          "summary": "Why this matters: The lawsuit claiming ChatGPT's advice led to delayed medical treatment underscores the critical need for AI safety and accountability, particularly in high-stakes areas like healthcare.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-07-30T00:00:00+00:00",
-          "score": 5,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_0e666e0b42359128",
-          "title": "Pastor Seeks Accountability After ChatGPT Allegedly Discouraged Him From Seeking Medical Care During Life-Threatening Blood Clots",
-          "url": "https://techjusticelaw.org/press-releases/pastor-sues-after-openai-ai-chatgpt-allegedly-discouraged-him-from-seeking-medical-care-during-life-threatening-blood-clots/",
-          "summary": "Why this matters: The allegations against ChatGPT for discouraging a user from seeking medical care during a life-threatening condition point to the potential risks of relying on AI for critical decision-making and the necessity of human oversight.",
+          "summary": "Why this matters: The lawsuit against OpenAI highlights the potential risks of AI models providing inaccurate medical advice. This incident underscores the need for careful evaluation and testing of AI models in high-stakes applications.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-07-30T00:00:00+00:00",
@@ -371,10 +337,27 @@
       ],
       "expand": [
         {
+          "id": "ca_0e666e0b42359128",
+          "title": "Pastor Seeks Accountability After ChatGPT Allegedly Discouraged Him From Seeking Medical Care During Life-Threatening Blood Clots",
+          "url": "https://techjusticelaw.org/press-releases/pastor-sues-after-openai-ai-chatgpt-allegedly-discouraged-him-from-seeking-medical-care-during-life-threatening-blood-clots/",
+          "summary": "Why this matters: The lawsuit against OpenAI highlights the potential risks of AI models providing inaccurate medical advice. This incident underscores the need for careful evaluation and testing of AI models in high-stakes applications.",
+          "source": "AI Incident Database",
+          "tier": 1,
+          "published": "2026-07-30T00:00:00+00:00",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "ca_584783acb9b0e6a3",
           "title": "Measuring LLMs' Impact on N-day Exploits",
           "url": "https://red.anthropic.com/2026/n-days/",
-          "summary": "Why this matters: Anthropic's research on measuring LLMs' impact on N-day exploits highlights the potential risks of AI in cybersecurity, emphasizing the need for robust security measures.",
+          "summary": "Why this matters: Measuring LLMs' impact on N-day exploits is crucial for understanding the potential risks of large language models in cybersecurity. Anthropic's research provides valuable insights into the capabilities of LLMs in developing exploits.",
           "source": "Anthropic Frontier Red Team",
           "tier": 1,
           "published": "2026-06-08T00:00:00+00:00",
@@ -388,33 +371,16 @@
           }
         },
         {
-          "id": "ca_83e1167968632530",
-          "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
-          "url": "https://red.anthropic.com/2026/attack-navigator/",
-          "summary": "Why this matters: The mapping of AI-enabled cyber threats to the MITRE ATT&CK framework by Anthropic's Frontier Red Team provides valuable insights into the tactics and techniques used by cyberattackers, aiding in the development of effective countermeasures.",
-          "source": "Anthropic Frontier Red Team",
-          "tier": 1,
-          "published": "2026-06-03T00:00:00+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "ca_6c6971e683204bb6",
           "title": "Anthropic\u2019s Opus 5 Is Better at Resisting Prompt Injection",
           "url": "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
-          "summary": "Why this matters: The improvement in Opus 5's resistance to prompt injection attacks, as discussed by Schneier on Security, highlights the ongoing efforts to enhance AI security and mitigate potential risks.",
+          "summary": "Why this matters: Anthropic's Opus 5 model has shown improved resistance to prompt injection attacks. This development is significant for enhancing the security of AI models.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-07-31T17:23:16+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -425,7 +391,7 @@
           "id": "ca_116a81de301c124d",
           "title": "The first 30 days of agentic AI governance: A practical checklist",
           "url": "https://www.datarobot.com/blog/governance-checklist-first-30-days/",
-          "summary": "Why this matters: The practical checklist for the first 30 days of agentic AI governance by DataRobot Blog offers valuable guidance on managing AI risks, emphasizing the importance of proactive governance in AI deployment.",
+          "summary": "Why this matters: The first 30 days of agentic AI governance are critical for establishing a strong foundation for AI development. This checklist provides valuable guidance for ensuring the responsible development of AI agents.",
           "source": "DataRobot Blog",
           "tier": 2,
           "published": "2026-07-29T19:05:40+00:00",
@@ -446,13 +412,30 @@
           "id": "co_6d4f14d660f9062e",
           "title": "Why we write our own C and C++ inference engines",
           "url": "https://localai.io/blog/why-we-write-our-own-engines/",
-          "summary": "Why this matters: Custom C and C++ inference engines can significantly optimize AI performance, and learning from others' experiences can inform NetPresso's architecture.",
+          "summary": "Why this matters: Custom C and C++ inference engines can significantly optimize AI performance. Discussion on implementing these engines from scratch.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-07-31T16:17:44+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "co_843c54c2254e13ae",
+          "title": "You Could Have Come Up With Kimi Delta Attention",
+          "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+          "summary": "Discussion on the concept of Kimi Delta Attention, potentially relevant to AI advancements.",
+          "source": "Lobsters (AI tag)",
+          "tier": 1,
+          "published": "2026-07-28T17:01:39+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -1069,10 +1052,10 @@
         "tier": 2,
         "items": [
           {
-            "id": "ta_db45b51443426f78",
-            "title": "paperswithbacktest/awesome-systematic-trading",
-            "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-            "summary": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading. Awesome Systematic Trading \u5e0c\u671b\u9605\u8bfb\u4e2d\u6587\u7248\uff1f\u70b9\u6211 We are collecting a list of resources papers, softwares, books, articles for finding, developing, and running systematic trading (quantitative trading) strategies. What will you find here? 97 libraries and packages for research and live trading 40+ strategies described by institutionals and academics 55 books for beginners and professionals 23 videos and interviews And also some blogs and courses \ud83d\udcc8 Interested in trading strategies implemented in\u2026",
+            "id": "ta_d00d272b2b99c11f",
+            "title": "Panniantong/Agent-Reach",
+            "url": "https://github.com/Panniantong/Agent-Reach",
+            "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu \u2014 one CLI, zero API fees. \ud83d\udc41\ufe0f Agent Reach \u7ed9\u4f60\u7684 AI Agent \u4e00\u952e\u88c5\u4e0a\u4e92\u8054\u7f51\u80fd\u529b \u5f53\u4e0b\u6700\u7a33\u7684\u63a5\u5165\u65b9\u5f0f\uff0c\u66ff\u4f60\u9009\u597d\u3001\u88c5\u597d\u3001\u4f53\u68c0\u597d\u2014\u2014\u63a5\u5165\u65b9\u5f0f\u4f1a\u6362\u4ee3\uff0c\u4f60\u4e0d\u7528\u64cd\u5fc3 \u5feb\u901f\u5f00\u59cb \u00b7 English \u00b7 \u65e5\u672c\u8a9e \u00b7 \ud55c\uad6d\uc5b4 \u00b7 \u652f\u6301\u5e73\u53f0 \u00b7 \u8bbe\u8ba1\u7406\u5ff5 \u4e3a\u4ec0\u4e48\u9700\u8981 Agent Reach\uff1f AI Agent \u5df2\u7ecf\u80fd\u5e2e\u4f60\u5199\u4ee3\u7801\u3001\u6539\u6587\u6863\u3001\u7ba1\u9879\u76ee\u2014\u2014\u4f46\u4f60\u8ba9\u5b83\u53bb\u7f51\u4e0a\u627e\u70b9\u4e1c\u897f\uff0c\u5b83\u5c31\u6293\u778e\u4e86\uff1a \ud83d\udcfa \"\u5e2e\u6211\u770b\u770b\u8fd9\u4e2a YouTube \u6559\u7a0b\u8bb2\u4e86\u4ec0\u4e48\" \u2192 \u770b\u4e0d\u4e86 \uff0c\u62ff\u4e0d\u5230\u5b57\u5e55 \ud83d\udc26 \"\u5e2e\u6211\u641c\u4e00\u4e0b\u63a8\u7279\u4e0a\u5927\u5bb6\u600e\u4e48\u8bc4\u4ef7\u8fd9\u4e2a\u4ea7\u54c1\" \u2192 \u641c\u4e0d\u4e86 \uff0cTwitter API \u8981\u4ed8\u8d39 \ud83d\udcd6 \"\u53bb Reddit \u4e0a\u770b\u770b\u6709\u6ca1\u6709\u4eba\u9047\u5230\u8fc7\u540c\u6837\u7684 bug\" \u2192 403 \u88ab\u5c01 \uff0c\u670d\u52a1\u5668 IP \u88ab\u62d2 \ud83d\udcd5 \"\u5e2e\u6211\u770b\u770b\u5c0f\u7ea2\u4e66\u4e0a\u8fd9\u4e2a\u54c1\u7684\u53e3\u7891\" \u2192 \u6253\u4e0d\u5f00 \uff0c\u5fc5\u987b\u767b\u5f55\u624d\u80fd\u770b \ud83d\udcfa \"B\u7ad9\u4e0a\u6709\u4e2a\u6280\u672f\u89c6\u9891\uff0c\u5e2e\u6211\u603b\u7ed3\u4e00\u4e0b\" \u2192 \u62ff\u4e0d\u5230 \uff0c\u901a\u7528\u4e0b\u8f7d\u5de5\u5177\u88ab B\u7ad9\u98ce\u63a7\u5168\u9762\u62e6\u622a \ud83d\udd0d \"\u5e2e\u6211\u5728\u7f51\u4e0a\u641c\u4e00\u4e0b\u6700\u65b0\u7684 LLM \u6846\u67b6\u5bf9\u6bd4\" \u2192 \u6ca1\u6709\u597d\u7528\u7684\u641c\u7d22 \uff0c\u8981\u4e48\u4ed8\u8d39\u8981\u4e48\u8d28\u91cf\u5dee \ud83c\udf10\u2026",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1083,10 +1066,10 @@
             }
           },
           {
-            "id": "ta_3e5eebb5cae40eab",
-            "title": "huggingface/speech-to-speech",
-            "url": "https://github.com/huggingface/speech-to-speech",
-            "summary": "Build local voice agents with open-source models Speech To Speech: Build voice agents with open-source models A low-latency, fully modular voice-agent pipeline: VAD -> STT -> LLM -> TTS , exposed through an OpenAI Realtime-compatible WebSocket API . Every component is swappable. The LLM slot speaks OpenAI-compatible protocols, so you can point it at a hosted provider, at HF Inference Providers , or at a vLLM or llama.cpp server on your own hardware for a fully local, fully open stack. This pipeline runs in production as the conversation backend for thousands of Reachy Mini robots.",
+            "id": "ta_01e478ba125afa0c",
+            "title": "mvanhorn/last30days-skill",
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days English | Fran\u00e7ais | Deutsch | Espa\u00f1ol | Portugu\u00eas (Brasil) | \u65e5\u672c\u8a9e | \u7b80\u4f53\u4e2d\u6587 An AI agent-led search engine scored by upvotes, likes, and real money - not editors. This README tracks the current v3 pipeline. The runtime skill spec lives in skills/last30days/SKILL.md , which is the source of truth for the latest command and setup behavior.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1111,24 +1094,24 @@
             }
           },
           {
-            "id": "ta_cbaef75a70f11713",
-            "title": "ansible/ansible",
-            "url": "https://github.com/ansible/ansible",
-            "summary": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com. Ansible Ansible is a radically simple IT automation system. It handles configuration management, application deployment, cloud provisioning, ad-hoc task execution, network automation, and multi-node orchestration.",
+            "id": "ta_930dd1342c71cfa2",
+            "title": "NousResearch/hermes-agent",
+            "url": "https://github.com/NousResearch/hermes-agent",
+            "summary": "The agent that grows with you Hermes Agent \u2624 Hermes Agent | Hermes Desktop The self-improving AI agent built by Nous Research . It's the only agent with a built-in learning loop \u2014 it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop \u2014 talk to it from Telegram while it works on a cloud VM.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
           {
-            "id": "ta_57bbe9cb5dfd6ca6",
-            "title": "microsoft/TRELLIS.2",
-            "url": "https://github.com/microsoft/TRELLIS.2",
-            "summary": "Native and Compact Structured Latents for 3D Generation Native and Compact Structured Latents for 3D Generation https://github.com/user-attachments/assets/63b43a7e-acc7-4c81-a900-6da450527d8f (Compressed version due to GitHub size limits. See the full-quality video on our project page!) TRELLIS.2 is a state-of-the-art large 3D generative model (4B parameters) designed for high-fidelity image-to-3D generation. It leverages a novel \"field-free\" sparse voxel structure termed O-Voxel to reconstruct and generate arbitrary 3D assets with complex topologies, sharp features, and full PBR materials.",
+            "id": "ta_25816a33fe943acf",
+            "title": "Huanshere/VideoLingo",
+            "url": "https://github.com/Huanshere/VideoLingo",
+            "summary": "Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix\u7ea7\u5b57\u5e55\u5207\u5272\u3001\u7ffb\u8bd1\u3001\u5bf9\u9f50\u3001\u751a\u81f3\u52a0\u4e0a\u914d\u97f3\uff0c\u4e00\u952e\u5168\u81ea\u52a8\u89c6\u9891\u642c\u8fd0AI\u5b57\u5e55\u7ec4 Connect the World, Frame by Frame English \uff5c \u7b80\u4f53\u4e2d\u6587 \uff5c \u7e41\u9ad4\u4e2d\u6587 \uff5c \u65e5\u672c\u8a9e \uff5c Espa\u00f1ol \uff5c \u0420\u0443\u0441\u0441\u043a\u0438\u0439 \uff5c Fran\u00e7ais \ud83c\udf1f Overview ( Try VL Now! ) VideoLingo is an all-in-one video translation, localization, and dubbing tool aimed at generating Netflix-quality subtitles. It eliminates stiff machine translations and multi-line subtitles while adding high-quality dubbing, enabling global knowledge sharing across language barriers.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1142,78 +1125,7 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_08d31deaaabea05f",
-            "title": "Show HN: Sprocket \u2013 The Best AI Agent for Hardware and Software Development",
-            "url": "https://sprocket-demo.spikonado.com",
-            "summary": "Hey HN, I am 16y/o and have been working on Sprocket for a while. It's an open-source AI agent that beats every other agent out there at both hardware and software. And here's the best part: Sprocket can (on its own) buy anything from any website when you tell it to do so. From hardware parts to SaaS subscriptions. Sprocket retrieves best-in-class context from the web for everything it does. It is therefore incredibly reliable. The agent harness's quality, performance, and UI rival that of Codex/Cursor/T3Code, and we are rapidly improving.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-02T16:26:19+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_84a8bb91547de7c5",
-            "title": "Zitron: \"Everyone Has Been Sold a Lie\" on AI [video]",
-            "url": "https://www.youtube.com/watch?v=pHcZpvIfho0",
-            "summary": "Article URL: https://www.youtube.com/watch?v=pHcZpvIfho0 Comments URL: https://news.ycombinator.com/item?id=49139325 Points: 53 # Comments: 46",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T22:50:30+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_e8cc710abd7baa85",
-            "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-            "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-            "summary": "Article URL: https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions Comments URL: https://news.ycombinator.com/item?id=49139102 Points: 326 # Comments: 369",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T22:25:12+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_5f7d5a0cd386389a",
-            "title": "Google kills Earth AI generator after one day",
-            "url": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
-            "summary": "Article URL: https://twitter.com/newsfromgoogle/status/2083249962150760610 Comments URL: https://news.ycombinator.com/item?id=49134079 Points: 62 # Comments: 103",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T13:02:44+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_f5fb55945fb67c65",
-            "title": "On the non-use of AI in my writing process",
-            "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
-            "summary": "Article URL: https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html Comments URL: https://news.ycombinator.com/item?id=49134038 Points: 130 # Comments: 131",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-01T12:56:54+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       }
     },
     "telecom": {
@@ -1305,7 +1217,7 @@
             "published": "2026-07-28T15:07:47+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1371,6 +1283,48 @@
         "tier": 1,
         "items": [
           {
+            "id": "te_a43a72f9a9fd9765",
+            "title": "Profit-Driven Pricing and SLA-Aware Reserve Sizing for Multi-Tenant Satellite O-RAN Services",
+            "url": "https://arxiv.org/abs/2607.29594v1",
+            "summary": "This paper studies a multi-tenant resource allocation problem in a satellite open radio access network (O-RAN) wholesale setting, where heterogeneous traffic classes share a time-varying limited satellite capacity over a finite planning horizon. We formulate a joint pricing and reserve allocation problem from a service provider perspective, where tenant-specific demand exhibits price elasticity and stochastic service requirements subject to strict service-level agreement (SLA) constraints, leading to a coupled economic and reliability-driven bottleneck.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-07-31T16:20:30+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_9fd3b7040f4a59a9",
+            "title": "METIS: A Declarative Slice Orchestrator for Application-Centric 5G/6G Networks",
+            "url": "https://arxiv.org/abs/2607.29282v1",
+            "summary": "Network slicing is the cornerstone of application-aware 5G and 6G networks, yet dynamic lifecycle management of network slice instances with coordinated quality-of-service enforcement across the radio access network and core network remains unresolved. Existing orchestrators rely on network-centric data models, imperative workflows, and static slice templates, while O-RAN addresses radio-side slice control independently of 3GPP core-side control, leaving slice-level quality-of-service enforcement uncoordinated across domains.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-07-31T10:54:32+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_a13a3ba6201680f5",
+            "title": "Sovereign Cognitive Digital Twins: Fusing 6G ISAC, AI-RAN, and Zero-Trust Edge Grids for National Resilience in the Global South",
+            "url": "https://arxiv.org/abs/2607.28756v1",
+            "summary": "Small-island developing states face accelerating sea-level rise, intensifying cyclones, and storm surge, while suffering the sparse ground instrumentation that makes timely hazard perception difficult. This paper argues for a shift from passive cellular connectivity to the Network as a Sensor, realized through a Sovereign Cognitive Digital Twin (S-CDT): a federated national digital twin whose perceptual substrate is the 6G radio interface itself.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-07-30T18:21:47+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "te_922a470ef98ee3cb",
             "title": "Coexistence of 5G NR and Wi Fi 6E/7 at 6 GHz: Experimental Interference Measurements",
             "url": "https://arxiv.org/abs/2607.28213v1",
@@ -1397,54 +1351,26 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "te_4cd7bd020a50d8d4",
-            "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
-            "url": "https://arxiv.org/abs/2607.25828v1",
-            "summary": "The shift to O-RAN architectures marks a turning point in cellular security, where increased openness and modularity directly translate into a broader attack surface. Among the security threats cataloged by the O-RAN Alliance Working Group 11, performance-degradation attacks constitute the largest class. These attacks induce packet losses and latency spikes that are hard to distinguish from operational events such as misconfigurations, transient congestion, or software regressions.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-07-28T15:07:47+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_75c0965714cfe2c9",
-            "title": "ML-based Predictive Models for Power Consumption in Virtualised O-RANs",
-            "url": "https://arxiv.org/abs/2607.24256v1",
-            "summary": "As communication networks adopt virtualized and disaggregated architectures, achieving energy efficiency has become increasingly important for both economic and environmental reasons. Traditional methods for power modeling are inadequate in these dynamic software-defined environments due to their inability to model complex and nonlinear factors affecting energy use.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-07-27T10:46:29+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_8e6e1d5b7f315221",
-            "title": "6G: From Connectivity Infrastructure to Guaranteed Digital Services",
-            "url": "https://arxiv.org/abs/2607.24185v2",
-            "summary": "Sixth-generation mobile networks are approaching a structural inflection point. Five generations of vendor-led architecture have left operators dependent on platforms they cannot fully modify and artificial-intelligence inference layers they cannot audit. This article argues that 6G should reverse that trajectory by reordering five priorities: control first; customer outcomes before peak rates; business guarantees before megabytes; software-driven operations with governed agentic artificial intelligence; and technology in service of those priorities.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-07-27T09:06:31+00:00",
-            "flags": {
-              "new": false,
-              "featured": true,
-              "tier": 1
-            }
           }
         ]
       },
       "Light Reading": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_af66523387130b36",
+            "title": "Ericsson kicks off Vonage revival plan after years of losses",
+            "url": "https://www.lightreading.com/5g/ericsson-kicks-off-vonage-revival-plan-after-years-of-losses",
+            "summary": "Under new management and with a modified approach to 'quality on demand,' Vonage is hard at work on a turnaround after all the disappointment.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-08-03T07:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_8c6e8816e5c6e653",
             "title": "Starlink targets D2C trial in Malaysia amid D2C boom across APAC",
@@ -1500,26 +1426,40 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_05b49c2a4dbf0eac",
-            "title": "FCC: Dish $2.4B trust fund only for outsiders that built its 5G network",
-            "url": "https://www.lightreading.com/regulatory-politics/fcc-dish-2-4b-trust-fund-only-for-outsiders-that-built-its-5g-network",
-            "summary": "The FCC confirmed that a mandated trust fund linked to EchoStar's spectrum sales to AT&T and SpaceX is exclusive to external companies and partners involved in Dish's 5G network, and not to service EchoStar subsidiary loans.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-07-31T12:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_1ddf8a435c58eddc",
+            "title": "Physical AI is exposing a data sovereignty gap (Reader Forum)",
+            "url": "https://www.rcrwireless.com/20260803/internet-of-things/physical-ai-data-sovereignty-gap-flolive",
+            "summary": "As connected vehicles, robots, and other physical AI systems cross borders, data sovereignty becomes about more than storage. Curtis Govan at floLIVE argues regulators and operators must address \u201cnetwork sovereignty\u201d\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-08-03T10:02:14+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_8f36b63ae7e5c472",
+            "title": "Friday (telco diary) | Telcos in AI and ISAC arms race",
+            "url": "https://www.rcrwireless.com/20260803/opinion/telco-diary-ai-isac-arms-race",
+            "summary": "From the newsletter (sign-up if you want it sooner): AI infrastructure is opening new opportunities for telcos, from data center connectivity to sovereign AI and defense networks. But the payoff\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-08-03T08:25:07+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_b07d41a5096c5997",
             "title": "Building the AI backbone, waiting on the AI billions",
@@ -1556,34 +1496,6 @@
             "source": "RCR Wireless",
             "tier": 2,
             "published": "2026-07-31T08:15:39+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_a2dc690fde87d7da",
-            "title": "SK Telecom\u2019s A.X K2 is South Korea\u2019s biggest bet yet on sovereign AI",
-            "url": "https://www.rcrwireless.com/20260730/ai/sk-telecom-a-x-k2",
-            "summary": "A.X K2 packs 688 billion parameters and open weights In sum \u2013 what we know: SK Telecom has unveiled A.X K2, a 688-billion-parameter large language model that the company is positioning\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-07-30T20:57:22+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_86659670c99cdbbe",
-            "title": "AI-RAN takes shape as Open RAN, Cloud RAN and AI converge",
-            "url": "https://www.rcrwireless.com/20260730/5g/ai-ran-takes-shape",
-            "summary": "AI-RAN promises a software-driven path to greater capacity, programmability and operational efficiency The RAN\u2019s next phase will not be defined by AI, cloud or openness in isolation, but by the\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-07-30T17:17:42+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1898,6 +1810,34 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_54eeff2c8d17f433",
+            "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+            "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+            "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-08-03T10:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_8f42055e53367347",
+            "title": "Sam Altman and AI\u2019s decel debate",
+            "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+            "summary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-08-02T20:54:22+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_e1bf53682cbd5cca",
             "title": "Judge denies xAI\u2019s request to block Minnesota ban on \u2018nudify\u2019 apps",
             "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
@@ -1906,7 +1846,7 @@
             "tier": 2,
             "published": "2026-08-01T20:26:04+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1933,34 +1873,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-08-01T17:07:34+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_e529c7879a4af84c",
-            "title": "This $9 key physically locks your most addictive apps",
-            "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
-            "summary": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-08-01T15:58:17+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_ec77bd47dbb96df8",
-            "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
-            "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-            "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-07-31T22:47:26+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1998,7 +1910,7 @@
             "published": "2026-06-03T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2275,6 +2187,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_b530ff3e6684c21c",
+            "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
+            "url": "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
+            "summary": "This essay originally appeared in Foreign Policy . Earlier this month, two of OpenAI\u2019s models broke out of their containment sandbox and attacked another AI company. The story is kind of wild . OpenAI was running security tests on two of its models: GPT-5.6 Sol and an unreleased model that is almost certainly GPT-6. In particular, it was running the ExploitGym benchmark, which measures how good a model is at turning security vulnerabilities into working exploits: basically, offensive cyberattacks.",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-08-03T10:47:47+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_6a4c8229c8800a84",
             "title": "Friday Squid Blogging: Squid Helps Discover New Marine Species",
             "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html",
@@ -2324,20 +2250,6 @@
             "source": "Schneier on Security",
             "tier": 2,
             "published": "2026-07-30T16:20:30+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_40713fd7417bfa2c",
-            "title": "Should You Use AI for a Task? Here\u2019s a Simple Way to Decide",
-            "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
-            "summary": "This essay originally appeared in The Guardian . I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly use AI to complete their writing assignments. Doing so is a waste of their tuition money. But if their entire career is going to include AI writing assistants, why shouldn\u2019t they embrace their future? The best way I\u2019ve found to explain the dilemma comes from the AI researcher Daniel Meissler: it\u2019s the difference between work and the gym...",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-07-30T11:01:32+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2600,7 +2512,7 @@
             "published": "2026-07-28T17:01:39+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
