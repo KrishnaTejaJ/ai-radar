@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T19:44:39.475861+00:00",
+    "last_updated": "2026-08-15T07:36:37.375026+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 140,
-      "scored": 46,
+      "scored": 52,
       "radar_top": 22,
-      "radar_expand": 4
+      "radar_expand": 3
     }
   },
   "radar": {
@@ -16,7 +16,7 @@
           "id": "ta_28c7ee44d88bdbf2",
           "title": "Controlling Reasoning Effort in LLMs",
           "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-          "summary": "Why this matters: Sebastian Raschka's work on controlling reasoning effort in LLMs has significant implications for AI safety and efficiency, and his research provides a foundation for further exploration.",
+          "summary": "Why this matters: Sebastian Raschka explores how LLMs learn low-, medium-, and high-effort reasoning modes, offering valuable insights into LLM capabilities.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-07-18T11:16:09+00:00",
@@ -33,13 +33,13 @@
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Using local coding agents can enhance development workflows, and Sebastian Raschka's guidance on leveraging open-weight models in local coding harnesses offers practical advice for improving coding efficiency.",
+          "summary": "Why this matters: Sebastian Raschka discusses using local coding agents and open-weight models as alternatives to Claude Code and Codex subscriptions, highlighting the potential of local coding harnesses.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -50,7 +50,7 @@
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evaluations offer a valuable framework for developing secure AI systems, and his approach to sandboxed targets, inputs, and graders provides a structured method for assessing AI security.",
+          "summary": "Why this matters: Eugene Yan shares patterns for building cybersecurity evaluations, emphasizing the importance of a sandboxed target, inputs influencing task difficulty, tools, and a grader.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
@@ -67,7 +67,7 @@
           "id": "ta_ab799e9da743babb",
           "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
           "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-          "summary": "Hugging Face's introduction of OlmoEarth embeddings for custom downstream analysis has potential applications in various AI domains, but its relevance to local LLM operations is uncertain.",
+          "summary": "Hugging Face introduces OlmoEarth embeddings for custom embedding exports, which could be useful for downstream analysis, but requires further exploration to determine its relevance.",
           "source": "Hugging Face Blog",
           "tier": 2,
           "published": "2026-08-12T14:00:51+00:00",
@@ -81,10 +81,10 @@
           }
         },
         {
-          "id": "ta_10ba719313a0c835",
-          "title": "anthropics/skills",
-          "url": "https://github.com/anthropics/skills",
-          "summary": "Anthropic's public repository for Agent Skills provides a valuable resource for developers, but its direct relevance to local LLM operations and AI safety is unclear.",
+          "id": "ta_ab6bacc2dfd488fe",
+          "title": "cactus-compute/needle",
+          "url": "https://github.com/cactus-compute/needle",
+          "summary": "The cactus-compute/needle project offers a 14MB foundation model for tiny devices, which may have potential applications, but needs further investigation to assess its suitability.",
           "source": "GitHub Python Trending",
           "tier": 2,
           "published": null,
@@ -106,7 +106,7 @@
           "id": "te_fa21e6fcb1fe9242",
           "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
           "url": "https://arxiv.org/abs/2608.07427v1",
-          "summary": "Why this matters: Vision-Language Models (VLMs) can reduce LLM inference energy costs by 3.6-10.4x by encoding time-series as 2D plots, making them more efficient for telecom network analytics and numerical time-series data analysis.",
+          "summary": "Why this matters: Vision-Language Models (VLMs) can reduce LLM inference energy costs by 3.6-10.4x while improving accuracy, which is critical for telecom network analytics and numerical time-series data analysis.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-07T17:14:45+00:00",
@@ -120,50 +120,33 @@
           }
         },
         {
-          "id": "te_9202cc8c2ec2f5ef",
+          "id": "te_401df53e338dccea",
+          "title": "Digital Twin Satellite Networks: A Paradigm for Intelligent, Efficient, and Resilient Operations",
+          "url": "https://arxiv.org/abs/2608.12865v1",
+          "summary": "Digital Twin Satellite Networks can provide intelligent, efficient, and resilient operations for satellite mega-constellations in Low Earth Orbit (LEO).",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-08-13T06:28:20+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "te_a6d77d92e4bdf99e",
           "title": "Lockheed\u2019s NetSense turns Verizon\u2019s 5G network into a drone-tracking system",
-          "url": "https://www.rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
-          "summary": "Lockheed Martin's NetSense turns Verizon's 5G network into a drone-tracking system, demonstrating the potential of 5G for IoT applications and drone tracking.",
+          "url": "https://rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
+          "summary": "Why this matters: Lockheed Martin's NetSense demo used Verizon's 5G network to track drones, demonstrating the potential of 5G for drone tracking and surveillance applications.",
           "source": "RCR Wireless",
           "tier": 2,
           "published": "2026-08-14T16:33:18+00:00",
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "te_39d858df5dffd260",
-          "title": "Fighting talk (and team spirit) \u2013 Celona preps private 5G/Wi-Fi for AI scramble in Industry 4.0",
-          "url": "https://www.rcrwireless.com/20260814/private-5g/celona-preps-private-5g-wi-fi-for-ai-scramble-in-industry-4-0",
-          "summary": "Celona preps private 5G/Wi-Fi for AI scramble in Industry 4.0, highlighting the growing importance of AI and 5G in industrial applications.",
-          "source": "RCR Wireless",
-          "tier": 2,
-          "published": "2026-08-14T15:20:57+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "te_f1a0827c7cfc88a3",
-          "title": "The Agentic Network \u2014 T-Mobile US on aligning AI initiatives with customer outcomes",
-          "url": "https://www.rcrwireless.com/20260814/ai-infrastructure/agentic-network-t-mobile-us-ai",
-          "summary": "T-Mobile US is aligning AI initiatives with customer outcomes, emphasizing the need for continuous data gathering and AI-driven automation to improve customer experience.",
-          "source": "RCR Wireless",
-          "tier": 2,
-          "published": "2026-08-14T15:03:06+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": true,
             "featured": true,
@@ -174,7 +157,7 @@
           "id": "te_4cd7bd020a50d8d4",
           "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
           "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: C-RE-ACT, a causal RE-ACTing agent for O-RAN forensic triage, can help detect performance-degradation attacks in O-RAN architectures, which have a broader attack surface due to increased openness and modularity.",
+          "summary": "Why this matters: The C-RE-ACT framework uses causal reasoning for O-RAN forensic triage, which can help detect performance-degradation attacks and improve 5G network security.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-07-28T15:07:47+00:00",
@@ -186,14 +169,12 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
         {
           "id": "te_2b9af0c54f812ba3",
           "title": "Automated Synthesis of Deterministic Cross-Domain Interfaces",
           "url": "https://arxiv.org/abs/2608.09312v1",
-          "summary": "Why this matters: Deterministic networking spans heterogeneous domains, and automated synthesis of cross-domain interfaces can improve QoS. Composing contracts into an end-to-end guarantee is standardized, but deriving each domain's contract is not.",
+          "summary": "Why this matters: Deterministic networking spans heterogeneous domains, and automated synthesis of deterministic cross-domain interfaces can improve 5G network performance. Composing contracts into an end-to-end guarantee is standardized, but deriving each domain's contract is not, and this research aims to address this challenge.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-10T08:55:31+00:00",
@@ -205,7 +186,9 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "te_5f1d04ae320514d8",
           "title": "LEO-Aware DRL Meta-Scheduler for 5G Non-Terrestrial Network Slicing",
@@ -227,7 +210,7 @@
           "id": "te_876d6476e048c8b5",
           "title": "PCAP-LM: An LLM-Native Text Representation for TLS Bulk Traffic Analysis",
           "url": "https://arxiv.org/abs/2607.28100v1",
-          "summary": "Why this matters: PCAP-LM, a flow-centric, LLM-native text representation, can act as a lossy knowledge extraction step for network traffic analysis, reducing the verbosity of standard capture formats and enabling more efficient LLM processing.",
+          "summary": "Why this matters: PCAP-LM, a flow-centric, LLM-native text representation, can act as a lossy knowledge extraction step for network traffic analysis, enabling more efficient and effective analysis of 5G network traffic.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T12:10:12+00:00",
@@ -244,7 +227,7 @@
           "id": "te_5aa5f92dcca790d2",
           "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
           "url": "https://arxiv.org/abs/2607.28002v1",
-          "summary": "Why this matters: Multi-Agent Reinforcement Learning (MARL) can be used for environment-aware base station placement in TDOA-Based localization, improving the accuracy of device localization in 5G and 6G networks.",
+          "summary": "Why this matters: Multi-Agent Reinforcement Learning (MARL) can be used for environment-aware base station placement in 5G and 6G networks, improving localization accuracy and network performance.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T10:49:48+00:00",
@@ -265,7 +248,7 @@
           "id": "to_3f6535797a1a4791",
           "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
           "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face is a significant incident that highlights the risks and challenges of AI development. The timeline of events provides valuable insights into what happened and how things played out inside OpenAI.",
+          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face is a significant incident that highlights the risks and challenges of AI development. The presentation and timeline provide valuable insights into what happened and how things played out inside OpenAI.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-07T23:55:58+00:00",
@@ -282,7 +265,7 @@
           "id": "to_ecbbb6befce11142",
           "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
           "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
-          "summary": "Why this matters: Simon Willison's experiment with Claude Fable 5 demonstrates the potential of AI in game development, showcasing the ability to build a game from a tweet's content.",
+          "summary": "Why this matters: Simon Willison's experiment with Claude Fable 5 demonstrates the potential of AI in game development, and the ability to build a game from a tweet is a notable achievement.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-05T19:42:38+00:00",
@@ -296,27 +279,10 @@
           }
         },
         {
-          "id": "to_ec0e53c55d9e1a0a",
-          "title": "AI agents can't yet do open-ended AI research",
-          "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
-          "summary": "Why this matters: The limitations of AI agents in open-ended AI research are an important area of study, with implications for the development of more advanced AI systems.",
-          "source": "AI Snake Oil",
-          "tier": 1,
-          "published": "2026-08-05T13:49:19+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
           "id": "to_e529f54cff052161",
           "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
           "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
-          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and server-side tools, which can enhance AI development and deployment.",
+          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and server-side tools, which can enhance the development of AI-powered applications.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-04T23:58:24+00:00",
@@ -333,13 +299,30 @@
           "id": "to_9209ffe6998f4d88",
           "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
           "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
-          "summary": "Why this matters: The rollout of MCP 2.0 and the introduction of mcp-explorer and datasette-mcp can improve the development and deployment of AI models, particularly in the context of the Model Context Protocol.",
+          "summary": "Why this matters: The rollout of MCP 2.0 and the inspiration of mcp-explorer and datasette-mcp demonstrate the evolving landscape of AI development and the importance of standard protocols.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-31T23:13:22+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "to_ec0e53c55d9e1a0a",
+          "title": "AI agents can't yet do open-ended AI research",
+          "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+          "summary": "AI agents are not yet capable of open-ended AI research, according to early evidence from two case studies.",
+          "source": "AI Snake Oil",
+          "tier": 1,
+          "published": "2026-08-05T13:49:19+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -355,7 +338,7 @@
           "id": "ca_206fd2716f9db188",
           "title": "Anthropic's AI hacked three companies during tests, highlighting growing security risks",
           "url": "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30/",
-          "summary": "Why this matters: The incident of Anthropic's AI models hacking into three companies during tests underscores the critical need for robust security measures and ethical considerations in AI development.",
+          "summary": "Why this matters: The incident of Anthropic's AI hacking into three companies during tests highlights the potential risks of AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-08-13T00:00:00+00:00",
@@ -372,11 +355,11 @@
           "id": "ca_c86b67ea4470b6d6",
           "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
           "url": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
-          "summary": "Why this matters: The discussion on nationalizing AI companies like OpenAI and Anthropic raises critical questions about the governance and regulation of AI, highlighting the need for balanced approaches that consider both safety and innovation.",
+          "summary": "The essay discusses the potential risks and benefits of AI development, and the need for a nationalized approach to AI development to prioritize security and safety.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-08-14T11:03:50+00:00",
-          "score": 4,
+          "score": 3,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
@@ -389,7 +372,7 @@
           "id": "ca_42f0228c9ffe9e86",
           "title": "Anthropic says its AI models hacked 3 organizations during testing",
           "url": "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec",
-          "summary": "Why this matters: The hacking incidents involving Anthropic's AI models and their ability to access external systems highlight the escalating risks associated with advanced AI capabilities.",
+          "summary": "Why this matters: The incident of Anthropic's AI hacking into three companies during tests highlights the potential risks of AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-08-13T00:00:00+00:00",
@@ -406,13 +389,13 @@
           "id": "ca_8fa823ec643d51a4",
           "title": "Prompt Injections for Defense",
           "url": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
-          "summary": "Why this matters: The use of prompt injections as a defense mechanism against AI hacking agents demonstrates innovative strategies for mitigating AI-related security risks.",
+          "summary": "Why this matters: The use of prompt injections for defense highlights the potential benefits of using AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-08-12T09:56:37+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -423,7 +406,7 @@
           "id": "ca_df6c16550d6d3471",
           "title": "Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude",
           "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-          "summary": "Why this matters: The discovery of cryptographic weaknesses with Claude highlights the dual-edged nature of AI in cybersecurity, capable of both identifying and potentially exploiting vulnerabilities.",
+          "summary": "Why this matters: The discovery of cryptographic weaknesses with Claude highlights the potential risks of AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
           "source": "Anthropic Research",
           "tier": 1,
           "published": "2026-07-28T00:00:00+00:00",
@@ -785,6 +768,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ta_3e4e84742a48b5a7",
+            "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+            "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+            "summary": "Hint: It\u2019s really not a distillation story.",
+            "source": "Interconnects",
+            "tier": 1,
+            "published": "2026-08-14T21:23:35+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "ta_ec0d34d30f201833",
             "title": "I wrote an AI textbook \u2014 how long until AI can do it better?",
             "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
@@ -834,20 +831,6 @@
             "source": "Interconnects",
             "tier": 1,
             "published": "2026-08-03T14:03:08+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_266ea9598655583d",
-            "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
-            "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
-            "summary": "Capacity to train strong models is proliferating.",
-            "source": "Interconnects",
-            "tier": 1,
-            "published": "2026-08-02T13:01:40+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1018,7 +1001,7 @@
             "tier": 2,
             "published": "2026-08-14T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1085,24 +1068,10 @@
         "tier": 2,
         "items": [
           {
-            "id": "ta_e9333d9b0441e68d",
-            "title": "semantica-agi/semantica",
-            "url": "https://github.com/semantica-agi/semantica",
-            "summary": "Graph-Native Infrastructure for Context and Accountable AI Systems Graph-Native Infrastructure for Context and Accountable AI Systems The Open Source Palantir for AI Agents Ingest your enterprise data, extract what matters, build a Context Graph and knowledge graph (KG), and run graph analytics and causal reasoning over all of it, with full decision provenance baked in. Explainable, traceable, and trustworthy by design.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_10ba719313a0c835",
-            "title": "anthropics/skills",
-            "url": "https://github.com/anthropics/skills",
-            "summary": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io . Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.",
+            "id": "ta_ab6bacc2dfd488fe",
+            "title": "cactus-compute/needle",
+            "url": "https://github.com/cactus-compute/needle",
+            "summary": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots. Needle 2 Needle 2 is an open 45M-parameter model for tool calling, device use and structured extraction. The whole model is a single 14MB binary that runs a full session in about 28MB of RAM. It is built on our Simple Attention Network findings, compressed to CQ2-bit with Cactus Quants, and baked into its own engine. On the benchmarks below, Needle 2 trades wins with other small models like FunctionGemma 270M, LFM2.5 230M and Apple FM, at 5x to 70x smaller, and 2 bits against their f16.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1113,38 +1082,52 @@
             }
           },
           {
-            "id": "ta_ab6bacc2dfd488fe",
-            "title": "cactus-compute/needle",
-            "url": "https://github.com/cactus-compute/needle",
-            "summary": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots. Needle 2 Needle 2 is an open 45M-parameter model for tool calling, device use and structured extraction. The whole model is a single 14MB binary that runs a full session in about 28MB of RAM. It is built on our Simple Attention Network findings, compressed to CQ2-bit with Cactus Quants, and baked into its own engine. On the benchmarks below, Needle 2 trades wins with other small models like FunctionGemma 270M, LFM2.5 230M and Apple FM, at 5x to 70x smaller, and 2 bits against their f16.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_b01295803dfe9891",
-            "title": "unslothai/unsloth",
-            "url": "https://github.com/unslothai/unsloth",
-            "summary": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more. Unsloth is the first desktop app to run and train models. Features \u2022 Quickstart \u2022 Notebooks \u2022 Documentation \u26a1 Get started Download the native Unsloth Desktop app for your operating system: Platform Link Windows Download macOS Download Linux / Ubuntu (deb) Download Linux (AppImage) Download Linux (Arm64) Download Download from Unsloth or GitHub Releases .",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
             "id": "ta_28c9ee4f673cb7a6",
             "title": "megadose/holehe",
             "url": "https://github.com/megadose/holehe",
             "summary": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function. Holehe OSINT - Email to Registered Accounts \ud83d\udc4b Hi there! For any professional inquiries or collaborations, please reach out to me at: megadose@protonmail.com \ud83d\udce7 Preferably, use your professional email for correspondence. Let's keep it short and sweet, and all in English! Holehe Online Version Summary Efficiently finding registered accounts from emails.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_8a8caa904c61db36",
+            "title": "smicallef/spiderfoot",
+            "url": "https://github.com/smicallef/spiderfoot",
+            "summary": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. SpiderFoot is an open source intelligence (OSINT) automation tool. It integrates with just about every data source available and utilises a range of methods for data analysis, making that data easy to navigate. SpiderFoot has an embedded web-server for providing a clean and intuitive web-based interface but can also be used completely via the command-line. It's written in Python 3 and MIT-licensed .",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_4d766eb799a55a62",
+            "title": "github/spec-kit",
+            "url": "https://github.com/github/spec-kit",
+            "summary": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development \ud83c\udf31 Spec Kit Define what to build before building it \u2014 with any AI coding agent. An open source toolkit for building high-quality software with any AI coding agent \u2014 a ready-to-use spec-driven process (or bring your own), endlessly extensible, community-driven, and built for your whole organization. English \u00b7 \u7b80\u4f53\u4e2d\u6587 Table of Contents \ud83e\udd14 What is Spec-Driven Development? \u26a1 Get Started \ud83d\udcfd\ufe0f Video Overview \ud83c\udf0d Community \ud83e\udd16 Supported AI Coding Agent Integrations \ud83d\udd27 Specify CLI Reference \ud83e\udde9 Making Spec Kit Your Own: Extensions & Presets \ud83d\udce6 Bundles:\u2026",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_e9333d9b0441e68d",
+            "title": "semantica-agi/semantica",
+            "url": "https://github.com/semantica-agi/semantica",
+            "summary": "Graph-Native Infrastructure for Context and Accountable AI Systems Graph-Native Infrastructure for Context and Accountable AI Systems The Open Source Palantir for AI Agents Ingest your enterprise data, extract what matters, build a Context Graph and knowledge graph (KG), and run graph analytics and causal reasoning over all of it, with full decision provenance baked in. Explainable, traceable, and trustworthy by design.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -1339,7 +1322,7 @@
             "published": "2026-08-13T06:28:20+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1391,6 +1374,34 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_b7ba236606f5c329",
+            "title": "NYSE warns Optimum about stock price",
+            "url": "https://www.lightreading.com/finance/nyse-warns-optimum-about-stock-price",
+            "summary": "The New York Stock Exchange warned Optimum Communications that its common stock price has dropped below a 30 trading-day period, giving it six months to regain compliance. #pressrelease",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-08-14T22:08:38+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_4e4225b2743eae9c",
+            "title": "FCC broadband study points to broader service reach, faster speeds",
+            "url": "https://www.lightreading.com/digital-divide/fcc-broadband-study-points-to-broader-service-reach-faster-speeds",
+            "summary": "The FCC's latest annual Section 706 report finds that competition is helping to fuel broader expansion of broadband services and faster data speeds. #pressrelease",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-08-14T20:46:33+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_b5713127ddb322e2",
             "title": "Rogers offers free D2D to customers impacted by wildfires",
             "url": "https://www.lightreading.com/satellite/rogers-offers-free-d2d-to-customers-impacted-by-wildfires",
@@ -1431,34 +1442,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_7ea7ff372d2c50d1",
-            "title": "Heather McCallion named COO of Cable One",
-            "url": "https://www.lightreading.com/cable-technology/heather-mccallion-named-coo-of-cable-one",
-            "summary": "Heather McCallion is set to join Cable One as COO later this month. She most recently served as chief experience officer at WideOpenWest. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-08-14T14:15:51+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_4557b4d27490926b",
-            "title": "Study pours more cold water on SpaceX's small cell plan",
-            "url": "https://www.lightreading.com/satellite/study-pours-more-cold-water-on-spacex-s-small-cell-plan",
-            "summary": "Research firm MoffettNathanson flags a host of challenges for SpaceX's small cell plan, arguing the 'bull case' hinges on SpaceX locking down an MVNO deal.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-08-14T13:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -1466,9 +1449,9 @@
         "tier": 2,
         "items": [
           {
-            "id": "te_9202cc8c2ec2f5ef",
+            "id": "te_a6d77d92e4bdf99e",
             "title": "Lockheed\u2019s NetSense turns Verizon\u2019s 5G network into a drone-tracking system",
-            "url": "https://www.rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
+            "url": "https://rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
             "summary": "NetSense demo in Miami tracked drones with unmodified 5G radios In sum \u2013 what we know: Lockheed Martin, Verizon, and Nvidia \u2014 along with Keysight Technologies, ODC, and Astris AI\u2026",
             "source": "RCR Wireless",
             "tier": 2,
@@ -1480,9 +1463,9 @@
             }
           },
           {
-            "id": "te_78a378737b703630",
+            "id": "te_a69d22d179c6d050",
             "title": "Criss-cross comms \u2013 Lumen bets on east-west AI, while the edge keeps north-south in play",
-            "url": "https://www.rcrwireless.com/20260814/network-infrastructure/lumen-east-west-ai-edge-north-south-in-play",
+            "url": "https://rcrwireless.com/20260814/network-infrastructure/lumen-east-west-ai-edge-north-south-in-play",
             "summary": "Lumen sees the biggest AI networking opportunity between data centers and AI factories, but admits inference will also spread to the edge, leaving the future balance between east-west and north-south\u2026",
             "source": "RCR Wireless",
             "tier": 2,
@@ -1494,37 +1477,37 @@
             }
           },
           {
-            "id": "te_39d858df5dffd260",
+            "id": "te_88a2825fe140d72d",
             "title": "Fighting talk (and team spirit) \u2013 Celona preps private 5G/Wi-Fi for AI scramble in Industry 4.0",
-            "url": "https://www.rcrwireless.com/20260814/private-5g/celona-preps-private-5g-wi-fi-for-ai-scramble-in-industry-4-0",
+            "url": "https://rcrwireless.com/20260814/private-5g/celona-preps-private-5g-wi-fi-for-ai-scramble-in-industry-4-0",
             "summary": "Celona chief Rajeev Shah tells RCR that its new converged two-fer private 5G/Wi-Fi solution, propped up on agentic AI, properly opens the door for physical AI in Industry 4.0 \u2013\u2026",
             "source": "RCR Wireless",
             "tier": 2,
             "published": "2026-08-14T15:20:57+00:00",
             "flags": {
               "new": true,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
           {
-            "id": "te_f1a0827c7cfc88a3",
+            "id": "te_744c813d5a86bff9",
             "title": "The Agentic Network \u2014 T-Mobile US on aligning AI initiatives with customer outcomes",
-            "url": "https://www.rcrwireless.com/20260814/ai-infrastructure/agentic-network-t-mobile-us-ai",
+            "url": "https://rcrwireless.com/20260814/ai-infrastructure/agentic-network-t-mobile-us-ai",
             "summary": "Leveraging AI to drive CX means continuously gathering data from \u201creal people in real places doing real things,\u201d T-Mobile EVP Ankur Kapoor explained The telecom industry often frames AI-enabled automation\u2026",
             "source": "RCR Wireless",
             "tier": 2,
             "published": "2026-08-14T15:03:06+00:00",
             "flags": {
               "new": true,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
           {
-            "id": "te_9ce38d79a8d1fe45",
+            "id": "te_a011c9ff1eac6c9b",
             "title": "Thursday (telco diary) | Ghosts in the machine \u2013 Wanted: more humans to build AI",
-            "url": "https://www.rcrwireless.com/20260814/network-infrastructure/telco-diary-more-humans-to-build-ai",
+            "url": "https://rcrwireless.com/20260814/network-infrastructure/telco-diary-more-humans-to-build-ai",
             "summary": "From the newsletter (sign-up if you want it sooner): America\u2019s AI infrastructure boom is creating an unexpected bottleneck: the people needed to build it. Data centers are competing with broadband\u2026",
             "source": "RCR Wireless",
             "tier": 2,
@@ -1776,7 +1759,7 @@
             "tier": 2,
             "published": "2026-08-14T05:30:39+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2220,6 +2203,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_b535f16be927c16a",
+            "title": "Friday Squid Blogging: Searching for the Colossal Squid",
+            "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
+            "summary": "Fascinating video about searching for life undersea. The video basically makes the point that our bright white searchlights are scaring everything away, and that red light is more neutral. That, plus bait to attract sea creatures, is teaching us a lot about what\u2019s going on down there. Lots of footage of giant squid, and speculation about the colossal squid. Worth watching. As usual, you can also use this squid post to talk about the security stories in the news that I haven\u2019t covered. Blog moderation policy.",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-08-14T21:01:49+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_8694c919b4e3c726",
             "title": "Upcoming Speaking Engagements",
             "url": "https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html",
@@ -2272,20 +2269,6 @@
             "flags": {
               "new": false,
               "featured": true,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_68afe5dd10195238",
-            "title": "AI Genie in the Wild",
-            "url": "https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html",
-            "summary": "When I give talks about AI genies , I use this sort of example as a hypothetical. It\u2019s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And\u2026. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible. Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-08-11T15:55:11+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
               "tier": 2
             }
           }
