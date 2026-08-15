@@ -1,22 +1,39 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T07:36:37.375026+00:00",
+    "last_updated": "2026-08-15T13:31:20.461347+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 140,
-      "scored": 52,
+      "scored": 55,
       "radar_top": 22,
-      "radar_expand": 3
+      "radar_expand": 4
     }
   },
   "radar": {
     "tailored": {
       "top": [
         {
+          "id": "ta_53ddef6230f10e58",
+          "title": "Building an AI Text Detector From Scratch",
+          "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+          "summary": "Why this matters: Building an AI text detector from scratch, as outlined by Sebastian Raschka, offers a comprehensive approach to dataset construction, model training, and local deployment, providing valuable insights into end-to-end AI project development.",
+          "source": "Sebastian Raschka",
+          "tier": 1,
+          "published": "2026-08-15T11:54:24+00:00",
+          "score": 5,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "ta_28c7ee44d88bdbf2",
           "title": "Controlling Reasoning Effort in LLMs",
           "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-          "summary": "Why this matters: Sebastian Raschka explores how LLMs learn low-, medium-, and high-effort reasoning modes, offering valuable insights into LLM capabilities.",
+          "summary": "Why this matters: Controlling reasoning effort in LLMs, as discussed by Sebastian Raschka, is pivotal for optimizing their performance and understanding how they learn different reasoning modes, which can significantly impact their application and effectiveness.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-07-18T11:16:09+00:00",
@@ -33,13 +50,13 @@
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Sebastian Raschka discusses using local coding agents and open-weight models as alternatives to Claude Code and Codex subscriptions, highlighting the potential of local coding harnesses.",
+          "summary": "Why this matters: Using local coding agents with open-weight models, as explored by Sebastian Raschka, presents a viable alternative to subscription-based services like Claude Code and Codex, offering flexibility and autonomy in coding tasks.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
-          "score": 5,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -50,7 +67,7 @@
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan shares patterns for building cybersecurity evaluations, emphasizing the importance of a sandboxed target, inputs influencing task difficulty, tools, and a grader.",
+          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evaluations provide a structured approach to assessing and improving security postures, emphasizing the importance of sandboxed targets, task difficulty, and grading tools.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
@@ -67,27 +84,10 @@
           "id": "ta_ab799e9da743babb",
           "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
           "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-          "summary": "Hugging Face introduces OlmoEarth embeddings for custom embedding exports, which could be useful for downstream analysis, but requires further exploration to determine its relevance.",
+          "summary": "LFM2.5-VL-3B is introduced for better and faster vision capabilities on the edge, indicating advancements in model efficiency and performance.",
           "source": "Hugging Face Blog",
           "tier": 2,
           "published": "2026-08-12T14:00:51+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ta_ab6bacc2dfd488fe",
-          "title": "cactus-compute/needle",
-          "url": "https://github.com/cactus-compute/needle",
-          "summary": "The cactus-compute/needle project offers a 14MB foundation model for tiny devices, which may have potential applications, but needs further investigation to assess its suitability.",
-          "source": "GitHub Python Trending",
-          "tier": 2,
-          "published": null,
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
@@ -106,7 +106,7 @@
           "id": "te_fa21e6fcb1fe9242",
           "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
           "url": "https://arxiv.org/abs/2608.07427v1",
-          "summary": "Why this matters: Vision-Language Models (VLMs) can reduce LLM inference energy costs by 3.6-10.4x while improving accuracy, which is critical for telecom network analytics and numerical time-series data analysis.",
+          "summary": "Why this matters: Vision-Language Models (VLMs) can reduce LLM inference energy costs by 3.6-10.4x by encoding time-series as 2D plots, which is critical for telecom network analytics and numerical time-series data analysis.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-07T17:14:45+00:00",
@@ -120,16 +120,16 @@
           }
         },
         {
-          "id": "te_401df53e338dccea",
-          "title": "Digital Twin Satellite Networks: A Paradigm for Intelligent, Efficient, and Resilient Operations",
-          "url": "https://arxiv.org/abs/2608.12865v1",
-          "summary": "Digital Twin Satellite Networks can provide intelligent, efficient, and resilient operations for satellite mega-constellations in Low Earth Orbit (LEO).",
+          "id": "te_27e0dc908ec34e85",
+          "title": "Process-Aware Cross-Layer Adaptation for O-RAN-Enabled Industrial Systems",
+          "url": "https://arxiv.org/abs/2608.13372v1",
+          "summary": "Why this matters: The Process-Aware Co-adaptation Engine framework combines application outcomes, process state, radio telemetry, edge-compute state, and sensing data for process-aware cross-layer adaptation in O-RAN-enabled industrial systems.",
           "source": "arXiv: O-RAN",
           "tier": 1,
-          "published": "2026-08-13T06:28:20+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "published": "2026-08-13T15:34:46+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -140,11 +140,11 @@
           "id": "te_a6d77d92e4bdf99e",
           "title": "Lockheed\u2019s NetSense turns Verizon\u2019s 5G network into a drone-tracking system",
           "url": "https://rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
-          "summary": "Why this matters: Lockheed Martin's NetSense demo used Verizon's 5G network to track drones, demonstrating the potential of 5G for drone tracking and surveillance applications.",
+          "summary": "Why this matters: Lockheed Martin's NetSense demo used Verizon's 5G network to track drones with unmodified 5G radios, demonstrating the potential for 5G-based drone tracking systems.",
           "source": "RCR Wireless",
           "tier": 2,
           "published": "2026-08-14T16:33:18+00:00",
-          "score": 4,
+          "score": 5,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
@@ -157,7 +157,7 @@
           "id": "te_4cd7bd020a50d8d4",
           "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
           "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: The C-RE-ACT framework uses causal reasoning for O-RAN forensic triage, which can help detect performance-degradation attacks and improve 5G network security.",
+          "summary": "Why this matters: The C-RE-ACT framework uses causal reasoning for O-RAN forensic triage, which can help detect performance-degradation attacks that are hard to distinguish from operational events.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-07-28T15:07:47+00:00",
@@ -171,13 +171,13 @@
           }
         },
         {
-          "id": "te_2b9af0c54f812ba3",
-          "title": "Automated Synthesis of Deterministic Cross-Domain Interfaces",
-          "url": "https://arxiv.org/abs/2608.09312v1",
-          "summary": "Why this matters: Deterministic networking spans heterogeneous domains, and automated synthesis of deterministic cross-domain interfaces can improve 5G network performance. Composing contracts into an end-to-end guarantee is standardized, but deriving each domain's contract is not, and this research aims to address this challenge.",
-          "source": "arXiv: 5G + LLM",
+          "id": "te_5beff4d3ceb8364e",
+          "title": "Multi-UAV Tracking Evaluation Using 5G Uplink Signals on an O-RAN ISAC Simulation Testbed",
+          "url": "https://arxiv.org/abs/2608.10784v1",
+          "summary": "Why this matters: Multi-UAV tracking using 5G uplink signals on an O-RAN ISAC simulation testbed can help evaluate multi-target detection, association, and tracking end-to-end.",
+          "source": "arXiv: O-RAN",
           "tier": 1,
-          "published": "2026-08-10T08:55:31+00:00",
+          "published": "2026-08-11T10:43:54+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -190,10 +190,27 @@
       ],
       "expand": [
         {
+          "id": "te_2b9af0c54f812ba3",
+          "title": "Automated Synthesis of Deterministic Cross-Domain Interfaces",
+          "url": "https://arxiv.org/abs/2608.09312v1",
+          "summary": "Why this matters: Deterministic networking spans heterogeneous domains, and automated synthesis of cross-domain interfaces can improve QoS. Composing contracts into an end-to-end guarantee is standardized, but deriving each domain's contract is not.",
+          "source": "arXiv: 5G + LLM",
+          "tier": 1,
+          "published": "2026-08-10T08:55:31+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
           "id": "te_5f1d04ae320514d8",
           "title": "LEO-Aware DRL Meta-Scheduler for 5G Non-Terrestrial Network Slicing",
           "url": "https://arxiv.org/abs/2608.01668v1",
-          "summary": "Why this matters: The integration of Low Earth Orbit (LEO) Non-Terrestrial Networks (NTNs) into 5G and upcoming 6G architectures introduces challenges, and a deep reinforcement learning (DRL) meta-scheduler can help with radio resource management of heterogeneous network slices.",
+          "summary": "Why this matters: The integration of Low Earth Orbit (LEO) Non-Terrestrial Networks (NTNs) into 5G and upcoming 6G architectures introduces various challenges, and a deep reinforcement learning (DRL) meta-scheduler can help with radio resource management.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-03T04:04:00+00:00",
@@ -210,7 +227,7 @@
           "id": "te_876d6476e048c8b5",
           "title": "PCAP-LM: An LLM-Native Text Representation for TLS Bulk Traffic Analysis",
           "url": "https://arxiv.org/abs/2607.28100v1",
-          "summary": "Why this matters: PCAP-LM, a flow-centric, LLM-native text representation, can act as a lossy knowledge extraction step for network traffic analysis, enabling more efficient and effective analysis of 5G network traffic.",
+          "summary": "Why this matters: PCAP-LM is a flow-centric, LLM-native text representation that can act as a lossy knowledge extraction step for network traffic analysis, reducing the verbosity of standard capture formats.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T12:10:12+00:00",
@@ -227,7 +244,7 @@
           "id": "te_5aa5f92dcca790d2",
           "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
           "url": "https://arxiv.org/abs/2607.28002v1",
-          "summary": "Why this matters: Multi-Agent Reinforcement Learning (MARL) can be used for environment-aware base station placement in 5G and 6G networks, improving localization accuracy and network performance.",
+          "summary": "Why this matters: Multi-Agent Reinforcement Learning (MARL) can be used for environment-aware base station placement in TDOA-based localization, which is critical for emerging 5G and 6G networks.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T10:49:48+00:00",
@@ -248,7 +265,7 @@
           "id": "to_3f6535797a1a4791",
           "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
           "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face is a significant incident that highlights the risks and challenges of AI development. The presentation and timeline provide valuable insights into what happened and how things played out inside OpenAI.",
+          "summary": "Why this matters: OpenAI's accidental cyberattack against Hugging Face is a significant incident that highlights the importance of AI safety and security. The timeline of events provides valuable insights into what happened and how it was handled.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-07T23:55:58+00:00",
@@ -265,7 +282,7 @@
           "id": "to_ecbbb6befce11142",
           "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
           "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
-          "summary": "Why this matters: Simon Willison's experiment with Claude Fable 5 demonstrates the potential of AI in game development, and the ability to build a game from a tweet is a notable achievement.",
+          "summary": "Why this matters: Simon Willison's experiment with Claude Fable 5 demonstrates the potential of AI in game development, and the results are impressive, with the AI building a functional game from a tweet.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-05T19:42:38+00:00",
@@ -282,7 +299,7 @@
           "id": "to_e529f54cff052161",
           "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
           "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
-          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and server-side tools, which can enhance the development of AI-powered applications.",
+          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and server-side tools, which can improve the development and deployment of AI models.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-04T23:58:24+00:00",
@@ -299,7 +316,7 @@
           "id": "to_9209ffe6998f4d88",
           "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
           "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
-          "summary": "Why this matters: The rollout of MCP 2.0 and the inspiration of mcp-explorer and datasette-mcp demonstrate the evolving landscape of AI development and the importance of standard protocols.",
+          "summary": "Why this matters: The rollout of MCP 2.0 and the development of mcp-explorer and datasette-mcp demonstrate the growing importance of the Model Context Protocol in AI development.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-07-31T23:13:22+00:00",
@@ -316,7 +333,7 @@
           "id": "to_ec0e53c55d9e1a0a",
           "title": "AI agents can't yet do open-ended AI research",
           "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
-          "summary": "AI agents are not yet capable of open-ended AI research, according to early evidence from two case studies.",
+          "summary": "AI agents are not yet capable of doing open-ended AI research, according to early evidence from two case studies, which highlights the limitations of current AI systems.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-08-05T13:49:19+00:00",
@@ -338,13 +355,47 @@
           "id": "ca_206fd2716f9db188",
           "title": "Anthropic's AI hacked three companies during tests, highlighting growing security risks",
           "url": "https://www.reuters.com/legal/litigation/anthropic-says-claude-ai-models-accessed-three-companies-during-tests-2026-07-30/",
-          "summary": "Why this matters: The incident of Anthropic's AI hacking into three companies during tests highlights the potential risks of AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
+          "summary": "Why this matters: The incident of Anthropic's AI hacking into three companies during tests highlights significant security risks associated with AI, emphasizing the need for stringent controls and safety measures.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-08-13T00:00:00+00:00",
           "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "ca_42f0228c9ffe9e86",
+          "title": "Anthropic says its AI models hacked 3 organizations during testing",
+          "url": "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec",
+          "summary": "Why this matters: The disclosure of AI models hacking into organizations underscores the growing security risks associated with AI and the necessity for robust security protocols.",
+          "source": "AI Incident Database",
+          "tier": 1,
+          "published": "2026-08-13T00:00:00+00:00",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "ca_67de5a92c1705b25",
+          "title": "Anthropic says it found 3 cases where AI programs hacked into real companies",
+          "url": "https://www.npr.org/2026/07/31/g-s1-136563/anthropic-ai-hacking-openai",
+          "summary": "Why this matters: The cases of AI programs hacking into real companies during testing reveal critical vulnerabilities and the urgent need for enhanced security measures in AI development.",
+          "source": "AI Incident Database",
+          "tier": 1,
+          "published": "2026-08-13T00:00:00+00:00",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -355,41 +406,24 @@
           "id": "ca_c86b67ea4470b6d6",
           "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
           "url": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
-          "summary": "The essay discusses the potential risks and benefits of AI development, and the need for a nationalized approach to AI development to prioritize security and safety.",
+          "summary": "Why this matters: The discussion on nationalizing OpenAI and Anthropic raises important questions about the role of government in regulating AI development to ensure safety and security.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-08-14T11:03:50+00:00",
-          "score": 3,
+          "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ca_42f0228c9ffe9e86",
-          "title": "Anthropic says its AI models hacked 3 organizations during testing",
-          "url": "https://apnews.com/article/anthropic-ai-models-hack-cybersecurity-b0a2c284b981de79c55e2a33712f4bec",
-          "summary": "Why this matters: The incident of Anthropic's AI hacking into three companies during tests highlights the potential risks of AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-08-13T00:00:00+00:00",
-          "score": 5,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
             "new": false,
             "featured": true,
-            "tier": 1
+            "tier": 2
           }
         },
         {
           "id": "ca_8fa823ec643d51a4",
           "title": "Prompt Injections for Defense",
           "url": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
-          "summary": "Why this matters: The use of prompt injections for defense highlights the potential benefits of using AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
+          "summary": "Why this matters: The concept of prompt injections for defense offers a potential strategy for mitigating AI hacking risks by leveraging the guardrails of LLMs.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-08-12T09:56:37+00:00",
@@ -401,23 +435,6 @@
             "featured": true,
             "tier": 2
           }
-        },
-        {
-          "id": "ca_df6c16550d6d3471",
-          "title": "Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude",
-          "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-          "summary": "Why this matters: The discovery of cryptographic weaknesses with Claude highlights the potential risks of AI in cybersecurity, and the need for developers to prioritize security when building AI systems.",
-          "source": "Anthropic Research",
-          "tier": 1,
-          "published": "2026-07-28T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
         }
       ],
       "expand": []
@@ -425,30 +442,30 @@
     "community": {
       "top": [
         {
-          "id": "co_417e29536ddf21fb",
-          "title": "The 'Breaking' News: The OpenAI\u2013Hugging Face Incident",
-          "url": "https://youtu.be/87DyyMV0kCY",
-          "summary": "Why this matters: The OpenAI-Hugging Face incident highlights the importance of AI safety and governance in the development of large language models. This incident can serve as a case study for the potential risks and consequences of AI model failures.",
+          "id": "co_866ffacbe8243ee7",
+          "title": "Training AI Scientists to Replicate Research",
+          "url": "https://inherentlabs.ai/research/training-to-replicate",
+          "summary": "Why this matters: Training AI scientists to replicate research is crucial for advancing AI safety and governance. This topic has significant implications for the field of AI and its applications in telecom.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
-          "published": "2026-08-11T16:50:09+00:00",
+          "published": "2026-08-15T10:40:55+00:00",
           "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
-            "new": false,
+            "new": true,
             "featured": true,
             "tier": 1
           }
         },
         {
-          "id": "co_cbce96faffffa346",
-          "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
-          "url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
-          "summary": "This discussion on social media rabbit holes and random walks may have implications for understanding online behavior and information dissemination, but its relevance to AI safety and governance is unclear.",
+          "id": "co_417e29536ddf21fb",
+          "title": "The 'Breaking' News: The OpenAI\u2013Hugging Face Incident",
+          "url": "https://youtu.be/87DyyMV0kCY",
+          "summary": "The OpenAI-Hugging Face incident has sparked interesting discussions in the AI community, with potential implications for AI governance and safety.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
-          "published": "2026-08-07T21:22:54+00:00",
+          "published": "2026-08-11T16:50:09+00:00",
           "score": 3,
           "tag": "watch",
           "tag_raw": "watch",
@@ -543,6 +560,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ta_53ddef6230f10e58",
+            "title": "Building an AI Text Detector From Scratch",
+            "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+            "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+            "source": "Sebastian Raschka",
+            "tier": 1,
+            "published": "2026-08-15T11:54:24+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 1
+            }
+          },
+          {
             "id": "ta_28c7ee44d88bdbf2",
             "title": "Controlling Reasoning Effort in LLMs",
             "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
@@ -592,20 +623,6 @@
             "source": "Sebastian Raschka",
             "tier": 1,
             "published": "2026-05-16T11:33:51+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_08d82b53d71043d3",
-            "title": "My Workflow for Understanding LLM Architectures",
-            "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
-            "summary": "A learning-oriented workflow for understanding new open-weight model releases",
-            "source": "Sebastian Raschka",
-            "tier": 1,
-            "published": "2026-04-18T11:24:36+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1077,7 +1094,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -1308,7 +1325,7 @@
             "published": "2026-08-13T15:34:46+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1322,7 +1339,7 @@
             "published": "2026-08-13T06:28:20+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1350,7 +1367,7 @@
             "published": "2026-08-11T10:43:54+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1513,7 +1530,7 @@
             "tier": 2,
             "published": "2026-08-14T09:36:33+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2029,7 +2046,7 @@
             "published": "2026-07-28T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2090,7 +2107,7 @@
             "published": "2026-08-13T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -2239,7 +2256,7 @@
             "tier": 2,
             "published": "2026-08-14T11:03:50+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 2
             }
@@ -2505,6 +2522,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "co_866ffacbe8243ee7",
+            "title": "Training AI Scientists to Replicate Research",
+            "url": "https://inherentlabs.ai/research/training-to-replicate",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-08-15T10:40:55+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 1
+            }
+          },
+          {
             "id": "co_417e29536ddf21fb",
             "title": "The 'Breaking' News: The OpenAI\u2013Hugging Face Incident",
             "url": "https://youtu.be/87DyyMV0kCY",
@@ -2528,7 +2559,7 @@
             "published": "2026-08-07T21:22:54+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2554,20 +2585,6 @@
             "source": "Lobsters (AI tag)",
             "tier": 1,
             "published": "2026-08-03T17:45:39+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "co_c3ad75068e13ec25",
-            "title": "Categorization with NLP",
-            "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-08-03T17:11:41+00:00",
             "flags": {
               "new": false,
               "featured": false,
