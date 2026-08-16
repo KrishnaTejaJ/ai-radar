@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T13:32:12.220169+00:00",
+    "last_updated": "2026-08-16T19:17:47.606024+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 140,
-      "scored": 50,
-      "radar_top": 17,
-      "radar_expand": 5
+      "fetched": 135,
+      "scored": 43,
+      "radar_top": 18,
+      "radar_expand": 3
     }
   },
   "radar": {
@@ -16,11 +16,11 @@
           "id": "ta_53ddef6230f10e58",
           "title": "Building an AI Text Detector From Scratch",
           "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-          "summary": "Why this matters: Sebastian Raschka's end-to-end project on building an AI text detector from scratch, including dataset construction, model training, and local deployment, offers comprehensive insights into AI development.",
+          "summary": "Why this matters: Building an AI text detector from scratch with dataset construction, model training, local deployment, and RLVR is a comprehensive project that showcases the capabilities of AI in text detection. This project has the potential to improve text detection accuracy and efficiency.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-08-15T11:54:24+00:00",
-          "score": 5,
+          "score": 4,
           "tag": "build",
           "tag_raw": "build",
           "flags": {
@@ -30,16 +30,50 @@
           }
         },
         {
+          "id": "ta_af863cb3b215d959",
+          "title": "Patterns and problems in emerging multi-agent systems",
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "summary": "Why this matters: Patterns and problems in emerging multi-agent systems can help developers create more effective and efficient AI models. By understanding these patterns and problems, developers can improve the performance and reliability of their multi-agent systems.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-08-16T02:12:53+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "ta_81ad09ea2459e094",
+          "title": "What happens when an LLM never sees material beyond fifth grade?",
+          "url": "https://littlelearner-ll.github.io/",
+          "summary": "What happens when an LLM never sees material beyond fifth grade? This topic raises interesting questions about the limitations and potential biases of LLMs, and how they can be improved to better handle a wide range of topics and knowledge levels.",
+          "source": "Hacker News (AI/LLM)",
+          "tier": 2,
+          "published": "2026-08-16T07:37:53+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": true,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
           "id": "ta_28c7ee44d88bdbf2",
           "title": "Controlling Reasoning Effort in LLMs",
           "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-          "summary": "Why this matters: Controlling reasoning effort in LLMs is a critical aspect of AI development, and Sebastian Raschka's work provides novel framings on how LLMs learn low-, medium-, and high-effort reasoning modes.",
+          "summary": "Why this matters: Controlling reasoning effort in LLMs is crucial for improving their performance and efficiency. Understanding how LLMs learn low-, medium-, and high-effort reasoning modes can help developers optimize their models for specific tasks.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-07-18T11:16:09+00:00",
-          "score": 5,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -50,7 +84,7 @@
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Using local coding agents with open-weight models as an alternative to subscriptions offers a promising approach to autonomous coding, highlighting the potential of local LLM operations.",
+          "summary": "Why this matters: Using local coding agents with open-weight models can provide an alternative to Claude Code and Codex subscriptions. This approach can offer more flexibility and control over the coding process, enabling developers to fine-tune models for specific tasks.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
@@ -62,12 +96,14 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evals, including sandboxed targets and graded task difficulty, offer a structured approach to evaluating and improving AI security.",
+          "summary": "Why this matters: Patterns for building cybersecurity evaluations can help developers create more effective and efficient security systems. By using a sandboxed target, inputs that influence task difficulty, tools, and a grader, developers can improve the robustness of their security evaluations.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
@@ -79,26 +115,8 @@
             "featured": true,
             "tier": 1
           }
-        },
-        {
-          "id": "ta_ab799e9da743babb",
-          "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-          "summary": "Hugging Face's introduction of OlmoEarth embeddings for custom embedding exports and downstream analysis is a notable development in AI, but its direct relevance to local LLM operations is uncertain.",
-          "source": "Hugging Face Blog",
-          "tier": 2,
-          "published": "2026-08-12T14:00:51+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
         }
-      ],
-      "expand": []
+      ]
     },
     "telecom": {
       "top": [
@@ -106,13 +124,13 @@
           "id": "te_27e0dc908ec34e85",
           "title": "Process-Aware Cross-Layer Adaptation for O-RAN-Enabled Industrial Systems",
           "url": "https://arxiv.org/abs/2608.13372v1",
-          "summary": "Why this matters: Process-Aware Cross-Layer Adaptation for O-RAN-Enabled Industrial Systems can improve the efficiency and resilience of industrial applications, combining application outcomes and process state.",
+          "summary": "Why this matters: The Process-Aware Co-adaptation Engine framework combines application outcomes, process state, radio telemetry, edge-compute state, and sensing data to enable process-aware cross-layer adaptation for O-RAN-enabled industrial systems.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-08-13T15:34:46+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -123,7 +141,7 @@
           "id": "te_2b9af0c54f812ba3",
           "title": "Automated Synthesis of Deterministic Cross-Domain Interfaces",
           "url": "https://arxiv.org/abs/2608.09312v1",
-          "summary": "Why this matters: Automated synthesis of deterministic cross-domain interfaces can improve 5G network reliability and efficiency. This research enables dynamic contract derivation for heterogeneous domains.",
+          "summary": "Why this matters: Deterministic networking spans heterogeneous domains, and automated synthesis of cross-domain interfaces is crucial for 5G and LLM applications. Composing assume-guarantee contracts into an end-to-end guarantee is standardized, but deriving each domain's contract is not, and this paper proposes a solution.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-10T08:55:31+00:00",
@@ -137,27 +155,10 @@
           }
         },
         {
-          "id": "te_a6d77d92e4bdf99e",
-          "title": "Lockheed\u2019s NetSense turns Verizon\u2019s 5G network into a drone-tracking system",
-          "url": "https://rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
-          "summary": "Why this matters: Lockheed Martin's NetSense demo showcases the use of Verizon's 5G network for drone tracking, highlighting the potential for 5G-enabled surveillance and security applications.",
-          "source": "RCR Wireless",
-          "tier": 2,
-          "published": "2026-08-14T16:33:18+00:00",
-          "score": 5,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
           "id": "te_fa21e6fcb1fe9242",
           "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
           "url": "https://arxiv.org/abs/2608.07427v1",
-          "summary": "Why this matters: Vision-Language Models (VLMs) can significantly reduce input token count and energy costs for AI operations in telecom networks, achieving 3.6-10.4x input token reduction.",
+          "summary": "Why this matters: Vision-Language Models (VLMs) can significantly reduce input token count and energy costs for LLM inference in telecom network analytics and numerical time-series data analysis, achieving 3.6-10.4x input token reduction across various models.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-07T17:14:45+00:00",
@@ -174,7 +175,7 @@
           "id": "te_4cd7bd020a50d8d4",
           "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
           "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: The C-RE-ACT framework provides a causal RE-ACTing agent for O-RAN forensic triage, addressing performance-degradation attacks and improving network security.",
+          "summary": "Why this matters: The shift to O-RAN architectures marks a turning point in cellular security, and this paper proposes a Causal RE-ACTing Agent for O-RAN Forensic Triage to detect performance-degradation attacks that are hard to distinguish from operational events.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-07-28T15:07:47+00:00",
@@ -186,68 +187,34 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
-        {
-          "id": "te_a344ba57c5e834ba",
-          "title": "The energetic cost of mitigating AI attacks in cellular networks",
-          "url": "https://arxiv.org/abs/2608.12431v1",
-          "summary": "Why this matters: The energetic cost of mitigating AI attacks in cellular networks is a significant concern, and understanding these costs can help improve network security and efficiency.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-08-12T12:42:46+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
         },
         {
           "id": "te_5beff4d3ceb8364e",
           "title": "Multi-UAV Tracking Evaluation Using 5G Uplink Signals on an O-RAN ISAC Simulation Testbed",
           "url": "https://arxiv.org/abs/2608.10784v1",
-          "summary": "Why this matters: Multi-UAV tracking using 5G uplink signals on an O-RAN ISAC simulation testbed demonstrates the potential for advanced tracking and surveillance applications.",
+          "summary": "Why this matters: The DAST framework enables cross-interface anomaly detection in O-RAN, addressing the expanded attack surface in O-RAN architectures and providing a solution for detecting Denial-of-Service and performance-degradation attacks.",
           "source": "arXiv: O-RAN",
           "tier": 1,
           "published": "2026-08-11T10:43:54+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
           "id": "te_5f1d04ae320514d8",
           "title": "LEO-Aware DRL Meta-Scheduler for 5G Non-Terrestrial Network Slicing",
           "url": "https://arxiv.org/abs/2608.01668v1",
-          "summary": "Why this matters: The integration of Low Earth Orbit (LEO) Non-Terrestrial Networks into 5G and 6G architectures introduces new challenges, and a deep reinforcement learning (DRL) meta-scheduler can help address these issues.",
+          "summary": "Why this matters: The integration of Low Earth Orbit (LEO) Non-Terrestrial Networks (NTNs) into 5G and upcoming 6G architectures introduces various challenges, and this paper proposes a deep reinforcement learning (DRL) meta-scheduler for twin-timescale resource allocation.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-03T04:04:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "te_876d6476e048c8b5",
-          "title": "PCAP-LM: An LLM-Native Text Representation for TLS Bulk Traffic Analysis",
-          "url": "https://arxiv.org/abs/2607.28100v1",
-          "summary": "Why this matters: PCAP-LM, a flow-centric, LLM-native text representation, can improve network traffic analysis by transcoding raw captures into semantic summaries using PacketGlyphs.",
-          "source": "arXiv: 5G + LLM",
-          "tier": 1,
-          "published": "2026-07-30T12:10:12+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
@@ -258,16 +225,16 @@
           }
         },
         {
-          "id": "te_5aa5f92dcca790d2",
-          "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
-          "url": "https://arxiv.org/abs/2607.28002v1",
-          "summary": "Why this matters: A ray-tracing-assisted Multi-Agent Reinforcement Learning (MARL) framework can improve base station placement in 5G and 6G networks, considering realistic propagation effects.",
+          "id": "te_876d6476e048c8b5",
+          "title": "PCAP-LM: An LLM-Native Text Representation for TLS Bulk Traffic Analysis",
+          "url": "https://arxiv.org/abs/2607.28100v1",
+          "summary": "Why this matters: PCAP-LM is a flow-centric, LLM-native text representation that enables lossy knowledge extraction for TLS bulk traffic analysis, allowing for more efficient and effective network traffic analysis.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
-          "published": "2026-07-30T10:49:48+00:00",
+          "published": "2026-07-30T12:10:12+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
@@ -282,7 +249,7 @@
           "id": "to_3f6535797a1a4791",
           "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
           "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-          "summary": "Why this matters: OpenAI's accidental attack against Hugging Face highlights the importance of AI safety and security. The incident provides valuable insights into the potential risks and consequences of AI model interactions.",
+          "summary": "Why this matters: OpenAI's accidental attack against Hugging Face highlights the importance of AI safety and security. The incident showcases the potential risks of AI models and the need for robust guardrails.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-07T23:55:58+00:00",
@@ -299,7 +266,7 @@
           "id": "to_e529f54cff052161",
           "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
           "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
-          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and server-side tools, which can enhance AI model development and deployment.",
+          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and OpenAI Responses, which can enhance AI model development and deployment.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-04T23:58:24+00:00",
@@ -333,7 +300,7 @@
           "id": "to_ec0e53c55d9e1a0a",
           "title": "AI agents can't yet do open-ended AI research",
           "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
-          "summary": "AI Snake Oil discusses the limitations of AI agents in conducting open-ended AI research, highlighting the need for further development in this area.",
+          "summary": "AI Snake Oil discusses the limitations of AI agents in conducting open-ended AI research, highlighting the need for human involvement in complex research tasks.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-08-05T13:49:19+00:00",
@@ -355,13 +322,13 @@
           "id": "ca_1a05632b644260e7",
           "title": "Everybody needs a personal AI policy. Just ask Hank Green.",
           "url": "https://www.vox.com/future-perfect/498851/hank-green-ai-controversy-research",
-          "summary": "Why this matters: The controversy surrounding Hank Green's use of AI for research highlights the need for clear guidelines and regulations on AI use in various industries.",
+          "summary": "Why this matters: The controversy surrounding Hank Green's use of AI for research highlights the need for personal AI policies and raises questions about the ethics and transparency of AI use in content creation.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-08-15T00:00:00+00:00",
           "score": 4,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -372,13 +339,30 @@
           "id": "ca_8fa823ec643d51a4",
           "title": "Prompt Injections for Defense",
           "url": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
-          "summary": "Why this matters: Using prompt injections to defend against AI hacking agents is a promising approach that requires further research and development.",
+          "summary": "Why this matters: The discovery of prompt injections as a method to defend against AI hacking agents by directing them to perform forbidden actions offers a novel approach to enhancing AI security.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-08-12T09:56:37+00:00",
           "score": 4,
           "tag": "build",
           "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        },
+        {
+          "id": "ca_188ec37ac422022f",
+          "title": "FPF and Leading Companies Release Risk Assessment Framework and Updated Best Practices for AI in Hiring & Employment",
+          "url": "https://fpf.org/press-releases/fpf-and-leading-companies-release-risk-assessment-framework-and-updated-best-practices-for-ai-in-hiring-employment/",
+          "summary": "The Future of Privacy Forum releases a risk assessment framework and updated best practices for AI in hiring and employment, addressing the rise of generative AI and its implications for privacy and employment practices.",
+          "source": "Future of Privacy Forum",
+          "tier": 2,
+          "published": "2026-08-05T12:22:02+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
           "flags": {
             "new": false,
             "featured": true,
@@ -394,7 +378,7 @@
           "id": "co_3e57d42308e7ba6a",
           "title": "Are Latent Reasoning Models Easily Interpretable?",
           "url": "https://arxiv.org/abs/2604.04902",
-          "summary": "Why this matters: Latent reasoning models like Coconut and CODI achieve high performance on logical tasks despite barely using their hidden reasoning steps, forcing a reevaluation of their interpretability.",
+          "summary": "Why this matters: Latent reasoning models like Coconut and CODI have high performance on logical tasks, but their reasoning steps are barely used, and their performance comes from their specifications. This challenges the interpretability of these models.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-08-15T16:17:13+00:00",
@@ -402,7 +386,7 @@
           "tag": "build",
           "tag_raw": "build",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
           }
@@ -415,78 +399,7 @@
     "tailored": {
       "Anthropic Engineering": {
         "tier": 1,
-        "items": [
-          {
-            "id": "ta_97cd97d27d220f15",
-            "title": "How we contain Claude across products",
-            "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-            "summary": "As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here\u2019s what we\u2019ve learned building containment for claude.ai, Claude Code, and Cowork.\\n",
-            "source": "Anthropic Engineering",
-            "tier": 1,
-            "published": "2026-05-25T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_dea52d951227dccc",
-            "title": "An update on recent Claude Code quality reports",
-            "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-            "summary": "We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
-            "source": "Anthropic Engineering",
-            "tier": 1,
-            "published": "2026-04-23T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_f90fa6cabc2908fd",
-            "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-            "url": "https://www.anthropic.com/engineering/managed-agents",
-            "summary": "Harnesses encode assumptions that go stale as models improve. Managed Agents\u2014our hosted service for long-horizon agent work\u2014is built around interfaces that stay stable as harnesses change.",
-            "source": "Anthropic Engineering",
-            "tier": 1,
-            "published": "2026-04-08T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_b4c065a13b0cb9ae",
-            "title": "How we built Claude Code auto mode: a safer way to skip permissions",
-            "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
-            "summary": "Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.\\n",
-            "source": "Anthropic Engineering",
-            "tier": 1,
-            "published": "2026-03-25T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_2ef732b76415e1eb",
-            "title": "Harness design for long-running application development",
-            "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-            "summary": "Harness design is key to performance at the frontier of agentic coding. Here's how we pushed Claude further in frontend design and long-running autonomous software engineering.",
-            "source": "Anthropic Engineering",
-            "tier": 1,
-            "published": "2026-03-24T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          }
-        ]
+        "items": []
       },
       "Sebastian Raschka": {
         "tier": 1,
@@ -1007,7 +920,7 @@
             "published": "2026-08-12T14:00:51+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           }
@@ -1090,7 +1003,78 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": []
+        "items": [
+          {
+            "id": "ta_394dfc3977b6d23a",
+            "title": "The AI Credit Resale Economy",
+            "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+            "summary": "Article URL: https://vectoral.com/blog/who-are-the-token-brokers Comments URL: https://news.ycombinator.com/item?id=49320611 Points: 159 # Comments: 63",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-16T14:44:55+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_886316ca512557c1",
+            "title": "Show HN: A public AI whose memory is shared across all users",
+            "url": "https://wildstatic.com/",
+            "summary": "Article URL: https://wildstatic.com/ Comments URL: https://news.ycombinator.com/item?id=49319814 Points: 57 # Comments: 36",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-16T13:21:45+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_7562ac74e0c9a33d",
+            "title": "AI Coding Without the Vibes",
+            "url": "https://peterbloem.nl/blog/craft-coding",
+            "summary": "Article URL: https://peterbloem.nl/blog/craft-coding Comments URL: https://news.ycombinator.com/item?id=49318735 Points: 62 # Comments: 35",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-16T10:31:36+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_81ad09ea2459e094",
+            "title": "What happens when an LLM never sees material beyond fifth grade?",
+            "url": "https://littlelearner-ll.github.io/",
+            "summary": "Article URL: https://littlelearner-ll.github.io/ Comments URL: https://news.ycombinator.com/item?id=49317760 Points: 230 # Comments: 195",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-16T07:37:53+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_af863cb3b215d959",
+            "title": "Patterns and problems in emerging multi-agent systems",
+            "url": "https://www.anthropic.com/research/multiagent-systems",
+            "summary": "Article URL: https://www.anthropic.com/research/multiagent-systems Comments URL: https://news.ycombinator.com/item?id=49316271 Points: 172 # Comments: 127",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-16T02:12:53+00:00",
+            "flags": {
+              "new": true,
+              "featured": true,
+              "tier": 2
+            }
+          }
+        ]
       }
     },
     "telecom": {
@@ -1163,7 +1147,7 @@
             "published": "2026-07-30T10:49:48+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           }
@@ -1285,7 +1269,7 @@
             "published": "2026-08-12T12:42:46+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1407,7 +1391,7 @@
             "published": "2026-08-14T16:33:18+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -1708,7 +1692,7 @@
             "tier": 2,
             "published": "2026-08-15T15:46:22+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1775,6 +1759,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_1968340f8ecead84",
+            "title": "Anthropic CEO says AI backlash is \u2018fundamentally a crisis of trust\u2019",
+            "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+            "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-08-16T16:53:51+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_49b0a683c25a1fb7",
             "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
             "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
@@ -1797,7 +1795,7 @@
             "tier": 2,
             "published": "2026-08-15T18:58:39+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1811,7 +1809,7 @@
             "tier": 2,
             "published": "2026-08-15T16:30:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1824,20 +1822,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-08-14T16:13:40+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_f3fe42a4b3a4708f",
-            "title": "Does Mark Zuckerberg really believe AI is \u2018for everyone\u2019?",
-            "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-            "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware \u2014 a contrast to Muse Spark, the company\u2019s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be \u201cfor everyone\u201d rather than controlled by a handful of labs, but as Equity\u2019s [\u2026]",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-08-14T15:43:28+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1925,78 +1909,7 @@
       },
       "Anthropic Research": {
         "tier": 1,
-        "items": [
-          {
-            "id": "ca_af863cb3b215d959",
-            "title": "Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems",
-            "url": "https://www.anthropic.com/research/multiagent-systems",
-            "summary": "Aug 13, 2026Frontier Red TeamPatterns and problems in emerging multiagent systems",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-08-13T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ca_13670d7a17e2fc98",
-            "title": "Aug 12, 2026Economic ResearchReviewing the evidence on worker retraining programs",
-            "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-            "summary": "Aug 12, 2026Economic ResearchReviewing the evidence on worker retraining programs",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-08-12T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ca_0b2744e224d2a974",
-            "title": "Learning more about Claude's mathematical capabilities",
-            "url": "https://www.anthropic.com/research/riemann-zeta",
-            "summary": "Learning more about Claude's mathematical capabilities",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-08-10T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ca_df6c16550d6d3471",
-            "title": "Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude",
-            "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-            "summary": "Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-07-28T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ca_814a2650ce826758",
-            "title": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-            "url": "https://www.anthropic.com/research/project-pilot",
-            "summary": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-07-24T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          }
-        ]
+        "items": []
       },
       "AI Incident Database": {
         "tier": 1,
@@ -2414,7 +2327,7 @@
             "published": "2026-08-05T12:22:02+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           },
@@ -2462,7 +2375,7 @@
             "tier": 1,
             "published": "2026-08-15T16:17:13+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
