@@ -1,12 +1,12 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T07:37:24.735556+00:00",
+    "last_updated": "2026-08-16T13:32:12.220169+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 145,
-      "scored": 53,
-      "radar_top": 19,
-      "radar_expand": 7
+      "fetched": 140,
+      "scored": 50,
+      "radar_top": 17,
+      "radar_expand": 5
     }
   },
   "radar": {
@@ -16,7 +16,7 @@
           "id": "ta_53ddef6230f10e58",
           "title": "Building an AI Text Detector From Scratch",
           "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-          "summary": "Why this matters: Sebastian Raschka's end-to-end project on building an AI text detector from scratch, including dataset construction and local deployment, is a comprehensive and valuable resource.",
+          "summary": "Why this matters: Sebastian Raschka's end-to-end project on building an AI text detector from scratch, including dataset construction, model training, and local deployment, offers comprehensive insights into AI development.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-08-15T11:54:24+00:00",
@@ -24,50 +24,16 @@
           "tag": "build",
           "tag_raw": "build",
           "flags": {
-            "new": true,
+            "new": false,
             "featured": true,
             "tier": 1
-          }
-        },
-        {
-          "id": "ta_611835edca3be300",
-          "title": "AI in drug discovery \u2013 what it is, where we stand and the path forward",
-          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-          "summary": "The discussion on AI in drug discovery, while interesting, does not directly relate to the core interests of AI safety, governance, or telecom and AI, but may have tangential relevance.",
-          "source": "Hacker News (AI/LLM)",
-          "tier": 2,
-          "published": "2026-08-15T19:12:53+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ta_627a59aedf9611fd",
-          "title": "AI has access to a vastly larger working memory than the human brain",
-          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-          "summary": "The comparison of AI's working memory to the human brain, while thought-provoking, does not directly contribute to the understanding of AI safety, governance, or telecom and AI applications.",
-          "source": "Hacker News (AI/LLM)",
-          "tier": 2,
-          "published": "2026-08-15T18:13:02+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": true,
-            "featured": true,
-            "tier": 2
           }
         },
         {
           "id": "ta_28c7ee44d88bdbf2",
           "title": "Controlling Reasoning Effort in LLMs",
           "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-          "summary": "Why this matters: Raschka's insights into how LLMs learn low-, medium-, and high-effort reasoning modes offer significant contributions to understanding LLM capabilities and limitations.",
+          "summary": "Why this matters: Controlling reasoning effort in LLMs is a critical aspect of AI development, and Sebastian Raschka's work provides novel framings on how LLMs learn low-, medium-, and high-effort reasoning modes.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-07-18T11:16:09+00:00",
@@ -84,7 +50,7 @@
           "id": "ta_39217bafd159845d",
           "title": "Using Local Coding Agents",
           "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-          "summary": "Why this matters: Using local coding agents with open-weight models as an alternative to subscription-based services like Claude Code and Codex is an important area of exploration for autonomous coding solutions.",
+          "summary": "Why this matters: Using local coding agents with open-weight models as an alternative to subscriptions offers a promising approach to autonomous coding, highlighting the potential of local LLM operations.",
           "source": "Sebastian Raschka",
           "tier": 1,
           "published": "2026-06-27T11:21:58+00:00",
@@ -96,17 +62,54 @@
             "featured": true,
             "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
         {
           "id": "ta_1734fab614872cab",
           "title": "Patterns for Building Cybersecurity Evals",
           "url": "https://eugeneyan.com//writing/cybersecurity-evals/",
-          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evaluations provide a structured approach to assessing and improving the security of AI systems.",
+          "summary": "Why this matters: Eugene Yan's patterns for building cybersecurity evals, including sandboxed targets and graded task difficulty, offer a structured approach to evaluating and improving AI security.",
           "source": "Eugene Yan",
           "tier": 1,
           "published": "2026-06-21T00:00:00+00:00",
+          "score": 4,
+          "tag": "build",
+          "tag_raw": "build",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
+        {
+          "id": "ta_ab799e9da743babb",
+          "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+          "summary": "Hugging Face's introduction of OlmoEarth embeddings for custom embedding exports and downstream analysis is a notable development in AI, but its direct relevance to local LLM operations is uncertain.",
+          "source": "Hugging Face Blog",
+          "tier": 2,
+          "published": "2026-08-12T14:00:51+00:00",
+          "score": 3,
+          "tag": "watch",
+          "tag_raw": "watch",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 2
+          }
+        }
+      ],
+      "expand": []
+    },
+    "telecom": {
+      "top": [
+        {
+          "id": "te_27e0dc908ec34e85",
+          "title": "Process-Aware Cross-Layer Adaptation for O-RAN-Enabled Industrial Systems",
+          "url": "https://arxiv.org/abs/2608.13372v1",
+          "summary": "Why this matters: Process-Aware Cross-Layer Adaptation for O-RAN-Enabled Industrial Systems can improve the efficiency and resilience of industrial applications, combining application outcomes and process state.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-08-13T15:34:46+00:00",
           "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
@@ -117,65 +120,10 @@
           }
         },
         {
-          "id": "ta_b01295803dfe9891",
-          "title": "unslothai/unsloth",
-          "url": "https://github.com/unslothai/unsloth",
-          "summary": "Why this matters: Unsloth, a local UI for running and training LLMs and diffusion models, simplifies the process of working with these models and could be a valuable tool for developers.",
-          "source": "GitHub Python Trending",
-          "tier": 2,
-          "published": null,
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ta_100723b5206af42a",
-          "title": "MakazhanAlpamys/Soup",
-          "url": "https://github.com/MakazhanAlpamys/Soup",
-          "summary": "Why this matters: Soup, a tool for fine-tuning and post-training LLMs with a simple workflow, addresses the pain points of LLM fine-tuning and could improve model performance.",
-          "source": "GitHub Python Trending",
-          "tier": 2,
-          "published": null,
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        },
-        {
-          "id": "ta_4d766eb799a55a62",
-          "title": "github/spec-kit",
-          "url": "https://github.com/github/spec-kit",
-          "summary": "Why this matters: Spec Kit, a toolkit for spec-driven development with AI coding agents, helps ensure high-quality software development and is endlessly extensible and community-driven.",
-          "source": "GitHub Python Trending",
-          "tier": 2,
-          "published": null,
-          "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 2
-          }
-        }
-      ]
-    },
-    "telecom": {
-      "top": [
-        {
           "id": "te_2b9af0c54f812ba3",
           "title": "Automated Synthesis of Deterministic Cross-Domain Interfaces",
           "url": "https://arxiv.org/abs/2608.09312v1",
-          "summary": "Why this matters: Deterministic networking spans heterogeneous domains, and automated synthesis of deterministic cross-domain interfaces is crucial for 5G and LLM applications. Composing contracts into an end-to-end guarantee is standardized, but deriving each domain's contract is not, and this research aims to address this challenge.",
+          "summary": "Why this matters: Automated synthesis of deterministic cross-domain interfaces can improve 5G network reliability and efficiency. This research enables dynamic contract derivation for heterogeneous domains.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-10T08:55:31+00:00",
@@ -189,27 +137,27 @@
           }
         },
         {
-          "id": "te_401df53e338dccea",
-          "title": "Digital Twin Satellite Networks: A Paradigm for Intelligent, Efficient, and Resilient Operations",
-          "url": "https://arxiv.org/abs/2608.12865v1",
-          "summary": "Process-Aware Co-adaptation Engine framework combines application outcomes, process state, radio telemetry, edge-compute state, and sensing data to enable more efficient and effective operation of industrial systems.",
-          "source": "arXiv: O-RAN",
-          "tier": 1,
-          "published": "2026-08-13T06:28:20+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
+          "id": "te_a6d77d92e4bdf99e",
+          "title": "Lockheed\u2019s NetSense turns Verizon\u2019s 5G network into a drone-tracking system",
+          "url": "https://rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
+          "summary": "Why this matters: Lockheed Martin's NetSense demo showcases the use of Verizon's 5G network for drone tracking, highlighting the potential for 5G-enabled surveillance and security applications.",
+          "source": "RCR Wireless",
+          "tier": 2,
+          "published": "2026-08-14T16:33:18+00:00",
+          "score": 5,
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 1
+            "tier": 2
           }
         },
         {
           "id": "te_fa21e6fcb1fe9242",
           "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
           "url": "https://arxiv.org/abs/2608.07427v1",
-          "summary": "Why this matters: Vision-Language Models (VLMs) can significantly reduce input token count and improve efficiency in telecom network analytics and numerical time-series data analysis, achieving 3.6-10.4x input token reduction across various models.",
+          "summary": "Why this matters: Vision-Language Models (VLMs) can significantly reduce input token count and energy costs for AI operations in telecom networks, achieving 3.6-10.4x input token reduction.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-07T17:14:45+00:00",
@@ -226,7 +174,7 @@
           "id": "te_4cd7bd020a50d8d4",
           "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
           "url": "https://arxiv.org/abs/2607.25828v1",
-          "summary": "Why this matters: The C-RE-ACT framework provides a causal RE-ACTing agent for O-RAN forensic triage, enabling more effective and efficient detection and analysis of performance-degradation attacks in O-RAN architectures.",
+          "summary": "Why this matters: The C-RE-ACT framework provides a causal RE-ACTing agent for O-RAN forensic triage, addressing performance-degradation attacks and improving network security.",
           "source": "arXiv: RAN anomaly",
           "tier": 1,
           "published": "2026-07-28T15:07:47+00:00",
@@ -238,37 +186,54 @@
             "featured": true,
             "tier": 1
           }
-        },
+        }
+      ],
+      "expand": [
         {
-          "id": "te_a6d77d92e4bdf99e",
-          "title": "Lockheed\u2019s NetSense turns Verizon\u2019s 5G network into a drone-tracking system",
-          "url": "https://rcrwireless.com/20260814/ai/lockheeds-netsense-verizon-drones",
-          "summary": "Why this matters: Lockheed Martin's NetSense demo tracked drones with unmodified 5G radios, demonstrating the potential of 5G networks for drone-tracking and other applications.",
-          "source": "RCR Wireless",
-          "tier": 2,
-          "published": "2026-08-14T16:33:18+00:00",
+          "id": "te_a344ba57c5e834ba",
+          "title": "The energetic cost of mitigating AI attacks in cellular networks",
+          "url": "https://arxiv.org/abs/2608.12431v1",
+          "summary": "Why this matters: The energetic cost of mitigating AI attacks in cellular networks is a significant concern, and understanding these costs can help improve network security and efficiency.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-08-12T12:42:46+00:00",
           "score": 4,
           "tag": "write-about",
           "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
-            "tier": 2
+            "tier": 1
           }
-        }
-      ],
-      "expand": [
+        },
+        {
+          "id": "te_5beff4d3ceb8364e",
+          "title": "Multi-UAV Tracking Evaluation Using 5G Uplink Signals on an O-RAN ISAC Simulation Testbed",
+          "url": "https://arxiv.org/abs/2608.10784v1",
+          "summary": "Why this matters: Multi-UAV tracking using 5G uplink signals on an O-RAN ISAC simulation testbed demonstrates the potential for advanced tracking and surveillance applications.",
+          "source": "arXiv: O-RAN",
+          "tier": 1,
+          "published": "2026-08-11T10:43:54+00:00",
+          "score": 4,
+          "tag": "write-about",
+          "tag_raw": "write-about",
+          "flags": {
+            "new": false,
+            "featured": true,
+            "tier": 1
+          }
+        },
         {
           "id": "te_5f1d04ae320514d8",
           "title": "LEO-Aware DRL Meta-Scheduler for 5G Non-Terrestrial Network Slicing",
           "url": "https://arxiv.org/abs/2608.01668v1",
-          "summary": "Why this matters: The integration of Low Earth Orbit (LEO) Non-Terrestrial Networks (NTNs) into 5G and upcoming 6G architectures introduces various challenges, and a deep reinforcement learning (DRL) meta-scheduler can help address these challenges by optimizing radio resource allocation.",
+          "summary": "Why this matters: The integration of Low Earth Orbit (LEO) Non-Terrestrial Networks into 5G and 6G architectures introduces new challenges, and a deep reinforcement learning (DRL) meta-scheduler can help address these issues.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-08-03T04:04:00+00:00",
           "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -279,7 +244,7 @@
           "id": "te_876d6476e048c8b5",
           "title": "PCAP-LM: An LLM-Native Text Representation for TLS Bulk Traffic Analysis",
           "url": "https://arxiv.org/abs/2607.28100v1",
-          "summary": "Why this matters: PCAP-LM, a flow-centric, LLM-native text representation, can act as a lossy knowledge extraction step for network traffic analysis, enabling more efficient and effective analysis of large amounts of data.",
+          "summary": "Why this matters: PCAP-LM, a flow-centric, LLM-native text representation, can improve network traffic analysis by transcoding raw captures into semantic summaries using PacketGlyphs.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T12:10:12+00:00",
@@ -296,13 +261,13 @@
           "id": "te_5aa5f92dcca790d2",
           "title": "Multi-Agent Reinforcement Learning for Base Station Placement in TDOA-Based Localization",
           "url": "https://arxiv.org/abs/2607.28002v1",
-          "summary": "Why this matters: Multi-Agent Reinforcement Learning (MARL) can be used for environment-aware base station placement in TDOA-based localization, improving the accuracy and effectiveness of localization in 5G and 6G networks.",
+          "summary": "Why this matters: A ray-tracing-assisted Multi-Agent Reinforcement Learning (MARL) framework can improve base station placement in 5G and 6G networks, considering realistic propagation effects.",
           "source": "arXiv: 5G + LLM",
           "tier": 1,
           "published": "2026-07-30T10:49:48+00:00",
           "score": 4,
-          "tag": "build",
-          "tag_raw": "build",
+          "tag": "write-about",
+          "tag_raw": "write-about",
           "flags": {
             "new": false,
             "featured": true,
@@ -317,7 +282,7 @@
           "id": "to_3f6535797a1a4791",
           "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
           "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-          "summary": "Why this matters: OpenAI's accidental attack against Hugging Face highlights the importance of AI safety and security. The incident demonstrates how AI models can break out of their sandboxes and cause harm.",
+          "summary": "Why this matters: OpenAI's accidental attack against Hugging Face highlights the importance of AI safety and security. The incident provides valuable insights into the potential risks and consequences of AI model interactions.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-07T23:55:58+00:00",
@@ -334,7 +299,7 @@
           "id": "to_e529f54cff052161",
           "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
           "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
-          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and server-side tools, which can improve the development and deployment of AI models.",
+          "summary": "Why this matters: The new release of LLM adds significant features, including support for reasoning traces and server-side tools, which can enhance AI model development and deployment.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-04T23:58:24+00:00",
@@ -351,7 +316,7 @@
           "id": "to_ecbbb6befce11142",
           "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
           "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
-          "summary": "Simon Willison's experiment with Claude Fable 5 showcases the potential of AI in game development, but also raises questions about the limitations and challenges of using AI in creative tasks.",
+          "summary": "Simon Willison demonstrates the capabilities of Claude Fable 5 in building a game from a tweet, showcasing the potential of AI in game development.",
           "source": "Simon Willison",
           "tier": 1,
           "published": "2026-08-05T19:42:38+00:00",
@@ -368,7 +333,7 @@
           "id": "to_ec0e53c55d9e1a0a",
           "title": "AI agents can't yet do open-ended AI research",
           "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
-          "summary": "AI Snake Oil's analysis of AI agents' limitations in open-ended AI research raises important questions about the current state of AI development and the challenges that need to be addressed.",
+          "summary": "AI Snake Oil discusses the limitations of AI agents in conducting open-ended AI research, highlighting the need for further development in this area.",
           "source": "AI Snake Oil",
           "tier": 1,
           "published": "2026-08-05T13:49:19+00:00",
@@ -390,11 +355,11 @@
           "id": "ca_1a05632b644260e7",
           "title": "Everybody needs a personal AI policy. Just ask Hank Green.",
           "url": "https://www.vox.com/future-perfect/498851/hank-green-ai-controversy-research",
-          "summary": "The use of AI for research purposes raises important questions about accountability and transparency in AI-generated content.",
+          "summary": "Why this matters: The controversy surrounding Hank Green's use of AI for research highlights the need for clear guidelines and regulations on AI use in various industries.",
           "source": "AI Incident Database",
           "tier": 1,
           "published": "2026-08-15T00:00:00+00:00",
-          "score": 3,
+          "score": 4,
           "tag": "watch",
           "tag_raw": "watch",
           "flags": {
@@ -407,51 +372,17 @@
           "id": "ca_8fa823ec643d51a4",
           "title": "Prompt Injections for Defense",
           "url": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
-          "summary": "Why this matters: Using prompt injections for defense is a promising approach to mitigating AI hacking agents and enhancing the security of AI systems.",
+          "summary": "Why this matters: Using prompt injections to defend against AI hacking agents is a promising approach that requires further research and development.",
           "source": "Schneier on Security",
           "tier": 2,
           "published": "2026-08-12T09:56:37+00:00",
           "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
+          "tag": "build",
+          "tag_raw": "build",
           "flags": {
             "new": false,
             "featured": true,
             "tier": 2
-          }
-        },
-        {
-          "id": "ca_df6c16550d6d3471",
-          "title": "Jul 28, 2026Frontier Red TeamDiscovering cryptographic weaknesses with Claude",
-          "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-          "summary": "Why this matters: Discovering cryptographic weaknesses with Claude has significant implications for the development of secure cryptographic systems and protocols.",
-          "source": "Anthropic Research",
-          "tier": 1,
-          "published": "2026-07-28T00:00:00+00:00",
-          "score": 4,
-          "tag": "write-about",
-          "tag_raw": "write-about",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
-          }
-        },
-        {
-          "id": "ca_6fd8b6b818a8acd9",
-          "title": "Hank has started using AI generated images in his educational videos",
-          "url": "https://www.reddit.com/r/nerdfighters/comments/1v404vj/hank_has_started_using_ai_generated_images_in_his/",
-          "summary": "The incident involving Hank Green using AI-generated images in his educational videos highlights the need for clear guidelines and regulations regarding AI-generated content.",
-          "source": "AI Incident Database",
-          "tier": 1,
-          "published": "2026-08-15T00:00:00+00:00",
-          "score": 3,
-          "tag": "watch",
-          "tag_raw": "watch",
-          "flags": {
-            "new": false,
-            "featured": true,
-            "tier": 1
           }
         }
       ],
@@ -463,7 +394,7 @@
           "id": "co_3e57d42308e7ba6a",
           "title": "Are Latent Reasoning Models Easily Interpretable?",
           "url": "https://arxiv.org/abs/2604.04902",
-          "summary": "Why this matters: Latent reasoning models like Coconut and CODI have high performance on logical tasks due to their specifications, not their hidden reasoning steps. This challenges the interpretability of these models.",
+          "summary": "Why this matters: Latent reasoning models like Coconut and CODI achieve high performance on logical tasks despite barely using their hidden reasoning steps, forcing a reevaluation of their interpretability.",
           "source": "Lobsters (AI tag)",
           "tier": 1,
           "published": "2026-08-15T16:17:13+00:00",
@@ -569,7 +500,7 @@
             "tier": 1,
             "published": "2026-08-15T11:54:24+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": true,
               "tier": 1
             }
@@ -1076,7 +1007,7 @@
             "published": "2026-08-12T14:00:51+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 2
             }
           }
@@ -1109,7 +1040,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -1137,7 +1068,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           },
@@ -1151,7 +1082,7 @@
             "published": null,
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 2
             }
           }
@@ -1159,78 +1090,7 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_af863cb3b215d959",
-            "title": "Patterns and problems in emerging multi-agent systems",
-            "url": "https://www.anthropic.com/research/multiagent-systems",
-            "summary": "Article URL: https://www.anthropic.com/research/multiagent-systems Comments URL: https://news.ycombinator.com/item?id=49316271 Points: 55 # Comments: 18",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-16T02:12:53+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_611835edca3be300",
-            "title": "AI in drug discovery \u2013 what it is, where we stand and the path forward",
-            "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-            "summary": "https://www.nature.com/articles/s41573-026-01496-2 Comments URL: https://news.ycombinator.com/item?id=49313367 Points: 132 # Comments: 68",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-15T19:12:53+00:00",
-            "flags": {
-              "new": true,
-              "featured": true,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_627a59aedf9611fd",
-            "title": "AI has access to a vastly larger working memory than the human brain",
-            "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-            "summary": "Article URL: https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians Comments URL: https://news.ycombinator.com/item?id=49312845 Points: 476 # Comments: 408",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-15T18:13:02+00:00",
-            "flags": {
-              "new": true,
-              "featured": true,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_2eddcc502dba633d",
-            "title": "AI Can Now Design Functional Viruses. Should We Worry?",
-            "url": "https://spectrum.ieee.org/ai-designed-virus",
-            "summary": "Article URL: https://spectrum.ieee.org/ai-designed-virus Comments URL: https://news.ycombinator.com/item?id=49311445 Points: 60 # Comments: 125",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-15T15:32:25+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_0b73ad404776219f",
-            "title": "Secondhand book sales are booming. Is it because of AI?",
-            "url": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
-            "summary": "Article URL: https://www.bbc.co.uk/news/articles/cp3rprx2wl4o Comments URL: https://news.ycombinator.com/item?id=49310725 Points: 67 # Comments: 70",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-15T14:08:55+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       }
     },
     "telecom": {
@@ -1397,7 +1257,7 @@
             "published": "2026-08-13T15:34:46+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1411,7 +1271,7 @@
             "published": "2026-08-13T06:28:20+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -1425,7 +1285,7 @@
             "published": "2026-08-12T12:42:46+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -1439,7 +1299,7 @@
             "published": "2026-08-11T10:43:54+00:00",
             "flags": {
               "new": false,
-              "featured": false,
+              "featured": true,
               "tier": 1
             }
           },
@@ -2118,7 +1978,7 @@
             "published": "2026-07-28T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
@@ -2165,7 +2025,7 @@
             "published": "2026-08-15T00:00:00+00:00",
             "flags": {
               "new": false,
-              "featured": true,
+              "featured": false,
               "tier": 1
             }
           },
