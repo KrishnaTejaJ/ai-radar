@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T13:48:26.358001+00:00",
+    "last_updated": "2026-08-20T19:27:14.285395+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
@@ -412,6 +412,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ta_ae7785fa2983569a",
+            "title": "The Pulse: Meta\u2019s self-inflicted resignation-wave",
+            "url": "https://blog.pragmaticengineer.com/the-pulse-metas-self-inflicted-resignation-wave/",
+            "summary": "In what was predictable: Meta\u2019s layoffs and forced reassignments pushed engineers not impacted by either to look for a new job. Meta is now offering large equity retainers, and it doesn\u2019t seem working",
+            "source": "Pragmatic Engineer",
+            "tier": 1,
+            "published": "2026-08-20T18:08:45+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "ta_c1994fb128f54231",
             "title": "The Pulse: Grok\u2019s CLI caught uploading all your local files to the cloud",
             "url": "https://blog.pragmaticengineer.com/grolk-cli-uploaded-all-your-files-to-the-cloud/",
@@ -420,7 +434,7 @@
             "tier": 1,
             "published": "2026-08-19T14:21:33+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -466,26 +480,54 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "ta_277e82d3d555e03c",
-            "title": "The Pulse: What can we learn from Bun\u2019s rapid Rust rewrite with AI?",
-            "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/",
-            "summary": "To a sceptic, spending $165K to migrate Bun from Zig to Rust sounds very expensive. But to a realist, shortening a 1-2 year migration down to 11 days opens amazing new opportunities for devs. However, a thoroughly-tested project is required to pull it off.",
-            "source": "Pragmatic Engineer",
-            "tier": 1,
-            "published": "2026-07-16T16:50:20+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
       "Google Cloud AI": {
         "tier": 2,
         "items": [
+          {
+            "id": "ta_ea93ac700c483a18",
+            "title": "Expanding Google Antigravity for enterprise customers",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers/",
+            "summary": "Since announcing Google Antigravity in Gemini Enterprise Agent Platform at I/O in May, we\u2019ve heard helpful feedback from our customers. Your developers want easy access to coding agents across surfaces. Your enterprise governance team wants security controls and license management. And your finance team wants pooled usage so that no prepaid token ever goes unused. Now, everybody finally gets what they want: Antigravity is available now as part of eligible Gemini Enterprise app subscriptions, including out-of-the-box administrative and spend controls.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-08-20T17:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_c0d9407e1b2cdb2a",
+            "title": "How AlloyDB ScaNN scales vector search to 10 billion vectors",
+            "url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search/",
+            "summary": "To satisfy the demands of enterprise-grade agentic AI applications, underlying vector databases often struggle to scale effectively as modern use cases can scale to billions of vectors. As a fully managed PostgreSQL-compatible database service, AlloyDB is engineered to handle demanding enterprise workloads. Combining Google's infrastructure with the reliability of commercial databases, it delivers high availability, scalability, and includes a cutting-edge analytical engine, optimal for agentic AI use cases.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-08-20T16:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_903750b81085f75e",
+            "title": "10 questions every startup should answer before moving to production with their AI prototype",
+            "url": "https://cloud.google.com/blog/topics/developers-practitioners/10-questions-for-your-startup-developers/",
+            "summary": "It\u2019s never been easier to start an AI-powered startup on Google Cloud. You grab an API key from Google AI Studio at breakfast, paste it into Antigravity, and by lunch you\u2019ll have a nascent prototype of your product. But it\u2019s not all one straight line to progress. It's common to bump into these three challenges as you build out your stack: A leaked API key racks up a large bill in 48 hours . A \"quick\" migration from AI Studio to Gemini Enterprise Agent Platform stalls the roadmap for weeks because nobody on the team owns Identity and Access Management (IAM).",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-08-20T16:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "ta_9f7a809935a2e605",
             "title": "Building cost-effective, high-throughput gen AI workflows in Google Dataflow",
@@ -513,48 +555,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ta_eaa6cd5baad0ff47",
-            "title": "Building operational resilience with agentic AI in financial services",
-            "url": "https://cloud.google.com/blog/topics/financial-services/building-operational-resilience-with-agentic-ai-in-financial-services/",
-            "summary": "For financial institutions, operational resilience has long been embedded in regulatory and supervisory expectations \u2014 to say nothing of the high expectations of consumers. With the implementation of the European Union\u2019s Digital Operational Resiliency Act (DORA), those expectations have become even more stringent, with more explicit, harmonized, and evidence-driven requirements. Firms must now demonstrate that their critical business services and supporting digital infrastructures can withstand disruption, support coordinated response, and recover with control.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-08-18T14:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_a5aa20c87d471365",
-            "title": "Using BigQuery Graphs with measures for trusted agentic workloads",
-            "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/",
-            "summary": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-08-13T17:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_58d4b099e4abe5dc",
-            "title": "Looker\u2019s semantic layer governs Gemini Enterprise data for user trust",
-            "url": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
-            "summary": "For organizations deploying AI agents at scale, there\u2019s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-08-11T16:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -562,13 +562,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "ta_22e214c525696116",
-            "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-            "url": "https://huggingface.co/blog/LiquidAI/qad",
+            "id": "ta_c7cdb6722fd86cc4",
+            "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+            "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
             "summary": "",
             "source": "Hugging Face Blog",
             "tier": 2,
-            "published": "2026-08-19T13:48:49+00:00",
+            "published": "2026-08-20T16:52:57+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -712,10 +712,52 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_0ac0123bfb33b14e",
+            "title": "Clean up Claude 5's token vomit with a separate LLM",
+            "url": "https://github.com/zachahn/vomit",
+            "summary": "Article URL: https://github.com/zachahn/vomit Comments URL: https://news.ycombinator.com/item?id=49375996 Points: 114 # Comments: 120",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-20T15:26:02+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_5fd7d61be24ab5b0",
+            "title": "Anti-AI fonts are useless and harmful",
+            "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/",
+            "summary": "Article URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ Comments URL: https://news.ycombinator.com/item?id=49375719 Points: 63 # Comments: 54",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-20T15:06:53+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_aa6ceec848895fc1",
+            "title": "AI didn't erase the junior engineer's value, it increased it it",
+            "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright/",
+            "summary": "Article URL: https://franciscotrindade.me/blog/the-kids-are-really-alright/ Comments URL: https://news.ycombinator.com/item?id=49373269 Points: 66 # Comments: 122",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-08-20T11:42:20+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_3ca1d6eea3dca9c8",
-            "title": "Don't Paste the AI, please",
+            "title": "Don't paste the AI, please",
             "url": "https://dontpastetheai.com/",
-            "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 754 # Comments: 375",
+            "summary": "Article URL: https://dontpastetheai.com/ Comments URL: https://news.ycombinator.com/item?id=49371857 Points: 962 # Comments: 518",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-08-20T08:20:44+00:00",
@@ -733,48 +775,6 @@
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-08-19T16:29:02+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_e0f06e61ebea8c7b",
-            "title": "Mathematics in the age of AI",
-            "url": "https://arxiv.org/abs/2608.16753",
-            "summary": "Article URL: https://arxiv.org/abs/2608.16753 Comments URL: https://news.ycombinator.com/item?id=49362728 Points: 197 # Comments: 231",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-19T15:14:25+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_d3c89fb31dea3c6d",
-            "title": "AI usage patterns in software teams",
-            "url": "https://linear.app/data",
-            "summary": "Article URL: https://linear.app/data Comments URL: https://news.ycombinator.com/item?id=49353432 Points: 192 # Comments: 112",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-18T22:08:07+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_ab3f8e5d4c952056",
-            "title": "fx :Tiny, open, native coding agent.",
-            "url": "https://fx.sh",
-            "summary": "Article URL: https://fx.sh Comments URL: https://news.ycombinator.com/item?id=49353339 Points: 298 # Comments: 127",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-08-18T22:00:21+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1014,6 +1014,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_ea4e3eb8d01bf4e2",
+            "title": "Charter-Cox deal is a wrap, with 'Spectrum' brand to take over within a year",
+            "url": "https://www.lightreading.com/cable-technology/charter-cox-deal-is-a-wrap-with-spectrum-brand-to-take-over-within-a-year",
+            "summary": "Charter and Cox have closed a merger that creates the world's largest cable operator, with more than 70 million locations passed and about 37 million customers. Cox Communications will become the corporate name, with Charter's Spectrum branding.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-08-20T16:41:20+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_81f9d198a74b42a0",
             "title": "Charter wraps Cox and Liberty Broadband transactions",
             "url": "https://www.lightreading.com/cable-technology/charter-wraps-cox-and-liberty-broadband-transactions",
@@ -1056,27 +1070,13 @@
             }
           },
           {
-            "id": "te_f0e202dfaec63e76",
+            "id": "te_cd36e21fb7bdb7a3",
             "title": "Why the first AI-native 6G cores will run on 5G foundations",
-            "url": "https://www.lightreading.com/6g/untitled",
+            "url": "https://www.lightreading.com/6g/why-the-first-ai-native-6g-cores-will-run-on-5g-foundations",
             "summary": "The 3GPP decides the shape of the 6G core in September, and the industry wants it to be AI-native from the ground up. Omdia's Gabriel Brown and Ruth Brown (no relation) argue the supplier ecosystem can't deliver that by 2030 and operators can't afford it.",
             "source": "Light Reading",
             "tier": 2,
             "published": "2026-08-20T11:51:37+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_708b6367c78fe142",
-            "title": "Eurobites: EE puts 5G in fast lane with network slicing",
-            "url": "https://www.lightreading.com/5g/eurobites-ee-puts-5g-in-fast-lane-with-network-slicing",
-            "summary": "Also in today's EMEA regional roundup: VMO2's 5G SA expansion; Ericsson infuses AI into the RAN; African smartphone shipments fall.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-08-20T11:49:56+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1089,6 +1089,48 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_ace1c85e897c516d",
+            "title": "KT unveils NPU LLM Station, a fully on-premise sovereign AI server",
+            "url": "https://rcrwireless.com/20260820/ai/kt-npu-llm-station",
+            "summary": "Korean chip, model, and platform in one box, with no cloud access needed In sum \u2013 what we know: KT has officially unveiled the \u201cKT NPU LLM Station\u201d \u2014 a\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-08-20T16:30:01+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_3541d7811be45765",
+            "title": "Report: Building AI-Era Network Fabrics",
+            "url": "https://content.rcrwireless.com/report-building-ai-era-network-fabrics",
+            "summary": "AI workloads are reshaping data centers and cloud networks, driving unprecedented demands on scale, performance, and resiliency. Scale-up, scale-out, and scale-across connectivity models are redefining how GPUs, racks, and data\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-08-20T14:08:18+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_a5b9d91f05e5932f",
+            "title": "Quantum Safe Networks Market Pulse Report",
+            "url": "https://pages.rcrtech.com/quantum-safe-networks-market-pulse-report-2026",
+            "summary": "In 2026, the quantum risk horizon moved \u2014 not because of a scientific breakthrough, but because of vendor behavior. Google pulled its post-quantum cryptography migration forward from the early 2030s\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-08-20T13:17:59+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_3117dbd10b8b903d",
             "title": "Telecom AI ambition far outpaces execution, HCLTech pulse survey finds",
             "url": "https://rcrwireless.com/20260819/ai/hcltech-pulse-survey-telecom-ai",
@@ -1097,7 +1139,7 @@
             "tier": 2,
             "published": "2026-08-19T19:09:48+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1111,48 +1153,6 @@
             "tier": 2,
             "published": "2026-08-19T14:49:20+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_4cd7b896bcc73567",
-            "title": "Omdia sees RAN growth outside China despite weak global market",
-            "url": "https://rcrwireless.com/20260819/5g/omdia-ran-china",
-            "summary": "Speaking to RCR Wireless News, R\u00e9my Pascal, practice leader, mobile infrastructure and RAN lead analyst at Omdia, said the main regional contributors to growth in the first half of the\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-08-19T13:19:03+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_d0b641fdfd9d54b9",
-            "title": "Unlock greater intelligence and innovation in OSS/BSS with a unified cloud, data and AI platform",
-            "url": "https://www.ericsson.com/en/oss-bss/forms/analysys-mason-report?utm_medium=advertorial&utm_source=RCR-Wireless&utm_campaign=bcss_Athena2026D1-_bss-oss_23072026_awareness&utm_content=RCR-Wireless-Channel-",
-            "summary": "Discover how a unified cloud, data, and AI platform can unlock greater intelligence, operational agility, and innovative 5G services for your business. Accelerate your OSS/BSS transformation today. Download the report\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-08-19T10:51:45+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_63990daa886ea9ad",
-            "title": "Omdia: Mission critical networks demand more: Rethink your OSS and BSS",
-            "url": "https://www.ericsson.com/en/oss-bss/forms/omdia-mission-critical-networks-demand-more?utm_medium=advertorial&utm_source=RCR-Wireless&utm_campaign=bcss_Athena2026D1-_bss-oss_23072026_awareness&utm_content=RCR-Wireless-Channel-",
-            "summary": "\u201cThe next billion dollar growth engine for Communications Service Providers (CSPs) is the digitalization of mission critical verticals, and a modern OSS and BSS solution is the key to unlock\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-08-18T17:25:45+00:00",
-            "flags": {
               "new": false,
               "featured": false,
               "tier": 2
@@ -1163,6 +1163,48 @@
       "Fierce Network": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_479358544d4ed4cb",
+            "title": "GSMA warns telcos against outsourcing AI future to hyperscalers",
+            "url": "https://www.fierce-network.com/wireless/gsma-warns-telcos-against-outsourcing-ai-future-hyperscalers",
+            "summary": "GSMA says today\u2019s top AI models still don\u2019t understand telecom well enough \u2014 and open telco models could be the key to closing the gap.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_65211d01c455c144",
+            "title": "Charter closes its Cox acquisition, elaborates on immediate plans",
+            "url": "https://www.fierce-network.com/broadband/charter-closes-its-cox-acquisition-elaborates-immediate-plans",
+            "summary": "Charter's CEO was asked if there would be any layoffs, and he said, \u201cOf course there will be reduction of same-type of titles and overhead.\"",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_fa3b67f934288386",
+            "title": "Broadcom sees hyperscalers sidelining telcos for some scale across projects",
+            "url": "https://www.fierce-network.com/wireless/broadcom-sees-hyperscalers-sidelining-telcos-some-scale-across-projects",
+            "summary": "Telcos want to bring together fiber, optical line systems, switches and services needed to connect massive GPU clusters in disparate data centers.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_b260e94f996e964e",
             "title": "Relatively Networks raises $22M for hollow core fiber",
@@ -1182,48 +1224,6 @@
             "title": "Data centers become \u2018sleeper issue\u2019 that could decide elections",
             "url": "https://www.fierce-network.com/cloud/data-centers-become-sleeper-issue-could-decide-elections",
             "summary": "As AI infrastructure demand booms, data centers are turning into a political liability \u2014 and a GOP memo warns voter backlash could make them a deciding issue in races across the country.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_7ab48083f20dce70",
-            "title": "OVHcloud\u2019s data center strategy: Reuse, retrofit and reduce backlash",
-            "url": "https://www.fierce-network.com/cloud/ovhclouds-data-center-strategy-reuse-retrofit-and-reduce-backlash",
-            "summary": "OVHcloud\u2019s reuse-and-retrofit playbook could offer data center developers a way to grow AI capacity without fueling more community backlash.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_6d7258a1d0376af4",
-            "title": "Nokia\u2019s China retreat signals bigger bet on AI and optical networks",
-            "url": "https://www.fierce-network.com/wireless/nokias-china-retreat-signals-bigger-bet-ai-and-optical-networks",
-            "summary": "Nokia's AI and cloud segment sales increases 105% year-on-year to $446 million Euros, 9% of total sales for the quarter.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_d902c558996a1e20",
-            "title": "Service providers ditch landline voice, unprofitable areas",
-            "url": "https://www.fierce-network.com/broadband/service-providers-ditch-landline-voice-unprofitable-areas",
-            "summary": "Lumen is pulling out of wholesale telephone service in some areas; Optimum is dropping undesirable broadband areas; and others are retiring copper networks.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1466,13 +1466,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "to_d252e5e06fc4a74f",
-            "title": "Meta AI\u2019s new Mac app wants you to talk to your apps",
-            "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
-            "summary": "Meta said its Muse Spark model is powering the dictation feature.",
+            "id": "to_3d82ea00a2217ab8",
+            "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+            "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+            "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-08-20T12:11:57+00:00",
+            "published": "2026-08-20T19:18:21+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1480,13 +1480,13 @@
             }
           },
           {
-            "id": "to_c770fe34bf361b9f",
-            "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-            "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-            "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+            "id": "to_859f0b88d5add40a",
+            "title": "Runlayer, Rippling drop lawsuits. But the brouhaha is still a cautionary tale for founders.",
+            "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+            "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-08-20T09:30:00+00:00",
+            "published": "2026-08-20T19:15:05+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1494,13 +1494,13 @@
             }
           },
           {
-            "id": "to_a5a7e6076f8b731b",
-            "title": "Stripe didn\u2019t really buy OpenRouter because of the \u2018singularity\u2019",
-            "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
-            "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+            "id": "to_594513ac4c6dc854",
+            "title": "Linkdaze\u2019s smart calendar is built to run a household, not just track a schedule",
+            "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+            "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-08-19T23:32:00+00:00",
+            "published": "2026-08-20T18:20:35+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1508,13 +1508,13 @@
             }
           },
           {
-            "id": "to_36c53ad4b676acc8",
-            "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-            "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-            "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+            "id": "to_aacf0e17caa36e32",
+            "title": "Grok keeps sending gibberish responses to users",
+            "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+            "summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-08-19T22:10:46+00:00",
+            "published": "2026-08-20T17:32:16+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1522,13 +1522,13 @@
             }
           },
           {
-            "id": "to_c83af89f9f204fe2",
-            "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-            "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
-            "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+            "id": "to_8b7a6ac6a0849903",
+            "title": "A third of web pages published since ChatGPT\u2019s launch show signs of AI authorship, study finds",
+            "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+            "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-08-19T21:51:23+00:00",
+            "published": "2026-08-20T17:18:58+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1843,6 +1843,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_c95f1350e30d62b8",
+            "title": "Detailed Timeline of OpenAI\u2019s Cyberattack on Hugging Face",
+            "url": "https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html",
+            "summary": "OpenAI presented details of its AI\u2019s model\u2019s cyberattack on Hugging Face at Black Hat last week. Simon Willison details the timeline. It\u2019s really interesting to read through\u2014and really impressive cyberoffense work.",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-08-20T17:44:36+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_e820b6563f65cd13",
             "title": "Police Are Hiding Their Use of Flock Surveillance Cameras",
             "url": "https://www.schneier.com/blog/archives/2026/08/police-are-hiding-their-use-of-flock-surveillance-cameras.html",
@@ -1897,20 +1911,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ca_b535f16be927c16a",
-            "title": "Friday Squid Blogging: Searching for the Colossal Squid",
-            "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
-            "summary": "Fascinating video about searching for life undersea. The video basically makes the point that our bright white searchlights are scaring everything away, and that red light is more neutral. That, plus bait to attract sea creatures, is teaching us a lot about what\u2019s going on down there. Lots of footage of giant squid, and speculation about the colossal squid. Worth watching. As usual, you can also use this squid post to talk about the security stories in the news that I haven\u2019t covered. Blog moderation policy.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-08-14T21:01:49+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -1926,7 +1926,7 @@
             "tier": 2,
             "published": "2026-08-19T14:43:45+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
