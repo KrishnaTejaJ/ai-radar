@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-09-06T21:01:03.010718+00:00",
+    "last_updated": "2026-09-07T13:27:00.374904+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 140,
+      "fetched": 145,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -651,10 +651,10 @@
             }
           },
           {
-            "id": "ta_10ba719313a0c835",
-            "title": "anthropics/skills",
-            "url": "https://github.com/anthropics/skills",
-            "summary": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io . Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.",
+            "id": "ta_4aff7db928cd1cdc",
+            "title": "openai/skills",
+            "url": "https://github.com/openai/skills",
+            "summary": "Skills Catalog for Codex Important This repository is deprecated. For current Codex skill and plugin examples, use the OpenAI Plugins repository . If you want to add your own skills to Codex, follow the Build plugins guide, which includes instructions for creating a skill-only plugin. Agent Skills Agent Skills are folders of instructions, scripts, and resources that AI agents can discover and use to perform at specific tasks. Write once, use everywhere. Codex uses skills to help package capabilities that teams and individuals can use to complete specific tasks in a repeatable way.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -668,7 +668,7 @@
             "id": "ta_db09b457282c5683",
             "title": "blader/humanizer",
             "url": "https://github.com/blader/humanizer",
-            "summary": "Agent skill that removes signs of AI-generated writing from text https://skills.sh/blader/humanizer Humanizer Humanizer rewrites AI-sounding text so it reads like a person wrote it, without changing what it says. Because it is just Markdown, it works with any agent that supports skills. How it works Humanizer uses 35 patterns from Wikipedia's \"Signs of AI writing\" , maintained by WikiProject AI Cleanup. It makes a first pass without treating the original structure as fixed. Then it checks the draft against those patterns and the original claims before rewriting whatever still needs work.",
+            "summary": "Agent skill that removes signs of AI-generated writing from text https://skills.sh/blader/humanizer Humanizer Humanizer rewrites AI-sounding text so it reads like a person wrote it, without changing what it says. Because it is just Markdown, it works with any agent that supports skills. Installation Install Humanizer with the Skills CLI: npx skills add blader/humanizer --global Leave off --global to install Humanizer only in the current project. Add --agent <name> or --agent '*' to choose which agents receive it, then reload their skills. The skill answers to /humanizer .",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -679,10 +679,10 @@
             }
           },
           {
-            "id": "ta_db607f8f27decba9",
-            "title": "bikini/exploitarium",
-            "url": "https://github.com/bikini/exploitarium",
-            "summary": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way. Statement This repo was incomplete when published. In regard to AI usage, my fuzzing workflow was automated by AI with a strict workflow. I used GPT-5.3 for ALL the fuzzing, as barely any \"thought\" is necessary when provided with an efficient workflow.",
+            "id": "ta_f87fcf2e466ce361",
+            "title": "The-Swarm-Corporation/AutoHedge",
+            "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+            "summary": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution. https://swarms.xyz/ AutoHedge AutoHedge is an enterprise-grade autonomous agent hedge fund that trades on your behalf. It combines swarm intelligence and specialized AI agents to perform end-to-end market analysis, risk management, and execution with minimal human intervention. Current support: Full autonomous trading on Solana. Coming soon: Coinbase and additional exchanges.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -693,10 +693,10 @@
             }
           },
           {
-            "id": "ta_fe05b7b44df53478",
-            "title": "sgl-project/sglang",
-            "url": "https://github.com/sgl-project/sglang",
-            "summary": "SGLang is a high-performance serving framework for large language models and multimodal models. https://sglang.io \ud83c\udf10 Website | Blog | Documentation | Roadmap | Join Slack | Weekly Dev Meeting | Slides News [2026/07] \ud83d\udd25 SGLang and Miles add day-0 support for Kimi K3 ( blog ). [2026/07] RadixArk and Google bring full SGLang features to TPUs ( blog ). [2026/07] Serving GLM5.2 NVFP4 agentic workloads with SGLang: Reaching 500 TPS in two weeks ( blog ). [2026/06] \ud83d\udd25 The next generation of speculative decoding: DFlash and Spec V2 ( blog ).",
+            "id": "ta_351e2aeb4776a61d",
+            "title": "sooryathejas/METATRON",
+            "url": "https://github.com/sooryathejas/METATRON",
+            "summary": "AI-powered penetration testing assistant using local LLM on linux (Parrot OS) METATRON AI-powered penetration testing assistant using local LLM on linux (Parrot OS) \ud83d\udd31 METATRON AI-Powered Penetration Testing Assistant \ud83d\udccc What is Metatron? Metatron is a CLI-based AI penetration testing assistant that runs entirely on your local machine \u2014 no cloud, no API keys, no subscriptions. You give it a target IP or domain.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -710,7 +710,78 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": []
+        "items": [
+          {
+            "id": "ta_d02abe3b70f4c740",
+            "title": "Show HN: Engrim \u2013 A universal, local-first SQLite memory engine for AI CLIs",
+            "url": "https://github.com/timgordontg/engrim",
+            "summary": "Article URL: https://github.com/timgordontg/engrim Comments URL: https://news.ycombinator.com/item?id=49594008 Points: 52 # Comments: 18",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-07T04:49:36+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_d751cd674791327f",
+            "title": "I refused to train the AI that could replace me",
+            "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
+            "summary": "Article URL: https://restofworld.org/2026/ai-training-jobs-expert-replacement/ Comments URL: https://news.ycombinator.com/item?id=49593959 Points: 86 # Comments: 100",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-07T04:38:22+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_5b887074ff6de198",
+            "title": "How I feel about AI",
+            "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+            "summary": "Article URL: https://beza1e1.tuxen.de/ai_feelings.html Comments URL: https://news.ycombinator.com/item?id=49587128 Points: 159 # Comments: 254",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-06T15:00:19+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_ee0ff344986728ff",
+            "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+            "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+            "summary": "Article URL: https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/ Comments URL: https://news.ycombinator.com/item?id=49585644 Points: 671 # Comments: 412",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-06T11:56:43+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_bbc054e1f15aa330",
+            "title": "AI, Tools and Transformation",
+            "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+            "summary": "Article URL: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation Comments URL: https://news.ycombinator.com/item?id=49582656 Points: 152 # Comments: 70",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-06T02:12:46+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          }
+        ]
       }
     },
     "telecom": {
@@ -868,6 +939,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "te_c8db5fa27f9a681e",
+            "title": "Towards Federated, Green, and Resilient 6G Non-Terrestrial Networks",
+            "url": "https://arxiv.org/abs/2609.05184v1",
+            "summary": "This study focuses on future Non-Terrestrial Networks (NTN) integrated with Terrestrial Networks (TN) for future 5G/6G systems. NTN envisions a 3D architecture, where Low Earth Orbit (LEO) satellite networks will play a key role in bridging the digital divide, complementing the gradual terrestrial 5G/6G rollout concentrated in high-density and high-traffic areas, by ensuring service continuity across broad geographic regions and providing coverage in case of emergencies or in remote areas.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-09-04T14:21:24+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "te_d666fa96a00ad96b",
             "title": "Bringing dApps to OCUDU: An E3 Controller for Real-Time Open RAN Intelligence",
             "url": "https://arxiv.org/abs/2609.03162v1",
@@ -922,26 +1007,26 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "te_ee8c1de829baeb8a",
-            "title": "E2-Conditioned Finite-Horizon Effective Capacity for Public-Safety MCX over Shared O-RAN",
-            "url": "https://arxiv.org/abs/2608.25442v1",
-            "summary": "Supporting public-safety Mission Critical Services (MCX) over a shared Open radio access network (O-RAN) requires service assurance over finite incident horizons, while ordinary mobile traffic competes for the same resources and heterogeneous E2 domains expose different observations, control actions, and actuation latencies. Existing RAN key performance indicators are retrospective, whereas conventional effective capacity characterizes an asymptotic stationary regime and therefore suppresses both the initial E2-observed condition and the finite selection-to-actuation transient.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-08-26T06:55:23+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
       "Light Reading": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_70956d0422f0d1dc",
+            "title": "Eurobites: Vodafone starts offering Quality on Demand API in Germany",
+            "url": "https://www.lightreading.com/wireless/eurobites-vodafone-starts-offering-quality-on-demand-api-in-germany",
+            "summary": "Also in today's regional roundup: TIM management sheds its shares; O2 Business launches satellite service; Greece's Cosmote becomes Telekom.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-09-07T11:48:01+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_7a94dc31bf18a0b4",
             "title": "T-Mobile hands CFO reins to ex-Shell exec Jessica Uhl, as Osvaldik retires",
@@ -992,20 +1077,6 @@
             "source": "Light Reading",
             "tier": 2,
             "published": "2026-09-04T12:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_04306d992aacefd6",
-            "title": "T-Mobile sets CFO transition",
-            "url": "https://www.lightreading.com/finance/t-mobile-sets-cfo-transition",
-            "summary": "T-Mobile said Jessica Uhl, a former CFO of Shell, will succeed Peter Osvaldik as the service provider's CFO in February 2027. Osvaldik will become a strategic advisor until his planned July 1, 2027, retirement. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-09-03T20:49:33+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1093,6 +1164,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_4bb4a8b6cc0d9664",
+            "title": "How AI Is Reshaping Data Center Fiber Networks",
+            "url": "https://www.fierce-network.com/sponsored/how-ai-reshaping-data-center-fiber-networks",
+            "summary": "AI is putting new demands on data center networks. See how multicore, hollow-core and G.654.E fiber technologies can deliver the capacity, density and low latency needed for the next generation of infrastructure.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_de487b71bcc420d9",
             "title": "Broadcom predicts AI chip revenue to double in 2027",
             "url": "https://www.fierce-network.com/broadband/broadcom-predicts-ai-chip-revenue-double-2027",
@@ -1139,20 +1224,6 @@
             "title": "AI agents expose 5G core security risks for telecom operators",
             "url": "https://www.fierce-network.com/wireless/ai-agents-expose-5g-core-security-risks-telecom-operators",
             "summary": "AI agents found dozens of previously unknown flaws in 4G and 5G cores, underscoring why telecom operators and vendors can no longer treat internal network interfaces as automatically trusted.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_6f20f46c27b4b2cd",
-            "title": "T-Mobile taps former Shell CFO Jessica Uhl to help steer next phase of AI and enterprise growth",
-            "url": "https://www.fierce-network.com/wireless/t-mobile-names-jessica-uhl-next-cfo",
-            "summary": "Uhl's background in large-scale infrastructure investments, corporate development and AI initiatives could prove valuable as T-Mobile pursues opportunities across enterprise and emerging AI-driven services.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1396,7 +1467,7 @@
         "items": [
           {
             "id": "to_6a3a62ca594ac19c",
-            "title": "Authors push back as publishers and agents seek share of Anthropic settlement",
+            "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
             "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
             "summary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
             "source": "TechCrunch AI",
@@ -1431,7 +1502,7 @@
             "tier": 2,
             "published": "2026-09-05T22:49:55+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1548,9 +1619,9 @@
         "items": [
           {
             "id": "ca_44c50944f9bd86d0",
-            "title": "Sep 4, 2026ScienceFormalizing Fermat's Last Theorem",
+            "title": "Formalizing Fermat's Last Theorem",
             "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-            "summary": "Sep 4, 2026ScienceFormalizing Fermat's Last Theorem",
+            "summary": "Formalizing Fermat's Last Theorem",
             "source": "Anthropic Research",
             "tier": 1,
             "published": "2026-09-04T00:00:00+00:00",
@@ -1772,6 +1843,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_41f59d7031c49dab",
+            "title": "Automobile Camouflage to Hide from Flock Cameras",
+            "url": "https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
+            "summary": "Not sure it\u2019s practical, but it\u2019s certainly striking .",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-09-07T11:06:40+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_3e337eb2e3a7ed17",
             "title": "Friday Squid Blogging: Squid on a Stick at the New York State Fair",
             "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html",
@@ -1821,20 +1906,6 @@
             "source": "Schneier on Security",
             "tier": 2,
             "published": "2026-09-04T10:35:17+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_f09ef69aa83acd2c",
-            "title": "Researching Employment Scams",
-            "url": "https://www.schneier.com/blog/archives/2026/09/researching-employment-scams.html",
-            "summary": "Researchers built a fake company to study fake employee scams .",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-09-03T11:18:14+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2074,34 +2145,6 @@
         "tier": 1,
         "items": [
           {
-            "id": "co_56663f4ba85a7ed8",
-            "title": "Have the frontier labs mixed up AI safety and security?",
-            "url": "https://martinalderson.com/posts/ai-safety-vs-security/",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-09-06T20:47:52+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "co_652de82a1473808d",
-            "title": "QBittorrent breaks out of sandbox to commit crimes",
-            "url": "https://beige.party/@intransitivelie/117057396732763183",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-09-06T19:08:49+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
             "id": "co_72b4a4e091d227fe",
             "title": "Using machine learning on my Guitar Hero Controller",
             "url": "https://p0ly.com/ml_strummer.html",
@@ -2142,6 +2185,34 @@
               "featured": false,
               "tier": 1
             }
+          },
+          {
+            "id": "co_f568f34bc016b60d",
+            "title": "Researchers use AI to \u2018democratize\u2019 3D printing of crucial metal alloy",
+            "url": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy/",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-09-01T22:42:12+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "co_ab514fb2d1d54610",
+            "title": "44% on ARC-AGI-1 in 67 cents",
+            "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-09-01T17:15:18+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
           }
         ]
       },
@@ -2169,12 +2240,34 @@
         "license_type": "proprietary"
       },
       {
+        "name": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "slug": "claude-fable-5-1-xhigh",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh",
+        "creator": "Anthropic",
+        "intelligence_index": 56.2,
+        "coding_index": 80.7,
+        "price_blended": 20,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
         "name": "GPT-6 Astra (max)",
         "slug": "gpt-6-astra",
         "url": "https://artificialanalysis.ai/models/gpt-6-astra",
         "creator": "OpenAI",
         "intelligence_index": 54.7,
         "coding_index": 76.9,
+        "price_blended": 20,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
+        "name": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+        "slug": "claude-fable-5-1-high",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high",
+        "creator": "Anthropic",
+        "intelligence_index": 54.5,
+        "coding_index": 79.1,
         "price_blended": 20,
         "is_open_weights": false,
         "license_type": "proprietary"
@@ -2198,17 +2291,6 @@
         "intelligence_index": 54.1,
         "coding_index": 78,
         "price_blended": 10,
-        "is_open_weights": false,
-        "license_type": "proprietary"
-      },
-      {
-        "name": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
-        "slug": "claude-fable-5-1-xhigh",
-        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-xhigh",
-        "creator": "Anthropic",
-        "intelligence_index": 53.8,
-        "coding_index": 80.7,
-        "price_blended": 20,
         "is_open_weights": false,
         "license_type": "proprietary"
       },
@@ -2257,6 +2339,17 @@
         "license_type": "proprietary"
       },
       {
+        "name": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+        "slug": "claude-fable-5-1-medium",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium",
+        "creator": "Anthropic",
+        "intelligence_index": 52.8,
+        "coding_index": 77.1,
+        "price_blended": 20,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
         "name": "GPT-6 Astra (medium)",
         "slug": "gpt-6-astra-medium",
         "url": "https://artificialanalysis.ai/models/gpt-6-astra-medium",
@@ -2275,17 +2368,6 @@
         "intelligence_index": 52,
         "coding_index": 76.5,
         "price_blended": 10,
-        "is_open_weights": false,
-        "license_type": "proprietary"
-      },
-      {
-        "name": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
-        "slug": "claude-fable-5-1-high",
-        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-high",
-        "creator": "Anthropic",
-        "intelligence_index": 51.7,
-        "coding_index": 79.1,
-        "price_blended": 20,
         "is_open_weights": false,
         "license_type": "proprietary"
       },
@@ -2312,6 +2394,17 @@
         "license_type": "proprietary"
       },
       {
+        "name": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
+        "slug": "claude-fable-5-1-low",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low",
+        "creator": "Anthropic",
+        "intelligence_index": 50.9,
+        "coding_index": 75.2,
+        "price_blended": 20,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
         "name": "Grok 4.6 (high)",
         "slug": "grok-4-6",
         "url": "https://artificialanalysis.ai/models/grok-4-6",
@@ -2334,13 +2427,13 @@
         "license_type": "proprietary"
       },
       {
-        "name": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
-        "slug": "claude-fable-5-1-medium",
-        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-medium",
-        "creator": "Anthropic",
+        "name": "Grok 4.6 (xhigh)",
+        "slug": "grok-4-6-xhigh",
+        "url": "https://artificialanalysis.ai/models/grok-4-6-xhigh",
+        "creator": "SpaceXAI",
         "intelligence_index": 49.9,
-        "coding_index": 77.1,
-        "price_blended": 20,
+        "coding_index": 75.9,
+        "price_blended": 3,
         "is_open_weights": false,
         "license_type": "proprietary"
       },
@@ -2354,50 +2447,32 @@
         "price_blended": 8,
         "is_open_weights": false,
         "license_type": "proprietary"
-      },
-      {
-        "name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-        "slug": "claude-opus-5-medium",
-        "url": "https://artificialanalysis.ai/models/claude-opus-5-medium",
-        "creator": "Anthropic",
-        "intelligence_index": 49.5,
-        "coding_index": 74.3,
-        "price_blended": 10,
-        "is_open_weights": false,
-        "license_type": "proprietary"
-      },
-      {
-        "name": "GPT-6 Astra (low)",
-        "slug": "gpt-6-astra-low",
-        "url": "https://artificialanalysis.ai/models/gpt-6-astra-low",
-        "creator": "OpenAI",
-        "intelligence_index": 49.3,
-        "coding_index": 75.7,
-        "price_blended": 20,
-        "is_open_weights": false,
-        "license_type": "proprietary"
       }
     ],
     "default_sort": "intelligence_index",
     "new_entrants": {
-      "all": [],
-      "paid": [],
+      "all": [
+        "claude-fable-5-1-high"
+      ],
+      "paid": [
+        "claude-fable-5-1-high"
+      ],
       "open": []
     },
     "previous_top_slugs": {
       "all": [
         "claude-fable-5-1",
+        "claude-fable-5-1-xhigh",
         "gpt-6-astra",
-        "gpt-6-astra-xhigh",
-        "claude-opus-5",
-        "claude-fable-5-1-xhigh"
+        "claude-fable-5-1-high",
+        "gpt-6-astra-xhigh"
       ],
       "paid": [
         "claude-fable-5-1",
+        "claude-fable-5-1-xhigh",
         "gpt-6-astra",
-        "gpt-6-astra-xhigh",
-        "claude-opus-5",
-        "claude-fable-5-1-xhigh"
+        "claude-fable-5-1-high",
+        "gpt-6-astra-xhigh"
       ],
       "open": []
     }
