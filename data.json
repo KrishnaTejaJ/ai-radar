@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-09-07T21:53:36.886178+00:00",
+    "last_updated": "2026-09-08T12:05:04.599868+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 140,
+      "fetched": 145,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -637,38 +637,10 @@
         "tier": 2,
         "items": [
           {
-            "id": "ta_930dd1342c71cfa2",
-            "title": "NousResearch/hermes-agent",
-            "url": "https://github.com/NousResearch/hermes-agent",
-            "summary": "The agent that grows with you https://hermes-agent.nousresearch.com Hermes Agent \u2624 Hermes Agent | Hermes Desktop The self-improving AI agent built by Nous Research . It's the only agent with a built-in learning loop \u2014 it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop \u2014 talk to it from Telegram while it works on a cloud VM.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_4aff7db928cd1cdc",
-            "title": "openai/skills",
-            "url": "https://github.com/openai/skills",
-            "summary": "Skills Catalog for Codex Important This repository is deprecated. For current Codex skill and plugin examples, use the OpenAI Plugins repository . If you want to add your own skills to Codex, follow the Build plugins guide, which includes instructions for creating a skill-only plugin. Agent Skills Agent Skills are folders of instructions, scripts, and resources that AI agents can discover and use to perform at specific tasks. Write once, use everywhere. Codex uses skills to help package capabilities that teams and individuals can use to complete specific tasks in a repeatable way.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_db09b457282c5683",
-            "title": "blader/humanizer",
-            "url": "https://github.com/blader/humanizer",
-            "summary": "Agent skill that removes signs of AI-generated writing from text https://skills.sh/blader/humanizer Humanizer Humanizer rewrites AI-sounding text so it reads like a person wrote it, without changing what it says. Because it is just Markdown, it works with any agent that supports skills. Installation Install Humanizer with the Skills CLI: npx skills add blader/humanizer --global Leave off --global to install Humanizer only in the current project. Add --agent <name> or --agent '*' to choose which agents receive it, then reload their skills. The skill answers to /humanizer .",
+            "id": "ta_8d319652f14e2c9b",
+            "title": "microsoft/markitdown",
+            "url": "https://github.com/microsoft/markitdown",
+            "summary": "Python tool for converting files and office documents to Markdown. MarkItDown Important MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest convert_* function needed for your use case (e.g., convert_stream() , or convert_local() ). See the Security Considerations section of the documentation for more information.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -693,10 +665,38 @@
             }
           },
           {
-            "id": "ta_351e2aeb4776a61d",
-            "title": "sooryathejas/METATRON",
-            "url": "https://github.com/sooryathejas/METATRON",
-            "summary": "AI-powered penetration testing assistant using local LLM on linux (Parrot OS) METATRON AI-powered penetration testing assistant using local LLM on linux (Parrot OS) \ud83d\udd31 METATRON AI-Powered Penetration Testing Assistant \ud83d\udccc What is Metatron? Metatron is a CLI-based AI penetration testing assistant that runs entirely on your local machine \u2014 no cloud, no API keys, no subscriptions. You give it a target IP or domain.",
+            "id": "ta_ab15f474a2763269",
+            "title": "bytedance/deer-flow",
+            "url": "https://github.com/bytedance/deer-flow",
+            "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. https://deerflow.tech \ud83e\udd8c DeerFlow - 2.0 English | \u4e2d\u6587 | \u65e5\u672c\u8a9e | Fran\u00e7ais | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 On February 28th, 2026, DeerFlow claimed the \ud83c\udfc6 #1 spot on GitHub Trending following the launch of version 2.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_4aff7db928cd1cdc",
+            "title": "openai/skills",
+            "url": "https://github.com/openai/skills",
+            "summary": "Skills Catalog for Codex Important This repository is deprecated. For current Codex skill and plugin examples, use the OpenAI Plugins repository . If you want to add your own skills to Codex, follow the Build plugins guide, which includes instructions for creating a skill-only plugin. Agent Skills Agent Skills are folders of instructions, scripts, and resources that AI agents can discover and use to perform at specific tasks. Write once, use everywhere. Codex uses skills to help package capabilities that teams and individuals can use to complete specific tasks in a repeatable way.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_2150853287a431dc",
+            "title": "pytorch/pytorch",
+            "url": "https://github.com/pytorch/pytorch",
+            "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration https://pytorch.org PyTorch is a Python package that provides two high-level features: Tensor computation (like NumPy) with strong GPU acceleration Deep neural networks built on a tape-based autograd system You can reuse your favorite Python packages such as NumPy, SciPy, and Cython to extend PyTorch when needed. Our trunk health (Continuous Integration signals) can be found at hud.pytorch.org .",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -710,7 +710,78 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": []
+        "items": [
+          {
+            "id": "ta_1606cfe2c2a91a41",
+            "title": "Multi-Agents LLM Financial Trading Framework",
+            "url": "https://github.com/TauricResearch/TradingAgents",
+            "summary": "Article URL: https://github.com/TauricResearch/TradingAgents Comments URL: https://news.ycombinator.com/item?id=49605822 Points: 70 # Comments: 47",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-08T05:20:23+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_1d5d295e3c2083d8",
+            "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+            "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+            "summary": "Article URL: https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics Comments URL: https://news.ycombinator.com/item?id=49605511 Points: 54 # Comments: 37",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-08T04:06:20+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_6b53dde1b0f133f2",
+            "title": "AI Cold Showers",
+            "url": "https://allan.reyes.sh/posts/ai-cold-showers/",
+            "summary": "Article URL: https://allan.reyes.sh/posts/ai-cold-showers/ Comments URL: https://news.ycombinator.com/item?id=49601810 Points: 75 # Comments: 12",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-07T19:05:39+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_48bba5baa06d9fe3",
+            "title": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200",
+            "url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+            "summary": "Article URL: https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses Comments URL: https://news.ycombinator.com/item?id=49601338 Points: 100 # Comments: 117",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-07T18:24:32+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_64868ada1cab46cc",
+            "title": "Initial effects of AI technology on employment look positive",
+            "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+            "summary": "https://archive.md/5hi5i Comments URL: https://news.ycombinator.com/item?id=49596610 Points: 89 # Comments: 133",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-09-07T10:38:32+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          }
+        ]
       }
     },
     "telecom": {
@@ -943,6 +1014,62 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_5a688c91e2b1949d",
+            "title": "Harmonic puts network AI on the revenue radar",
+            "url": "https://www.lightreading.com/ai-machine-learning/harmonic-puts-network-ai-on-the-revenue-radar",
+            "summary": "Amid its move to become a 'pure-play' broadband tech company, Harmonic is placing a bigger bet on AI with a platform designed to boost broadband network performance and goose net promoter scores.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-09-08T12:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_075c1c9fb7611ba7",
+            "title": "The Divide: How Oklahoma is meeting digital needs with Community Access Portals",
+            "url": "https://www.lightreading.com/broadband/the-divide-how-oklahoma-is-meeting-digital-needs-with-community-access-portals",
+            "summary": "This week: Mike Sanders, executive director, Oklahoma broadband office, discusses progress made toward the state's connectivity goals and a new ARPA-funded effort to roll out 175 Community Access Portals in libraries statewide.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-09-08T12:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_8a0bcfbc2d17c16e",
+            "title": "Eurobites: Nokia launches mobile core testing program",
+            "url": "https://www.lightreading.com/mobile-core/eurobites-nokia-launches-mobile-core-testing-program",
+            "summary": "Also in today's EMEA regional roundup: GSMA lobbies for 6GHz spectrum; Poste Italiane increases cash offer for TIM; Kyivstar makes progress on 3G-to-4G transition.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-09-08T11:01:56+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_c5356d06f781da3f",
+            "title": "Nokia plans sweeping Bell Labs cuts to alarm of ex-president",
+            "url": "https://www.lightreading.com/business-transformation/nokia-plans-sweeping-bell-labs-cuts-to-alarm-of-ex-president",
+            "summary": "Former Bell Labs boss Marcus Weldon weighs in with new harsh criticism of Nokia leadership as the famous research unit falls victim to more cuts.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-09-08T07:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_41528c37d9cd583f",
             "title": "Telstra's fault: review blames timer failure for Aussie outage",
             "url": "https://www.lightreading.com/wireless/telstra-s-fault-review-blames-timer-failure-for-aussie-outage",
@@ -952,62 +1079,6 @@
             "published": "2026-09-07T13:47:20+00:00",
             "flags": {
               "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_70bf19de13dfb621",
-            "title": "ASC cable break disrupts key Australia-Singapore route",
-            "url": "https://www.lightreading.com/cable-technology/asc-cable-break-disrupts-key-australia-singapore-route",
-            "summary": "Vocus' Australia-Singapore Cable (ASC) suffered a cable break in Indonesian waters with Internet traffic rerouted via alternative paths.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-09-07T12:05:40+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_70956d0422f0d1dc",
-            "title": "Eurobites: Vodafone starts offering Quality on Demand API in Germany",
-            "url": "https://www.lightreading.com/wireless/eurobites-vodafone-starts-offering-quality-on-demand-api-in-germany",
-            "summary": "Also in today's regional roundup: TIM management sheds its shares; O2 Business launches satellite service; Greece's Cosmote becomes Telekom.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-09-07T11:48:01+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_7a94dc31bf18a0b4",
-            "title": "T-Mobile hands CFO reins to ex-Shell exec Jessica Uhl, as Osvaldik retires",
-            "url": "https://www.lightreading.com/business-transformation/t-mobile-hands-cfo-reins-to-ex-shell-exec-jessica-uhl-as-osvaldik-retires",
-            "summary": "T-Mobile appoints former Shell executive Jessica Uhl to take over as CFO when Peter Osvaldik steps down in February next year and retires in July 2027, as planned.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-09-04T16:12:14+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_83dae0bffe0d24d7",
-            "title": "Ciena expects supply constraints to push backlog past $10B by year's end",
-            "url": "https://www.lightreading.com/finance/ciena-expects-supply-issues-will-push-backlog-past-10b-by-year-s-end",
-            "summary": "As Ciena's revenues continue to rise rapidly on a wave of AI-related networking spend, its ability to meet demand is constrained by supply chain issues, while stock markets continue to frown upon its shares.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-09-04T13:03:24+00:00",
-            "flags": {
-              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1093,6 +1164,34 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_ff8806ba11117e70",
+            "title": "Proposed U.S. ban on Chinese optical transceivers threatens AI data center boom",
+            "url": "https://www.fierce-network.com/broadband/proposed-us-ban-chinese-optical-transceivers-threatens-ai-data-center-boom",
+            "summary": "Two major networking equipment vendors warned a proposed U.S. ban on Chinese optical transceivers could choke off a key AI data center supply line and domestic alternatives may take years to scale.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_fff46bb56182acee",
+            "title": "Opinion: Huawei trial opens in Brooklyn as DOJ drops some charges",
+            "url": "https://www.fierce-network.com/broadband/opinion-huawei-trial-opens-brooklyn-doj-drops-some-charges",
+            "summary": "Huawei's landmark RICO trial opens with the DOJ quietly trimming parts of its case, as a U.S. victory could disrupt communications and financial infrastructure across the developing world.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_4bb4a8b6cc0d9664",
             "title": "How AI Is Reshaping Data Center Fiber Networks",
             "url": "https://www.fierce-network.com/sponsored/how-ai-reshaping-data-center-fiber-networks",
@@ -1125,34 +1224,6 @@
             "title": "MasOrange, Ericsson test 6 GHz spectrum in early step toward 6G future",
             "url": "https://www.fierce-network.com/newswire/masorange-ericsson-test-6-ghz-spectrum-early-step-toward-6g-future",
             "summary": "MasOrange and Ericsson successfully tested the 6 GHz band, a leading candidate for future 6G networks, validating advanced antenna technologies that could quadruple network capacity while supporting AI-driven services, digital twins and next-generation automation.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_abda614c6ddac7c9",
-            "title": "Elliott pushes Deutsche Telekom to prioritize buybacks over T-Mobile US mega-merger",
-            "url": "https://www.fierce-network.com/wireless/dt-gets-pushback-elliott-over-t-mobile-merger-plans-reports",
-            "summary": "Elliott Investment Management is urging Germany\u2019s Deutsche Telekom (DT) to back off a potential mega-merger plan with DT\u2019s U.S.-based T-Mobile, according to reports.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_7af6d53976a97cf5",
-            "title": "AI agents expose 5G core security risks for telecom operators",
-            "url": "https://www.fierce-network.com/wireless/ai-agents-expose-5g-core-security-risks-telecom-operators",
-            "summary": "AI agents found dozens of previously unknown flaws in 4G and 5G cores, underscoring why telecom operators and vendors can no longer treat internal network interfaces as automatically trusted.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1772,6 +1843,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_0f59b0557ff72f9e",
+            "title": "Stealing AI Reasoning Traces",
+            "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+            "summary": "Interesting research: \u201c Stealing Reasoning Traces from Proprietary LLM APIs \u201c: Abstract: Leading large language model providers now conceal their models\u2019 step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the client passes back with each subsequent request.",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-09-08T10:20:04+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_41f59d7031c49dab",
             "title": "Automobile Camouflage to Hide from Flock Cameras",
             "url": "https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html",
@@ -1780,7 +1865,7 @@
             "tier": 2,
             "published": "2026-09-07T11:06:40+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1821,20 +1906,6 @@
             "source": "Schneier on Security",
             "tier": 2,
             "published": "2026-09-04T11:09:35+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_11dd1f9bea0797bc",
-            "title": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
-            "url": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html",
-            "summary": "We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they found (many sites hosted both an llms.txt and an llms-full.txt file), 120 of them, each on a different site, pointed to one or more code packages or domain names that weren\u2019t registered.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-09-04T10:35:17+00:00",
             "flags": {
               "new": false,
               "featured": false,
