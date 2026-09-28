@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-09-28T15:15:47.448080+00:00",
+    "last_updated": "2026-09-28T20:01:02.665209+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 125,
+      "fetched": 140,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -487,6 +487,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_a60924225d5c6558",
+            "title": "Why your startup needs open models alongside frontier APIs",
+            "url": "https://cloud.google.com/blog/topics/startups/why-your-startup-needs-open-models-alongside-frontier-apis/",
+            "summary": "Every week, I talk with founders who are building at an unbelievable pace. Teams are moving from inception to product-market fit faster than ever, with foundation models wired deeply into their core product workflows. Yet as startup architectures mature, a clear divide has emerged between teams struggling with margins and those scaling sustainably. The most effective engineering teams have abandoned the one-size-fits-all model strategy. In the early days of LLMs the default architecture was simple: send every interaction to the largest model available.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-09-28T16:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_e6715c6d3ca2ea3c",
             "title": "Best practices guide for customizing Gemini models via Reinforcement Learning (RL)",
             "url": "https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/",
@@ -536,20 +550,6 @@
             "source": "Google Cloud AI",
             "tier": 2,
             "published": "2026-09-24T13:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_f3dfbde711c72f9f",
-            "title": "Changing the game: Using agentic AI to secure infrastructure code",
-            "url": "https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/",
-            "summary": "AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach security. In this article, we discuss new AI-native agentic methods that we\u2019ve developed that systematically embed high-precision, pervasive vulnerability scanning and patching directly into Google\u2019s software development lifecycle.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-09-18T16:00:00+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -716,27 +716,240 @@
     "telecom": {
       "arXiv: 5G + LLM": {
         "tier": 1,
-        "items": []
+        "items": [
+          {
+            "id": "te_964ea43673c1d5d9",
+            "title": "Multi-Agent Orchestration of 3GPP Channel Estimators",
+            "url": "https://arxiv.org/abs/2609.29044v1",
+            "summary": "Pilot-aided channel estimation is a decisive block in orthogonal frequency-division multiplexing (OFDM) receivers for both 5G New Radio (5G-NR) and Long-Term Evolution (LTE). A large body of estimators exists, from simple least-squares (LS) interpolation to statistically optimal linear minimum-mean-square-error (LMMSE) variants and, more recently, deep convolutional denoisers, yet no single estimator is uniformly best: the winner depends on the propagation scenario, the numerology, the operating signal-to-noise ratio (SNR), the mobility (Doppler), and the antenna configuration.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-09-24T05:23:54+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_79f718d48c1caebb",
+            "title": "Evolving Inspectable O-RAN Slicing xApps with LLMs",
+            "url": "https://arxiv.org/abs/2609.27337v1",
+            "summary": "Open RAN (O-RAN) slicing xApps must adapt resource allocations to changing channel conditions and traffic demands while meeting service-level agreements (SLAs). Deep reinforcement learning can produce adaptive policies, but their allocation rules remain encoded in neural-network parameters. Our goal is to retain this adaptability while making the controller's decision logic directly inspectable and editable by operators. We use a large language model (LLM) to evolve slicing controllers as compact Python programs whose decision logic remains readable and editable after optimization.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-09-23T04:18:48+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_962c8a720447729f",
+            "title": "Multi-Agent Video Prediction: Self-Correcting Conditional Frames for Dynamic Scene Forecasting",
+            "url": "https://arxiv.org/abs/2609.25302v1",
+            "summary": "Transmission latency significantly degrades user quality of experience in real-time interactive perception systems. In remote driving, maintaining reliable visual feedback is critical for safe operation under dynamic network variability. Although video prediction offers a promising approach to compensate for short-term transmission delays and approximate near-zero-latency streaming, prediction-only methods remain vulnerable in highly dynamic scenes, especially when newly emerged objects appear during uplink outages.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-09-21T18:53:05+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_60c2e47dae3d772e",
+            "title": "Impact of Data Compression on Downstream AI Tasks: A Study using Teleoperated Driving over 5G",
+            "url": "https://arxiv.org/abs/2609.25290v1",
+            "summary": "Teleoperation, such as remote driving, is considered as a key use case of 5G and Next-Generation (NextG) networks. In this context, robots, autonomous vehicles, or other autonomous agents transmit sensor data over mobile networks to edge or cloud servers, where AI systems collaborate with human operators to provide situational awareness and enable remote control. In the case of teleoperated driving, vehicles are equipped with an array of cameras and LiDAR devices, which can generate 100s Mbps (megabits per second) of data.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-09-21T18:33:24+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_18d9309c2ab87765",
+            "title": "Autonomy in Check: Governor-Mediated Adaptive Security at the Edge",
+            "url": "https://arxiv.org/abs/2609.18338v1",
+            "summary": "Adaptive security at the network edge increasingly relies on automated planners, including rule-based controllers, learned policies, and LLM-assisted agents, that translate observations into enforcement actions. Once such a planner can influence live policy state, syntactic validity is not enough. A semantically wrong action, produced from incomplete or manipulated observations, can be faithfully executed by an enforcement substrate that cannot judge mission context.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-09-16T09:00:34+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          }
+        ]
       },
       "arXiv: RAN anomaly": {
         "tier": 1,
-        "items": []
+        "items": [
+          {
+            "id": "te_4ebc6d9c56886f53",
+            "title": "Computation-Limited Signals in Practice: A Throughput Anomaly in Software-Defined O-RAN PHY Layers",
+            "url": "https://arxiv.org/abs/2609.06666v1",
+            "summary": "We formalize a performance anomaly in software-based wireless physical-layer (PHY) implementations, a key enabling technology for Open Radio Access Network (O-RAN) systems. For a fixed offered load, the number of PHY symbols required to transmit the load decreases as the nominal bit rate increases because each symbol conveys more bits. Shorter bursts, however, provide fewer opportunities to exploit pipelined modulation, transmission, and demodulation.",
+            "source": "arXiv: RAN anomaly",
+            "tier": 1,
+            "published": "2026-09-06T15:16:11+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_cb5e350673d80afa",
+            "title": "TriSLA: A Preventive and Closed-Loop SLA-Aware Architecture for Multidomain Decision-Making with Explainable Artificial Intelligence in 5G Networks",
+            "url": "https://arxiv.org/abs/2609.01293v1",
+            "summary": "Network slicing in multidomain 5G environments introduces critical challenges in guaranteeing Service Level Agreements (SLAs) under dynamic resource variability and heterogeneous service requirements. This article presents TriSLA, a closed-loop, preventive, SLA-aware architecture designed to evaluate feasibility at request time and continuously ensure SLA compliance during operation.",
+            "source": "arXiv: RAN anomaly",
+            "tier": 1,
+            "published": "2026-09-01T14:27:24+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_89cdb374e863e454",
+            "title": "Free-Text Evaluation of LLMs for 5G Domain Knowledge and Fault Analysis using LLM-as-Judge",
+            "url": "https://arxiv.org/abs/2608.21021v1",
+            "summary": "Real-world fault analysis in 5G and emerging 6G networks demands domain expertise to analyze free-text diagnostics, including root-cause explanations and recommended actions. LLMs have emerged as a promising approach to automating this, yet whether lightweight, edge-deployable models are capable of performing in-depth free-text diagnostics remains an open question. While existing benchmarks rely on restrictive MCQs with fixed answer keys, this paper evaluates 5G domain understanding and fault analysis in a free-text generation format.",
+            "source": "arXiv: RAN anomaly",
+            "tier": 1,
+            "published": "2026-08-21T12:09:51+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_ddd680b8b4148fe1",
+            "title": "Explainability Boosted Anomaly Detection Framework for O-RAN based NextG Networks",
+            "url": "https://arxiv.org/abs/2608.14826v1",
+            "summary": "The wireless networks have historically faced significant security vulnerabilities, necessitating advanced anomaly detection mechanisms, especially as networks evolve towards 6G and beyond. This study introduces an advanced anomaly detection framework that leverages explainable artificial intelligence to enhance the security of next-generation (NextG) cellular networks.",
+            "source": "arXiv: RAN anomaly",
+            "tier": 1,
+            "published": "2026-08-14T18:59:45+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_4cd7bd020a50d8d4",
+            "title": "C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage",
+            "url": "https://arxiv.org/abs/2607.25828v1",
+            "summary": "The shift to O-RAN architectures marks a turning point in cellular security, where increased openness and modularity directly translate into a broader attack surface. Among the security threats cataloged by the O-RAN Alliance Working Group 11, performance-degradation attacks constitute the largest class. These attacks induce packet losses and latency spikes that are hard to distinguish from operational events such as misconfigurations, transient congestion, or software regressions.",
+            "source": "arXiv: RAN anomaly",
+            "tier": 1,
+            "published": "2026-07-28T15:07:47+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          }
+        ]
       },
       "arXiv: O-RAN": {
         "tier": 1,
-        "items": []
+        "items": [
+          {
+            "id": "te_79f718d48c1caebb",
+            "title": "Evolving Inspectable O-RAN Slicing xApps with LLMs",
+            "url": "https://arxiv.org/abs/2609.27337v1",
+            "summary": "Open RAN (O-RAN) slicing xApps must adapt resource allocations to changing channel conditions and traffic demands while meeting service-level agreements (SLAs). Deep reinforcement learning can produce adaptive policies, but their allocation rules remain encoded in neural-network parameters. Our goal is to retain this adaptability while making the controller's decision logic directly inspectable and editable by operators. We use a large language model (LLM) to evolve slicing controllers as compact Python programs whose decision logic remains readable and editable after optimization.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-09-23T04:18:48+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_80813000b95fad11",
+            "title": "Objective Video Quality Assessment in FWA-Based Over-the-Top Content Delivery Across Open Source 5G Networks",
+            "url": "https://arxiv.org/abs/2609.25423v1",
+            "summary": "This paper presents a comprehensive experimental video quality assessment in 5G-based Fixed Wireless Access (FWA) networks, leveraging a real open source 5G network testbed. Addressing the critical need for robust UHD video delivery, the study systematically investigates the impact of transmission modes (SISO and MIMO), modulation schemes (64-QAM and 256-QAM), and network load (one to five users) on both network throughput and perceived video quality.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-09-21T21:21:32+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_61b93a70e9b0e077",
+            "title": "rApp/xApp Attestation: A New Security Use Case for O-RAN",
+            "url": "https://arxiv.org/abs/2609.24296v1",
+            "summary": "The disaggregation and softwarization introduced by the Open Radio Access Network (O-RAN) architecture enable multi-vendor innovation but also expose the RAN Intelligent Controller (RIC) ecosystem to new runtime security risks. Existing O-RAN specifications define strong safeguards for onboarding, authentication, identity management, and secure communication; however, they do not provide a concrete mechanism for verifying whether deployed rApps and xApps remain in their intended, untampered state during operation.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-09-21T08:56:36+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_da7f23a15ef6fe68",
+            "title": "Tick-Tock on the Open Fronthaul: Securing Synchronization in O-RAN",
+            "url": "https://arxiv.org/abs/2609.22525v1",
+            "summary": "The Precision Time Protocol (PTP) provides the time and phase synchronization required by disaggregated Open Radio Access Networks (O-RAN). Yet, in current open fronthaul deployments, PTP traffic lacks mandatory authentication and integrity protection, leaving synchronization vulnerable to spoofing, replay, and delay manipulation attacks that can degrade radio access performance. Existing protections are poorly suited to this setting: they either add excessive latency, do not support multicast dissemination efficiently, or fail to contain key exposure under partially trusted RUs.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-09-18T19:31:03+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_4d0e8d6bec944f22",
+            "title": "RUN-O-RAN: An O-RAN-Native Architecture Enabling Cooperative Uplink Localization",
+            "url": "https://arxiv.org/abs/2609.20640v1",
+            "summary": "Accurate positioning is increasingly required in indoor and dense urban environments; nonetheless, satellite-based systems are not always available, and standardized 5G localization solutions remain difficult to deploy with commercial devices. This paper presents RUN-O-RAN, an O-RAN-native framework that enables network-centric uplink localization using standard Sounding Reference Signal (SRS) transmissions from commercial 5G devices.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-09-17T16:23:34+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          }
+        ]
       },
       "Light Reading": {
         "tier": 2,
         "items": [
           {
-            "id": "te_78552230f3ec7cf2",
-            "title": "Ofcom blocks Openreach discount to safeguard network competition",
-            "url": "https://www.lightreading.com/regulatory-politics/ofcom-blocks-openreach-discount-to-safeguard-network-competition",
-            "summary": "UK telecoms regulator Ofcom has blocked one of the discounts under incumbent Openreach's pricing scheme, saying it risked preventing competition from developing.",
+            "id": "te_a058cad3df16bc9f",
+            "title": "Trust in network providers is holding back AI and digital transformation initiatives \u2013 Arelion",
+            "url": "https://www.lightreading.com/ai-machine-learning/trust-in-network-providers-is-holding-back-ai-and-digital-transformation-initiatives-arelion",
+            "summary": "58% of enterprise leaders have delayed, scaled back, or introduced additional safeguards around strategic initiatives due to concerns about their network provider, according to new research from Arelion. #pressrelease",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-09-28T14:29:12+00:00",
+            "published": "2026-09-28T19:09:14+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -744,13 +957,13 @@
             }
           },
           {
-            "id": "te_25a9fd6a7ca6c61e",
-            "title": "Hana Financial Group banks on private 5G from Samsung and SK Telecom",
-            "url": "https://www.lightreading.com/5g/hana-financial-group-banks-on-private-5g-from-samsung-and-sk-telecom",
-            "summary": "Samsung and SK Telekom deploy private 5G 'smart office' for Hana Financial Group headquarters in Incheon, South Korea, claiming the first of its kind in the country's financial sector. #pressrelease",
+            "id": "te_08dacb998565dcd3",
+            "title": "MaxLinear intros 'AI-ready' Puma 9 DOCSIS chipset",
+            "url": "https://www.lightreading.com/cable-technology/maxlinear-intros-ai-ready-puma-9-docsis-chipset",
+            "summary": "MaxLinear aims to slash costs with the Puma 9, a new DOCSIS chip for DOCSIS 4.0, D.3.1+ and D3.0 modems and gateways. #pressrelease",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-09-28T14:23:57+00:00",
+            "published": "2026-09-28T18:13:13+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -758,13 +971,13 @@
             }
           },
           {
-            "id": "te_ef7a8c91d4da5d15",
-            "title": "AOI's 3GHz demo offers peek at HFC's future, and a preview of the big challenges ahead",
-            "url": "https://www.lightreading.com/cable-technology/aoi-s-3ghz-demo-offers-peek-at-hfc-s-future-and-a-preview-of-the-big-challenges-ahead",
-            "summary": "At this week's SCTE TechExpo, AOI will demo a prototype 3GHz amp to show the art of the possible, but says big barriers remain in area, particularly with respect to network power, before such tech will be ready for prime time.",
+            "id": "te_062f8ca052cd6634",
+            "title": "CableLabs supercharges DOCSIS 4.0 with 25-Gig 'annex'",
+            "url": "https://www.lightreading.com/cable-technology/cablelabs-supercharges-docsis-4-0-with-25-gig-annex-",
+            "summary": "A year after announcing the initiative, CableLabs has completed the specifications for an 'optional annex' to DOCSIS 4.0 that pushes spectrum to 3GHz and downstream speeds to 25 Gbit/s.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-09-28T14:22:52+00:00",
+            "published": "2026-09-28T17:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -772,13 +985,13 @@
             }
           },
           {
-            "id": "te_632d9317e2d9e57d",
-            "title": "Eurobites: Vodafone hooks up with Digital Virgo for safer phone payments",
-            "url": "https://www.lightreading.com/security/eurobites-vodafone-hooks-up-with-digital-virgo-for-safer-phone-payments",
-            "summary": "Also in today's EMEA regional roundup: Apax close to Odido deal, says FT report; Ericsson's plan for Japan; Poste bid fails to make the grade.",
+            "id": "te_470efb43bea3247e",
+            "title": "Starship reaches orbit, releases 26 high-capacity 'V3' Starlink satellites",
+            "url": "https://www.lightreading.com/satellite/starship-reaches-orbit-releases-26-high-capacity-v3-starlink-satellites",
+            "summary": "SpaceX's Starship program took a big step forward today as the upper-stage vehicle successfully achieved orbit and deployed 26 'V3' Starlink broadband satellites.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-09-28T12:01:13+00:00",
+            "published": "2026-09-28T16:40:36+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -786,13 +999,13 @@
             }
           },
           {
-            "id": "te_9d5f2e3a88016ceb",
-            "title": "Google sets 'Suncatcher' AI orbital data center test launch for March 1",
-            "url": "https://www.lightreading.com/satellite/google-sets-first-test-launch-of-suncatcher-ai-orbital-data-center",
-            "summary": "Google's 'Project Suncatcher' will soon deploy an orbital data center prototype to test its tolerance for low-Earth orbit space travel.",
+            "id": "te_177ed5657b6825c7",
+            "title": "Spectrum touts AI edge progress at TechExpo",
+            "url": "https://www.lightreading.com/cable-technology/spectrum-touts-ai-edge-progress-at-techexpo",
+            "summary": "Tied into its AI edge strategy, Spectrum announced partnerships and demos for this week's SCTE TechExpo in Atlanta. #pressrelease",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-09-28T12:00:00+00:00",
+            "published": "2026-09-28T16:17:56+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -804,6 +1017,20 @@
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_d35aaebae962b44e",
+            "title": "\u201cBiggest risk with AI-RAN is repeating mistakes of 5G\u201d, says SK Telecom",
+            "url": "https://rcrwireless.com/20260928/ai-infrastructure/biggest-risk-with-ai-ran-is-repeating-mistakes-of-5g-says-sk-telecom",
+            "summary": "SK Telecom warns telcos not to repeat their 5G mistakes with AI-RAN \u2013 while Optus considers how they should re-architect their infrastructure as \u201csocial networks for agents\u201d. In sum \u2013\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-09-28T15:32:12+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_ca6a2abf5eb7b760",
             "title": "Foundational innovations shaping 6G: MIMO",
@@ -859,20 +1086,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_48fad8a667496277",
-            "title": "Massive MU-MIMO in FDD: \u2018Simply outstanding\u2019 in the uplink",
-            "url": "https://rcrwireless.com/20260927/test-and-measurement/5g-mu-mimo-fdd-uplink",
-            "summary": "In sum, what to know: -Signals Research Group recently conducted what is almost certainly the first independent testing of 5G massive and Multi-User MIMO in FDD spectrum, in a live\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-09-28T04:45:34+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -880,10 +1093,10 @@
         "tier": 2,
         "items": [
           {
-            "id": "te_7c0d1d3f062585b3",
-            "title": "Deterministic Networks by Design: Why Telecom Operators Can't Afford to Guess",
-            "url": "https://www.fierce-network.com/sponsored/deterministic-networks-design-why-telecom-operators-cant-afford-guess",
-            "summary": "Why can't AI touch the live network yet? Because \"probably right\" isn't enough when a wrong guess has no undo button.",
+            "id": "te_e38f292c88b64d9a",
+            "title": "Swisscom: The sovereign network has to survive the switch to software",
+            "url": "https://www.fierce-network.com/broadband/swisscom-sovereign-network-has-survive-switch-software",
+            "summary": "Swisscom B2B CTO Egon Steinkasserer explains why owning the network isn't enough: sovereignty means nobody else can pull the plug on the software.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -894,10 +1107,10 @@
             }
           },
           {
-            "id": "te_3947e9bd4a12c0f0",
-            "title": "Moving From Reactive to Proactive Broadband Management",
-            "url": "https://www.fierce-network.com/sponsored/moving-reactive-proactive-broadband-management",
-            "summary": "Can AI help broadband operators improve reliability without adding complexity? Discover how Harmonic's cOS SensAI turns network data into actionable insights to simplify operations and enhance the subscriber experience.",
+            "id": "te_76f6a36201f6603b",
+            "title": "OVHcloud bets on control as cloud customers eye costs, sovereignty",
+            "url": "https://www.fierce-network.com/cloud/ovhcloud-bets-control-cloud-customers-eye-costs-sovereignty",
+            "summary": "OVHcloud says its cloud edge comes down to control: stretching server lifespans, killing bandwidth fees and keeping customer data firmly in its lane.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -908,10 +1121,10 @@
             }
           },
           {
-            "id": "te_9082d87b95a04886",
-            "title": "Opinion: China Mobile takes the express train to 5G revenue",
-            "url": "https://www.fierce-network.com/wireless/china-mobile-takes-express-train-5g-revenue",
-            "summary": "China Mobile and Huawei use AI on the Beijing\u2013Shanghai high-speed rail line to sell premium 5G service, turning network control into revenue.",
+            "id": "te_430522ddbc4d3948",
+            "title": "US fiber M&A heats up: Ookla names 7 possible acquisition targets",
+            "url": "https://www.fierce-network.com/broadband/us-fiber-ma-heats-ookla-names-7-possible-acquisition-targets",
+            "summary": "The fiber land grab isn\u2019t over. Ookla says seven regional providers could be next in line as U.S. broadband M&A momentum builds.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -922,10 +1135,10 @@
             }
           },
           {
-            "id": "te_4600c9b2238b2e92",
-            "title": "KT, SK Telecom tap Samsung for AI-RAN projects",
-            "url": "https://www.fierce-network.com/wireless/kt-sk-telecom-tap-samsung-ai-ran-projects",
-            "summary": "Samsung Electronics is well on its way to providing KT and SK Telecom with AI-RAN solutions to advance physical AI.",
+            "id": "te_6a4562d80bbe69f6",
+            "title": "Verizon\u2019s copper retirement plan hits a snag as state officials protest",
+            "url": "https://www.fierce-network.com/broadband/verizons-copper-retirement-plan-hits-snag-state-officials-protest",
+            "summary": "Verizon wants to pull the plug on aging copper lines, but state and local officials say the replacements may not be ready where landlines are still a lifeline.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -936,10 +1149,10 @@
             }
           },
           {
-            "id": "te_11d394c25df1b13a",
-            "title": "Maverix Broadband disputes BEAD misuse allegations",
-            "url": "https://www.fierce-network.com/broadband/maverix-broadband-disputes-bead-misuse-allegations",
-            "summary": "Maverix Broadband is hitting back after Colorado officials accused it of misusing grant funds tied to nearly a quarter of the state\u2019s BEAD awards.",
+            "id": "te_31ecaa584cf8afb8",
+            "title": "The frontier network: What\u2019s next",
+            "url": "https://www.fierce-network.com/sponsored/frontier-network-whats-next",
+            "summary": "Standing still is no longer safe. Inside the next-generation network model helping enterprises move data faster, unlock AI value, and be the enabler, not the bottleneck.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1182,13 +1395,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "to_1766de63251c73b9",
-            "title": "Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
-            "url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
-            "summary": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Startup Battlefield 200 is almost here, and with today\u2019s announcement, the judging panel is nearly complete. In just a couple of weeks, 200 carefully selected startups will gather at [\u2026]",
+            "id": "to_07c0d45eeffaeb7f",
+            "title": "Shopify opens checkout to browser-based AI agents",
+            "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+            "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer\u2019s authorization.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-09-28T14:30:00+00:00",
+            "published": "2026-09-28T19:33:57+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1196,13 +1409,13 @@
             }
           },
           {
-            "id": "to_99a28bb41a76f4e3",
-            "title": "Modulate raises $25M for its voice models and analysis suite",
-            "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
-            "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
+            "id": "to_79c5767e260d23ce",
+            "title": "Nvidia launches new platform for reining in rogue AI agents",
+            "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+            "summary": "As the debate rages over whether the recent spate of rogue AI agents is a step toward AGI or a more conventional engineering problem, Nvidia is offering its own answer to problem. Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to [\u2026]",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-09-28T14:05:00+00:00",
+            "published": "2026-09-28T18:31:23+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1210,13 +1423,13 @@
             }
           },
           {
-            "id": "to_6639960050d0cc09",
-            "title": "Insuretech Outmarket raises $34.5M just months after prior round",
-            "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
-            "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+            "id": "to_06e9f36bb849fdc9",
+            "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+            "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+            "summary": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-09-28T14:00:00+00:00",
+            "published": "2026-09-28T18:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1224,13 +1437,13 @@
             }
           },
           {
-            "id": "to_c8d62adae18155e7",
-            "title": "Your final chance to grab your exhibit table at TechCrunch Disrupt 2026 is Oct. 2",
-            "url": "https://techcrunch.com/2026/09/28/disrupt-2026-exhibitor-program-extended-until-oct-2/",
-            "summary": "The last day to book your Disrupt 2026 exhibit table is this Friday, October 2 at 11:59 p.m. PT. Secure your exhibit table and get your startup in front of 10,000+ founders, investors and tech leaders at San Francisco's Moscone West on Oct 13-15.",
+            "id": "to_0c80d209a6b85e3b",
+            "title": "Google is killing off Gemini\u2019s Gems in favor of \u2018skills\u2019",
+            "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+            "summary": "As all-in-one AI agents like Meta's Muse and Instinct take off, Google is opting to end a feature which built task-specific agents.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-09-28T14:00:00+00:00",
+            "published": "2026-09-28T17:29:50+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1238,13 +1451,13 @@
             }
           },
           {
-            "id": "to_4fc7509a6662a1b0",
-            "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
-            "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
-            "summary": "Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion.",
+            "id": "to_bd9271a6418db629",
+            "title": "OpenAI still doesn\u2019t seem to have a handle on all of its rogue AI activity",
+            "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+            "summary": "On Friday, OpenAI published a new site devoted to \u201cmisalignment reports\u201d and the breadth of the incidents is alarming.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-09-28T13:38:48+00:00",
+            "published": "2026-09-28T17:09:02+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1784,6 +1997,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_ced6f640948505ca",
+            "title": "Defining \u201cAgentic\u201d: Why We Need a Shared Taxonomy for AI Agents",
+            "url": "https://fpf.org/blog/defining-agentic-why-we-need-a-shared-taxonomy-for-ai-agents/",
+            "summary": "The authors would like to thank Alex Rosenberger and Justine Gluck for their feedback and contributions. Join us on October 21st in California for a Workshop on Advanced Issues in Agentic Deployment. This summer, lawmakers in the United States released two of the first legislative proposals for regulating \u201cAI agents\u201d: the federal AI AGENT Act [\u2026]",
+            "source": "Future of Privacy Forum",
+            "tier": 2,
+            "published": "2026-09-28T16:12:29+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_12e21db109e7a3ec",
             "title": "It\u2019s Just Math: Recent Legislative Trend Reignites Debate About the Bounds of Biometric Data",
             "url": "https://fpf.org/blog/its-just-math-recent-legislative-trend-reignites-debate-about-the-bounds-of-biometric-data/",
@@ -1838,20 +2065,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ca_4584eb0be6128705",
-            "title": "FPF at the Singapore Data Festival 2026: Agentic AI, Biometrics, and the Future of Digital Trust in APAC",
-            "url": "https://fpf.org/blog/fpf-at-the-singapore-data-festival-2026-agentic-ai-biometrics-and-the-future-of-digital-trust-in-apac/",
-            "summary": "Co-authors: Lauren Koek and Valentina Curatella, FPF APAC Interns From July 20 to 24, 2026, the Future of Privacy Forum (FPF) participated in the inaugural Singapore Data Festival (SDF), hosted by Singapore\u2019s Personal Data Protection Commission (PDPC) and Infocomm Media Development Authority (IMDA). Succeeding the PDPC\u2019s annual Personal Data Protection Week, the SDF convened around [\u2026]",
-            "source": "Future of Privacy Forum",
-            "tier": 2,
-            "published": "2026-08-25T20:28:28+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       }
@@ -1860,20 +2073,6 @@
       "Lobsters (AI tag)": {
         "tier": 1,
         "items": [
-          {
-            "id": "co_5a32ecaa4452bb91",
-            "title": "How to Solve Hallucination (with RLCD)",
-            "url": "https://www.robw.fyi/2026/09/28/how-to-solve-hallucination/",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-09-28T15:04:58+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 1
-            }
-          },
           {
             "id": "co_2cef15b9c2c661a1",
             "title": "It\u2019s Time to Investigate the AI Labs",
@@ -1929,6 +2128,20 @@
               "featured": false,
               "tier": 1
             }
+          },
+          {
+            "id": "co_32030eeb1f0ba748",
+            "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+            "url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-09-24T13:27:42+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
           }
         ]
       },
@@ -1963,6 +2176,17 @@
         "intelligence_index": 56,
         "coding_index": null,
         "price_blended": 8,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+        "slug": "claude-sonnet-5-5",
+        "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
+        "creator": "Anthropic",
+        "intelligence_index": 56,
+        "coding_index": null,
+        "price_blended": 4,
         "is_open_weights": false,
         "license_type": "proprietary"
       },
@@ -2018,6 +2242,17 @@
         "intelligence_index": 52.4,
         "coding_index": 75.9,
         "price_blended": 20,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
+        "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "slug": "claude-sonnet-5-5-xhigh",
+        "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5-xhigh",
+        "creator": "Anthropic",
+        "intelligence_index": 51.9,
+        "coding_index": null,
+        "price_blended": 4,
         "is_open_weights": false,
         "license_type": "proprietary"
       },
@@ -2141,50 +2376,32 @@
         "price_blended": 4,
         "is_open_weights": false,
         "license_type": "proprietary"
-      },
-      {
-        "name": "GPT-5.6 Sol (max)",
-        "slug": "gpt-5-6-sol",
-        "url": "https://artificialanalysis.ai/models/gpt-5-6-sol",
-        "creator": "OpenAI",
-        "intelligence_index": 47,
-        "coding_index": 77.4,
-        "price_blended": 8,
-        "is_open_weights": false,
-        "license_type": "proprietary"
-      },
-      {
-        "name": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
-        "slug": "claude-fable-5-1-low",
-        "url": "https://artificialanalysis.ai/models/claude-fable-5-1-low",
-        "creator": "Anthropic",
-        "intelligence_index": 46.8,
-        "coding_index": 75.2,
-        "price_blended": 20,
-        "is_open_weights": false,
-        "license_type": "proprietary"
       }
     ],
     "default_sort": "intelligence_index",
     "new_entrants": {
-      "all": [],
-      "paid": [],
+      "all": [
+        "claude-sonnet-5-5"
+      ],
+      "paid": [
+        "claude-sonnet-5-5"
+      ],
       "open": []
     },
     "previous_top_slugs": {
       "all": [
         "claude-opus-5-5",
         "claude-opus-5-5-xhigh",
+        "claude-sonnet-5-5",
         "claude-opus-5-5-high",
-        "claude-fable-5-1",
-        "claude-fable-5-1-xhigh"
+        "claude-fable-5-1"
       ],
       "paid": [
         "claude-opus-5-5",
         "claude-opus-5-5-xhigh",
+        "claude-sonnet-5-5",
         "claude-opus-5-5-high",
-        "claude-fable-5-1",
-        "claude-fable-5-1-xhigh"
+        "claude-fable-5-1"
       ],
       "open": []
     }
