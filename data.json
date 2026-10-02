@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-10-01T22:58:23.419848+00:00",
+    "last_updated": "2026-10-02T13:46:12.108278+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 140,
+      "fetched": 135,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -562,6 +562,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_a885ed61f54a415a",
+            "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+            "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-10-02T04:01:31+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_0bf00b70dbd762e2",
             "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
             "url": "https://huggingface.co/blog/allenai/olmocore3",
@@ -611,20 +625,6 @@
             "source": "Hugging Face Blog",
             "tier": 2,
             "published": "2026-09-29T13:07:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_9552195c964ddb7b",
-            "title": "Holo4: powering generalist computer-use agents",
-            "url": "https://huggingface.co/blog/Hcompany/holo4",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-09-28T09:44:05+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -718,6 +718,34 @@
         "tier": 1,
         "items": [
           {
+            "id": "te_11840c0972e44223",
+            "title": "TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design",
+            "url": "https://arxiv.org/abs/2610.01887v1",
+            "summary": "Dynamic resource assignment, the real-time allocation of task streams to heterogeneous processing nodes, is the backbone of modern computing infrastructure. While learning-based schedulers excel in research, industrial deployments still rely on hand-written rules that operators can read, audit, and execute within tight latency budgets. LLM-based Automatic Heuristic Design (AHD) promises to automate writing such rules. However, existing AHD frameworks were developed for combinatorial problems fully specified to the LLM, and they learn only from a scalar fitness score.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-10-01T15:38:04+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_9fbc1ff4881caa68",
+            "title": "AIR-LLM: Broadcasting AI Weights over Radio for Memory-Free Edge LLM Inference via RF Computing",
+            "url": "https://arxiv.org/abs/2610.00465v1",
+            "summary": "Next-generation large language models (LLMs) are expanding from the cloud to ubiquitous edge devices. However, edge devices typically either lack the memory to store increasingly large LLM weights or, even with enough memory, spend unaffordable energy on loading the weights. This raises our question: can an edge device run an LLM without storing or loading its weights, but receive them over the air and consume them on the fly? Inspired by wireless broadcasting, we present AIR-LLM, an LLM inference architecture for edge devices, which is composed of: (i) a central radio (e.g., 5G base\u2026",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-09-30T18:00:02+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "te_f8ec7a6dbdbca186",
             "title": "Type-Safe Decision Frameworks for Agentic 5G Control: A Theory-Driven Testbed Characterization of Where They Can Be Applied",
             "url": "https://arxiv.org/abs/2609.33689v1",
@@ -753,34 +781,6 @@
             "source": "arXiv: 5G + LLM",
             "tier": 1,
             "published": "2026-09-24T05:23:54+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_79f718d48c1caebb",
-            "title": "Evolving Inspectable O-RAN Slicing xApps with LLMs",
-            "url": "https://arxiv.org/abs/2609.27337v1",
-            "summary": "Open RAN (O-RAN) slicing xApps must adapt resource allocations to changing channel conditions and traffic demands while meeting service-level agreements (SLAs). Deep reinforcement learning can produce adaptive policies, but their allocation rules remain encoded in neural-network parameters. Our goal is to retain this adaptability while making the controller's decision logic directly inspectable and editable by operators. We use a large language model (LLM) to evolve slicing controllers as compact Python programs whose decision logic remains readable and editable after optimization.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-09-23T04:18:48+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_962c8a720447729f",
-            "title": "Multi-Agent Video Prediction: Self-Correcting Conditional Frames for Dynamic Scene Forecasting",
-            "url": "https://arxiv.org/abs/2609.25302v1",
-            "summary": "Transmission latency significantly degrades user quality of experience in real-time interactive perception systems. In remote driving, maintaining reliable visual feedback is critical for safe operation under dynamic network variability. Although video prediction offers a promising approach to compensate for short-term transmission delays and approximate near-zero-latency streaming, prediction-only methods remain vulnerable in highly dynamic scenes, especially when newly emerged objects appear during uplink outages.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-09-21T18:53:05+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -943,6 +943,62 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_a57fd1782b2769d6",
+            "title": "AI and edge computing step into the cable spotlight",
+            "url": "https://www.lightreading.com/ai-machine-learning/ai-and-edge-computing-step-into-the-cable-spotlight",
+            "summary": "At SCTE TechExpo, Charter and Spectrum explained how they are repurposing space, power and cooling at hubs and headends to serve up AI and high-bandwidth, low-latency services at the edge.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-02T13:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_b1713bbfdf8a92ad",
+            "title": "Eurobites: CMA voices concerns about Netomnia's acquisition by nexfibre",
+            "url": "https://www.lightreading.com/fttx/eurobites-cma-raises-concerns-about-netomnia-acquisition-by-nexfibre",
+            "summary": "Also in today's EMEA regional roundup: A1 offers network slicing; SFR offers cybersecurity to medium businesses; Sateliot launches five satellites.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-02T12:45:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_791bbd57d2b6e943",
+            "title": "The Buildout: LiveOak grows in Georgia",
+            "url": "https://www.lightreading.com/broadband/the-buildout-liveoak-grows-in-georgia",
+            "summary": "This week in broadband builds: LiveOak Fiber to expand in Chatham County, Georgia; Comcast comes to more Floridians and Pennsylvanians; Spectrum marks rural milestones; Kinetic connects Concord, North Carolina \u2013 and more.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-02T12:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_8da229f009446bad",
+            "title": "Not banning Huawei just got hard for Germany to explain",
+            "url": "https://www.lightreading.com/5g/not-banning-huawei-just-got-hard-for-germany-to-explain",
+            "summary": "Germany's regulator is reclassifying the radio access network as a 'critical' element in a move that could force operators to replace Huawei.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-02T09:34:39+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_927f8d18ddef40da",
             "title": "Rightfiber seals Fastwyre Broadband deal",
             "url": "https://www.lightreading.com/fttx/rightfiber-seals-fastwyre-broadband-deal",
@@ -955,68 +1011,54 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_27346db7d0f02dd3",
-            "title": "Inseego finalizes Nokia FWA buy",
-            "url": "https://www.lightreading.com/fixed-wireless-access/inseego-finalizes-nokia-fwa-buy",
-            "summary": "Inseego completes acquisition of Nokia's FWA business, adding international reach and expectations for doubling revenue. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-01T15:23:54+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_c387ac68951f36ed",
-            "title": "Singtel\u2019s RE:AI launches AI Token-as-a-Service",
-            "url": "https://www.lightreading.com/ai-machine-learning/singtel-s-re-ai-launches-ai-token-as-a-service",
-            "summary": "First managed service in Singapore to provide AI models-as-a-service to facilitate agentic AI deployment at scale. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-01T14:01:18+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_7e13f1367912cccd",
-            "title": "AT&T, T-Mobile and Verizon launch joint venture to end dead zones; name Paul Roth interim CEO",
-            "url": "https://www.lightreading.com/satellite/at-t-t-mobile-and-verizon-launch-joint-venture-that-helps-end-dead-zones-name-paul-roth-interim-ceo",
-            "summary": "JV will help close coverage gaps by making satellite-enabled connectivity easier to deliver where traditional service is limited. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-01T13:50:05+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_857416d99e28455a",
-            "title": "Covert Chinese ship visit sparks subsea cable fears in Philippines",
-            "url": "https://www.lightreading.com/security/covert-chinese-ship-visit-sparks-subsea-cable-fears-in-philippines",
-            "summary": "A Chinese survey vessel spent three days in Luzon Strait while claiming to be near Papua New Guinea, sparking fears about subsea cable security in the Philippines.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-01T13:12:39+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_2ed3ab4032a875f9",
+            "title": "RCRTech Roundtables AI Infrastructure",
+            "url": "https://www.rcrtechroundtables.com/page/5850633/request-invitation",
+            "summary": "The RCRTech Roundtables, facilitated by a host of experts, will provide attendees with the opportunity to share their experiences and discuss the challenges they are currently facing regarding powering data\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-02T13:24:55+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_31ca4980902033f9",
+            "title": "Network ownership, security, autonomy (Telco Diary)",
+            "url": "https://rcrwireless.com/20261002/opinion/network-ownership-security-autonomy-telco-diary",
+            "summary": "From the newsletter (October 1; sign-up or follow if you want it sooner): Nokia and ICEYE are launching a sovereign satellite communications venture, while US telcos formalize a satellite coverage\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-02T05:53:37+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_499ad418e6c46638",
+            "title": "Samsung sees physical AI pushing networks beyond connectivity",
+            "url": "https://rcrwireless.com/20261002/ai-infrastructure/samsung-ai-networks",
+            "summary": "Jungchul Kim, head of product strategy group, networks business at Samsung Electronics, told RCR that physical AI applications will place specific demands on networks, including ultra-low latency, high reliability, consistent\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-02T05:48:43+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_8c732c391c39e578",
             "title": "\u201cWhere the agentic world kicks in\u201d \u2013 Verizon draws the line, marks the difference",
@@ -1040,48 +1082,6 @@
             "tier": 2,
             "published": "2026-10-01T08:26:31+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_b70d8545128047f2",
-            "title": "800G and 1.6T raise optical testing demands, says Viavi",
-            "url": "https://rcrwireless.com/20261001/test-measurement/optical-testing-viavi",
-            "summary": "Mike Jack, director of product marketing at Viavi, told RCR that the challenge is not only validating individual links but ensuring interoperability and performance across a rapidly evolving ecosystem of\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-01T08:21:08+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_4be905e5cf4cf3b2",
-            "title": "Samsung signs AI-RAN contracts with KT and SK Telecom for Korea\u2019s Hyper AI Network",
-            "url": "https://rcrwireless.com/20260930/ai/samsung-ai-ran-kt-and-sk-telecom",
-            "summary": "AI-RAN pilots begin in shipyards and petrochemical plants Samsung Electronics \ufffchas signed contracts with both KT and SK Telecom to participate in South Korea\u2019s government-backed Hyper AI Network program, a two-year\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-09-30T18:59:12+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_8f51f1999edd2056",
-            "title": "Ciena launches $200m venture fund as AI networking accelerates",
-            "url": "https://rcrwireless.com/20260930/ai-infrastructure/ciena-venture-ai-networking",
-            "summary": "Loai Louis, vice president of corporate development at Ciena told RCR that the decision reflects a change in the pace and breadth of innovation taking place across the networking market\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-09-30T13:25:47+00:00",
-            "flags": {
               "new": false,
               "featured": false,
               "tier": 2
@@ -1092,6 +1092,20 @@
       "Fierce Network": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_59d01336e59ea437",
+            "title": "Opinion: The fiber is in the yard \u2014 The BEAD money isn't",
+            "url": "https://www.fierce-network.com/broadband/opinion-fiber-yard-bead-money-isnt",
+            "summary": "Opinion: The fiber is in the yard. The BEAD money isn't.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_3444e3cc09ec3bd9",
             "title": "Schneider\u2019s Shelly bid opens a lower-cost route into building automation",
@@ -1139,20 +1153,6 @@
             "title": "Starlink Mobile\u2019s $25B threat looms over US carriers",
             "url": "https://www.fierce-network.com/wireless/starlink-mobiles-25b-threat-looms-over-us-carriers",
             "summary": "A Besen Group analysis projects Starlink Mobile\u2019s U.S. revenue will hit $25.35 billion by 2031, positioning it as both a formidable carrier rival and potential partner.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_f5ccd6b3df720923",
-            "title": "STL CTO: Hollow core fiber\u2019s next big hurdle isn\u2019t physics \u2013 It\u2019s scale",
-            "url": "https://www.fierce-network.com/broadband/stl-cto-hollow-core-fibers-next-big-hurdle-isnt-physics-its-scale",
-            "summary": "Hyperscalers are racing to use hollow core fiber to stretch AI data center networks, but STL\u2019s Badri Gomatam says manufacturing, cost and standardization still have to catch up.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1320,6 +1320,34 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_22b95dcb283e6437",
+            "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+            "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+            "summary": "the minimalist harness goes stable... and TypeScript!",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-10-02T06:40:53+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_d1b287482ae91f9f",
+            "title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
+            "url": "https://www.latent.space/p/rlm",
+            "summary": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-10-02T00:28:04+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_d579ab095fb709fa",
             "title": "[AINews] Gemini 4 Argon: GDM\u2019s answer to Astra/Fable, with 1M output",
             "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
@@ -1328,7 +1356,7 @@
             "tier": 2,
             "published": "2026-10-01T06:45:05+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1355,34 +1383,6 @@
             "source": "Latent Space",
             "tier": 2,
             "published": "2026-09-30T05:53:10+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_abda39f3393f20c9",
-            "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-            "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-            "summary": "Congrats team!",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-09-29T02:55:27+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_f403a9e88a7693b0",
-            "title": "[AINews] Opus 5.5 is good at explainer videos",
-            "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
-            "summary": "a rare feature of a capability",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-09-29T02:44:29+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1555,7 +1555,7 @@
             "tier": 1,
             "published": "2026-10-01T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1695,82 +1695,25 @@
       },
       "OWASP GenAI": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ca_ef3efe84f1ccf9f8",
-            "title": "OWASP GenAI Security Project Unveils 2026 Top 10 for LLM Applications, New Agent Control Standard and Sponsors as Community Tops 30,000 Members",
-            "url": "https://genai.owasp.org/2026/09/01/owasp-genai-security-project-unveils-2026-top-10-for-llm-applications-new-agent-control-standard-and-sponsors-as-community-tops-30000-members/?utm_source=rss&utm_medium=rss&utm_campaign=owasp-genai-security-project-unveils-2026-top-10-for-llm-applications-new-agent-control-standard-and-sponsors-as-community-tops-30000-members",
-            "summary": "OWASP GenAI Security Project Releases 2026 Top 10 for LLM Applications, Debuts Agent Control Standard and New Resources for Securing Generative and Agentic AI F5, WitnessAI, Evoke Security and Mondoo Inc. join as new sponsors as community expands AI security solutions guidance and surpasses 30,000 members WILMINGTON, Del. \u2014 Sept. 2, 2026 \u2014 The OWASP [\u2026] The post OWASP GenAI Security Project Unveils 2026 Top 10 for LLM Applications, New Agent Control Standard and Sponsors as Community Tops 30,000 Members appeared first on OWASP Gen AI Security Project .",
-            "source": "OWASP GenAI",
-            "tier": 2,
-            "published": "2026-09-02T04:59:10+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_373deace457300ca",
-            "title": "Memory Is a Feature. It Is Also an Attack Surface",
-            "url": "https://genai.owasp.org/2026/05/13/memory-is-a-feature-it-is-also-an-attack-surface/?utm_source=rss&utm_medium=rss&utm_campaign=memory-is-a-feature-it-is-also-an-attack-surface",
-            "summary": "As co-lead of OWASP ASI06: Memory & Context Poisoning entry as part of OWASP Top 10 for Agentic Applications , I have spent a lot of time thinking about a simple question: what happens when an AI agent does not just process untrusted input, but carries it forward? That is the core issue behind ASI06. [\u2026] The post Memory Is a Feature. It Is Also an Attack Surface appeared first on OWASP Gen AI Security Project .",
-            "source": "OWASP GenAI",
-            "tier": 2,
-            "published": "2026-05-14T01:05:44+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_f2b15c111083912f",
-            "title": "FinBot CTF Is Live: A Hands-On Companion to the OWASP GenAI Security Project",
-            "url": "https://genai.owasp.org/2026/04/14/finbot-ctf-is-live-a-hands-on-companion-to-the-owasp-genai-security-project/?utm_source=rss&utm_medium=rss&utm_campaign=finbot-ctf-is-live-a-hands-on-companion-to-the-owasp-genai-security-project",
-            "summary": "FinBot is a hands-on companion to the OWASP GenAI Security Project, offering an interactive Capture-The-Flag environment built around a simulated financial services application. Designed as the 'Juice Shop for the Agentic AI', it lets builders and defenders explore agentic risks in a live, multi-agent system with real tool access. The post FinBot CTF Is Live: A Hands-On Companion to the OWASP GenAI Security Project appeared first on OWASP Gen AI Security Project .",
-            "source": "OWASP GenAI",
-            "tier": 2,
-            "published": "2026-04-15T06:15:10+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_f139688067bde7d9",
-            "title": "OWASP GenAI Exploit Round-up Report Q1 2026",
-            "url": "https://genai.owasp.org/2026/04/14/owasp-genai-exploit-round-up-report-q1-2026/?utm_source=rss&utm_medium=rss&utm_campaign=owasp-genai-exploit-round-up-report-q1-2026",
-            "summary": "OWASP GenAI Exploit Round-up Report Q1 2026 Coverage period: January 1, 2026 through April 11, 2026 Overview For the last two years the OWASP GenAI Security Project published a list of the major incidents for the last quarter. This is not designed to be an exhaustive report. This report consolidates major AI-related security incidents and [\u2026] The post OWASP GenAI Exploit Round-up Report Q1 2026 appeared first on OWASP Gen AI Security Project .",
-            "source": "OWASP GenAI",
-            "tier": 2,
-            "published": "2026-04-15T05:55:44+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_6c332efaf5198bc2",
-            "title": "OWASP GenAI Security Project Expands AI Security Frameworks Ahead of RSA 2026, Celebrates Continued Sponsor Support",
-            "url": "https://genai.owasp.org/2026/03/17/owasp-genai-security-project-expands-ai-security-frameworks-ahead-of-rsa-2026-celebrates-continued-sponsor-support/?utm_source=rss&utm_medium=rss&utm_campaign=owasp-genai-security-project-expands-ai-security-frameworks-ahead-of-rsa-2026-celebrates-continued-sponsor-support",
-            "summary": "New resources, a full week of RSA programming and growing industry adoption mark a milestone moment for the open-source AI security community WILMINGTON, Del. \u2014 March 19, 2026 \u2014 The OWASP GenAI Security Project (genai.owasp.org), a leading global open-source and expert community, growing to more than 25K members, dedicated to delivering practical guidance and tools [\u2026] The post OWASP GenAI Security Project Expands AI Security Frameworks Ahead of RSA 2026, Celebrates Continued Sponsor Support appeared first on OWASP Gen AI Security Project .",
-            "source": "OWASP GenAI",
-            "tier": 2,
-            "published": "2026-03-18T05:09:20+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       },
       "Schneier on Security": {
         "tier": 2,
         "items": [
+          {
+            "id": "ca_a059a537c8eec356",
+            "title": "How American Political Campaigns Are Using AI\u2014and What They\u2019re Spending on the Tools",
+            "url": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+            "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them. Candidates\u2019, parties\u2019 and committees\u2019 spending reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns . It\u2019s a sensitive issue that we have been tracking closely since we started writing our book, Rewiring Democracy...",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-10-02T11:02:19+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "ca_64a62e1624a4177b",
             "title": "Connected Cars Are a Surveillance Platform",
@@ -1780,7 +1723,7 @@
             "tier": 2,
             "published": "2026-10-01T11:06:14+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1821,20 +1764,6 @@
             "source": "Schneier on Security",
             "tier": 2,
             "published": "2026-09-28T11:02:58+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_5b75e56ca2226951",
-            "title": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
-            "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
-            "summary": "I feel like someone who reads this blog will want to go to this : Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life. [\u2026] During the guided squid dissection, each family will work together to examine a squid up close, exploring its organs, structures, and specialized features.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-09-25T21:08:14+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2074,6 +2003,34 @@
         "tier": 1,
         "items": [
           {
+            "id": "co_994b834021e88f2b",
+            "title": "Advice to a beginning software engineer",
+            "url": "https://www.seangoedecke.com/advice-to-a-beginning-software-engineer/",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-10-02T13:19:46+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "co_4f9ec2b3c156d19a",
+            "title": "Thrust vs. Steer (or: Yet Another Anecdotal Case of the Dunning-Kruger Effect)",
+            "url": "https://write.as/tmcb/thrust-vs-steer-or-yet-another-anecdotal-case-of-the-dunning-kruger-effect",
+            "summary": "Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-10-02T08:14:44+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "co_8ccf74fe2786675a",
             "title": "Text-to-meowdio models",
             "url": "https://www.kmjn.org/notes/text_to_meowdio_models.html",
@@ -2114,34 +2071,6 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "co_32030eeb1f0ba748",
-            "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
-            "url": "https://machinelearning.apple.com/research/homomorphic-encryption",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-09-24T13:27:42+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "co_d1b27e26fd9f4d42",
-            "title": "A Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data",
-            "url": "https://github.com/volotat/mini-AGI/",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-09-21T17:22:31+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
@@ -2169,17 +2098,6 @@
         "license_type": "proprietary"
       },
       {
-        "name": "Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
-        "slug": "claude-opus-5-5-xhigh",
-        "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh",
-        "creator": "Anthropic",
-        "intelligence_index": 56,
-        "coding_index": null,
-        "price_blended": 8,
-        "is_open_weights": false,
-        "license_type": "proprietary"
-      },
-      {
         "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
         "slug": "claude-sonnet-5-5",
         "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
@@ -2187,6 +2105,17 @@
         "intelligence_index": 56,
         "coding_index": null,
         "price_blended": 4,
+        "is_open_weights": false,
+        "license_type": "proprietary"
+      },
+      {
+        "name": "Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+        "slug": "claude-opus-5-5-xhigh",
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5-xhigh",
+        "creator": "Anthropic",
+        "intelligence_index": 56,
+        "coding_index": null,
+        "price_blended": 8,
         "is_open_weights": false,
         "license_type": "proprietary"
       },
@@ -2387,15 +2316,15 @@
     "previous_top_slugs": {
       "all": [
         "claude-opus-5-5",
-        "claude-opus-5-5-xhigh",
         "claude-sonnet-5-5",
+        "claude-opus-5-5-xhigh",
         "claude-opus-5-5-high",
         "claude-fable-5-1"
       ],
       "paid": [
         "claude-opus-5-5",
-        "claude-opus-5-5-xhigh",
         "claude-sonnet-5-5",
+        "claude-opus-5-5-xhigh",
         "claude-opus-5-5-high",
         "claude-fable-5-1"
       ],
