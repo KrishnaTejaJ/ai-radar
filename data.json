@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-10-14T12:48:31.002741+00:00",
+    "last_updated": "2026-10-14T17:49:19.373820+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 145,
+      "fetched": 140,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -487,6 +487,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_5633cc49b80d9733",
+            "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
+            "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
+            "summary": "The generative AI functions in BigQuery ( AI.GENERATE , AI.IF , AI.CLASSIFY , AI.SCORE , and more) bring large language models (LLMs) directly into your SQL, so a single query can classify millions of support tickets or score each product review for sentiment. However, because these functions are billed by the token, scaling them across massive datasets highlights the importance of managing your budget proactively.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-14T16:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_9491aef510444607",
             "title": "Gemini 4 Argon available on Google Cloud, built to help solve your business\u2019 hardest problems",
             "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud/",
@@ -495,7 +509,7 @@
             "tier": 2,
             "published": "2026-10-13T16:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -541,26 +555,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ta_5d46476e50849550",
-            "title": "Empower your agents with the Google Cloud CLI remote MCP server",
-            "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
-            "summary": "Today, we\u2019re expanding our ecosystem of managed remote MCP servers by introducing the Google Cloud CLI remote MCP server in preview. Powered by the popular gcloud and bq (BigQuery) command-line tools, this new server gives AI agents immediate, broad access to command-line operations for managing Google Cloud infrastructure and working with advanced BigQuery workflows securely and seamlessly. Why CLI matters for AI agents Agents are increasingly performing complex cloud operations, but standardizing how they interact with backend systems remains a challenge.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-09-30T16:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "Hugging Face Blog": {
         "tier": 2,
         "items": [
+          {
+            "id": "ta_672ebf75c430cf70",
+            "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+            "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-10-14T16:12:42+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "ta_550c4c02e9ff21a9",
             "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
@@ -569,20 +583,6 @@
             "source": "Hugging Face Blog",
             "tier": 2,
             "published": "2026-10-13T17:05:48+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_43ef54e74d276082",
-            "title": "Impactful scheduling for GPU clusters",
-            "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-10-09T15:20:29+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -710,78 +710,7 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_531de9905e340d8c",
-            "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
-            "url": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-            "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866 Comments URL: https://news.ycombinator.com/item?id=50082962 Points: 66 # Comments: 70",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-14T05:53:36+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_8499e5245393adba",
-            "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
-            "url": "https://blumify.io/people",
-            "summary": "Article URL: https://blumify.io/people Comments URL: https://news.ycombinator.com/item?id=50081151 Points: 105 # Comments: 69",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-14T01:09:13+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_6bfaaf873eeb7d24",
-            "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
-            "url": "https://pulseos.finance",
-            "summary": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-13T23:13:23+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_0a248ec435157a65",
-            "title": "Show HN: Parsimony \u2013 an open-source benchmark for how much code AI models add",
-            "url": "https://parsimony.lasu.dev/",
-            "summary": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls, names and literals. I didn't use lines of code, so cramming code isn't rewarded. Deleted code is subtracted, so it measures net units.",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-13T19:50:31+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_633e14f60020e796",
-            "title": "I posted to HN, and then my website was flooded with AI bot traffic",
-            "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-            "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 330 # Comments: 174",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-13T15:25:50+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       }
     },
     "telecom": {
@@ -1014,6 +943,62 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_5134ea8d36446ab3",
+            "title": "NCTC promotes four to SVP-level roles",
+            "url": "https://www.lightreading.com/cable-technology/nctc-promotes-four-to-svp-level-roles",
+            "summary": "The National Content & Technology Cooperative has promoted Steve Beardslee, Rob Smith, Shelley Thompson and Stewart Myers to SVP roles in areas spanning product and tech, programming and member development. #pressrelease",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-14T16:30:36+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_fc77b64d195a51f7",
+            "title": "FCC sets vote to earmark $162M more for mobile broadband in Alaska",
+            "url": "https://www.lightreading.com/regulatory-politics/fcc-sets-vote-to-earmark-162m-more-for-mobile-broadband-in-alaska",
+            "summary": "The FCC is set to vote to provide an additional $162 million for the Alaska Connect Fund, with a focus on mobile broadband service deployment. #pressrelease",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-14T16:29:26+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_261feba3fb59d8e0",
+            "title": "VodafoneZiggo rolls out Hitron's DOCSIS 4.0 meter",
+            "url": "https://www.lightreading.com/cable-technology/vodafoneziggo-rolls-out-hitron-s-docsis-4-0-meter",
+            "summary": "VodafoneZiggo is among the first operators to deploy the CGNDP4, Hitron's DOCSIS 4.0 testing and diagnostic platform for field techs. #pressrelease",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-14T16:18:57+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_e93e171f8804bd4d",
+            "title": "AT&T follows Telef\u00f3nica out of Mexico with $2B sale",
+            "url": "https://www.lightreading.com/finance/at-t-follows-telef-nica-out-of-mexico-with-2b-sale",
+            "summary": "AT&T is selling AT&T Mexico to Grupo Televisa and Fintech Holdings for $2 billion in cash, leaving the country after more than a decade.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-14T16:15:48+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_817c596671f31a0d",
             "title": "Eurobites: Orange and friends look to develop Irish subsea link",
             "url": "https://www.lightreading.com/cable-technology/eurobites-orange-and-friends-look-to-develop-irish-subsea-link",
@@ -1026,68 +1011,40 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_dfdebc823d238779",
-            "title": "Verizon CTO: 6G needs a breakthrough for AI uplink demand",
-            "url": "https://www.lightreading.com/6g/verizon-cto-6g-needs-a-breakthrough-for-ai-uplink-demand",
-            "summary": "Verizon CTO Yago Tenorio says industry is 'missing a breakthrough' in 6G for uplink capacity as future AI applications change network traffic patterns.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-14T10:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_0c1b43e1a7f8b91e",
-            "title": "Japan goes all-in to fortify subsea cable infrastructure",
-            "url": "https://www.lightreading.com/cable-technology/japan-goes-all-in-to-fortify-subsea-cable-infrastructure",
-            "summary": "Japan is pursuing two parallel initiatives to secure its submarine cables: diversifying routes and subsidizing the purchase of new cable-laying vessels.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-14T08:57:56+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_80fd6b90be8e088d",
-            "title": "Musk, genius or lunatic, has no mobile answer in space or on land",
-            "url": "https://www.lightreading.com/satellite/musk-genius-or-lunatic-has-no-mobile-answer-in-space-or-on-land",
-            "summary": "Starlink Mobile's 800MHz acquisition won't much help Elon Musk's satellite service and his terrestrial challenges are still immense.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-14T07:30:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_2d93e7b2d15bae16",
-            "title": "Telstra half-day outage cost economy at least $596M \u2013 report",
-            "url": "https://www.lightreading.com/security/telstra-half-day-outage-cost-economy-at-least-596m-report",
-            "summary": "Last year's outage at Australia's Telstra came at enormous cost, with company bosses facing disgruntled shareholders.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-14T05:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_330d73be5f57f525",
+            "title": "Singtel moves quantum security from future risk to network migration",
+            "url": "https://rcrwireless.com/20261014/quantum/singtel-quantum-network",
+            "summary": "Kenneth Hwang, vice president of platforms and client solutions at Singtel, said the operator\u2019s experience has shown that preparing for quantum threats requires years of work across infrastructure, software, vendors,\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-14T13:59:12+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_d4bed961503e9fee",
+            "title": "AI-RAN Alliance moves to implementation blueprints and edge business models",
+            "url": "https://rcrwireless.com/20261014/ai-infrastructure/ai-ran-alliance-moves-to-implementation-blueprints-and-edge-business-models",
+            "summary": "The alliance is expanding its focus on AI RAN services while tackling workload placement, infrastructure sharing, and the commercial case for turning mobile networks into distributed AI platforms. In sum\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-14T13:58:47+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_2afb297da3bc685a",
             "title": "More on Nokia ECE sale \u2013 drones unit stays in-house, MPW solution stays on menu",
@@ -1129,40 +1086,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_51484fed7db0ca07",
-            "title": "Qualcomm Webinar: AI-Native 6G: Keeping Pace with Agentic AI and Multimodal Experiences",
-            "url": "https://pages.rcrtech.com/ai-native-6g-webinar",
-            "summary": "Agentic AI applications can move from a text prompt to live audio or uplink video in moments. As these experiences become more interactive and context-aware, the connectivity they need can\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-13T18:33:02+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_b54363377b739d04",
-            "title": "AI will reshape networks as intelligence moves beyond DCs, says Deutsche Telekom",
-            "url": "https://rcrwireless.com/20261013/networks/ai-networks-deutsche-telekom",
-            "summary": "Speaking at Deutsche Telekom\u2019s AI Investor Day, Telekom Deutschland\u2019s chief executive officer Rodrigo Diehl said that entrepreneurs in Silicon Valley had told the German telco that network performance was already\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-13T13:06:23+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "Fierce Network": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_408f13e0010cb51c",
+            "title": "Orange, Equitix and MDM plan subsea cable route linking Ireland and Europe",
+            "url": "https://www.fierce-network.com/newswire/orange-equitix-and-mdm-plan-subsea-cable-route-linking-ireland-and-europe",
+            "summary": "The direct high-capacity, open-access and scalable connection will run between Ireland, France, Spain and Portugal, expanding connectivity and offering new commercial opportunities.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_39df7f80385be51b",
             "title": "Cisco and Nvidia develop new pluggable optic module for AI data centers",
@@ -1210,20 +1153,6 @@
             "title": "Blair Levin joins NYU Center on Technology Policy",
             "url": "https://www.fierce-network.com/newswire/blair-levin-joins-nyu-center-technology-policy",
             "summary": "The Center on Technology Policy at New York University crafts practical public policy for a better internet.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_dbada6253b89e604",
-            "title": "Kinetic partners with STL Optical Connectivity for fiber supply chain, expansion",
-            "url": "https://www.fierce-network.com/newswire/kinetic-partners-stl-optical-connectivity-fiber-supply-chain-expansion",
-            "summary": "The partnership strengthens Kinetic\u2019s access to international supply chain resources and more to support the company\u2019s U.S. fiber build program.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1466,13 +1395,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "to_ca567069ecbf16ad",
-            "title": "Scimplify raises $25M to challenge China\u2019s grip on critical materials with AI",
-            "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
-            "summary": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
+            "id": "to_9c18b5e1b4bfcb8e",
+            "title": "Deezer will soon let you filter out AI-generated music",
+            "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+            "summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-14T11:00:00+00:00",
+            "published": "2026-10-14T15:16:04+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1480,13 +1409,13 @@
             }
           },
           {
-            "id": "to_a2d00ff109e7d12f",
-            "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-            "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-            "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+            "id": "to_c16911033b3182b5",
+            "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco\u2019s Moscone West",
+            "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+            "summary": "Get a 50% discount on the last two days of TechCrunch Disrupt 2026, October 14-15, in San Francisco. Register now and join the rest of the startup ecosystem. Today, it's all about physical and software AI.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-13T23:13:31+00:00",
+            "published": "2026-10-14T15:13:24+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1494,13 +1423,13 @@
             }
           },
           {
-            "id": "to_314375845b17a428",
-            "title": "Cerebras CEO says we\u2019re nearing a future where everyone has a personal AI assistant at home",
-            "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-            "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+            "id": "to_ecdf723c0581a830",
+            "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+            "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+            "summary": "Zenzap is used by organizations including Starbucks and Taco Bell.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-13T23:05:34+00:00",
+            "published": "2026-10-14T15:08:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1508,13 +1437,13 @@
             }
           },
           {
-            "id": "to_3e50c67087875e42",
-            "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-            "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
-            "summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+            "id": "to_40dbf46b63844850",
+            "title": "Floqer\u2019s AI agents research sales prospects so teams don\u2019t have to",
+            "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+            "summary": "The problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-13T23:00:00+00:00",
+            "published": "2026-10-14T15:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1522,13 +1451,13 @@
             }
           },
           {
-            "id": "to_8ffa5222f5cfbfa3",
-            "title": "Cerebras CEO pushes back on AI doomsday warnings",
-            "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-            "summary": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
+            "id": "to_62cbe095b5166b3d",
+            "title": "TechCrunch Disrupt 2026: Day 2",
+            "url": "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/",
+            "summary": "Day 2 at TechCrunch Disrupt 2026, full of all themes across AI, investor-only session, more roundtables, and more. Register to save 50% on your pass.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-13T22:36:59+00:00",
+            "published": "2026-10-14T14:30:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1843,6 +1772,48 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_4d5b36d13b300c3b",
+            "title": "Upcoming Speaking Engagements",
+            "url": "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
+            "summary": "This is a current list of where and when I am scheduled to speak: I\u2019m speaking at ATTENTION: Democracy, Rebuilt in Montreal, Canada. The event runs October 21\u201323, 2026, and my talk is on Wednesday, October 21. I\u2019m speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I\u2019m speaking at [un]prompted in San Francisco, California. The event runs October 27\u201329, 2026, and my talk is at 11:35 AM PT on Thursday, October 29. I\u2019m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026...",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-10-14T16:02:17+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ca_6bb19fd6562cc725",
+            "title": "The Future of AI Cryptanalysis",
+            "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html",
+            "summary": "Matthew Green has been writing a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers. I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-10-14T14:24:18+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ca_7bf6f5bbc65c05af",
+            "title": "Cyberattack on Connected Fridges in France",
+            "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html",
+            "summary": "Another IoT cyberattack , this one in France: Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected. [\u2026] Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process.",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-10-14T14:10:22+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_6c920079ad829cda",
             "title": "FBI Arrests Suspect in FBI-Hacking Case",
             "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
@@ -1864,48 +1835,6 @@
             "source": "Schneier on Security",
             "tier": 2,
             "published": "2026-10-09T20:24:45+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_beabe7971d9a8b9b",
-            "title": "How Technology Empowers\u2014and Imperils\u2014Dictators",
-            "url": "https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html",
-            "summary": "This essay was written with Seva Gunitsky, and originally appeared in Foreign Affairs . Two weeks after Moscow\u2019s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor\u2019s head that read: \u201cStop the war. Don\u2019t believe propaganda. They\u2019re lying to you!\u201d She shouted, \u201cNo to war!\u201d until she was dragged away. No one has protested the war on Russian television since then, partly as a result of tighter security and a general climate of fear.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-10-08T11:07:35+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_a933b7cbaae5d477",
-            "title": "Apple\u2019s Verified Photography System",
-            "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
-            "summary": "Apple just released a system called \u201cReference Image.\u201d It can verify the image is exactly as taken by an iPhone\u2014new models only\u2014without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone. Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are concerned this puts some photographers, such as those operating in conflict zones, in a difficult position; it should not be necessary to forgo anonymity in order to prove image authenticity.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-10-07T11:07:36+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_68a294ba84361fd9",
-            "title": "Possible Vulnerability in Apple\u2019s Automatic Reboot",
-            "url": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html",
-            "summary": "404Media is reporting (alternate link ) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn\u2019t been used for 72 hours. The new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, a popular tool sold to law enforcement agencies that allows them to unlock and access data stored in iPhones and Android smartphones .",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-10-06T11:06:46+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2167,7 +2096,7 @@
             "tier": 1,
             "published": "2026-10-13T15:56:29+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
