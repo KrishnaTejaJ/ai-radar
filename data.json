@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-10-19T22:47:20.527887+00:00",
+    "last_updated": "2026-10-20T12:39:26.317854+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 140,
+      "fetched": 135,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -485,82 +485,25 @@
       },
       "Google Cloud AI": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_b2b75d12bddc93cc",
-            "title": "Building full virtual vehicles on Google Cloud: From AAOS to the smallest MCU",
-            "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu/",
-            "summary": "Imagining traditional gearheads getting their hands on software-defined vehicles is an amusing thought experiment. With their socket wrenches and air compressors at the ready, they might be confused to encounter core functions more likely to run on 1s and 0s than oil and belts. But across the auto industry these days, more and more vehicles feature prominent systems built using cloud-native development, continuous integration/continuous delivery, fast digital iteration, and plenty of AI.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-10-19T16:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_a540d10ea8b3759c",
-            "title": "Who judges the judge? Three helpful ways to audit your LLM evaluators",
-            "url": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
-            "summary": "Is your LLM-as-a-judge truly objective? There\u2019s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subjective. Just like human reviewers, they can carry biases: Verbosity bias : LLM judges usually favor longer, confident-sounding answers , even when the underlying facts are wrong. Position bias : Swapping the order of two options can cause an LLM judge to flip its verdict over 75% of the time .",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-10-19T16:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_2fc411897c55da5f",
-            "title": "Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms",
-            "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms/",
-            "summary": "As organizations work to leverage AI to transform their businesses, it is clear that the raw model intelligence is not the key challenge. Consistently, we hear that the challenges lie in how the agents can be deployed across the company while meeting key requirements for quality, integration, security, and governance. Gemini provides that connected foundation across the enterprise , and it\u2019s why we believe Google was named a Leader in the inaugural IDC MarketScape: Worldwide Agentic AI Platforms 2026 Vendor Assessment 1 .",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-10-19T07:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_ac934ad005e342c4",
-            "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
-            "url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/",
-            "summary": "In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology does not work this way. Folding a protein target, screening a 50,000 compound ligand library, or evaluating structure-activity relationships (SAR) are not quick API lookups. They are sustained, stateful, GPU-bound simulations that run for minutes or even hours across specialized silicon.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-10-16T16:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_debbc6d22d5f7e1c",
-            "title": "Four evaluation engineering lessons learned from building agent plugins",
-            "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/",
-            "summary": "The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to measure your agent\u2019s true behavior can be the difference between shipping a tool you can trust and one that silently breaks, fails to call APIs, or makes mistakes.",
-            "source": "Google Cloud AI",
-            "tier": 2,
-            "published": "2026-10-16T16:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       },
       "Hugging Face Blog": {
         "tier": 2,
         "items": [
+          {
+            "id": "ta_3eb18e5ff7f2a0ef",
+            "title": "MPS in PyTorch 2.15",
+            "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-10-20T00:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "ta_9dbc0d55ff9123c6",
             "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
@@ -570,7 +513,7 @@
             "tier": 2,
             "published": "2026-10-19T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -616,20 +559,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ta_e3c36d4422c6129b",
-            "title": "Apertus 1.5 Release Notes",
-            "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-10-15T09:08:45+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -651,10 +580,10 @@
             }
           },
           {
-            "id": "ta_3de13b42e404c830",
-            "title": "anthropics/claude-plugins-official",
-            "url": "https://github.com/anthropics/claude-plugins-official",
-            "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins. https://code.claude.com/docs/en/plugins Claude Code Plugins Directory A curated directory of high-quality plugins for Claude Code. \u26a0\ufe0f Important: Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.",
+            "id": "ta_f34c24127709c365",
+            "title": "Comfy-Org/ComfyUI",
+            "url": "https://github.com/Comfy-Org/ComfyUI",
+            "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. https://www.comfy.org/ ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -665,24 +594,10 @@
             }
           },
           {
-            "id": "ta_6096cc3a83ecce40",
-            "title": "HKUDS/CLI-Anything",
-            "url": "https://github.com/HKUDS/CLI-Anything",
-            "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/ https://clianything.cc/ CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans\ud83d\udc68\u200d\ud83d\udcbb. Tomorrow's Users will be Agents\ud83e\udd16. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software \ud83c\udf10 CLI-Hub : pip install cli-anything-hub then cli-hub install <name> \u2014 browse, install, and manage all community-built CLIs. Want to add your own? Open a PR \u2014 the hub updates instantly.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_1c9d47a9794512b7",
-            "title": "debpalash/VoiceStudio",
-            "url": "https://github.com/debpalash/VoiceStudio",
-            "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative \u2014 voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. https://voicestudio.sh VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages. Website \u00b7 Download \u00b7 Get started \u00b7 Docs \u00b7 Discord \u00b7 \u7b80\u4f53\u4e2d\u6587 \u00b7 \u65e5\u672c\u8a9e Your voice. Your workflow.",
+            "id": "ta_9a75aafc0f232f11",
+            "title": "headroomlabs-ai/headroom",
+            "url": "https://github.com/headroomlabs-ai/headroom",
+            "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server. https://docs.headroomlabs.ai/docs Quickstart \u00b7 Headroom for Teams \u00b7 Install \u00b7 Proof \u00b7 Agents \u00b7 Docs \u00b7 Discord \u00b7 llms.txt AI agents / LLMs: read /llms.txt here, or fetch the live index \u00b7 full docs blob . Headroom compresses everything your AI agent reads \u2014 tool outputs, logs, RAG chunks, files, and conversation history \u2014 before it reaches the LLM. Same answers, fraction of the tokens.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -705,6 +620,20 @@
               "featured": false,
               "tier": 2
             }
+          },
+          {
+            "id": "ta_6096cc3a83ecce40",
+            "title": "HKUDS/CLI-Anything",
+            "url": "https://github.com/HKUDS/CLI-Anything",
+            "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/ https://clianything.cc/ CLI-Anything: Making ALL Software Agent-Native Today's Software Serves Humans\ud83d\udc68\u200d\ud83d\udcbb. Tomorrow's Users will be Agents\ud83e\udd16. CLI-Anything: Bridging the Gap Between AI Agents and the World's Software \ud83c\udf10 CLI-Hub : pip install cli-anything-hub then cli-hub install <name> \u2014 browse, install, and manage all community-built CLIs. Want to add your own? Open a PR \u2014 the hub updates instantly.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
           }
         ]
       },
@@ -717,6 +646,20 @@
       "arXiv: 5G + LLM": {
         "tier": 1,
         "items": [
+          {
+            "id": "te_99bb9ac920c9a219",
+            "title": "Semantic Routing Framework for Multi-Domain Telecom Intent-Based Networking",
+            "url": "https://arxiv.org/abs/2610.24487v1",
+            "summary": "Intent-Based Networking (IBN) is a key enabler of autonomous network management in next-generation networks, as it allows operators to drive the network through high-level intents instead of low-level configuration commands. In this paper, we propose a semantic routing framework for telecom intent classification and translation across the radio access networks (RANs), transport, 5G core, and cloud/edge domains. This framework operates locally to preserve intent privacy and avoid the latency and cost of cloud-based Large Language Model (LLM) solutions.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-10-17T06:14:14+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
           {
             "id": "te_1fab98a388cbe73d",
             "title": "AutoSec-RAN: Specification-Grounded LLM Fine-Tuning for Automated Security Analysis of O-RAN",
@@ -772,26 +715,40 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "te_9fbc1ff4881caa68",
-            "title": "AIR-LLM: Broadcasting AI Weights over Radio for Memory-Free Edge LLM Inference via RF Computing",
-            "url": "https://arxiv.org/abs/2610.00465v1",
-            "summary": "Next-generation large language models (LLMs) are expanding from the cloud to ubiquitous edge devices. However, edge devices typically either lack the memory to store increasingly large LLM weights or, even with enough memory, spend unaffordable energy on loading the weights. This raises our question: can an edge device run an LLM without storing or loading its weights, but receive them over the air and consume them on the fly? Inspired by wireless broadcasting, we present AIR-LLM, an LLM inference architecture for edge devices, which is composed of: (i) a central radio (e.g., 5G base\u2026",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-09-30T18:00:02+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
       "arXiv: RAN anomaly": {
         "tier": 1,
         "items": [
+          {
+            "id": "te_5461e42c2e1f5eb9",
+            "title": "KPI-Aware Multimodal Anomaly Detection for 5G and Open RAN Telemetry",
+            "url": "https://arxiv.org/abs/2610.25510v1",
+            "summary": "Reliable anomaly detection is a deployment bottleneck for 5G/Open RAN observability and emerging self-optimizing 6G systems, where hundreds of heterogeneous KPIs, severe class imbalance, and strict alert budgets make purely numerical scores brittle. We present KAC, a deployment-oriented KPI-aware multimodal anomaly-detection framework that uses KPI-level residual-text alignment to turn compact operator-style summaries into a learnable feedback signal over full-KPI temporal evidence.",
+            "source": "arXiv: RAN anomaly",
+            "tier": 1,
+            "published": "2026-10-18T19:59:20+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_70a5444e9e504885",
+            "title": "Multi-Agentic AI for Intent-Driven and Conflict-Aware rApp Policy Orchestration in Open RAN",
+            "url": "https://arxiv.org/abs/2610.24688v1",
+            "summary": "Open radio access network (O-RAN) enables a multi-vendor ecosystem that accelerates xApp development for near-real-time (RT) network management. However, this openness shifts a combinatorial coordination burden to the Non-RT layer, where rApp policies compose xApps from a growing catalog to realize operator intents. Coexisting intents further compound this challenge, as conflicts may arise among xApp actions, rApp policies, and their cross-layer interactions.",
+            "source": "arXiv: RAN anomaly",
+            "tier": 1,
+            "published": "2026-10-17T13:40:25+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
           {
             "id": "te_bc04ed632e278502",
             "title": "O-RAN-Native Jamming Detection Under Network Heterogeneity",
@@ -833,40 +790,40 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "te_cb5e350673d80afa",
-            "title": "TriSLA: A Preventive and Closed-Loop SLA-Aware Architecture for Multidomain Decision-Making with Explainable Artificial Intelligence in 5G Networks",
-            "url": "https://arxiv.org/abs/2609.01293v1",
-            "summary": "Network slicing in multidomain 5G environments introduces critical challenges in guaranteeing Service Level Agreements (SLAs) under dynamic resource variability and heterogeneous service requirements. This article presents TriSLA, a closed-loop, preventive, SLA-aware architecture designed to evaluate feasibility at request time and continuously ensure SLA compliance during operation.",
-            "source": "arXiv: RAN anomaly",
-            "tier": 1,
-            "published": "2026-09-01T14:27:24+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_89cdb374e863e454",
-            "title": "Free-Text Evaluation of LLMs for 5G Domain Knowledge and Fault Analysis using LLM-as-Judge",
-            "url": "https://arxiv.org/abs/2608.21021v1",
-            "summary": "Real-world fault analysis in 5G and emerging 6G networks demands domain expertise to analyze free-text diagnostics, including root-cause explanations and recommended actions. LLMs have emerged as a promising approach to automating this, yet whether lightweight, edge-deployable models are capable of performing in-depth free-text diagnostics remains an open question. While existing benchmarks rely on restrictive MCQs with fixed answer keys, this paper evaluates 5G domain understanding and fault analysis in a free-text generation format.",
-            "source": "arXiv: RAN anomaly",
-            "tier": 1,
-            "published": "2026-08-21T12:09:51+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
       "arXiv: O-RAN": {
         "tier": 1,
         "items": [
+          {
+            "id": "te_5461e42c2e1f5eb9",
+            "title": "KPI-Aware Multimodal Anomaly Detection for 5G and Open RAN Telemetry",
+            "url": "https://arxiv.org/abs/2610.25510v1",
+            "summary": "Reliable anomaly detection is a deployment bottleneck for 5G/Open RAN observability and emerging self-optimizing 6G systems, where hundreds of heterogeneous KPIs, severe class imbalance, and strict alert budgets make purely numerical scores brittle. We present KAC, a deployment-oriented KPI-aware multimodal anomaly-detection framework that uses KPI-level residual-text alignment to turn compact operator-style summaries into a learnable feedback signal over full-KPI temporal evidence.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-10-18T19:59:20+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_70a5444e9e504885",
+            "title": "Multi-Agentic AI for Intent-Driven and Conflict-Aware rApp Policy Orchestration in Open RAN",
+            "url": "https://arxiv.org/abs/2610.24688v1",
+            "summary": "Open radio access network (O-RAN) enables a multi-vendor ecosystem that accelerates xApp development for near-real-time (RT) network management. However, this openness shifts a combinatorial coordination burden to the Non-RT layer, where rApp policies compose xApps from a growing catalog to realize operator intents. Coexisting intents further compound this challenge, as conflicts may arise among xApp actions, rApp policies, and their cross-layer interactions.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-10-17T13:40:25+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
           {
             "id": "te_077f045d7a6fd2f3",
             "title": "ScaleRAN: A Runtime for Elastic GPU Resource Management in AI-RAN",
@@ -908,40 +865,40 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "te_bc04ed632e278502",
-            "title": "O-RAN-Native Jamming Detection Under Network Heterogeneity",
-            "url": "https://arxiv.org/abs/2610.20816v1",
-            "summary": "Radio-frequency jamming threatens cellular network operations in contested environments. The Open Radio Access Network (O-RAN) architecture exposes per-User Equipment (UE) telemetry through the E2 interface, enabling Key Performance Indicator (KPI)-based jamming detection without proprietary hardware. However, operational deployment demands detection methods that generalize across heterogeneous networks.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-10-14T19:00:48+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_73c68c88d43b9ea8",
-            "title": "FedRIC: Heterogeneity-Aware Federated Learning with Hard Deadline Constraints in Open RAN",
-            "url": "https://arxiv.org/abs/2610.20530v1",
-            "summary": "Open Radio Access Networks (O-RANs) bring intelligence to disaggregated RANs through virtualized platforms and open interfaces, but the stringent latency budgets of the RAN Intelligent Controller (RIC) and heterogeneous traffic conditions make real-time deployment costly. Centralized learning is ill-suited to the RIC due to its computational burden, timing constraints, and communication overhead, motivating Federated Learning (FL) as a distributed alternative.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-10-14T17:28:01+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
       "Light Reading": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_7562c790a7f941c6",
+            "title": "Eliminating E-Rate would cut US GDP by $4.2B \u2013 study",
+            "url": "https://www.lightreading.com/broadband/eliminating-e-rate-would-cut-us-gdp-by-4-2b-study",
+            "summary": "As the FCC considers ending the E-Rate program, which subsidizes telecom services for schools and libraries, a recent study shows that losing the program would cost the US economy $4.2 billion annually.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-20T12:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_f32c16c8acf1bbf1",
+            "title": "Ericsson CEO champions his silicon over Nvidia chips in RAN",
+            "url": "https://www.lightreading.com/5g/ericsson-ceo-champions-his-silicon-over-nvidia-chips-in-ran",
+            "summary": "Per Narvinger, Ericsson's new CEO, describes Ericsson's ASICs as an 'extraordinary asset' when asked about interest in Nvidia's GPUs.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-20T07:30:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_8e44dd8497b4a3e5",
             "title": "TP-Link taps Keytronic to bring broadband router assembly to the US",
@@ -983,40 +940,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_d3f537411041e2c7",
-            "title": "Europe's big telcos explore joint satellite spectrum bid to rival Starlink",
-            "url": "https://www.lightreading.com/satellite/europe-s-big-telcos-explore-joint-satellite-spectrum-bid-to-rival-starlink",
-            "summary": "Deutsche Telekom, Orange, Telef\u00f3nica and Vodafone consider joint bid for mobile satellite spectrum next year to build European alternative to Starlink.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-19T15:54:15+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_1b1c1c248ca13e27",
-            "title": "Mediacom hires group VP of strategic insights and analytics",
-            "url": "https://www.lightreading.com/cable-technology/mediacom-hires-group-vp-of-strategic-insights-and-analytics",
-            "summary": "Mediacom Communications has appointed former Comcast exec Conner Clyde as group VP, strategic insights and analytics, a new role that will aid Mediacom's strategy, pricing and investment decisions. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-19T15:12:24+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_68c64cabc2987354",
+            "title": "EU MNO NTN JV? Big four seek satellite control in name of sovereignty (Telco Diary)",
+            "url": "https://rcrwireless.com/20261020/opinion/eu-mno-ntn-jv-big-four-seek-satellite-control-in-name-of-sovereignty-telco-diary",
+            "summary": "From the newsletter (October 19; sign-up or follow if you want it sooner): Deutsche Telekom, Orange, Telef\u00f3nica and Vodafone want a joint position on mobile satellite spectrum, but can Europe\u2019s\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-20T09:42:35+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_bc29c041ead7da57",
             "title": "Regulators look to WRC-27 to settle direct-to-device spectrum rules",
@@ -1067,20 +1010,6 @@
             "source": "RCR Wireless",
             "tier": 2,
             "published": "2026-10-19T11:06:26+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_2f3d9727ea4b7c21",
-            "title": "6G architecture is looking like 5G made smarter, not a clean slate",
-            "url": "https://rcrwireless.com/20261016/6g/6g-architecture-5g-made-smarter-ai",
-            "summary": "Panel maps the 6G path from standalone 5G to agentic AI cores In sum \u2013 what we know: 6G has started moving from vision to engineering, and with it comes\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-16T17:36:33+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1320,6 +1249,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_fb236cc542ed4478",
+            "title": "[AINews] not much happened today",
+            "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+            "summary": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they\u2019re not going to be in super wide use just yet.",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-10-20T05:21:52+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_25f370b6a2f3e641",
             "title": "[AINews] High Taste Testers Ep. 1",
             "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
@@ -1374,20 +1317,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "to_ecfb2d56ace4033f",
-            "title": "Lab-in-the-Loop at Compute Speed \u2014 Ian Quigley, Leash Bio",
-            "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
-            "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-10-14T20:35:09+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -1395,13 +1324,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "to_0cffae2fd0c5318b",
-            "title": "Microsoft says AI agents are like insider threats as \u2018frontier models can\u2019t be trusted\u2019",
-            "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-            "summary": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+            "id": "to_697eb620bfd36fec",
+            "title": "Otter.ai raises $320 million from General Catalyst\u2019s growth fund for its meeting tool",
+            "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+            "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst\u2019s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [\u2026]",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-19T22:04:28+00:00",
+            "published": "2026-10-20T11:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1409,13 +1338,13 @@
             }
           },
           {
-            "id": "to_aaaf393dcb103418",
-            "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-            "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-            "summary": "Amazon wants to break Nvidia\u2019s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+            "id": "to_33f72cf8b33fabf0",
+            "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+            "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+            "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-19T20:09:24+00:00",
+            "published": "2026-10-20T11:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1423,13 +1352,13 @@
             }
           },
           {
-            "id": "to_039a84854fb85dd6",
-            "title": "Hackers hit AI coding tool OpenCode, running up charges on users\u2019 AI accounts",
-            "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-            "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users\u2019 API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+            "id": "to_ed298111b59a085c",
+            "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+            "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+            "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-19T19:28:34+00:00",
+            "published": "2026-10-20T01:27:03+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1437,13 +1366,13 @@
             }
           },
           {
-            "id": "to_e37065d0e754995b",
-            "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-            "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-            "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+            "id": "to_b0fb4c0567199f7f",
+            "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+            "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+            "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-19T19:00:12+00:00",
+            "published": "2026-10-19T23:39:38+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1451,13 +1380,13 @@
             }
           },
           {
-            "id": "to_71c2d7263cd3eef9",
-            "title": "Replika\u2019s founder built the AI assistant she pitched at Disrupt 12 years ago",
-            "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
-            "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
+            "id": "to_d45dacf783b2543c",
+            "title": "Embedded AI evaluators won\u2019t be an easy solution, Hugging Face\u2019s policy chief says",
+            "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+            "summary": "The idea of embedded evaluators \u2014 in which supposedly \"neutral\" third-party observers are placed inside AI organizations \u2014 has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-19T18:49:04+00:00",
+            "published": "2026-10-19T22:49:27+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1630,7 +1559,7 @@
             "tier": 1,
             "published": "2026-10-19T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1644,7 +1573,7 @@
             "tier": 1,
             "published": "2026-10-19T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1658,7 +1587,7 @@
             "tier": 1,
             "published": "2026-10-19T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1703,7 +1632,7 @@
             "summary": "Coverage period: July 1, 2026 through September 30, 2026 Overview This roundup consolidates selected major AI-related security incidents and exploit disclosures reported during the coverage period. It aligns each entry to the OWASP Top 10 for LLM Applications 2026 and the OWASP Top 10 for Agentic Applications 2026, with published CVE references where available. It [\u2026] The post GenAI and Agentic AI Exploit Roundup Q3 2026 appeared first on OWASP Gen AI Security Project .",
             "source": "OWASP GenAI",
             "tier": 2,
-            "published": "2026-10-08T12:07:03+00:00",
+            "published": "2026-10-08T12:07:42+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1718,6 +1647,20 @@
             "source": "OWASP GenAI",
             "tier": 2,
             "published": "2026-09-01T23:36:47+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ca_34f02e573c2663a3",
+            "title": "GenAI and Agentic AI Exploit Roundup Q2 2026",
+            "url": "https://genai.owasp.org/2026/07/08/genai-and-agentic-ai-exploit-roundup-q2-2026/?utm_source=rss&utm_medium=rss&utm_campaign=genai-and-agentic-ai-exploit-roundup-q2-2026",
+            "summary": "April 1 through June 30 2026 Overview Six selected cases show how AI integrations, coding tools, and browser agents can turn ordinary inputs or delegated access into security exposure. Defenders should constrain tool execution and credentials, preserve input provenance, and monitor the actions agents take. Coverage includes incidents and technical disclosures published during the quarter. [\u2026] The post GenAI and Agentic AI Exploit Roundup Q2 2026 appeared first on OWASP Gen AI Security Project .",
+            "source": "OWASP GenAI",
+            "tier": 2,
+            "published": "2026-07-09T04:38:14+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1751,26 +1694,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ca_f139688067bde7d9",
-            "title": "OWASP GenAI Exploit Round-up Report Q1 2026",
-            "url": "https://genai.owasp.org/2026/04/14/owasp-genai-exploit-round-up-report-q1-2026/?utm_source=rss&utm_medium=rss&utm_campaign=owasp-genai-exploit-round-up-report-q1-2026",
-            "summary": "OWASP GenAI Exploit Round-up Report Q1 2026 Coverage period: January 1, 2026 through April 11, 2026 Overview For the last two years the OWASP GenAI Security Project published a list of the major incidents for the last quarter. This is not designed to be an exhaustive report. This report consolidates major AI-related security incidents and [\u2026] The post OWASP GenAI Exploit Round-up Report Q1 2026 appeared first on OWASP Gen AI Security Project .",
-            "source": "OWASP GenAI",
-            "tier": 2,
-            "published": "2026-04-15T05:55:44+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "Schneier on Security": {
         "tier": 2,
         "items": [
+          {
+            "id": "ca_59dff61018ead8f4",
+            "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+            "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+            "summary": "Justin.sh is reporting on a confidential Cellebrite document that has been leaked to him: Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the \u201cadvanced unlocking services\u201d they\u2019ve marketed for years. A press release from earlier this year confirms AU is a new product for 2026. [\u2026] According to Cellebrite, AU: is a \u201cnext-generation AFU vector that is more resilient to Apple\u2019s OS changes\u201d works with Stolen Device Protection enabled, which tightens USB restrictions is enabled by a dedicated appliance with a stated range (!) of about 8 meters...",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-10-20T11:03:13+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "ca_570936749f048b83",
             "title": "Training AIs to Solve CAPTCHAs",
@@ -1780,7 +1723,7 @@
             "tier": 2,
             "published": "2026-10-19T11:07:43+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1821,20 +1764,6 @@
             "source": "Schneier on Security",
             "tier": 2,
             "published": "2026-10-15T16:24:29+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_4d5b36d13b300c3b",
-            "title": "Upcoming Speaking Engagements",
-            "url": "https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html",
-            "summary": "This is a current list of where and when I am scheduled to speak: I\u2019m speaking at ATTENTION: Democracy, Rebuilt in Montreal, Quebec, Canada. The event runs October 21\u201323, 2026, and my talk is on Wednesday, October 21. I\u2019m speaking at the University of Toronto in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026. I\u2019m speaking at [un]prompted in San Francisco, California. The event runs October 27\u201329, 2026, and my talk is at 11:35 AM PT on Thursday, October 29. I\u2019m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026...",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-10-14T16:02:17+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -2082,7 +2011,7 @@
             "tier": 1,
             "published": "2026-10-19T11:47:04+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
