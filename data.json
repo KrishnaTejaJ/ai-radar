@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-10-20T12:39:26.317854+00:00",
+    "last_updated": "2026-10-20T17:48:38.359710+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 135,
+      "fetched": 140,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -37,9 +37,9 @@
         "tier": 1,
         "items": [
           {
-            "id": "ta_8c17f1f1ac30a4ed",
+            "id": "ta_26049a43c6a936ee",
             "title": "Redesigning source control at Anthropic",
-            "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+            "url": "https://www.anthropic.com/research/redesigning-source-control",
             "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
             "source": "Anthropic Engineering",
             "tier": 1,
@@ -51,9 +51,9 @@
             }
           },
           {
-            "id": "ta_97cd97d27d220f15",
+            "id": "ta_2c07053c3bb610bb",
             "title": "How we contain Claude across products",
-            "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+            "url": "https://www.anthropic.com/research/how-we-contain-claude",
             "summary": "As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here\u2019s what we\u2019ve learned building containment for claude.ai, Claude Code, and Cowork.",
             "source": "Anthropic Engineering",
             "tier": 1,
@@ -65,9 +65,9 @@
             }
           },
           {
-            "id": "ta_dea52d951227dccc",
+            "id": "ta_00aee046d19f7c39",
             "title": "An update on recent Claude Code quality reports",
-            "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+            "url": "https://www.anthropic.com/research/april-23-postmortem",
             "summary": "We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
             "source": "Anthropic Engineering",
             "tier": 1,
@@ -79,9 +79,9 @@
             }
           },
           {
-            "id": "ta_f90fa6cabc2908fd",
+            "id": "ta_fe35c48adedd57f5",
             "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-            "url": "https://www.anthropic.com/engineering/managed-agents",
+            "url": "https://www.anthropic.com/research/managed-agents",
             "summary": "Harnesses encode assumptions that go stale as models improve. Managed Agents\u2014our hosted service for long-horizon agent work\u2014is built around interfaces that stay stable as harnesses change.",
             "source": "Anthropic Engineering",
             "tier": 1,
@@ -93,9 +93,9 @@
             }
           },
           {
-            "id": "ta_b4c065a13b0cb9ae",
+            "id": "ta_b23f6db00ad70827",
             "title": "How we built Claude Code auto mode: a safer way to skip permissions",
-            "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+            "url": "https://www.anthropic.com/research/claude-code-auto-mode",
             "summary": "Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.",
             "source": "Anthropic Engineering",
             "tier": 1,
@@ -337,6 +337,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ta_34b84ef907f5fd9b",
+            "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+            "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+            "summary": "Western open models strike back",
+            "source": "Interconnects",
+            "tier": 1,
+            "published": "2026-10-20T17:04:21+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "ta_987754dece6755c3",
             "title": "Meta shakes up the frontiers, open and closed",
             "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
@@ -386,20 +400,6 @@
             "source": "Interconnects",
             "tier": 1,
             "published": "2026-09-22T13:37:45+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_9a319be2f7489d1b",
-            "title": "The current balance of power in open models",
-            "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-            "summary": "The expanded form of a testimony I prepared for Congress.",
-            "source": "Interconnects",
-            "tier": 1,
-            "published": "2026-09-21T11:56:56+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -485,15 +485,114 @@
       },
       "Google Cloud AI": {
         "tier": 2,
-        "items": []
+        "items": [
+          {
+            "id": "ta_bb401d03b1d7685f",
+            "title": "Introducing Gemini for government services",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/",
+            "summary": "Earlier this month at Gemini at Work, we introduced the Gemini agent: a single, universal agent for work. It answers your questions, handles your knowledge work, creates your images and media, and writes and runs code. You give it objectives, not instructions, and come back to finished work. It plans the work, uses skills and tools, connects to your systems, and has the security, administration, and governance your organization requires. Every industry runs on knowledge a general model does not have.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-20T10:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_b2b75d12bddc93cc",
+            "title": "Building full virtual vehicles on Google Cloud: From AAOS to the smallest MCU",
+            "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu/",
+            "summary": "Imagining traditional gearheads getting their hands on software-defined vehicles is an amusing thought experiment. With their socket wrenches and air compressors at the ready, they might be confused to encounter core functions more likely to run on 1s and 0s than oil and belts. But across the auto industry these days, more and more vehicles feature prominent systems built using cloud-native development, continuous integration/continuous delivery, fast digital iteration, and plenty of AI.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-19T16:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_a540d10ea8b3759c",
+            "title": "Who judges the judge? Three helpful ways to audit your LLM evaluators",
+            "url": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
+            "summary": "Is your LLM-as-a-judge truly objective? There\u2019s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subjective. Just like human reviewers, they can carry biases: Verbosity bias : LLM judges usually favor longer, confident-sounding answers , even when the underlying facts are wrong. Position bias : Swapping the order of two options can cause an LLM judge to flip its verdict over 75% of the time .",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-19T16:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_2fc411897c55da5f",
+            "title": "Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms/",
+            "summary": "As organizations work to leverage AI to transform their businesses, it is clear that the raw model intelligence is not the key challenge. Consistently, we hear that the challenges lie in how the agents can be deployed across the company while meeting key requirements for quality, integration, security, and governance. Gemini provides that connected foundation across the enterprise , and it\u2019s why we believe Google was named a Leader in the inaugural IDC MarketScape: Worldwide Agentic AI Platforms 2026 Vendor Assessment 1 .",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-19T07:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_debbc6d22d5f7e1c",
+            "title": "Four evaluation engineering lessons learned from building agent plugins",
+            "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/",
+            "summary": "The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to measure your agent\u2019s true behavior can be the difference between shipping a tool you can trust and one that silently breaks, fails to call APIs, or makes mistakes.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-16T16:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          }
+        ]
       },
       "Hugging Face Blog": {
         "tier": 2,
         "items": [
           {
-            "id": "ta_3eb18e5ff7f2a0ef",
-            "title": "MPS in PyTorch 2.15",
-            "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+            "id": "ta_ca293d8533a3487d",
+            "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+            "url": "https://huggingface.co/blog/allenai/fairstress",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-10-20T16:09:19+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_94e7f4f5c0e52bb7",
+            "title": "ALTK-Evolve: How learned memory tops the \u03c4\u00b2-bench leaderboard on customer service tasks without a frontier model",
+            "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-10-20T15:19:48+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_84cd8d44e9825e73",
+            "title": "Hugging Face \u2764\ufe0f TorchTPU: TPUs, Natively",
+            "url": "https://huggingface.co/blog/hf-torchtpu",
             "summary": "",
             "source": "Hugging Face Blog",
             "tier": 2,
@@ -505,57 +604,29 @@
             }
           },
           {
-            "id": "ta_9dbc0d55ff9123c6",
-            "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-            "url": "https://huggingface.co/blog/hf-torchneuron",
+            "id": "ta_2596ff929aeef557",
+            "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+            "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
             "summary": "",
             "source": "Hugging Face Blog",
             "tier": 2,
-            "published": "2026-10-19T00:00:00+00:00",
+            "published": "2026-10-20T00:00:00+00:00",
             "flags": {
-              "new": false,
+              "new": true,
               "featured": false,
               "tier": 2
             }
           },
           {
-            "id": "ta_ba4e7337aba280a4",
-            "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-            "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+            "id": "ta_3eb18e5ff7f2a0ef",
+            "title": "MPS in PyTorch 2.15",
+            "url": "https://huggingface.co/blog/mps-pytorch-2-15",
             "summary": "",
             "source": "Hugging Face Blog",
             "tier": 2,
-            "published": "2026-10-16T01:44:47+00:00",
+            "published": "2026-10-20T00:00:00+00:00",
             "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_849b423196d125cc",
-            "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-            "url": "https://huggingface.co/blog/reflection-beam",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-10-16T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_a01e02239da0a38e",
-            "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-            "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-10-15T20:34:01+00:00",
-            "flags": {
-              "new": false,
+              "new": true,
               "featured": false,
               "tier": 2
             }
@@ -872,13 +943,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "te_7562c790a7f941c6",
-            "title": "Eliminating E-Rate would cut US GDP by $4.2B \u2013 study",
-            "url": "https://www.lightreading.com/broadband/eliminating-e-rate-would-cut-us-gdp-by-4-2b-study",
-            "summary": "As the FCC considers ending the E-Rate program, which subsidizes telecom services for schools and libraries, a recent study shows that losing the program would cost the US economy $4.2 billion annually.",
+            "id": "te_0ad8d1c17e2de6b2",
+            "title": "AT&T copper network retirement set to accelerate as legacy base shrinks to 1%",
+            "url": "https://www.lightreading.com/broadband/at-t-copper-network-retirement-set-to-accelerate-as-legacy-base-shrinks-to-1-",
+            "summary": "In its latest copper network shutdown update, AT&T says it has shut down more than 100 wire centers and discontinued copper services in 500 communities across 1.3 million locations in 18 states.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-10-20T12:00:00+00:00",
+            "published": "2026-10-20T16:18:06+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -886,13 +957,13 @@
             }
           },
           {
-            "id": "te_f32c16c8acf1bbf1",
-            "title": "Ericsson CEO champions his silicon over Nvidia chips in RAN",
-            "url": "https://www.lightreading.com/5g/ericsson-ceo-champions-his-silicon-over-nvidia-chips-in-ran",
-            "summary": "Per Narvinger, Ericsson's new CEO, describes Ericsson's ASICs as an 'extraordinary asset' when asked about interest in Nvidia's GPUs.",
+            "id": "te_b707cf725be5e9d7",
+            "title": "Lumen takes network resilience beyond the backup plan with AI and built-in diversity",
+            "url": "https://www.lightreading.com/ai-machine-learning/lumen-takes-network-resilience-beyond-the-backup-plan-with-ai-and-built-in-diversity",
+            "summary": "AI-powered tools help prevent disruptions, speed recovery and keep customers informed, while new Dual Path service delivers two separate physical network routes between locations. #pressrelease",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-10-20T07:30:00+00:00",
+            "published": "2026-10-20T15:17:49+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -900,13 +971,13 @@
             }
           },
           {
-            "id": "te_8e44dd8497b4a3e5",
-            "title": "TP-Link taps Keytronic to bring broadband router assembly to the US",
-            "url": "https://www.lightreading.com/regulatory-politics/tp-link-taps-key-tronic-to-bring-broadband-router-assembly-to-the-us",
-            "summary": "Amid efforts to obtain an FCC exemption on new Wi-Fi 8 routers, TP-Link has signed a letter of intent with Keytronic to assemble those devices in the US starting next year. Keytronic recently exited manufacturing operations in China.",
+            "id": "te_8200588e3e4f4a73",
+            "title": "Singtel and Ericsson partner to scale 5G innovation and build AI-native networks in Singapore",
+            "url": "https://www.lightreading.com/ai-machine-learning/singtel-and-ericsson-partner-to-scale-5g-innovation-and-build-ai-native-networks-in-singapore",
+            "summary": "Extending the collaboration announced in March 2026, the new agreement establishes a longer-term roadmap that will focus on scaling 5G Advanced and AI-powered network capabilities across industries. #pressrelease",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-10-19T20:30:00+00:00",
+            "published": "2026-10-20T15:13:09+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -914,13 +985,13 @@
             }
           },
           {
-            "id": "te_336f867cbe3d2660",
-            "title": "US broadcaster group outs 'major progress' toward affordable ATSC 3.0 converters",
-            "url": "https://www.lightreading.com/video-broadcast/us-broadcaster-group-outs-major-progress-toward-affordable-atsc-3-0-converters",
-            "summary": "Pearl TV, a group led by major US broadcasters, said it's seeing progress toward affordable ATSC 3.0 converter boxes as the industry preps for the transition to the next-gen, IP-based broadcast signaling standard. #pressrelease",
+            "id": "te_8b8fc2be5f8b5b05",
+            "title": "Former Comcast exec tapped to head biz services at Mediacom",
+            "url": "https://www.lightreading.com/cable-technology/former-comcast-exec-tapped-to-head-biz-services-at-mediacom",
+            "summary": "Mediacom has appointed Wolfgang Lewis as SVP and GM of business services. He most recently led Comcast Business's national enterprise field sales organization. #pressrelease",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-10-19T18:47:29+00:00",
+            "published": "2026-10-20T14:55:16+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -928,13 +999,13 @@
             }
           },
           {
-            "id": "te_c062780d3d1ccfde",
-            "title": "Straight Talk adds features to 5G unlimited plans",
-            "url": "https://www.lightreading.com/5g/straight-talk-adds-features-to-5g-unlimited-plans",
-            "summary": "Straight Talk, a Verizon-owned MVNO, said it is adding features across its Silver, Gold and Platinum unlimited plans, including more hotspot data, for no added cost. Those customers can bundle Straight Talk's FWA service for $35/month more. #pressrelease",
+            "id": "te_f05ed5a707fd07f8",
+            "title": "Singtel and Ericsson renew ties, expand 5G for AI growth",
+            "url": "https://www.lightreading.com/5g/singtel-and-ericsson-renew-ties-expand-5g-for-ai-growth",
+            "summary": "Singtel and Ericsson entered a five-year partnership to scale up Singapore's 5G Advanced capabilities and accelerate the adoption of AI-native networks.",
             "source": "Light Reading",
             "tier": 2,
-            "published": "2026-10-19T18:42:07+00:00",
+            "published": "2026-10-20T14:16:46+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -946,6 +1017,62 @@
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_d52af517ed5c9d3f",
+            "title": "6G progress, minus the business case \u2013 plus AI-RAN, D2D, Industry 4.0 (Telco Diary)",
+            "url": "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary",
+            "summary": "From the newsletter (October 20; sign-up or follow if you want it sooner): A new 6G architecture is taking shape, but its business case remains elusive. This week: AI-RAN performance\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-20T17:19:37+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_57529651a5a1fec3",
+            "title": "NTN\u2019s unsolved problem: proving seamless connectivity on the device",
+            "url": "https://rcrwireless.com/20261020/networks/ntn-seamless-connectivity-testing",
+            "summary": "NTN roaming, spectrum and 6G gaps all land on the handset In sum \u2013 what we know: Seamless connectivity is the promise on every NTN marketing deck, and RCR Tech\u2019s\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-20T15:28:02+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_b93acba9a6850984",
+            "title": "Ericsson sees six-fold jump in uplink demand, says not to make 5G mistakes with 6G",
+            "url": "https://rcrwireless.com/20261020/6g/ericsson-sees-six-fold-jump-in-uplink-demand-says-not-to-make-5g-mistakes-with-6g",
+            "summary": "Ericsson forecasts surging uplink demand as AI shifts mobile traffic patterns, urging operators to avoid 5G\u2019s costly standalone delays. Its 6G vision hinges on spectrum efficiency, reusable infrastructure, and services\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-20T14:48:07+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_fc2d87d0c23e40e3",
+            "title": "AI architecture remains unsettled as 6G core timeline compresses",
+            "url": "https://rcrwireless.com/20261020/6g/ai-6g-core",
+            "summary": "Stephen Douglas, head of strategic thought leadership at Keysight Technologies, said during the recent RCR\u2019s 6G Forum that future 6G technology will be standalone from the beginning with its own\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-20T13:31:11+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_68c64cabc2987354",
             "title": "EU MNO NTN JV? Big four seek satellite control in name of sovereignty (Telco Diary)",
@@ -959,62 +1086,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_bc29c041ead7da57",
-            "title": "Regulators look to WRC-27 to settle direct-to-device spectrum rules",
-            "url": "https://rcrwireless.com/20261019/networks/wrc-27-direct-to-device-spectrum",
-            "summary": "Spain, U.K. and U.S. regulators map different roads to WRC-27 In sum \u2013 what we know: Direct-to-device connectivity has run ahead of the international rulebook. Reusing spectrum allocated solely for terrestrial\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-19T16:43:26+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_2c4cd0b89282ef89",
-            "title": "US telecom retail holds up \u2013 where might Starlink fit? (Analyst Angle)",
-            "url": "https://rcrwireless.com/20261019/analyst-angle/us-telecom-retail-holds-up-where-might-starlink-fit-analyst-angle",
-            "summary": "US telecom retail remains resilient, but Wave7 Research\u2019s Jeff Moore questions whether Starlink can become a national mobile operator. SpaceX could bypass the traditional retail model, but building a competitive\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-19T14:14:27+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_e92b18275a941617",
-            "title": "AI in the RAN moves toward the scale test",
-            "url": "https://rcrwireless.com/20261019/networks/ai-ran-scale-test",
-            "summary": "Speaking at the RCR Wireless News\u2019s Telco AI Forum 2026, AT&T and Verizon executives described AI-based RAN deployments that are already producing measurable results In sum \u2013 what to know\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-19T13:39:04+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_2e3f586e0fe38146",
-            "title": "Starlink\u2019s MO \u2013 replacement or displacement? (Telco Diary)",
-            "url": "https://rcrwireless.com/20261019/network-infrastructure/starlink-mo-replacement-or-displacement-telco-diary",
-            "summary": "From the newsletter (October 16; sign-up or follow if you want it sooner): Starlink need not replace terrestrial networks to disrupt telecoms. Strand Consult and Dell\u2019Oro examine SpaceX\u2019s hybrid ambitions,\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-19T11:06:26+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -1022,10 +1093,10 @@
         "tier": 2,
         "items": [
           {
-            "id": "te_e5085d21e33ed648",
-            "title": "TP-Link bends over backwards to keep its U.S.-based router business afloat",
-            "url": "https://www.fierce-network.com/broadband/tp-link-bends-over-backwards-keep-its-us-based-router-business-afloat",
-            "summary": "The router maker TP-Link says it has signed a letter of intent with the electronics manufacturer Key Tronic to bring its router assembly to the U.S.",
+            "id": "te_99e3b65955ee64c9",
+            "title": "Wall Street\u2019s anxiety catches up to neocloud CoreWeave",
+            "url": "https://www.fierce-network.com/cloud/wall-streets-anxiety-catches-neocloud-coreweave",
+            "summary": "AI demand is booming. So why are investors getting cold feet? CoreWeave\u2019s stock slide exposes the neocloud sector\u2019s looming test: turning compute demand into cash before the debt comes due.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1036,10 +1107,10 @@
             }
           },
           {
-            "id": "te_167b0a9a96b932d7",
-            "title": "AST SpaceMobile hires Derek Peterson as CTO/enterprise",
-            "url": "https://www.fierce-network.com/wireless/ast-spacemobile-hires-derek-peterson-ctoenterprise",
-            "summary": "AST SpaceMobile hired longtime Boingo executive Derek Peterson to lead its enterprise technology, platforms and security strategy.",
+            "id": "te_d1b07e37772613a4",
+            "title": "Singtel and Ericsson deepen partnership to scale 5G innovation in Singapore",
+            "url": "https://www.fierce-network.com/newswire/singtel-and-ericsson-deepen-partnership-scale-5g-innovation-and-build-ai-native-networks",
+            "summary": "The two companies announced a five-year strategic partnership to advance Singapore's 5G capabilities, accelerate the adoption of AI-native applications and deliver more reliable, intelligent connectivity for businesses and consumers.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1050,10 +1121,10 @@
             }
           },
           {
-            "id": "te_050952bcb75e1384",
-            "title": "With policy analyst Blair Levin, it\u2019s \u2018here we go again\u2019 \u2013 with new footnotes",
-            "url": "https://www.fierce-network.com/wireless/policy-analyst-blair-levin-its-here-we-go-again-new-footnotes",
-            "summary": "Blair Levin\u2019s NYU post is just one stop in his \u201crewirement\u201d as he sizes up AI and a brand new era of telecom disruption.",
+            "id": "te_6e0498e1072a8b1e",
+            "title": "Nokia and SoftBank agree to conduct commercial AI-RAN field trial in Japan",
+            "url": "https://www.fierce-network.com/newswire/nokia-and-softbank-agree-conduct-commercial-ai-ran-field-trial-japan",
+            "summary": "Nokia today announced an agreement with SoftBank Corp. to conduct a commercial AI-RAN field trial in Japan in 2027.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1064,10 +1135,10 @@
             }
           },
           {
-            "id": "te_1fde4ea102bf0760",
-            "title": "Securing the AI-Powered Connected Home",
-            "url": "https://www.fierce-network.com/sponsored/securing-ai-powered-connected-home",
-            "summary": "The next user of your network may not be human. As AI agents move into the home, ISPs need connectivity that stays reliable and cybersecure. See how Plume combines AI, real-time network intelligence and cybersecurity to protect devices from threats and fix problems before customers notice. Watch the full interview.",
+            "id": "te_c00193be8a8c4289",
+            "title": "Lumen offers validated dual path wavelengths for redundancy",
+            "url": "https://www.fierce-network.com/broadband/lumen-offers-validated-dual-path-wavelengths-redundancy",
+            "summary": "Enterprises could always purchase two separate wavelength services if they wanted, but Dual Path is engineered and verified.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1078,10 +1149,10 @@
             }
           },
           {
-            "id": "te_a81938957b850d80",
-            "title": "Appeals court deals blow to the USF program",
-            "url": "https://www.fierce-network.com/broadband/appeals-court-deals-blow-usf-program",
-            "summary": "Yesterday\u2019s court ruling says the third-party administrator of the USF program doesn\u2019t have authority.",
+            "id": "te_39a8644571eaa426",
+            "title": "T-Mobile cites AI-RAN gains with Ericsson in NYC",
+            "url": "https://www.fierce-network.com/wireless/t-mobile-cites-ai-ran-gains-ericsson-nyc",
+            "summary": "T-Mobile shared some of the progress it\u2019s making with Ericsson in live AI-RAN network trials in New York City.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1324,13 +1395,13 @@
         "tier": 2,
         "items": [
           {
-            "id": "to_697eb620bfd36fec",
-            "title": "Otter.ai raises $320 million from General Catalyst\u2019s growth fund for its meeting tool",
-            "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
-            "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst\u2019s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [\u2026]",
+            "id": "to_8891282d78b30c77",
+            "title": "Meta\u2019s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+            "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+            "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-20T11:00:00+00:00",
+            "published": "2026-10-20T17:12:48+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1338,13 +1409,13 @@
             }
           },
           {
-            "id": "to_33f72cf8b33fabf0",
-            "title": "Yelp can now call on your behalf to check wait times at a restaurant",
-            "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
-            "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+            "id": "to_5130abca4141f29e",
+            "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+            "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+            "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-20T11:00:00+00:00",
+            "published": "2026-10-20T16:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1352,13 +1423,13 @@
             }
           },
           {
-            "id": "to_ed298111b59a085c",
-            "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-            "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-            "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+            "id": "to_6fce357d7ac50eec",
+            "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+            "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+            "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-20T01:27:03+00:00",
+            "published": "2026-10-20T14:13:32+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1366,13 +1437,13 @@
             }
           },
           {
-            "id": "to_b0fb4c0567199f7f",
-            "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
-            "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-            "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
+            "id": "to_c723746d1e667296",
+            "title": "US orders federal agencies to remove China\u2019s DeepSeek AI from their systems",
+            "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+            "summary": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-19T23:39:38+00:00",
+            "published": "2026-10-20T13:07:24+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1380,13 +1451,13 @@
             }
           },
           {
-            "id": "to_d45dacf783b2543c",
-            "title": "Embedded AI evaluators won\u2019t be an easy solution, Hugging Face\u2019s policy chief says",
-            "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-            "summary": "The idea of embedded evaluators \u2014 in which supposedly \"neutral\" third-party observers are placed inside AI organizations \u2014 has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+            "id": "to_208dc20e81cfcf4e",
+            "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+            "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+            "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry.",
             "source": "TechCrunch AI",
             "tier": 2,
-            "published": "2026-10-19T22:49:27+00:00",
+            "published": "2026-10-20T13:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1404,7 +1475,7 @@
             "id": "ca_7a6a342eb9583796",
             "title": "Claude reveals ECDSA curve origins",
             "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-            "summary": "Claude reveals ECDSA curve origins",
+            "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
             "source": "Anthropic Frontier Red Team",
             "tier": 1,
             "published": "2026-10-16T00:00:00+00:00",
@@ -1418,7 +1489,7 @@
             "id": "ca_e6bb69f517c664dd",
             "title": "AI models may be capable of self-replicating without access to a datacenter",
             "url": "https://www.anthropic.com/research/self-replicating-ai",
-            "summary": "AI models may be capable of self-replicating without access to a datacenter",
+            "summary": "Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.",
             "source": "Anthropic Frontier Red Team",
             "tier": 1,
             "published": "2026-10-12T00:00:00+00:00",
@@ -1432,7 +1503,7 @@
             "id": "ca_ecaa805484ea16e2",
             "title": "Launching an opt-in vulnerability-finding service for open-source software",
             "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-            "summary": "Launching an opt-in vulnerability-finding service for open-source software",
+            "summary": "We\u2019re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that\u2019s informed by our experience using Claude to find vulnerabilities during Project Glasswing.",
             "source": "Anthropic Frontier Red Team",
             "tier": 1,
             "published": "2026-10-08T00:00:00+00:00",
@@ -1446,7 +1517,7 @@
             "id": "ca_80e4ef842b12917f",
             "title": "GLM-5.3 and the spread of advanced cyber capabilities",
             "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-            "summary": "GLM-5.3 and the spread of advanced cyber capabilities",
+            "summary": "Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.",
             "source": "Anthropic Frontier Red Team",
             "tier": 1,
             "published": "2026-09-29T00:00:00+00:00",
@@ -1460,7 +1531,7 @@
             "id": "ca_b007b558c779ebdb",
             "title": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
             "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-            "summary": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+            "summary": "Anthropic\u2019s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.",
             "source": "Anthropic Frontier Red Team",
             "tier": 1,
             "published": "2026-09-10T00:00:00+00:00",
@@ -1476,10 +1547,24 @@
         "tier": 1,
         "items": [
           {
+            "id": "ca_c021c28354e5e9fa",
+            "title": "How Claude designed protein binders against scorpion neurotoxins",
+            "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+            "summary": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
+            "source": "Anthropic Research",
+            "tier": 1,
+            "published": "2026-10-20T00:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "ca_ab1e0ebf1e3443ff",
             "title": "Working at the frontier shapes expectations for the future",
             "url": "https://www.anthropic.com/research/expectations-for-the-future",
-            "summary": "Working at the frontier shapes expectations for the future",
+            "summary": "We\u2019re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.",
             "source": "Anthropic Research",
             "tier": 1,
             "published": "2026-10-16T00:00:00+00:00",
@@ -1493,7 +1578,7 @@
             "id": "ca_f1073754b8e021e3",
             "title": "How employment is changing at Anthropic",
             "url": "https://www.anthropic.com/research/employment-at-anthropic",
-            "summary": "How employment is changing at Anthropic",
+            "summary": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
             "source": "Anthropic Research",
             "tier": 1,
             "published": "2026-10-16T00:00:00+00:00",
@@ -1507,7 +1592,7 @@
             "id": "ca_7a6a342eb9583796",
             "title": "Claude reveals ECDSA curve origins",
             "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-            "summary": "Claude reveals ECDSA curve origins",
+            "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
             "source": "Anthropic Research",
             "tier": 1,
             "published": "2026-10-16T00:00:00+00:00",
@@ -1521,21 +1606,7 @@
             "id": "ca_04b7640931c7c971",
             "title": "Designing more efficient quantum circuits with Claude",
             "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-            "summary": "Designing more efficient quantum circuits with Claude",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-10-16T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ca_ce6de6f9e4f4e31c",
-            "title": "The AI expectations gap",
-            "url": "https://www.anthropic.com/research/ai-expectations-gap",
-            "summary": "The AI expectations gap",
+            "summary": "We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.",
             "source": "Anthropic Research",
             "tier": 1,
             "published": "2026-10-16T00:00:00+00:00",
