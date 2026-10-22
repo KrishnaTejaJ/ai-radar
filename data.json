@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-10-21T22:03:42.168542+00:00",
+    "last_updated": "2026-10-22T12:54:02.276169+00:00",
     "version": "2.1",
     "stats": {
-      "fetched": 140,
+      "fetched": 145,
       "scored": 0,
       "radar_top": 0,
       "radar_expand": 0
@@ -495,7 +495,7 @@
             "tier": 2,
             "published": "2026-10-21T12:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -562,6 +562,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_5d118fadbe793ddd",
+            "title": "Ensemble forecasting with IBM Granite time-series models",
+            "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-10-22T07:51:31+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_7104bc51c29585cc",
             "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
             "url": "https://huggingface.co/blog/nvidia/kumo-relational",
@@ -616,20 +630,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ta_ca293d8533a3487d",
-            "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-            "url": "https://huggingface.co/blog/allenai/fairstress",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-10-20T16:09:19+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -637,38 +637,10 @@
         "tier": 2,
         "items": [
           {
-            "id": "ta_9b75bda91938b76c",
-            "title": "MadsLorentzen/ai-job-search",
-            "url": "https://github.com/MadsLorentzen/ai-job-search",
-            "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it. AI Job Search The job search that runs on your machine. An AI-powered job application framework built on Claude Code . Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews. Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_f34c24127709c365",
-            "title": "Comfy-Org/ComfyUI",
-            "url": "https://github.com/Comfy-Org/ComfyUI",
-            "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. https://www.comfy.org/ ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_dd6a9d14a094d159",
-            "title": "Graphify-Labs/graphify",
-            "url": "https://github.com/Graphify-Labs/graphify",
-            "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. https://www.graphify.com Read this in other languages English | \u7b80\u4f53\u4e2d\u6587 | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Deutsch | Fran\u00e7ais | Espa\u00f1ol | \u0939\u093f\u0928\u094d\u0926\u0940 | Portugu\u00eas | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0641\u0627\u0631\u0633\u06cc | Italiano | Polski | Nederlands | T\u00fcrk\u00e7e | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | Ti\u1ebfng Vi\u1ec7t | Bahasa Indonesia | Svenska | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | Rom\u00e2n\u0103 | \u010ce\u0161tina | Suomi | Dansk | Norsk | Magyar | \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 | O\u02bbzbekcha | \u7e41\u9ad4\u4e2d\u6587 | Filipino\u2026",
+            "id": "ta_65e32dabe8c37cf0",
+            "title": "vllm-project/vllm",
+            "url": "https://github.com/vllm-project/vllm",
+            "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs https://vllm.ai Easy, fast, and cheap LLM serving for everyone | Documentation | Blog | Paper | Twitter/X | User Forum | Developer Slack | \ud83d\udd25 We have built a vLLM website to help you get started with vLLM. Please visit vllm.ai to learn more. For events, please visit vllm.ai/events to join us. About vLLM is a fast and easy-to-use library for LLM inference and serving.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -693,10 +665,38 @@
             }
           },
           {
-            "id": "ta_618e8fb74c6c24a0",
-            "title": "anthropics/knowledge-work-plugins",
-            "url": "https://github.com/anthropics/knowledge-work-plugins",
-            "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork , also compatible with Claude Code . Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose \u2014 so your team gets better and more consistent outcomes.",
+            "id": "ta_f34c24127709c365",
+            "title": "Comfy-Org/ComfyUI",
+            "url": "https://github.com/Comfy-Org/ComfyUI",
+            "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. https://www.comfy.org/ ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_a16249fcac5d25f1",
+            "title": "shiyu-coder/Kronos",
+            "url": "https://github.com/shiyu-coder/Kronos",
+            "summary": "Kronos: A Foundation Model for the Language of Financial Markets Kronos: A Foundation Model for the Language of Financial Markets Deutsch | Espa\u00f1ol | Fran\u00e7ais | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Portugu\u00eas | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \u4e2d\u6587 Kronos is the first open-source foundation model for financial candlesticks (K-lines), trained on data from over 45 global exchanges . \ud83d\udcf0 News \ud83d\udea9 [2025.11.10] Kronos has been accpeted by AAAI 2026. \ud83d\udea9 [2025.08.17] We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_dd6a9d14a094d159",
+            "title": "Graphify-Labs/graphify",
+            "url": "https://github.com/Graphify-Labs/graphify",
+            "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. https://www.graphify.com Read this in other languages English | \u7b80\u4f53\u4e2d\u6587 | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Deutsch | Fran\u00e7ais | Espa\u00f1ol | \u0939\u093f\u0928\u094d\u0926\u0940 | Portugu\u00eas | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0641\u0627\u0631\u0633\u06cc | Italiano | Polski | Nederlands | T\u00fcrk\u00e7e | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | Ti\u1ebfng Vi\u1ec7t | Bahasa Indonesia | Svenska | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | Rom\u00e2n\u0103 | \u010ce\u0161tina | Suomi | Dansk | Norsk | Magyar | \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 | O\u02bbzbekcha | \u7e41\u9ad4\u4e2d\u6587 | Filipino\u2026",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -710,13 +710,112 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": []
+        "items": [
+          {
+            "id": "ta_eb0f1c4495dc1cfc",
+            "title": "Google staff resign in backlash over its AI contracts with military",
+            "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+            "summary": "Article URL: https://www.bbc.com/news/articles/cmreyvepnv0po Comments URL: https://news.ycombinator.com/item?id=50186043 Points: 124 # Comments: 25",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-21T19:14:21+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_e457dd30d82516e0",
+            "title": "Rust off Rails: The opinionated web stack for the AI era",
+            "url": "https://rustoffrails.org/",
+            "summary": "Article URL: https://rustoffrails.org/ Comments URL: https://news.ycombinator.com/item?id=50183727 Points: 72 # Comments: 76",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-21T16:34:16+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_d345d7957a6f5b7f",
+            "title": "The bridge to agent-scale Git infrastructure",
+            "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+            "summary": "Article URL: https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/ Comments URL: https://news.ycombinator.com/item?id=50183344 Points: 65 # Comments: 19",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-21T16:09:28+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_402b082eb5e06152",
+            "title": "AI agent fixed the bug, but what else did it change?",
+            "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+            "summary": "Article URL: https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/ Comments URL: https://news.ycombinator.com/item?id=50183253 Points: 52 # Comments: 6",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-21T16:03:32+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_d31a18ead424650d",
+            "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+            "url": "https://www.wiz.io/blog/php2shell-php-rce",
+            "summary": "https://www.php2shell.com/ Comments URL: https://news.ycombinator.com/item?id=50180836 Points: 442 # Comments: 181",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-21T13:43:19+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          }
+        ]
       }
     },
     "telecom": {
       "arXiv: 5G + LLM": {
         "tier": 1,
         "items": [
+          {
+            "id": "te_68f84eda00c81783",
+            "title": "Deep Reinforcement Learning Assistance for Resilient Haptic Teleoperation over a 5G Network",
+            "url": "https://arxiv.org/abs/2610.29511v1",
+            "summary": "Haptic teleoperation requires low-latency and reliable communication to preserve stable and responsive interaction between a human operator and a remote environment. However, network congestion can strongly degrade teleoperation performance, particularly when haptic traffic competes with other data flows for limited radio resources. This work investigates a deep reinforcement learning (DRL)-assisted teleoperation framework over an Ericsson 5G standalone (SA) testbed under different congestion and quality-of-service (QoS) configurations.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-10-21T10:01:41+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
+            "id": "te_bdfa1eb7458e8d2a",
+            "title": "5uGUE: Agentic Hardware-in-the-Loop Fuzzing for 5G Devices and beyond",
+            "url": "https://arxiv.org/abs/2610.29155v1",
+            "summary": "In this paper, we present 5uGUE, a large language model (LLM)-driven hardware-in-the-loop agent, which enables the wireless fuzzing of 5G-enabled devices (such as mobile phones). 5uGUE combines multi-step reasoning with tool-assisted interaction and integrates into the fuzzing pipeline by leveraging specialized tools for internet search, 5G protocol analysis, memory management, and test-case execution. The agent iteratively generates test cases, executes them on targets, collects runtime feedback, and adaptively refines the fuzzing strategy.",
+            "source": "arXiv: 5G + LLM",
+            "tier": 1,
+            "published": "2026-10-21T03:45:25+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
           {
             "id": "te_99bb9ac920c9a219",
             "title": "Semantic Routing Framework for Multi-Domain Telecom Intent-Based Networking",
@@ -753,34 +852,6 @@
             "source": "arXiv: 5G + LLM",
             "tier": 1,
             "published": "2026-10-10T13:24:22+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_6828b16bb4bd7053",
-            "title": "Line-Rate GTP-U Admission Control at the Edge of a Cloud-Native 5G Core: An XDP-Based Design for Kubernetes-Hosted User Plane Functions",
-            "url": "https://arxiv.org/abs/2610.02296v1",
-            "summary": "The User Plane Function (UPF) of a 5G Standalone core terminates every GPRS Tunnelling Protocol user-plane (GTP-U) packet arriving from the radio access network, which makes its N3 interface both the busiest and the most exposed point of the mobile data path. As operators migrate the core onto Kubernetes and public cloud, the UPF increasingly shares a general-purpose Linux kernel with other workloads, and kernel-bypass frameworks such as DPDK become harder to operate.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-10-01T17:32:50+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "te_11840c0972e44223",
-            "title": "TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design",
-            "url": "https://arxiv.org/abs/2610.01887v1",
-            "summary": "Dynamic resource assignment, the real-time allocation of task streams to heterogeneous processing nodes, is the backbone of modern computing infrastructure. While learning-based schedulers excel in research, industrial deployments still rely on hand-written rules that operators can read, audit, and execute within tight latency budgets. LLM-based Automatic Heuristic Design (AHD) promises to automate writing such rules. However, existing AHD frameworks were developed for combinatorial problems fully specified to the LLM, and they learn only from a scalar fitness score.",
-            "source": "arXiv: 5G + LLM",
-            "tier": 1,
-            "published": "2026-10-01T15:38:04+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -868,6 +939,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "te_e405282e4fce7cc6",
+            "title": "Agent AI Zarz\u0105dzaj\u0105cy Sieci\u0105 Open RAN Zorientowana na U\u017cytkownika",
+            "url": "https://arxiv.org/abs/2610.28860v1",
+            "summary": "Jednym z najwa\u017cniejszych wyzwa\u0144 zwi\u0105zanych z implementacj\u0105 sieci Open RAN o architekturze zorientowanej na u\u017cytkownika jest odpowiednie formowanie tzw. klastr\u00f3w obs\u0142uguj\u0105cych. Problem ten mo\u017ce by\u0107 efektywnie rozwi\u0105zany za pomoc\u0105 zaproponowanego Agenta AI bazuj\u0105cego na modelu j\u0119zykowym. Wyniki symulacji pokaza\u0142y, \u017ce zaproponowane rozwi\u0105zanie pozwala na ponad 2-krotne zwi\u0119kszenie mediany rozk\u0142adu przep\u0142ywno\u015bci u\u017cytkownik\u00f3w wzgl\u0119dem standardowej architektury zorientowanej na sie\u0107.",
+            "source": "arXiv: O-RAN",
+            "tier": 1,
+            "published": "2026-10-20T19:32:42+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "te_5461e42c2e1f5eb9",
             "title": "KPI-Aware Multimodal Anomaly Detection for 5G and Open RAN Telemetry",
             "url": "https://arxiv.org/abs/2610.25510v1",
@@ -922,26 +1007,68 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "te_7932eba9fe45fddd",
-            "title": "Objective-Aware Policy Orchestration for O-RAN Service Provisioning",
-            "url": "https://arxiv.org/abs/2610.20949v1",
-            "summary": "O-RAN enables the deployment of heterogeneous control and provisioning algorithms through open interfaces and programmable intelligent controllers. However, most existing intelligent O-RAN solutions rely on a single optimization strategy designed for a fixed operational objective, limiting their ability to adapt when network conditions or operator priorities change. This paper proposes an objective-aware policy orchestration framework that selects the most appropriate provisioning policy for each control window based on the current network context and operator objective.",
-            "source": "arXiv: O-RAN",
-            "tier": 1,
-            "published": "2026-10-14T21:13:20+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
       "Light Reading": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_d6ff2795751b45ce",
+            "title": "Orange to test D2D service next year as it waits for satellite coverage",
+            "url": "https://www.lightreading.com/satellite/limited-satellite-coverage-delays-orange-direct-to-device-tests",
+            "summary": "Orange wants to expand satellite direct-to-device services through its partnership with AST SpaceMobile and its European JV with Vodafone, Satellite Connect Europe, but has postponed testing amid limited satellite coverage.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-22T12:44:54+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_a402cf4565206887",
+            "title": "SoftBank, Nokia target 2027 for commercial AI-RAN trial in Japan",
+            "url": "https://www.lightreading.com/ai-machine-learning/softbank-nokia-target-2027-for-commercial-ai-ran-trial-in-japan",
+            "summary": "In a trial planned for 2027, SoftBank and Nokia aim to move AI-RAN out of laboratory environments and validate its performance under real-world, commercial traffic conditions.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-22T12:40:20+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_e03abba8218581e9",
+            "title": "Nokia thrives in AI boom, but its costs are mounting",
+            "url": "https://www.lightreading.com/optical-networking/nokia-thrives-in-ai-boom-but-its-costs-are-mounting",
+            "summary": "Sales to AI and cloud customers accounted for nearly all revenue growth at Nokia as it continued to work on restructuring various parts of its business.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-22T12:08:57+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_fc96a0d09f1a8b42",
+            "title": "Eurobites: Wake up and smell the Starlink coffee, says EU's Kobosko",
+            "url": "https://www.lightreading.com/satellite/eurobites-wake-up-and-smell-the-starlink-coffee-says-eu-s-kobosko",
+            "summary": "Also in today's EMEA regional roundup: AI boosts Nokia in Q3; Ericsson detects drones; Zain, Ooredoo launch tower-sharing platform.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-22T11:55:26+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_b299f30ed1aa73d9",
             "title": "AT&T open to more fiber M&A at the right price ... and the right place",
@@ -955,68 +1082,54 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_6872e5372c61935c",
-            "title": "Foldable smartphone display shipments forecast to increase 44% in 2026 \u2013 Omdia",
-            "url": "https://www.lightreading.com/smartphones-devices/foldable-smartphone-display-shipments-forecast-to-increase-44-in-2026-omdia",
-            "summary": "Wider screens are gaining ground. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-21T17:30:07+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_c05da5bf69f3534a",
-            "title": "T-Mobile makes first AI-RAN call with Nokia and Nvidia",
-            "url": "https://www.lightreading.com/ai-machine-learning/t-mobile-makes-first-ai-ran-call-with-nokia-and-nvidia",
-            "summary": "T-Mobile takes strides in AI-RAN with the first call with Nokia and Nvidia, and performance gains with Ericsson's AI beamforming.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-21T16:13:58+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_573716cc2720e887",
-            "title": "SpaceX eyes full Starship recovery as Starlink subs miss estimates",
-            "url": "https://www.lightreading.com/satellite/spacex-eyes-full-starship-recovery-as-starlink-subs-miss-estimates",
-            "summary": "Musk says catching Starship's upper stage is 'more likely than not' on the next flight. Starlink, meanwhile, added 1.6M subs, short of forecasts, as ARPU fell to $69.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-21T13:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_3478fd889f83164c",
-            "title": "Eurobites: CMA looks to open up Apple's NFC walled garden",
-            "url": "https://www.lightreading.com/regulatory-politics/eurobites-cma-looks-to-open-up-apple-s-nfc-walled-garden",
-            "summary": "Also in today's EMEA regional roundup: Elisa's Q3 dented by PSTN switch-off; TIM goes sovereign with Nvidia; A1 Group raises its outlook.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-21T12:12:26+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_72c8bd42171eba15",
+            "title": "Telcos doing telco things \u2013 amid the AI noise (Telco Diary)",
+            "url": "https://rcrwireless.com/20261022/ai-infrastructure/telcos-doing-telco-things-amid-ai-noise-telco-diary",
+            "summary": "From the newsletter (October 21; sign-up or follow if you want it sooner): Nvidia and Nokia are pushing telcos to turn their networks and sites into distributed AI infrastructure, but\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-22T08:43:19+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_26daf5b17e5e5b2d",
+            "title": "Beyond self-healing \u2013 the path to trusted autonomous networks (Reader Forum)",
+            "url": "https://rcrwireless.com/20261022/opinion/the-path-to-trusted-autonomous-networks-reader-forum",
+            "summary": "Autonomous networks must move beyond self-healing to coordinate decisions across RAN, transport, core and cloud, argues Droma\u2019s Payal Kindiger, with trust, governance and verified service outcomes key to granting AI\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-22T08:13:46+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_39912a92053feb5f",
+            "title": "It\u2019s 2040. How are new devices helping decade-old 6G networks keep up with AI demand?",
+            "url": "https://rcrwireless.com/20261022/ai/6g-ai-demand-qualcomm",
+            "summary": "The answer starts in 2026: design adaptability into 6G so the system can rise to challenges we cannot yet foresee What you should know: AI experiences increasingly distribute intelligence across\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-22T07:56:02+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_1f2f07cb518f2bb0",
             "title": "Market Pulse Report: Intelligent RAN",
@@ -1044,54 +1157,40 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_ec269776274ee98f",
-            "title": "Deutsche Telekom expands agentic AI from RAN to network-wide automation",
-            "url": "https://rcrwireless.com/20261021/carriers/deutsche-telekom-ai-ran",
-            "summary": "Deutsche Telekom has previously described MINDR as an evolution of RAN Guardian, extending agentic AI from domain-level optimization toward service-level intelligence across complex, multi-domain network environments In sum \u2013 what\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-21T13:59:29+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_8c5dc4614df9b9f4",
-            "title": "SpaceX eyes \u201chundreds of billions\u201d of Starlink revenue, as AI see-saws on ROI",
-            "url": "https://rcrwireless.com/20261021/network-infrastructure/spacex-eyes-hundreds-of-billions-of-starlink-revenue-ai-see-saws-on-roi",
-            "summary": "SpaceX outlined plans for a hybrid Starlink mobile network and claimed a path to hundreds of billions in annual connectivity revenue, as AI compute investment surged and Elon Musk forecast\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-21T12:52:22+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_d52af517ed5c9d3f",
-            "title": "6G progress, minus the business case \u2013 plus AI-RAN, D2D, Industry 4.0 (Telco Diary)",
-            "url": "https://rcrwireless.com/20261020/opinion/6g-progress-minus-the-business-case-ai-ran-d2d-industry-4-0-telco-diary",
-            "summary": "From the newsletter (October 20; sign-up or follow if you want it sooner): A new 6G architecture is taking shape, but its business case remains elusive. This week: AI-RAN performance\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-20T17:19:37+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "Fierce Network": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_ef008067c90d3082",
+            "title": "Ericsson: Telcos don\u2019t need perfect data to pursue network autonomy",
+            "url": "https://www.fierce-network.com/wireless/ericsson-telcos-dont-need-perfect-data-pursue-network-autonomy",
+            "summary": "Ericsson\u2019s Lucky La Riccia says operators can advance autonomous operations despite messy legacy data, provided they put the right guardrails in place and focus investment on domains where automation can deliver real business value.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_2f4f35d03499c629",
+            "title": "Elon Musk: Starlink Mobile\u2019s game plan too big for an earnings call",
+            "url": "https://www.fierce-network.com/wireless/elon-musk-starlink-mobiles-game-plan-too-big-earnings-call",
+            "summary": "Elon Musk says Starlink\u2019s mobile game plan requires more than a few minutes on an earnings call to explain it all.",
+            "source": "Fierce Network",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_fc330b184e13c6b8",
             "title": "ServiceNow cuts network incidents 90% with HPE Mist AI",
@@ -1125,34 +1224,6 @@
             "title": "Rightfiber, backed by Grain, is on a mission to grow its fiber footprint",
             "url": "https://www.fierce-network.com/broadband/rightfiber-backed-grain-mission-grow-its-fiber-footprint",
             "summary": "The company has entered into a $1.6 billion credit facility, led by Fifth Third Bank, to fund continued organic growth as well as potential M&A.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_daea293fee687c87",
-            "title": "Salience Labs thinks optical switching can break AI\u2019s latency bottleneck",
-            "url": "https://www.fierce-network.com/cloud/salience-labs-thinks-optical-switching-can-break-ais-latency-bottleneck",
-            "summary": "As AI inference puts new pressure on data center networks, Salience Labs is betting optical circuit switching can cut latency, boost token throughput and reshape how tomorrow\u2019s GPU clusters connect.",
-            "source": "Fierce Network",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_6550e1586f96f191",
-            "title": "IQGeo\u2019s new CEO wants to move operators from paper records to AI",
-            "url": "https://www.fierce-network.com/cloud/iqgeos-new-ceo-wants-move-operators-paper-records-ai",
-            "summary": "New CEO Mike Woods wants to get operators\u2019 physical network records ready for AI, but IQGeo\u2019s research shows how much work remains.",
             "source": "Fierce Network",
             "tier": 2,
             "published": null,
@@ -1320,6 +1391,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_4e2ec0dca813afc7",
+            "title": "[AINews] OpenAI\u2019s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+            "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+            "summary": "The Big Hardening begins",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-10-22T07:42:44+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_0fff47054cc39cd5",
             "title": "Claude Mods: Flipping the Harness Inside Out",
             "url": "https://www.latent.space/p/claude-mods",
@@ -1342,7 +1427,7 @@
             "tier": 2,
             "published": "2026-10-21T06:54:09+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1356,7 +1441,7 @@
             "tier": 2,
             "published": "2026-10-21T05:01:26+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1374,26 +1459,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "to_fb236cc542ed4478",
-            "title": "[AINews] not much happened today",
-            "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
-            "summary": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they\u2019re not going to be in super wide use just yet.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-10-20T05:21:52+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "TechCrunch AI": {
         "tier": 2,
         "items": [
+          {
+            "id": "to_25443172439e4af4",
+            "title": "Blackstone\u2019s Jas Khaira says fears over AI-buildout debt are overblown",
+            "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+            "summary": "Blackstone\u2019s AI head on why the PE giant isn't panicked by market jitters.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-10-21T22:51:22+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "to_063c29a16ff7723c",
             "title": "TechCrunch Founder Summit 2026: Everything you need to know",
@@ -1412,7 +1497,7 @@
             "id": "to_21039cf535863304",
             "title": "Meta says Muse has over 10M users, with shopping a top activity",
             "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-            "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during Q3 earnings. The AI app now has over 10M users.",
+            "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-10-21T21:14:19+00:00",
@@ -1444,20 +1529,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-10-21T19:30:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_0b138e9a1d82325f",
-            "title": "AI promises productivity, but for managers, it\u2019s mostly a headache for now",
-            "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-            "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-10-21T14:00:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1630,7 +1701,7 @@
             "tier": 1,
             "published": "2026-10-21T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1644,7 +1715,7 @@
             "tier": 1,
             "published": "2026-10-21T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1658,7 +1729,7 @@
             "tier": 1,
             "published": "2026-10-21T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1672,7 +1743,7 @@
             "tier": 1,
             "published": "2026-10-21T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1686,7 +1757,7 @@
             "tier": 1,
             "published": "2026-10-21T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1780,7 +1851,7 @@
             "tier": 2,
             "published": "2026-10-21T11:02:22+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
