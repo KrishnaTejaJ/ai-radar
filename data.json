@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-22T22:02:40.288477+00:00",
+    "last_updated": "2026-10-23T12:32:38.572022+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 145,
@@ -562,6 +562,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_95eb6975ad245049",
+            "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+            "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+            "summary": "",
+            "source": "Hugging Face Blog",
+            "tier": 2,
+            "published": "2026-10-22T22:24:34+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_eaa0ebff7daf626e",
             "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
             "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
@@ -584,7 +598,7 @@
             "tier": 2,
             "published": "2026-10-22T07:51:31+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -616,20 +630,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "ta_f9b499debdda31c0",
-            "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-            "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-            "summary": "",
-            "source": "Hugging Face Blog",
-            "tier": 2,
-            "published": "2026-10-21T16:04:43+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
@@ -637,52 +637,10 @@
         "tier": 2,
         "items": [
           {
-            "id": "ta_65e32dabe8c37cf0",
-            "title": "vllm-project/vllm",
-            "url": "https://github.com/vllm-project/vllm",
-            "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs https://vllm.ai Easy, fast, and cheap LLM serving for everyone | Documentation | Blog | Paper | Twitter/X | User Forum | Developer Slack | \ud83d\udd25 We have built a vLLM website to help you get started with vLLM. Please visit vllm.ai to learn more. For events, please visit vllm.ai/events to join us. About vLLM is a fast and easy-to-use library for LLM inference and serving.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_9a75aafc0f232f11",
-            "title": "headroomlabs-ai/headroom",
-            "url": "https://github.com/headroomlabs-ai/headroom",
-            "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server. https://docs.headroomlabs.ai/docs Quickstart \u00b7 Headroom for Teams \u00b7 Install \u00b7 Proof \u00b7 Agents \u00b7 Docs \u00b7 Discord \u00b7 llms.txt AI agents / LLMs: read /llms.txt here, or fetch the live index \u00b7 full docs blob . Headroom compresses everything your AI agent reads \u2014 tool outputs, logs, RAG chunks, files, and conversation history \u2014 before it reaches the LLM. Same answers, fraction of the tokens.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_f34c24127709c365",
-            "title": "Comfy-Org/ComfyUI",
-            "url": "https://github.com/Comfy-Org/ComfyUI",
-            "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. https://www.comfy.org/ ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models.",
-            "source": "GitHub Python Trending",
-            "tier": 2,
-            "published": null,
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_a16249fcac5d25f1",
-            "title": "shiyu-coder/Kronos",
-            "url": "https://github.com/shiyu-coder/Kronos",
-            "summary": "Kronos: A Foundation Model for the Language of Financial Markets Kronos: A Foundation Model for the Language of Financial Markets Deutsch | Espa\u00f1ol | Fran\u00e7ais | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Portugu\u00eas | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \u4e2d\u6587 Kronos is the first open-source foundation model for financial candlesticks (K-lines), trained on data from over 45 global exchanges . \ud83d\udcf0 News \ud83d\udea9 [2025.11.10] Kronos has been accpeted by AAAI 2026. \ud83d\udea9 [2025.08.17] We have released the scripts for fine-tuning! Check them out to adapt Kronos to your own tasks.",
+            "id": "ta_618e8fb74c6c24a0",
+            "title": "anthropics/knowledge-work-plugins",
+            "url": "https://github.com/anthropics/knowledge-work-plugins",
+            "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork , also compatible with Claude Code . Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash commands to expose \u2014 so your team gets better and more consistent outcomes.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -705,6 +663,48 @@
               "featured": false,
               "tier": 2
             }
+          },
+          {
+            "id": "ta_e08ef814d6bf703d",
+            "title": "fastapi/fastapi",
+            "url": "https://github.com/fastapi/fastapi",
+            "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production https://fastapi.tiangolo.com/ FastAPI framework, high performance, easy to learn, fast to code, ready for production Documentation : https://fastapi.tiangolo.com Source Code : https://github.com/fastapi/fastapi FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints. The key features are: Fast : Very high performance, on par with NodeJS and Go (thanks to Starlette and Pydantic). One of the fastest Python frameworks available .",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_619b3cfc3ac9ca9b",
+            "title": "luongnv89/claude-howto",
+            "url": "https://github.com/luongnv89/claude-howto",
+            "summary": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value. http://luongnv.com/claude-howto/ \ud83c\udf10 Language / Ng\u00f4n ng\u1eef / \u8bed\u8a00 / \u041c\u043e\u0432\u0430: English | Ti\u1ebfng Vi\u1ec7t | \u4e2d\u6587 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u65e5\u672c\u8a9e Master Claude Code in a Weekend Go from typing claude to orchestrating agents, hooks, skills, and MCP servers \u2014 with visual tutorials, copy-paste templates, and a guided learning path.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_65e32dabe8c37cf0",
+            "title": "vllm-project/vllm",
+            "url": "https://github.com/vllm-project/vllm",
+            "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs https://vllm.ai Easy, fast, and cheap LLM serving for everyone | Documentation | Blog | Paper | Twitter/X | User Forum | Developer Slack | \ud83d\udd25 We have built a vLLM website to help you get started with vLLM. Please visit vllm.ai to learn more. For events, please visit vllm.ai/events to join us. About vLLM is a fast and easy-to-use library for LLM inference and serving.",
+            "source": "GitHub Python Trending",
+            "tier": 2,
+            "published": null,
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
           }
         ]
       },
@@ -712,10 +712,38 @@
         "tier": 2,
         "items": [
           {
+            "id": "ta_8db2bf743b5d8d77",
+            "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+            "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+            "summary": "Article URL: https://berget.ai/en/blog/per-request-co2-press-release Comments URL: https://news.ycombinator.com/item?id=50205229 Points: 124 # Comments: 135",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-23T06:41:11+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_b7046e0a16faea27",
+            "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+            "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+            "summary": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 85 # Comments: 55",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-22T20:51:23+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_5521316bcdc521bf",
             "title": "Show HN: UI micro interactions prompts for AI",
             "url": "https://www.typeui.sh/micro-interactions",
-            "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 59 # Comments: 28",
+            "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 77 # Comments: 43",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-10-22T18:32:57+00:00",
@@ -726,55 +754,27 @@
             }
           },
           {
+            "id": "ta_a6d46048e1fca1bb",
+            "title": "Award-winning AI literature",
+            "url": "https://jamesyu.org/award-winning-ai-literature/",
+            "summary": "Article URL: https://jamesyu.org/award-winning-ai-literature/ Comments URL: https://news.ycombinator.com/item?id=50199232 Points: 63 # Comments: 73",
+            "source": "Hacker News (AI/LLM)",
+            "tier": 2,
+            "published": "2026-10-22T18:28:26+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ta_a89c1639c81cde6e",
             "title": "AI and the Enclosure of the Scientific Commons",
             "url": "https://arxiv.org/abs/2610.27251",
-            "summary": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 75 # Comments: 37",
+            "summary": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 135 # Comments: 78",
             "source": "Hacker News (AI/LLM)",
             "tier": 2,
             "published": "2026-10-22T18:28:16+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_619008f39dfd1cd1",
-            "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
-            "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
-            "summary": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 61 # Comments: 33",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-22T18:02:54+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_4dcdb95578272074",
-            "title": "OpenShell \u2013 A safe, private runtime for fleets of autonomous AI agents",
-            "url": "https://github.com/NVIDIA/OpenShell",
-            "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 221 # Comments: 117",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-22T17:44:06+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_36b89264973fd28e",
-            "title": "Every AI model has the same \"controversial\" take on humans",
-            "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-            "summary": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 112 # Comments: 148",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-22T16:08:00+00:00",
             "flags": {
               "new": true,
               "featured": false,
@@ -1014,6 +1014,62 @@
         "tier": 2,
         "items": [
           {
+            "id": "te_60c0faa09002587b",
+            "title": "The Buildout: Michigan ISPs sign BEAD awards",
+            "url": "https://www.lightreading.com/broadband/the-buildout-michigan-isps-sign-bead-awards",
+            "summary": "This week in broadband builds: 23 ISPs sign BEAD agreements in Michigan; Comcast completes construction in Willis, Texas; Spectrum adds locations in Indiana and Ohio; Wire 3 comes to Easley, South Carolina \u2013 and more.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-23T12:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_c7749d1caa3d996e",
+            "title": "5G SA still a subset of 5G, hampering RedCap and more \u2013 GSA",
+            "url": "https://www.lightreading.com/5g/5g-sa-still-a-subset-of-5g-hampering-redcap-and-more-gsa",
+            "summary": "The GSA recently discussed the latest trends in the 5G market, including the ongoing slow transition to standalone adoption and developments in RedCap, NTN and 5G-Advanced.",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-23T07:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_837b256db1fbf014",
+            "title": "FCC blocks two devices powered by Huawei silicon subsidiary",
+            "url": "https://www.lightreading.com/regulatory-politics/fcc-blocks-two-devices-powered-by-huawei-silicon-subsidiary",
+            "summary": "The FCC said it has blocked from sale in the US a dashboard camera and a wireless video transmitter equipped with chips from Huawei subsidiary HiSilicon. #pressrelease",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-22T22:43:49+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "te_184b897dcb94c888",
+            "title": "Local Fiber renamed BroadX",
+            "url": "https://www.lightreading.com/broadband/local-fiber-renamed-broadx",
+            "summary": "Local Fiber, a company that helps broadband service providers expand sales and distribution channels, has rebranded as BroadX. #pressrelease",
+            "source": "Light Reading",
+            "tier": 2,
+            "published": "2026-10-22T22:13:11+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "te_336d7a02cd366a36",
             "title": "Comcast drops more broadband subs as restructuring and layoffs loom",
             "url": "https://www.lightreading.com/cable-technology/comcast-drops-more-broadband-subs-as-restructuring-and-layoffs-loom",
@@ -1026,68 +1082,26 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "te_1cd7a30b3c3edfe4",
-            "title": "KDDI-owned Mobicom faces compensation claims after huge grassland blaze",
-            "url": "https://www.lightreading.com/regulatory-politics/kddi-owned-mobicom-faces-compensation-claims-after-huge-grassland-blaze",
-            "summary": "KDDI-owned Mongolian operator Mobicom faces scrutiny by local authorities after torching 4,000 square kilometers in a nature reserve.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-22T15:06:33+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_d7ab82af8a3af990",
-            "title": "Mediacom hires digital care and user experience lead",
-            "url": "https://www.lightreading.com/cable-technology/mediacom-hires-digital-care-and-user-experience-lead",
-            "summary": "Mediacom has tapped Graham Tutton as group VP, digital care and user experience, with a focus across the company's website, mobile platforms, messaging, virtual assistants and other self-service channels. #pressrelease",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-22T14:09:11+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_ac90ea0a2ad4ddca",
-            "title": "NAB and Sinclair blast 5G Broadcast rule proposal",
-            "url": "https://www.lightreading.com/video-broadcast/nab-and-sinclair-blast-5g-broadcast-rule-proposal",
-            "summary": "The National Association of Broadcasters and Sinclair are fighting a petition for the FCC to allow low-power TV stations to voluntarily deploy 5G Broadcast. As backers of ATSC 3.0, they believe a new rule will fragment the market.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-22T13:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_d6ff2795751b45ce",
-            "title": "Orange to test D2D service next year as it waits for satellite coverage",
-            "url": "https://www.lightreading.com/satellite/limited-satellite-coverage-delays-orange-direct-to-device-tests",
-            "summary": "Orange wants to expand satellite direct-to-device services through its partnership with AST SpaceMobile and its European JV with Vodafone, Satellite Connect Europe, but has postponed testing amid limited satellite coverage.",
-            "source": "Light Reading",
-            "tier": 2,
-            "published": "2026-10-22T12:44:54+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "RCR Wireless": {
         "tier": 2,
         "items": [
+          {
+            "id": "te_a028819d5a9866ea",
+            "title": "Boldyn\u2019s big bet \u2013 own the pipes, stay neutral on the radios (Analyst Angle)",
+            "url": "https://rcrwireless.com/20261023/analyst-angle/boldyns-bet-own-the-pipes-stay-neutral-on-the-radios-analyst-angle",
+            "summary": "Boldyn Networks is betting on neutral-host fiber, sites and power to support successive radio generations, prioritizing US expansion and owner-funded converged networks while remaining cautious on private 5G, Open RAN,\u2026",
+            "source": "RCR Wireless",
+            "tier": 2,
+            "published": "2026-10-23T10:39:02+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "te_15e2764c1c75c8bd",
             "title": "Defense panel puts ISAC ahead of the 6G standards clock",
@@ -1139,21 +1153,7 @@
             "tier": 2,
             "published": "2026-10-22T08:43:19+00:00",
             "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "te_26daf5b17e5e5b2d",
-            "title": "Beyond self-healing \u2013 the path to trusted autonomous networks (Reader Forum)",
-            "url": "https://rcrwireless.com/20261022/opinion/the-path-to-trusted-autonomous-networks-reader-forum",
-            "summary": "Autonomous networks must move beyond self-healing to coordinate decisions across RAN, transport, core and cloud, argues Droma\u2019s Payal Kindiger, with trust, governance and verified service outcomes key to granting AI\u2026",
-            "source": "RCR Wireless",
-            "tier": 2,
-            "published": "2026-10-22T08:13:46+00:00",
-            "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1391,9 +1391,23 @@
         "tier": 2,
         "items": [
           {
-            "id": "to_d636564ee5d912b3",
+            "id": "to_d118e2133ee5b628",
+            "title": "[AINews] Black October",
+            "url": "https://latent.space/p/ainews-black-october/",
+            "summary": "the Cyber onslaught continues.",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-10-23T10:09:29+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_4d9b576e5743b828",
             "title": "Why AI Compute Comes in Rectangles \u2014 Erik Bernhardsson, Modal CEO",
-            "url": "https://www.latent.space/p/modal-d",
+            "url": "https://latent.space/p/modal-d/",
             "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
             "source": "Latent Space",
             "tier": 2,
@@ -1405,9 +1419,9 @@
             }
           },
           {
-            "id": "to_40a420c5a611c5f5",
+            "id": "to_b82818c8a1633d5f",
             "title": "You are the Team \u2014 Anekha Sokhal, Moshi",
-            "url": "https://www.latent.space/p/moshi",
+            "url": "https://latent.space/p/moshi/",
             "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader\u2019s workflow.",
             "source": "Latent Space",
             "tier": 2,
@@ -1419,27 +1433,13 @@
             }
           },
           {
-            "id": "to_4e2ec0dca813afc7",
+            "id": "to_fd3ae03361f511a3",
             "title": "[AINews] OpenAI\u2019s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-            "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+            "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
             "summary": "The Big Hardening begins",
             "source": "Latent Space",
             "tier": 2,
             "published": "2026-10-22T07:42:44+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_0fff47054cc39cd5",
-            "title": "Claude Mods: Flipping the Harness Inside Out",
-            "url": "https://www.latent.space/p/claude-mods",
-            "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-10-21T13:04:19+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1447,13 +1447,13 @@
             }
           },
           {
-            "id": "to_7dadac6a05821def",
-            "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
-            "url": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
-            "summary": "An open source \u201cbomb\u201d drops from China",
+            "id": "to_12d4585120eb3bcb",
+            "title": "Claude Mods: Flipping the Harness Inside Out",
+            "url": "https://latent.space/p/claude-mods/",
+            "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
             "source": "Latent Space",
             "tier": 2,
-            "published": "2026-10-21T06:54:09+00:00",
+            "published": "2026-10-21T13:04:19+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1465,6 +1465,48 @@
       "TechCrunch AI": {
         "tier": 2,
         "items": [
+          {
+            "id": "to_94cd4ca5fb66dd5d",
+            "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+            "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+            "summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-10-23T04:00:00+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_085ba153da3bfb79",
+            "title": "Left alone with nothing to do, AI agents started playing",
+            "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+            "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-10-23T00:45:37+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_d73c3fbf5a8b67dc",
+            "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+            "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+            "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-10-22T22:08:24+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "to_ee7ecab289596410",
             "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
@@ -1492,48 +1534,6 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "to_afbb328c263f52ce",
-            "title": "Canva releases its first image generation model",
-            "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-            "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-10-22T19:00:00+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_4baf690dfb57b3c5",
-            "title": "Microsoft\u2019s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases \u2018medical superintelligence\u2019",
-            "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-            "summary": "Microsoft\u2019s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft\u2019s system itself.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-10-22T18:43:53+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_93c844a35d415e95",
-            "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-            "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-            "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-10-22T16:47:17+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       }
@@ -1542,6 +1542,20 @@
       "Anthropic Frontier Red Team": {
         "tier": 1,
         "items": [
+          {
+            "id": "ca_1360bd8eb5a8e67e",
+            "title": "LLMs are making formal software verification feasible at a much larger scale",
+            "url": "https://www.anthropic.com/research/formal-verification",
+            "summary": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.",
+            "source": "Anthropic Frontier Red Team",
+            "tier": 1,
+            "published": "2026-10-22T00:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
           {
             "id": "ca_341f11e78b1225e8",
             "title": "Using Claude to reduce the attack surface of code",
@@ -1597,26 +1611,26 @@
               "featured": false,
               "tier": 1
             }
-          },
-          {
-            "id": "ca_80e4ef842b12917f",
-            "title": "GLM-5.3 and the spread of advanced cyber capabilities",
-            "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-            "summary": "Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.",
-            "source": "Anthropic Frontier Red Team",
-            "tier": 1,
-            "published": "2026-09-29T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
           }
         ]
       },
       "Anthropic Research": {
         "tier": 1,
         "items": [
+          {
+            "id": "ca_1360bd8eb5a8e67e",
+            "title": "LLMs are making formal software verification feasible at a much larger scale",
+            "url": "https://www.anthropic.com/research/formal-verification",
+            "summary": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.",
+            "source": "Anthropic Research",
+            "tier": 1,
+            "published": "2026-10-22T00:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 1
+            }
+          },
           {
             "id": "ca_c021c28354e5e9fa",
             "title": "How Claude designed protein binders against scorpion neurotoxins",
@@ -1664,20 +1678,6 @@
             "title": "Claude reveals ECDSA curve origins",
             "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
             "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
-            "source": "Anthropic Research",
-            "tier": 1,
-            "published": "2026-10-16T00:00:00+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ca_04b7640931c7c971",
-            "title": "Designing more efficient quantum circuits with Claude",
-            "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-            "summary": "We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.",
             "source": "Anthropic Research",
             "tier": 1,
             "published": "2026-10-16T00:00:00+00:00",
@@ -1843,6 +1843,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "ca_2ce43354cd03a403",
+            "title": "Compromised TLS Certificates",
+            "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+            "summary": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that\u2019s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2 384 , or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...",
+            "source": "Schneier on Security",
+            "tier": 2,
+            "published": "2026-10-23T11:04:22+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "ca_ab875104cf1640af",
             "title": "New Serious PHP Vulnerabilities Released and Patched",
             "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
@@ -1892,20 +1906,6 @@
             "source": "Schneier on Security",
             "tier": 2,
             "published": "2026-10-19T11:07:43+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ca_fd577205a9bacaa8",
-            "title": "Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact",
-            "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html",
-            "summary": "New research shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event. As usual, you can also use this squid post to talk about the security stories in the news that I haven\u2019t covered. Blog moderation policy.",
-            "source": "Schneier on Security",
-            "tier": 2,
-            "published": "2026-10-16T21:06:47+00:00",
             "flags": {
               "new": false,
               "featured": false,
