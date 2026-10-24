@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-23T21:48:59.684022+00:00",
+    "last_updated": "2026-10-24T11:55:59.801033+00:00",
     "version": "2.1",
     "stats": {
       "fetched": 140,
@@ -112,6 +112,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "ta_d1a3b4fa5d93fb49",
+            "title": "Building Reasoning Models from the Ground Up: A Video Course",
+            "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+            "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+            "source": "Sebastian Raschka",
+            "tier": 1,
+            "published": "2026-10-24T11:14:32+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "ta_9ccfb6a6858541d5",
             "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
             "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -161,20 +175,6 @@
             "source": "Sebastian Raschka",
             "tier": 1,
             "published": "2026-08-15T11:54:24+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "ta_28c7ee44d88bdbf2",
-            "title": "Controlling Reasoning Effort in LLMs",
-            "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-            "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
-            "source": "Sebastian Raschka",
-            "tier": 1,
-            "published": "2026-07-18T11:16:09+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -485,7 +485,78 @@
       },
       "Google Cloud AI": {
         "tier": 2,
-        "items": []
+        "items": [
+          {
+            "id": "ta_4688ed1893b40380",
+            "title": "Expanding Claude availability and deployment choice on Google Cloud",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/",
+            "summary": "Every organization has unique requirements for building and scaling generative AI. At Google Cloud, we are committed to giving developers model choice and architectural flexibility to run workloads however they need. Today, we\u2019re announcing the general availability of an Anthropic-managed deployment option for Claude Models on Google Cloud. This gives teams more choice in how they run their models, helping them consolidate AI workloads on Google Cloud alongside our existingGoogle-managed deployment option.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-22T21:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_b9e6982025949e52",
+            "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/",
+            "summary": "Google Cloud has always been defined by choice, enterprise-grade governance, and market-leading price-performance. Key to the foundation of openness and choice is giving customers flexibility to run agentic workloads across their choice of models and infrastructure to achieve the right balance of cost, capability, and performance. Today, we are expanding that foundation by launching OpenAI models in Google Cloud\u2019s model garden.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-21T12:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_86bfa478dd859c31",
+            "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity/",
+            "summary": "Whether you are iterating on a quick bug fix or planning a complex migration, different tasks call for different models. In keeping with Google Cloud's commitment to an open ecosystem and to give developers the right model for every job, Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity for Google Cloud customers. Claude Opus 5.5 is built for complex work while Claude Sonnet 5.5 is a faster, lower-cost complement. Once enabled by an administrator, developers can select Claude Opus 5.5 and Sonnet 5.5 directly from the model picker.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-20T16:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_bb401d03b1d7685f",
+            "title": "Introducing Gemini for government services",
+            "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/",
+            "summary": "Earlier this month at Gemini at Work, we introduced the Gemini agent: a single, universal agent for work. It answers your questions, handles your knowledge work, creates your images and media, and writes and runs code. You give it objectives, not instructions, and come back to finished work. It plans the work, uses skills and tools, connects to your systems, and has the security, administration, and governance your organization requires. Every industry runs on knowledge a general model does not have.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-20T10:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "ta_b2b75d12bddc93cc",
+            "title": "Building full virtual vehicles on Google Cloud: From AAOS to the smallest MCU",
+            "url": "https://cloud.google.com/blog/topics/manufacturing/building-full-virtual-vehicles-on-google-cloud-from-aaos-to-the-smallest-mcu/",
+            "summary": "Imagining traditional gearheads getting their hands on software-defined vehicles is an amusing thought experiment. With their socket wrenches and air compressors at the ready, they might be confused to encounter core functions more likely to run on 1s and 0s than oil and belts. But across the auto industry these days, more and more vehicles feature prominent systems built using cloud-native development, continuous integration/continuous delivery, fast digital iteration, and plenty of AI.",
+            "source": "Google Cloud AI",
+            "tier": 2,
+            "published": "2026-10-19T16:00:00+00:00",
+            "flags": {
+              "new": false,
+              "featured": false,
+              "tier": 2
+            }
+          }
+        ]
       },
       "Hugging Face Blog": {
         "tier": 2,
@@ -513,7 +584,7 @@
             "tier": 2,
             "published": "2026-10-23T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -527,7 +598,7 @@
             "tier": 2,
             "published": "2026-10-22T22:24:34+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -580,10 +651,10 @@
             }
           },
           {
-            "id": "ta_dd6a9d14a094d159",
-            "title": "Graphify-Labs/graphify",
-            "url": "https://github.com/Graphify-Labs/graphify",
-            "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store. https://www.graphify.com Read this in other languages English | \u7b80\u4f53\u4e2d\u6587 | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Deutsch | Fran\u00e7ais | Espa\u00f1ol | \u0939\u093f\u0928\u094d\u0926\u0940 | Portugu\u00eas | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \u0627\u0644\u0639\u0631\u0628\u064a\u0629 | \u0641\u0627\u0631\u0633\u06cc | Italiano | Polski | Nederlands | T\u00fcrk\u00e7e | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | Ti\u1ebfng Vi\u1ec7t | Bahasa Indonesia | Svenska | \u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac | Rom\u00e2n\u0103 | \u010ce\u0161tina | Suomi | Dansk | Norsk | Magyar | \u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22 | O\u02bbzbekcha | \u7e41\u9ad4\u4e2d\u6587 | Filipino\u2026",
+            "id": "ta_983f23e99302862c",
+            "title": "SnailSploit/Claude-Red",
+            "url": "https://github.com/SnailSploit/Claude-Red",
+            "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface \u2014 from SQLi to shellcode, EDR evasion to exploit development. claude-red Offensive security skills for Claude \u2014 drop-in SKILL.md files that turn Claude into a context-aware red team operator. Overview \u2022 Quickstart \u2022 Categories \u2022 Skill Index \u2022 Roadmap \u2022 Contributing Overview claude-red is a curated library of offensive security skills for the Claude Skills system .",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -594,10 +665,10 @@
             }
           },
           {
-            "id": "ta_e08ef814d6bf703d",
-            "title": "fastapi/fastapi",
-            "url": "https://github.com/fastapi/fastapi",
-            "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production https://fastapi.tiangolo.com/ FastAPI framework, high performance, easy to learn, fast to code, ready for production Documentation : https://fastapi.tiangolo.com Source Code : https://github.com/fastapi/fastapi FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints. The key features are: Fast : Very high performance, on par with NodeJS and Go (thanks to Starlette and Pydantic). One of the fastest Python frameworks available .",
+            "id": "ta_0d88eaa1830b5f51",
+            "title": "OpenBMB/VoxCPM",
+            "url": "https://github.com/OpenBMB/VoxCPM",
+            "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning https://voxcpm.com VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | \u4e2d\u6587 \ud83d\udc4b Join our community for discussion and support! Feishu | Discord | \ud83d\udcda MiniCPM Wiki VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture , bypassing discrete tokenization to achieve highly natural and expressive synthesis.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -608,10 +679,10 @@
             }
           },
           {
-            "id": "ta_619b3cfc3ac9ca9b",
-            "title": "luongnv89/claude-howto",
-            "url": "https://github.com/luongnv89/claude-howto",
-            "summary": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value. http://luongnv.com/claude-howto/ \ud83c\udf10 Language / Ng\u00f4n ng\u1eef / \u8bed\u8a00 / \u041c\u043e\u0432\u0430: English | Ti\u1ebfng Vi\u1ec7t | \u4e2d\u6587 | \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 | \u65e5\u672c\u8a9e Master Claude Code in a Weekend Go from typing claude to orchestrating agents, hooks, skills, and MCP servers \u2014 with visual tutorials, copy-paste templates, and a guided learning path.",
+            "id": "ta_c67823bff2e2b413",
+            "title": "baidu/Unlimited-OCR",
+            "url": "https://github.com/baidu/Unlimited-OCR",
+            "summary": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. Unlimited OCR Works Welcome the Era of One-shot Long-horizon Parsing. Release [2026/07/21] \ud83e\udd1d Thanks to the ms-swift community for their support, our model now supports training with ms-swift . [2026/07/03] \ud83e\udd1d Thanks to the Baidu Cloud team for their support. Our model is now available on Baidu Cloud . [2026/06/28] \ud83e\udd1d Thanks to the vLLM community and Tianyu Guo for their support, our model now supports vLLM inference. [2026/06/24] \ud83e\udd1d Thanks to AK for creating a demo for us. It is now available at Hugging Face Spaces .",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -622,10 +693,10 @@
             }
           },
           {
-            "id": "ta_65e32dabe8c37cf0",
-            "title": "vllm-project/vllm",
-            "url": "https://github.com/vllm-project/vllm",
-            "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs https://vllm.ai Easy, fast, and cheap LLM serving for everyone | Documentation | Blog | Paper | Twitter/X | User Forum | Developer Slack | \ud83d\udd25 We have built a vLLM website to help you get started with vLLM. Please visit vllm.ai to learn more. For events, please visit vllm.ai/events to join us. About vLLM is a fast and easy-to-use library for LLM inference and serving.",
+            "id": "ta_1606cfe2c2a91a41",
+            "title": "TauricResearch/TradingAgents",
+            "url": "https://github.com/TauricResearch/TradingAgents",
+            "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework https://arxiv.org/pdf/2412.20138 Deutsch | Espa\u00f1ol | fran\u00e7ais | \u65e5\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Portugu\u00eas | \u0420\u0443\u0441\u0441\u043a\u0438\u0439 | \u4e2d\u6587 TradingAgents: Multi-Agents LLM Financial Trading Framework News [2026-10] TradingAgents v0.7.0 released with runs on your own ChatGPT Plus or Pro plan, backtests scored from the first close after each decision, a note at start-up when a newer release is out, and a wheel attached to each GitHub release.",
             "source": "GitHub Python Trending",
             "tier": 2,
             "published": null,
@@ -639,78 +710,7 @@
       },
       "Hacker News (AI/LLM)": {
         "tier": 2,
-        "items": [
-          {
-            "id": "ta_901dc42363c4ef10",
-            "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
-            "url": "https://www.thisandthat.chat/enron/",
-            "summary": "Article URL: https://www.thisandthat.chat/enron/ Comments URL: https://news.ycombinator.com/item?id=50207620 Points: 54 # Comments: 53",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-23T12:02:53+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_8db2bf743b5d8d77",
-            "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
-            "url": "https://berget.ai/en/blog/per-request-co2-press-release",
-            "summary": "Article URL: https://berget.ai/en/blog/per-request-co2-press-release Comments URL: https://news.ycombinator.com/item?id=50205229 Points: 140 # Comments: 153",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-23T06:41:11+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_cf9afdb4ee3d0477",
-            "title": "AI compute is the new oil\u2013and needs a new market",
-            "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
-            "summary": "Article URL: https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market Comments URL: https://news.ycombinator.com/item?id=50202671 Points: 52 # Comments: 59",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-22T23:45:16+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_b7046e0a16faea27",
-            "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
-            "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
-            "summary": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 89 # Comments: 65",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-22T20:51:23+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "ta_5521316bcdc521bf",
-            "title": "Show HN: UI micro interactions prompts for AI",
-            "url": "https://www.typeui.sh/micro-interactions",
-            "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 78 # Comments: 44",
-            "source": "Hacker News (AI/LLM)",
-            "tier": 2,
-            "published": "2026-10-22T18:32:57+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
-          }
-        ]
+        "items": []
       }
     },
     "telecom": {
@@ -1320,6 +1320,20 @@
         "tier": 2,
         "items": [
           {
+            "id": "to_4fe4a52829529134",
+            "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3\u00d7 speed",
+            "url": "https://latent.space/p/ainews-kimi-31/",
+            "summary": "We have Fable at home... or so we are being told by paid shills",
+            "source": "Latent Space",
+            "tier": 2,
+            "published": "2026-10-24T07:18:29+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
             "id": "to_6c7366eae8d13a64",
             "title": "AI Is Getting Good at Math. Here\u2019s Why.",
             "url": "https://latent.space/p/ai-is-getting-good-at-math/",
@@ -1342,7 +1356,7 @@
             "tier": 2,
             "published": "2026-10-23T10:09:29+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1374,26 +1388,40 @@
               "featured": false,
               "tier": 2
             }
-          },
-          {
-            "id": "to_fd3ae03361f511a3",
-            "title": "[AINews] OpenAI\u2019s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-            "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
-            "summary": "The Big Hardening begins",
-            "source": "Latent Space",
-            "tier": 2,
-            "published": "2026-10-22T07:42:44+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 2
-            }
           }
         ]
       },
       "TechCrunch AI": {
         "tier": 2,
         "items": [
+          {
+            "id": "to_b15a6fb9671b3fea",
+            "title": "OpenAI says it will no longer train its AI models on the live internet, citing \u201csignificant risks\u201d",
+            "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+            "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-10-23T23:05:49+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
+          {
+            "id": "to_f782f2bc9618a504",
+            "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+            "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+            "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+            "source": "TechCrunch AI",
+            "tier": 2,
+            "published": "2026-10-23T21:59:19+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 2
+            }
+          },
           {
             "id": "to_0931d3afc7b71d97",
             "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
@@ -1417,7 +1445,7 @@
             "tier": 2,
             "published": "2026-10-23T04:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -1430,34 +1458,6 @@
             "source": "TechCrunch AI",
             "tier": 2,
             "published": "2026-10-23T00:45:37+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_d73c3fbf5a8b67dc",
-            "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-            "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-            "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-10-22T22:08:24+00:00",
-            "flags": {
-              "new": true,
-              "featured": false,
-              "tier": 2
-            }
-          },
-          {
-            "id": "to_ee7ecab289596410",
-            "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-            "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-            "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-            "source": "TechCrunch AI",
-            "tier": 2,
-            "published": "2026-10-22T19:07:09+00:00",
             "flags": {
               "new": false,
               "featured": false,
@@ -1555,7 +1555,7 @@
             "tier": 1,
             "published": "2026-10-23T00:00:00+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 1
             }
@@ -1794,7 +1794,7 @@
             "tier": 2,
             "published": "2026-10-23T11:04:22+00:00",
             "flags": {
-              "new": true,
+              "new": false,
               "featured": false,
               "tier": 2
             }
@@ -2074,6 +2074,20 @@
         "tier": 1,
         "items": [
           {
+            "id": "co_0bf00a053601fbac",
+            "title": "Listening to Nina Simone in 2036",
+            "url": "https://punkx.org/jackdoe/nina.html",
+            "summary": "Last night I thought about this world and quickly wrote a short story. Made me feel quite eerie as I was writing. Maybe it will turn into a nice video game. Comments",
+            "source": "Lobsters (AI tag)",
+            "tier": 1,
+            "published": "2026-10-24T10:02:51+00:00",
+            "flags": {
+              "new": true,
+              "featured": false,
+              "tier": 1
+            }
+          },
+          {
             "id": "co_a9c06162812cf7ad",
             "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
             "url": "https://arxiv.org/abs/2610.14162",
@@ -2116,27 +2130,13 @@
             }
           },
           {
-            "id": "co_b8a89667dd94c192",
-            "title": "Timestral: Mistral's time-series foundation models",
-            "url": "https://mistral.ai/news/timestral/",
+            "id": "co_dea4f6145c71ab9e",
+            "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+            "url": "https://arxiv.org/abs/2605.00414",
             "summary": "Comments",
             "source": "Lobsters (AI tag)",
             "tier": 1,
-            "published": "2026-10-19T11:47:04+00:00",
-            "flags": {
-              "new": false,
-              "featured": false,
-              "tier": 1
-            }
-          },
-          {
-            "id": "co_c797ac90ed8bf854",
-            "title": "Neural Networks Are Already Clean",
-            "url": "https://already-clean.goodfire.com/",
-            "summary": "Comments",
-            "source": "Lobsters (AI tag)",
-            "tier": 1,
-            "published": "2026-10-15T22:25:03+00:00",
+            "published": "2026-10-19T12:15:11+00:00",
             "flags": {
               "new": false,
               "featured": false,
